@@ -1,0 +1,491 @@
+{
+  "checkpoint": "models/llava-v1.5-7b",
+  "precision": "float16",
+  "vision_tower": "/data/workspace/Gexuri_Project/HYG_LLaVA_SLoFo/models/clip-vit-large-patch14-336",
+  "context_length": 2048,
+  "query": "What color are the clothes worn by the person sitting cross-legged on a chair and looking at a phone?",
+  "original_answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+  "crop_answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+  "joint_answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+  "image_size": [
+    1280,
+    1706
+  ],
+  "padded_side": 1706,
+  "padding_offset": [
+    213,
+    0
+  ],
+  "semantic_layer_index": 14,
+  "semantic_score": "log_probability",
+  "semantic_score_diagnostics": {
+    "log_probability": {
+      "score_value": -0.0006324436399154365,
+      "gradient": {
+        "min": -0.0005803108215332031,
+        "max": 0.0005326271057128906,
+        "mean": -7.739678949292284e-06,
+        "sum": -0.14265775680541992,
+        "abs_max": 0.0005803108215332031,
+        "abs_mean": 7.157794607337564e-05,
+        "positive_fraction": 0.4581705629825592,
+        "negative_fraction": 0.5416666865348816,
+        "zero_fraction": 0.00016276042151730508,
+        "dtype": "torch.float16"
+      },
+      "semantic_native_precision": {
+        "min": 0.0,
+        "max": 2.980232238769531e-07,
+        "mean": 1.2417634698280722e-09,
+        "sum": 7.152557373046875e-07,
+        "abs_max": 2.980232238769531e-07,
+        "abs_mean": 1.2417634698280722e-09,
+        "positive_fraction": 0.01215277798473835,
+        "negative_fraction": 0.0,
+        "zero_fraction": 0.9878472089767456,
+        "dtype": "torch.float16"
+      },
+      "semantic_float32": {
+        "min": 1.6269208202857044e-12,
+        "max": 3.0789055927016307e-07,
+        "mean": 2.7527482515665724e-09,
+        "sum": 1.5855829360589269e-06,
+        "abs_max": 3.0789055927016307e-07,
+        "abs_mean": 2.7527482515665724e-09,
+        "positive_fraction": 1.0,
+        "negative_fraction": 0.0,
+        "zero_fraction": 0.0,
+        "dtype": "torch.float32"
+      },
+      "native_nonzero_tokens": 7,
+      "float32_nonzero_tokens": 576
+    }
+  },
+  "structure_layer_index": 7,
+  "structure_hidden_states_tuple_index": 8,
+  "pca_components": 20,
+  "semantic_weight_beta": 0.7,
+  "fusion_normalization": "minmax",
+  "seed": 0,
+  "locate_coordinate_space": "original",
+  "variant_comparison": {
+    "none_original": {
+      "fusion_normalization": "none",
+      "coordinate_space": "original",
+      "source_bbox": [
+        518,
+        687,
+        921,
+        1090
+      ],
+      "original_bbox": [
+        518,
+        687,
+        921,
+        1090
+      ],
+      "selected_ratio": 1.2,
+      "selected_contrast": 0.04077671468257904,
+      "artifacts": {
+        "selected_bbox": "none_original_selected_bbox.png",
+        "crop": "none_original_crop.png"
+      },
+      "joint_answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            1706
+          ],
+          [
+            403,
+            403
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          69
+        ],
+        "output_ids_shape": [
+          1,
+          23
+        ],
+        "peak_allocated_mib": 15586.2
+      }
+    },
+    "none_padded": {
+      "fusion_normalization": "none",
+      "coordinate_space": "padded",
+      "source_bbox": [
+        685,
+        756,
+        1021,
+        1092
+      ],
+      "original_bbox": [
+        472,
+        756,
+        808,
+        1092
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.05091911554336548,
+      "artifacts": {
+        "selected_bbox": "none_padded_selected_bbox.png",
+        "crop": "none_padded_crop.png"
+      },
+      "joint_answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            1706
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          69
+        ],
+        "output_ids_shape": [
+          1,
+          23
+        ],
+        "peak_allocated_mib": 15586.2
+      }
+    },
+    "minmax_original": {
+      "fusion_normalization": "minmax",
+      "coordinate_space": "original",
+      "source_bbox": [
+        518,
+        687,
+        921,
+        1090
+      ],
+      "original_bbox": [
+        518,
+        687,
+        921,
+        1090
+      ],
+      "selected_ratio": 1.2,
+      "selected_contrast": 0.015790393576025963,
+      "artifacts": {
+        "selected_bbox": "minmax_original_selected_bbox.png",
+        "crop": "minmax_original_crop.png"
+      },
+      "joint_answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            1706
+          ],
+          [
+            403,
+            403
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          69
+        ],
+        "output_ids_shape": [
+          1,
+          23
+        ],
+        "peak_allocated_mib": 15586.2
+      }
+    },
+    "minmax_padded": {
+      "fusion_normalization": "minmax",
+      "coordinate_space": "padded",
+      "source_bbox": [
+        685,
+        756,
+        1021,
+        1092
+      ],
+      "original_bbox": [
+        472,
+        756,
+        808,
+        1092
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.028365343809127808,
+      "artifacts": {
+        "selected_bbox": "minmax_padded_selected_bbox.png",
+        "crop": "minmax_padded_crop.png"
+      },
+      "joint_answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            1706
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          69
+        ],
+        "output_ids_shape": [
+          1,
+          23
+        ],
+        "peak_allocated_mib": 15586.2
+      }
+    }
+  },
+  "visual_token_span": [
+    35,
+    611
+  ],
+  "visual_token_count": 576,
+  "multimodal_sequence_length": 641,
+  "attention_shape": [
+    32,
+    576
+  ],
+  "attention_gradient_shape": [
+    32,
+    576
+  ],
+  "structure_hidden_shape": [
+    576,
+    4096
+  ],
+  "pseudo_token_id": 450,
+  "pseudo_token_text": "The",
+  "padded_bbox": null,
+  "original_bbox": [
+    518,
+    687,
+    921,
+    1090
+  ],
+  "selected_ratio": 1.2,
+  "selected_contrast": 0.015790393576025963,
+  "scan_peak_allocated_mib": 21392.2,
+  "generation_peak_allocated_mib": 15586.2,
+  "generation": {
+    "original": {
+      "image_count": 1,
+      "image_sizes": [
+        [
+          1280,
+          1706
+        ]
+      ],
+      "image_tensor_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        66
+      ],
+      "output_ids_shape": [
+        1,
+        23
+      ],
+      "peak_allocated_mib": 14926.3
+    },
+    "crop_only": {
+      "image_count": 1,
+      "image_sizes": [
+        [
+          403,
+          403
+        ]
+      ],
+      "image_tensor_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        66
+      ],
+      "output_ids_shape": [
+        1,
+        23
+      ],
+      "peak_allocated_mib": 14926.3
+    },
+    "original_plus_crop": {
+      "image_count": 2,
+      "image_sizes": [
+        [
+          1280,
+          1706
+        ],
+        [
+          403,
+          403
+        ]
+      ],
+      "image_tensor_shape": [
+        2,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        69
+      ],
+      "output_ids_shape": [
+        1,
+        23
+      ],
+      "peak_allocated_mib": 15586.2
+    }
+  },
+  "semantic_stats": {
+    "min": 1.6269208202857044e-12,
+    "max": 3.0789055927016307e-07,
+    "mean": 2.7527482515665724e-09,
+    "sum": 1.5855829360589269e-06
+  },
+  "structure_stats": {
+    "min": 0.07324769347906113,
+    "max": 4.676344871520996,
+    "mean": 1.0236161947250366,
+    "sum": 589.6029052734375
+  },
+  "ssim_stats": {
+    "min": 0.0005735449376516044,
+    "max": 0.971907377243042,
+    "mean": 0.06819365918636322,
+    "sum": 39.27954864501953
+  },
+  "candidates": [
+    {
+      "ratio": 1.0,
+      "map_xy": [
+        9,
+        11
+      ],
+      "map_size": [
+        6,
+        4
+      ],
+      "evidence_sum": 5.379705905914307,
+      "contrast": 0.009691476821899414
+    },
+    {
+      "ratio": 1.2,
+      "map_xy": [
+        10,
+        10
+      ],
+      "map_size": [
+        7,
+        5
+      ],
+      "evidence_sum": 7.106378555297852,
+      "contrast": 0.015790393576025963
+    },
+    {
+      "ratio": 1.4,
+      "map_xy": [
+        9,
+        10
+      ],
+      "map_size": [
+        8,
+        6
+      ],
+      "evidence_sum": 8.701065063476562,
+      "contrast": 0.005345344543457031
+    },
+    {
+      "ratio": 1.6,
+      "map_xy": [
+        9,
+        10
+      ],
+      "map_size": [
+        10,
+        7
+      ],
+      "evidence_sum": 11.167113304138184,
+      "contrast": 0.004940932150930166
+    },
+    {
+      "ratio": 1.8,
+      "map_xy": [
+        8,
+        9
+      ],
+      "map_size": [
+        11,
+        8
+      ],
+      "evidence_sum": 12.816357612609863,
+      "contrast": 0.0019424395868554711
+    },
+    {
+      "ratio": 2.0,
+      "map_xy": [
+        7,
+        8
+      ],
+      "map_size": [
+        12,
+        9
+      ],
+      "evidence_sum": 14.586779594421387,
+      "contrast": 0.001955341314896941
+    }
+  ],
+  "artifacts": {
+    "crop": "crop.png",
+    "selected_bbox": "selected_bbox.png",
+    "semantic_overlay": "semantic_overlay.png",
+    "structure_overlay": "structure_overlay.png",
+    "ssim_overlay": "ssim_overlay.png"
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "checkpoint": "models/llava-v1.5-7b",
+  "precision": "float16",
+  "vision_tower": "/data/workspace/Gexuri_Project/HYG_LLaVA_SLoFo/models/clip-vit-large-patch14-336",
+  "context_length": 2048,
+  "query": "What color are the clothes worn by the person lying down and holding a tablet?",
+  "original_answer": "The person lying down and holding a tablet is wearing black clothes.",
+  "crop_answer": "The person lying down and holding a tablet is wearing brown clothes.",
+  "joint_answer": "The person lying down and holding a tablet is wearing a plaid shirt.",
+  "image_size": [
+    1280,
+    960
+  ],
+  "padded_side": 1280,
+  "padding_offset": [
+    0,
+    160
+  ],
+  "semantic_layer_index": 14,
+  "semantic_score": "log_probability",
+  "semantic_score_diagnostics": {
+    "log_probability": {
+      "score_value": -0.0014144902816042304,
+      "gradient": {
+        "min": -0.005191802978515625,
+        "max": 0.0027408599853515625,
+        "mean": -8.51092681841692e-06,
+        "sum": -0.1568734049797058,
+        "abs_max": 0.005191802978515625,
+        "abs_mean": 0.00022327476472128183,
+        "positive_fraction": 0.4488389790058136,
+        "negative_fraction": 0.5511067509651184,
+        "zero_fraction": 5.425347262644209e-05,
+        "dtype": "torch.float16"
+      },
+      "semantic_native_precision": {
+        "min": 0.0,
+        "max": 4.172325134277344e-07,
+        "mean": 3.311369178859991e-09,
+        "sum": 1.9073486328125e-06,
+        "abs_max": 4.172325134277344e-07,
+        "abs_mean": 3.311369178859991e-09,
+        "positive_fraction": 0.0381944440305233,
+        "negative_fraction": 0.0,
+        "zero_fraction": 0.9618055820465088,
+        "dtype": "torch.float16"
+      },
+      "semantic_float32": {
+        "min": 5.129052738084283e-11,
+        "max": 4.054125213315274e-07,
+        "mean": 7.443336169643544e-09,
+        "sum": 4.287361662136391e-06,
+        "abs_max": 4.054125213315274e-07,
+        "abs_mean": 7.443336169643544e-09,
+        "positive_fraction": 1.0,
+        "negative_fraction": 0.0,
+        "zero_fraction": 0.0,
+        "dtype": "torch.float32"
+      },
+      "native_nonzero_tokens": 22,
+      "float32_nonzero_tokens": 576
+    }
+  },
+  "structure_layer_index": 7,
+  "structure_hidden_states_tuple_index": 8,
+  "pca_components": 20,
+  "semantic_weight_beta": 0.7,
+  "fusion_normalization": "minmax",
+  "seed": 0,
+  "locate_coordinate_space": "original",
+  "variant_comparison": {
+    "none_original": {
+      "fusion_normalization": "none",
+      "coordinate_space": "original",
+      "source_bbox": [
+        944,
+        472,
+        1280,
+        808
+      ],
+      "original_bbox": [
+        944,
+        472,
+        1280,
+        808
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.04088922590017319,
+      "artifacts": {
+        "selected_bbox": "none_original_selected_bbox.png",
+        "crop": "none_original_crop.png"
+      },
+      "joint_answer": "The person lying down and holding a tablet is wearing black clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            960
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          63
+        ],
+        "output_ids_shape": [
+          1,
+          17
+        ],
+        "peak_allocated_mib": 15558.7
+      }
+    },
+    "none_padded": {
+      "fusion_normalization": "none",
+      "coordinate_space": "padded",
+      "source_bbox": [
+        944,
+        632,
+        1280,
+        968
+      ],
+      "original_bbox": [
+        944,
+        472,
+        1280,
+        808
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.052819039672613144,
+      "artifacts": {
+        "selected_bbox": "none_padded_selected_bbox.png",
+        "crop": "none_padded_crop.png"
+      },
+      "joint_answer": "The person lying down and holding a tablet is wearing black clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            960
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          63
+        ],
+        "output_ids_shape": [
+          1,
+          17
+        ],
+        "peak_allocated_mib": 15558.7
+      }
+    },
+    "minmax_original": {
+      "fusion_normalization": "minmax",
+      "coordinate_space": "original",
+      "source_bbox": [
+        152,
+        312,
+        488,
+        648
+      ],
+      "original_bbox": [
+        152,
+        312,
+        488,
+        648
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.004091551061719656,
+      "artifacts": {
+        "selected_bbox": "minmax_original_selected_bbox.png",
+        "crop": "minmax_original_crop.png"
+      },
+      "joint_answer": "The person lying down and holding a tablet is wearing a plaid shirt.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            960
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          63
+        ],
+        "output_ids_shape": [
+          1,
+          20
+        ],
+        "peak_allocated_mib": 15558.7
+      }
+    },
+    "minmax_padded": {
+      "fusion_normalization": "minmax",
+      "coordinate_space": "padded",
+      "source_bbox": [
+        152,
+        419,
+        488,
+        755
+      ],
+      "original_bbox": [
+        152,
+        259,
+        488,
+        595
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.004324356559664011,
+      "artifacts": {
+        "selected_bbox": "minmax_padded_selected_bbox.png",
+        "crop": "minmax_padded_crop.png"
+      },
+      "joint_answer": "The person lying down and holding a tablet is wearing black clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            960
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          63
+        ],
+        "output_ids_shape": [
+          1,
+          17
+        ],
+        "peak_allocated_mib": 15558.7
+      }
+    }
+  },
+  "visual_token_span": [
+    35,
+    611
+  ],
+  "visual_token_count": 576,
+  "multimodal_sequence_length": 635,
+  "attention_shape": [
+    32,
+    576
+  ],
+  "attention_gradient_shape": [
+    32,
+    576
+  ],
+  "structure_hidden_shape": [
+    576,
+    4096
+  ],
+  "pseudo_token_id": 450,
+  "pseudo_token_text": "The",
+  "padded_bbox": null,
+  "original_bbox": [
+    152,
+    312,
+    488,
+    648
+  ],
+  "selected_ratio": 1.0,
+  "selected_contrast": 0.004091551061719656,
+  "scan_peak_allocated_mib": 21300.4,
+  "generation_peak_allocated_mib": 15558.7,
+  "generation": {
+    "original": {
+      "image_count": 1,
+      "image_sizes": [
+        [
+          1280,
+          960
+        ]
+      ],
+      "image_tensor_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        60
+      ],
+      "output_ids_shape": [
+        1,
+        17
+      ],
+      "peak_allocated_mib": 14908.5
+    },
+    "crop_only": {
+      "image_count": 1,
+      "image_sizes": [
+        [
+          336,
+          336
+        ]
+      ],
+      "image_tensor_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        60
+      ],
+      "output_ids_shape": [
+        1,
+        17
+      ],
+      "peak_allocated_mib": 14908.2
+    },
+    "original_plus_crop": {
+      "image_count": 2,
+      "image_sizes": [
+        [
+          1280,
+          960
+        ],
+        [
+          336,
+          336
+        ]
+      ],
+      "image_tensor_shape": [
+        2,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        63
+      ],
+      "output_ids_shape": [
+        1,
+        20
+      ],
+      "peak_allocated_mib": 15558.7
+    }
+  },
+  "semantic_stats": {
+    "min": 5.129052738084283e-11,
+    "max": 4.054125213315274e-07,
+    "mean": 7.443336169643544e-09,
+    "sum": 4.287361662136391e-06
+  },
+  "structure_stats": {
+    "min": 0.09287424385547638,
+    "max": 6.3463134765625,
+    "mean": 1.0542774200439453,
+    "sum": 607.2637939453125
+  },
+  "ssim_stats": {
+    "min": 0.00039564940379932523,
+    "max": 0.7670055627822876,
+    "mean": 0.05888696387410164,
+    "sum": 33.91889190673828
+  },
+  "candidates": [
+    {
+      "ratio": 1.0,
+      "map_xy": [
+        3,
+        8
+      ],
+      "map_size": [
+        6,
+        8
+      ],
+      "evidence_sum": 4.5831732749938965,
+      "contrast": 0.004091551061719656
+    },
+    {
+      "ratio": 1.2,
+      "map_xy": [
+        2,
+        6
+      ],
+      "map_size": [
+        7,
+        10
+      ],
+      "evidence_sum": 6.25928258895874,
+      "contrast": 0.003590931184589863
+    },
+    {
+      "ratio": 1.4,
+      "map_xy": [
+        3,
+        4
+      ],
+      "map_size": [
+        8,
+        11
+      ],
+      "evidence_sum": 7.51038122177124,
+      "contrast": 0.0014693845296278596
+    },
+    {
+      "ratio": 1.6,
+      "map_xy": [
+        4,
+        5
+      ],
+      "map_size": [
+        10,
+        13
+      ],
+      "evidence_sum": 10.661420822143555,
+      "contrast": 0.0028573842719197273
+    },
+    {
+      "ratio": 1.8,
+      "map_xy": [
+        3,
+        3
+      ],
+      "map_size": [
+        11,
+        15
+      ],
+      "evidence_sum": 13.248407363891602,
+      "contrast": 0.003146529896184802
+    },
+    {
+      "ratio": 2.0,
+      "map_xy": [
+        2,
+        3
+      ],
+      "map_size": [
+        12,
+        16
+      ],
+      "evidence_sum": 14.842934608459473,
+      "contrast": 0.001990313408896327
+    }
+  ],
+  "artifacts": {
+    "crop": "crop.png",
+    "selected_bbox": "selected_bbox.png",
+    "semantic_overlay": "semantic_overlay.png",
+    "structure_overlay": "structure_overlay.png",
+    "ssim_overlay": "ssim_overlay.png"
+  }
+}

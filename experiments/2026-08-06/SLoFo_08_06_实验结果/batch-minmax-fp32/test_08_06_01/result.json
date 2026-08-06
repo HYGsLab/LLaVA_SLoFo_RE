@@ -1,0 +1,491 @@
+{
+  "checkpoint": "models/llava-v1.5-7b",
+  "precision": "float16",
+  "vision_tower": "/data/workspace/Gexuri_Project/HYG_LLaVA_SLoFo/models/clip-vit-large-patch14-336",
+  "context_length": 2048,
+  "query": "What color are the clothes worn by the person holding a phone horizontally to take a photo?",
+  "original_answer": "The person holding the phone horizontally to take a photo is wearing gray clothes.",
+  "crop_answer": "The person holding the phone horizontally to take a photo is wearing gray clothes.",
+  "joint_answer": "The person holding the phone horizontally to take a photo is wearing gray clothes.",
+  "image_size": [
+    1280,
+    960
+  ],
+  "padded_side": 1280,
+  "padding_offset": [
+    0,
+    160
+  ],
+  "semantic_layer_index": 14,
+  "semantic_score": "log_probability",
+  "semantic_score_diagnostics": {
+    "log_probability": {
+      "score_value": -0.0011116046225652099,
+      "gradient": {
+        "min": -0.0007796287536621094,
+        "max": 0.0007758140563964844,
+        "mean": -1.9476672150631202e-06,
+        "sum": -0.03589940071105957,
+        "abs_max": 0.0007796287536621094,
+        "abs_mean": 0.00010081267828354612,
+        "positive_fraction": 0.4990234375,
+        "negative_fraction": 0.5007595419883728,
+        "zero_fraction": 0.00021701389050576836,
+        "dtype": "torch.float16"
+      },
+      "semantic_native_precision": {
+        "min": 0.0,
+        "max": 8.344650268554688e-07,
+        "mean": 5.070534214723921e-09,
+        "sum": 2.9206275939941406e-06,
+        "abs_max": 8.344650268554688e-07,
+        "abs_mean": 5.070534214723921e-09,
+        "positive_fraction": 0.03125,
+        "negative_fraction": 0.0,
+        "zero_fraction": 0.96875,
+        "dtype": "torch.float16"
+      },
+      "semantic_float32": {
+        "min": 3.917033364331246e-11,
+        "max": 8.638862141197023e-07,
+        "mean": 7.69317853865914e-09,
+        "sum": 4.431271008797921e-06,
+        "abs_max": 8.638862141197023e-07,
+        "abs_mean": 7.69317853865914e-09,
+        "positive_fraction": 1.0,
+        "negative_fraction": 0.0,
+        "zero_fraction": 0.0,
+        "dtype": "torch.float32"
+      },
+      "native_nonzero_tokens": 18,
+      "float32_nonzero_tokens": 576
+    }
+  },
+  "structure_layer_index": 7,
+  "structure_hidden_states_tuple_index": 8,
+  "pca_components": 20,
+  "semantic_weight_beta": 0.7,
+  "fusion_normalization": "minmax",
+  "seed": 0,
+  "locate_coordinate_space": "original",
+  "variant_comparison": {
+    "none_original": {
+      "fusion_normalization": "none",
+      "coordinate_space": "original",
+      "source_bbox": [
+        899,
+        272,
+        1235,
+        608
+      ],
+      "original_bbox": [
+        899,
+        272,
+        1235,
+        608
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.043096303939819336,
+      "artifacts": {
+        "selected_bbox": "none_original_selected_bbox.png",
+        "crop": "none_original_crop.png"
+      },
+      "joint_answer": "The person holding the phone horizontally to take a photo is wearing a blue shirt.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            960
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          66
+        ],
+        "output_ids_shape": [
+          1,
+          22
+        ],
+        "peak_allocated_mib": 15579.8
+      }
+    },
+    "none_padded": {
+      "fusion_normalization": "none",
+      "coordinate_space": "padded",
+      "source_bbox": [
+        899,
+        472,
+        1235,
+        808
+      ],
+      "original_bbox": [
+        899,
+        312,
+        1235,
+        648
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.04483063891530037,
+      "artifacts": {
+        "selected_bbox": "none_padded_selected_bbox.png",
+        "crop": "none_padded_crop.png"
+      },
+      "joint_answer": "The person holding the phone horizontally to take a photo is wearing blue clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            960
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          66
+        ],
+        "output_ids_shape": [
+          1,
+          20
+        ],
+        "peak_allocated_mib": 15579.8
+      }
+    },
+    "minmax_original": {
+      "fusion_normalization": "minmax",
+      "coordinate_space": "original",
+      "source_bbox": [
+        792,
+        472,
+        1128,
+        808
+      ],
+      "original_bbox": [
+        792,
+        472,
+        1128,
+        808
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.008677135221660137,
+      "artifacts": {
+        "selected_bbox": "minmax_original_selected_bbox.png",
+        "crop": "minmax_original_crop.png"
+      },
+      "joint_answer": "The person holding the phone horizontally to take a photo is wearing gray clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            960
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          66
+        ],
+        "output_ids_shape": [
+          1,
+          20
+        ],
+        "peak_allocated_mib": 15579.8
+      }
+    },
+    "minmax_padded": {
+      "fusion_normalization": "minmax",
+      "coordinate_space": "padded",
+      "source_bbox": [
+        739,
+        739,
+        1075,
+        1075
+      ],
+      "original_bbox": [
+        739,
+        579,
+        1075,
+        915
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.011982666328549385,
+      "artifacts": {
+        "selected_bbox": "minmax_padded_selected_bbox.png",
+        "crop": "minmax_padded_crop.png"
+      },
+      "joint_answer": "The person holding the phone horizontally to take a photo is wearing gray clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            960
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          66
+        ],
+        "output_ids_shape": [
+          1,
+          20
+        ],
+        "peak_allocated_mib": 15579.8
+      }
+    }
+  },
+  "visual_token_span": [
+    35,
+    611
+  ],
+  "visual_token_count": 576,
+  "multimodal_sequence_length": 638,
+  "attention_shape": [
+    32,
+    576
+  ],
+  "attention_gradient_shape": [
+    32,
+    576
+  ],
+  "structure_hidden_shape": [
+    576,
+    4096
+  ],
+  "pseudo_token_id": 450,
+  "pseudo_token_text": "The",
+  "padded_bbox": null,
+  "original_bbox": [
+    792,
+    472,
+    1128,
+    808
+  ],
+  "selected_ratio": 1.0,
+  "selected_contrast": 0.008677135221660137,
+  "scan_peak_allocated_mib": 21312.0,
+  "generation_peak_allocated_mib": 15579.8,
+  "generation": {
+    "original": {
+      "image_count": 1,
+      "image_sizes": [
+        [
+          1280,
+          960
+        ]
+      ],
+      "image_tensor_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        63
+      ],
+      "output_ids_shape": [
+        1,
+        20
+      ],
+      "peak_allocated_mib": 14909.5
+    },
+    "crop_only": {
+      "image_count": 1,
+      "image_sizes": [
+        [
+          336,
+          336
+        ]
+      ],
+      "image_tensor_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        63
+      ],
+      "output_ids_shape": [
+        1,
+        20
+      ],
+      "peak_allocated_mib": 14909.3
+    },
+    "original_plus_crop": {
+      "image_count": 2,
+      "image_sizes": [
+        [
+          1280,
+          960
+        ],
+        [
+          336,
+          336
+        ]
+      ],
+      "image_tensor_shape": [
+        2,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        66
+      ],
+      "output_ids_shape": [
+        1,
+        20
+      ],
+      "peak_allocated_mib": 15579.8
+    }
+  },
+  "semantic_stats": {
+    "min": 3.917033364331246e-11,
+    "max": 8.638862141197023e-07,
+    "mean": 7.69317853865914e-09,
+    "sum": 4.431271008797921e-06
+  },
+  "structure_stats": {
+    "min": 0.10395623743534088,
+    "max": 7.695034980773926,
+    "mean": 1.193949818611145,
+    "sum": 687.715087890625
+  },
+  "ssim_stats": {
+    "min": 4.9331520131090656e-05,
+    "max": 0.7869454622268677,
+    "mean": 0.04927889630198479,
+    "sum": 28.3846435546875
+  },
+  "candidates": [
+    {
+      "ratio": 1.0,
+      "map_xy": [
+        15,
+        12
+      ],
+      "map_size": [
+        6,
+        8
+      ],
+      "evidence_sum": 5.074969291687012,
+      "contrast": 0.008677135221660137
+    },
+    {
+      "ratio": 1.2,
+      "map_xy": [
+        15,
+        10
+      ],
+      "map_size": [
+        7,
+        10
+      ],
+      "evidence_sum": 6.90468692779541,
+      "contrast": 0.006663254462182522
+    },
+    {
+      "ratio": 1.4,
+      "map_xy": [
+        15,
+        9
+      ],
+      "map_size": [
+        8,
+        11
+      ],
+      "evidence_sum": 8.111905097961426,
+      "contrast": 0.005121404770761728
+    },
+    {
+      "ratio": 1.6,
+      "map_xy": [
+        13,
+        8
+      ],
+      "map_size": [
+        10,
+        13
+      ],
+      "evidence_sum": 10.373295783996582,
+      "contrast": 0.001280109747312963
+    },
+    {
+      "ratio": 1.8,
+      "map_xy": [
+        12,
+        5
+      ],
+      "map_size": [
+        11,
+        15
+      ],
+      "evidence_sum": 11.953779220581055,
+      "contrast": 0.003130814526230097
+    },
+    {
+      "ratio": 2.0,
+      "map_xy": [
+        12,
+        5
+      ],
+      "map_size": [
+        12,
+        16
+      ],
+      "evidence_sum": 13.181964874267578,
+      "contrast": 0.0010670721530914307
+    }
+  ],
+  "artifacts": {
+    "crop": "crop.png",
+    "selected_bbox": "selected_bbox.png",
+    "semantic_overlay": "semantic_overlay.png",
+    "structure_overlay": "structure_overlay.png",
+    "ssim_overlay": "ssim_overlay.png"
+  }
+}

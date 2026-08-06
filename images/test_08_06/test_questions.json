@@ -1,0 +1,72 @@
+[
+  {
+    "id": "01",
+    "image": "test_08_06_01.jpg",
+    "question_zh": "图中双手横握手机拍照的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person holding a phone horizontally to take a photo?",
+    "manual_reference": "灰色，袖子为深灰色"
+  },
+  {
+    "id": "02",
+    "image": "test_08_06_02.jpg",
+    "question_zh": "图中站在雪人右侧比剪刀手的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person standing to the right of the snowman and making a V sign?",
+    "manual_reference": "黑色，带荧光绿色装饰"
+  },
+  {
+    "id": "03",
+    "image": "test_08_06_03.jpg",
+    "question_zh": "图中站在最前方双手拿水瓶的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person standing in front and holding a water bottle with both hands?",
+    "manual_reference": "白色上衣"
+  },
+  {
+    "id": "04",
+    "image": "test_08_06_04.jpg",
+    "question_zh": "图中一只手扶后颈、另一只手抱证书的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person with one hand behind his neck and the other arm holding certificates?",
+    "manual_reference": "深灰色上衣"
+  },
+  {
+    "id": "05",
+    "image": "test_08_06_05.jpg",
+    "question_zh": "图中俯身扶着台球桌的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person leaning forward against the pool table?",
+    "manual_reference": "浅灰蓝色上衣"
+  },
+  {
+    "id": "06",
+    "image": "test_08_06_06.jpg",
+    "question_zh": "图中坐着用筷子夹食物的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the seated person using chopsticks to pick up food?",
+    "manual_reference": "白色或浅灰色上衣"
+  },
+  {
+    "id": "07",
+    "image": "test_08_06_07.jpg",
+    "question_zh": "图中站着双手拿手机的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the standing person holding a phone with both hands?",
+    "manual_reference": "蓝色上衣"
+  },
+  {
+    "id": "08",
+    "image": "test_08_06_08.jpg",
+    "question_zh": "图中坐在椅子上翘腿看手机的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person sitting cross-legged on a chair and looking at a phone?",
+    "manual_reference": "绿色上衣"
+  },
+  {
+    "id": "09",
+    "image": "test_08_06_09.jpg",
+    "question_zh": "图中躺着手拿平板电脑的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person lying down and holding a tablet?",
+    "manual_reference": "棕绿色格纹上衣"
+  },
+  {
+    "id": "10",
+    "image": "test_08_06_10.jpg",
+    "question_zh": "图中站在球网前手拿羽毛球拍的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person standing in front of the net and holding a badminton racket?",
+    "manual_reference": "深绿色上衣"
+  }
+]

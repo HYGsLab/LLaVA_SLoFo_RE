@@ -1,0 +1,491 @@
+{
+  "checkpoint": "models/llava-v1.5-7b",
+  "precision": "float16",
+  "vision_tower": "/data/workspace/Gexuri_Project/HYG_LLaVA_SLoFo/models/clip-vit-large-patch14-336",
+  "context_length": 2048,
+  "query": "What color are the clothes worn by the person standing in front of the net and holding a badminton racket?",
+  "original_answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+  "crop_answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+  "joint_answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+  "image_size": [
+    960,
+    1280
+  ],
+  "padded_side": 1280,
+  "padding_offset": [
+    160,
+    0
+  ],
+  "semantic_layer_index": 14,
+  "semantic_score": "log_probability",
+  "semantic_score_diagnostics": {
+    "log_probability": {
+      "score_value": -0.00029345019720494747,
+      "gradient": {
+        "min": -0.00017917156219482422,
+        "max": 0.00016355514526367188,
+        "mean": -2.3848067485232605e-06,
+        "sum": -0.043956756591796875,
+        "abs_max": 0.00017917156219482422,
+        "abs_mean": 2.5223624106729403e-05,
+        "positive_fraction": 0.4519856870174408,
+        "negative_fraction": 0.546875,
+        "zero_fraction": 0.0011393228778615594,
+        "dtype": "torch.float16"
+      },
+      "semantic_native_precision": {
+        "min": 0.0,
+        "max": 5.960464477539063e-08,
+        "mean": 6.208817349140361e-10,
+        "sum": 3.5762786865234375e-07,
+        "abs_max": 5.960464477539063e-08,
+        "abs_mean": 6.208817349140361e-10,
+        "positive_fraction": 0.010416666977107525,
+        "negative_fraction": 0.0,
+        "zero_fraction": 0.9895833134651184,
+        "dtype": "torch.float16"
+      },
+      "semantic_float32": {
+        "min": 7.9836137700795e-12,
+        "max": 8.592360956072298e-08,
+        "mean": 1.7712898925381637e-09,
+        "sum": 1.020262970996555e-06,
+        "abs_max": 8.592360956072298e-08,
+        "abs_mean": 1.7712898925381637e-09,
+        "positive_fraction": 1.0,
+        "negative_fraction": 0.0,
+        "zero_fraction": 0.0,
+        "dtype": "torch.float32"
+      },
+      "native_nonzero_tokens": 6,
+      "float32_nonzero_tokens": 576
+    }
+  },
+  "structure_layer_index": 7,
+  "structure_hidden_states_tuple_index": 8,
+  "pca_components": 20,
+  "semantic_weight_beta": 0.7,
+  "fusion_normalization": "minmax",
+  "seed": 0,
+  "locate_coordinate_space": "original",
+  "variant_comparison": {
+    "none_original": {
+      "fusion_normalization": "none",
+      "coordinate_space": "original",
+      "source_bbox": [
+        352,
+        312,
+        688,
+        648
+      ],
+      "original_bbox": [
+        352,
+        312,
+        688,
+        648
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.02163585089147091,
+      "artifacts": {
+        "selected_bbox": "none_original_selected_bbox.png",
+        "crop": "none_original_crop.png"
+      },
+      "joint_answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            960,
+            1280
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          70
+        ],
+        "output_ids_shape": [
+          1,
+          24
+        ],
+        "peak_allocated_mib": 15587.7
+      }
+    },
+    "none_padded": {
+      "fusion_normalization": "none",
+      "coordinate_space": "padded",
+      "source_bbox": [
+        518,
+        305,
+        921,
+        708
+      ],
+      "original_bbox": [
+        358,
+        305,
+        761,
+        708
+      ],
+      "selected_ratio": 1.2,
+      "selected_contrast": 0.021377213299274445,
+      "artifacts": {
+        "selected_bbox": "none_padded_selected_bbox.png",
+        "crop": "none_padded_crop.png"
+      },
+      "joint_answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            960,
+            1280
+          ],
+          [
+            403,
+            403
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          70
+        ],
+        "output_ids_shape": [
+          1,
+          24
+        ],
+        "peak_allocated_mib": 15587.7
+      }
+    },
+    "minmax_original": {
+      "fusion_normalization": "minmax",
+      "coordinate_space": "original",
+      "source_bbox": [
+        352,
+        312,
+        688,
+        648
+      ],
+      "original_bbox": [
+        352,
+        312,
+        688,
+        648
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.013283471576869488,
+      "artifacts": {
+        "selected_bbox": "minmax_original_selected_bbox.png",
+        "crop": "minmax_original_crop.png"
+      },
+      "joint_answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            960,
+            1280
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          70
+        ],
+        "output_ids_shape": [
+          1,
+          24
+        ],
+        "peak_allocated_mib": 15587.7
+      }
+    },
+    "minmax_padded": {
+      "fusion_normalization": "minmax",
+      "coordinate_space": "padded",
+      "source_bbox": [
+        579,
+        312,
+        915,
+        648
+      ],
+      "original_bbox": [
+        419,
+        312,
+        755,
+        648
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.014721035957336426,
+      "artifacts": {
+        "selected_bbox": "minmax_padded_selected_bbox.png",
+        "crop": "minmax_padded_crop.png"
+      },
+      "joint_answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            960,
+            1280
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          70
+        ],
+        "output_ids_shape": [
+          1,
+          24
+        ],
+        "peak_allocated_mib": 15587.7
+      }
+    }
+  },
+  "visual_token_span": [
+    35,
+    611
+  ],
+  "visual_token_count": 576,
+  "multimodal_sequence_length": 642,
+  "attention_shape": [
+    32,
+    576
+  ],
+  "attention_gradient_shape": [
+    32,
+    576
+  ],
+  "structure_hidden_shape": [
+    576,
+    4096
+  ],
+  "pseudo_token_id": 450,
+  "pseudo_token_text": "The",
+  "padded_bbox": null,
+  "original_bbox": [
+    352,
+    312,
+    688,
+    648
+  ],
+  "selected_ratio": 1.0,
+  "selected_contrast": 0.013283471576869488,
+  "scan_peak_allocated_mib": 21400.7,
+  "generation_peak_allocated_mib": 15587.7,
+  "generation": {
+    "original": {
+      "image_count": 1,
+      "image_sizes": [
+        [
+          960,
+          1280
+        ]
+      ],
+      "image_tensor_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        67
+      ],
+      "output_ids_shape": [
+        1,
+        24
+      ],
+      "peak_allocated_mib": 14926.9
+    },
+    "crop_only": {
+      "image_count": 1,
+      "image_sizes": [
+        [
+          336,
+          336
+        ]
+      ],
+      "image_tensor_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        67
+      ],
+      "output_ids_shape": [
+        1,
+        24
+      ],
+      "peak_allocated_mib": 14926.9
+    },
+    "original_plus_crop": {
+      "image_count": 2,
+      "image_sizes": [
+        [
+          960,
+          1280
+        ],
+        [
+          336,
+          336
+        ]
+      ],
+      "image_tensor_shape": [
+        2,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        70
+      ],
+      "output_ids_shape": [
+        1,
+        24
+      ],
+      "peak_allocated_mib": 15587.7
+    }
+  },
+  "semantic_stats": {
+    "min": 7.9836137700795e-12,
+    "max": 8.592360956072298e-08,
+    "mean": 1.7712898925381637e-09,
+    "sum": 1.020262970996555e-06
+  },
+  "structure_stats": {
+    "min": 0.0991072803735733,
+    "max": 4.7973222732543945,
+    "mean": 1.0255423784255981,
+    "sum": 590.71240234375
+  },
+  "ssim_stats": {
+    "min": 0.0007312794332392514,
+    "max": 0.8192225098609924,
+    "mean": 0.07352321594953537,
+    "sum": 42.34937286376953
+  },
+  "candidates": [
+    {
+      "ratio": 1.0,
+      "map_xy": [
+        9,
+        6
+      ],
+      "map_size": [
+        8,
+        6
+      ],
+      "evidence_sum": 9.302688598632812,
+      "contrast": 0.013283471576869488
+    },
+    {
+      "ratio": 1.2,
+      "map_xy": [
+        7,
+        5
+      ],
+      "map_size": [
+        10,
+        7
+      ],
+      "evidence_sum": 11.465520858764648,
+      "contrast": 0.009171281941235065
+    },
+    {
+      "ratio": 1.4,
+      "map_xy": [
+        10,
+        5
+      ],
+      "map_size": [
+        11,
+        8
+      ],
+      "evidence_sum": 13.263833045959473,
+      "contrast": 0.003615845460444689
+    },
+    {
+      "ratio": 1.6,
+      "map_xy": [
+        8,
+        5
+      ],
+      "map_size": [
+        13,
+        10
+      ],
+      "evidence_sum": 17.1099910736084,
+      "contrast": 0.0033462231513112783
+    },
+    {
+      "ratio": 1.8,
+      "map_xy": [
+        6,
+        5
+      ],
+      "map_size": [
+        15,
+        11
+      ],
+      "evidence_sum": 19.67241668701172,
+      "contrast": 0.002206467092037201
+    },
+    {
+      "ratio": 2.0,
+      "map_xy": [
+        5,
+        3
+      ],
+      "map_size": [
+        16,
+        12
+      ],
+      "evidence_sum": 21.73218536376953,
+      "contrast": 0.002232193946838379
+    }
+  ],
+  "artifacts": {
+    "crop": "crop.png",
+    "selected_bbox": "selected_bbox.png",
+    "semantic_overlay": "semantic_overlay.png",
+    "structure_overlay": "structure_overlay.png",
+    "ssim_overlay": "ssim_overlay.png"
+  }
+}

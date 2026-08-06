@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and caches
+.venv/
+venv/
+.conda/
+.cache/
+.huggingface/
+
+# Model weights and checkpoints
+models/
+checkpoints/
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
+
+# Upstream source is an external dependency
+LLaVA/
+
+# Local runtime output not intentionally curated under experiments/
+logs/
+outputs/
+tmp/
+*.tar.gz
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Credentials
+*.pem
+*.key
+.env
+.env.*

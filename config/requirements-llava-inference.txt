@@ -1,0 +1,14 @@
+# Minimal LLaVA-1.5 inference dependencies for the RTX 5070 study environment.
+# PyTorch and torchvision are installed separately from the official cu128 index.
+
+transformers==4.37.2
+tokenizers==0.15.1
+sentencepiece==0.1.99
+protobuf==4.25.3
+accelerate==0.21.0
+bitsandbytes==0.47.0
+shortuuid
+requests
+einops==0.6.1
+einops-exts==0.0.4
+timm==0.6.13

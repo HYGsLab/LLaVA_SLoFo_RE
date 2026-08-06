@@ -1,0 +1,491 @@
+{
+  "checkpoint": "models/llava-v1.5-7b",
+  "precision": "float16",
+  "vision_tower": "/data/workspace/Gexuri_Project/HYG_LLaVA_SLoFo/models/clip-vit-large-patch14-336",
+  "context_length": 2048,
+  "query": "What color are the clothes worn by the person leaning forward against the pool table?",
+  "original_answer": "The person leaning forward against the pool table is wearing black clothes.",
+  "crop_answer": "The person leaning forward against the pool table is wearing black clothes.",
+  "joint_answer": "The person leaning forward against the pool table is wearing black clothes.",
+  "image_size": [
+    1280,
+    1706
+  ],
+  "padded_side": 1706,
+  "padding_offset": [
+    213,
+    0
+  ],
+  "semantic_layer_index": 14,
+  "semantic_score": "log_probability",
+  "semantic_score_diagnostics": {
+    "log_probability": {
+      "score_value": -0.0005519058904610574,
+      "gradient": {
+        "min": -0.0003979206085205078,
+        "max": 0.000308990478515625,
+        "mean": -5.3613171075994615e-06,
+        "sum": -0.0988197922706604,
+        "abs_max": 0.0003979206085205078,
+        "abs_mean": 5.228859299677424e-05,
+        "positive_fraction": 0.470757395029068,
+        "negative_fraction": 0.5284830927848816,
+        "zero_fraction": 0.0007595486240461469,
+        "dtype": "torch.float16"
+      },
+      "semantic_native_precision": {
+        "min": 0.0,
+        "max": 5.960464477539063e-08,
+        "mean": 1.0348028683937471e-10,
+        "sum": 5.960464477539063e-08,
+        "abs_max": 5.960464477539063e-08,
+        "abs_mean": 1.0348028683937471e-10,
+        "positive_fraction": 0.0017361111240461469,
+        "negative_fraction": 0.0,
+        "zero_fraction": 0.9982638955116272,
+        "dtype": "torch.float16"
+      },
+      "semantic_float32": {
+        "min": 1.8613111052445674e-11,
+        "max": 6.268798813380272e-08,
+        "mean": 1.4889074417823167e-09,
+        "sum": 8.576107006774691e-07,
+        "abs_max": 6.268798813380272e-08,
+        "abs_mean": 1.4889074417823167e-09,
+        "positive_fraction": 1.0,
+        "negative_fraction": 0.0,
+        "zero_fraction": 0.0,
+        "dtype": "torch.float32"
+      },
+      "native_nonzero_tokens": 1,
+      "float32_nonzero_tokens": 576
+    }
+  },
+  "structure_layer_index": 7,
+  "structure_hidden_states_tuple_index": 8,
+  "pca_components": 20,
+  "semantic_weight_beta": 0.7,
+  "fusion_normalization": "minmax",
+  "seed": 0,
+  "locate_coordinate_space": "original",
+  "variant_comparison": {
+    "none_original": {
+      "fusion_normalization": "none",
+      "coordinate_space": "original",
+      "source_bbox": [
+        152,
+        258,
+        488,
+        594
+      ],
+      "original_bbox": [
+        152,
+        258,
+        488,
+        594
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.09111436456441879,
+      "artifacts": {
+        "selected_bbox": "none_original_selected_bbox.png",
+        "crop": "none_original_crop.png"
+      },
+      "joint_answer": "The person leaning forward against the pool table is wearing black clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            1706
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          63
+        ],
+        "output_ids_shape": [
+          1,
+          17
+        ],
+        "peak_allocated_mib": 15558.7
+      }
+    },
+    "none_padded": {
+      "fusion_normalization": "none",
+      "coordinate_space": "padded",
+      "source_bbox": [
+        187,
+        258,
+        523,
+        594
+      ],
+      "original_bbox": [
+        0,
+        258,
+        336,
+        594
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.0823482871055603,
+      "artifacts": {
+        "selected_bbox": "none_padded_selected_bbox.png",
+        "crop": "none_padded_crop.png"
+      },
+      "joint_answer": "The person leaning forward against the pool table is wearing black clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            1706
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          63
+        ],
+        "output_ids_shape": [
+          1,
+          17
+        ],
+        "peak_allocated_mib": 15558.7
+      }
+    },
+    "minmax_original": {
+      "fusion_normalization": "minmax",
+      "coordinate_space": "original",
+      "source_bbox": [
+        152,
+        258,
+        488,
+        594
+      ],
+      "original_bbox": [
+        152,
+        258,
+        488,
+        594
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.011055201292037964,
+      "artifacts": {
+        "selected_bbox": "minmax_original_selected_bbox.png",
+        "crop": "minmax_original_crop.png"
+      },
+      "joint_answer": "The person leaning forward against the pool table is wearing black clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            1706
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          63
+        ],
+        "output_ids_shape": [
+          1,
+          17
+        ],
+        "peak_allocated_mib": 15558.7
+      }
+    },
+    "minmax_padded": {
+      "fusion_normalization": "minmax",
+      "coordinate_space": "padded",
+      "source_bbox": [
+        969,
+        116,
+        1305,
+        452
+      ],
+      "original_bbox": [
+        756,
+        116,
+        1092,
+        452
+      ],
+      "selected_ratio": 1.0,
+      "selected_contrast": 0.02288888394832611,
+      "artifacts": {
+        "selected_bbox": "minmax_padded_selected_bbox.png",
+        "crop": "minmax_padded_crop.png"
+      },
+      "joint_answer": "The person leaning forward against the pool table is wearing black clothes.",
+      "joint_generation": {
+        "image_count": 2,
+        "image_sizes": [
+          [
+            1280,
+            1706
+          ],
+          [
+            336,
+            336
+          ]
+        ],
+        "image_tensor_shape": [
+          2,
+          3,
+          336,
+          336
+        ],
+        "input_ids_shape": [
+          1,
+          63
+        ],
+        "output_ids_shape": [
+          1,
+          17
+        ],
+        "peak_allocated_mib": 15558.7
+      }
+    }
+  },
+  "visual_token_span": [
+    35,
+    611
+  ],
+  "visual_token_count": 576,
+  "multimodal_sequence_length": 635,
+  "attention_shape": [
+    32,
+    576
+  ],
+  "attention_gradient_shape": [
+    32,
+    576
+  ],
+  "structure_hidden_shape": [
+    576,
+    4096
+  ],
+  "pseudo_token_id": 450,
+  "pseudo_token_text": "The",
+  "padded_bbox": null,
+  "original_bbox": [
+    152,
+    258,
+    488,
+    594
+  ],
+  "selected_ratio": 1.0,
+  "selected_contrast": 0.011055201292037964,
+  "scan_peak_allocated_mib": 21300.4,
+  "generation_peak_allocated_mib": 15558.7,
+  "generation": {
+    "original": {
+      "image_count": 1,
+      "image_sizes": [
+        [
+          1280,
+          1706
+        ]
+      ],
+      "image_tensor_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        60
+      ],
+      "output_ids_shape": [
+        1,
+        17
+      ],
+      "peak_allocated_mib": 14908.5
+    },
+    "crop_only": {
+      "image_count": 1,
+      "image_sizes": [
+        [
+          336,
+          336
+        ]
+      ],
+      "image_tensor_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        60
+      ],
+      "output_ids_shape": [
+        1,
+        17
+      ],
+      "peak_allocated_mib": 14908.2
+    },
+    "original_plus_crop": {
+      "image_count": 2,
+      "image_sizes": [
+        [
+          1280,
+          1706
+        ],
+        [
+          336,
+          336
+        ]
+      ],
+      "image_tensor_shape": [
+        2,
+        3,
+        336,
+        336
+      ],
+      "input_ids_shape": [
+        1,
+        63
+      ],
+      "output_ids_shape": [
+        1,
+        17
+      ],
+      "peak_allocated_mib": 15558.7
+    }
+  },
+  "semantic_stats": {
+    "min": 1.8613111052445674e-11,
+    "max": 6.268798813380272e-08,
+    "mean": 1.4889074417823167e-09,
+    "sum": 8.576107006774691e-07
+  },
+  "structure_stats": {
+    "min": 0.08444808423519135,
+    "max": 9.181918144226074,
+    "mean": 1.1509004831314087,
+    "sum": 662.918701171875
+  },
+  "ssim_stats": {
+    "min": 0.0012997622834518552,
+    "max": 0.7641306519508362,
+    "mean": 0.051590342074632645,
+    "sum": 29.71603775024414
+  },
+  "candidates": [
+    {
+      "ratio": 1.0,
+      "map_xy": [
+        3,
+        4
+      ],
+      "map_size": [
+        6,
+        4
+      ],
+      "evidence_sum": 2.0440938472747803,
+      "contrast": 0.011055201292037964
+    },
+    {
+      "ratio": 1.2,
+      "map_xy": [
+        10,
+        19
+      ],
+      "map_size": [
+        7,
+        5
+      ],
+      "evidence_sum": 2.749107837677002,
+      "contrast": 0.004419749137014151
+    },
+    {
+      "ratio": 1.4,
+      "map_xy": [
+        5,
+        10
+      ],
+      "map_size": [
+        8,
+        6
+      ],
+      "evidence_sum": 3.669948101043701,
+      "contrast": 0.005611767526715994
+    },
+    {
+      "ratio": 1.6,
+      "map_xy": [
+        3,
+        9
+      ],
+      "map_size": [
+        10,
+        7
+      ],
+      "evidence_sum": 5.239417552947998,
+      "contrast": 0.0018040589056909084
+    },
+    {
+      "ratio": 1.8,
+      "map_xy": [
+        3,
+        8
+      ],
+      "map_size": [
+        11,
+        8
+      ],
+      "evidence_sum": 6.7059550285339355,
+      "contrast": 0.0025158904027193785
+    },
+    {
+      "ratio": 2.0,
+      "map_xy": [
+        3,
+        7
+      ],
+      "map_size": [
+        12,
+        9
+      ],
+      "evidence_sum": 8.114541053771973,
+      "contrast": 0.002297286642715335
+    }
+  ],
+  "artifacts": {
+    "crop": "crop.png",
+    "selected_bbox": "selected_bbox.png",
+    "semantic_overlay": "semantic_overlay.png",
+    "structure_overlay": "structure_overlay.png",
+    "ssim_overlay": "ssim_overlay.png"
+  }
+}
