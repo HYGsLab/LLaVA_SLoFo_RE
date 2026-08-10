@@ -1,0 +1,31 @@
+{
+  "seed": 20260809,
+  "manifests": {
+    "textvqa": "benchmarks/official/manifests/textvqa_subset_512.json",
+    "gqa": "benchmarks/official/manifests/gqa_subset_512.json",
+    "pope": "benchmarks/official/manifests/pope_stratified_600.json"
+  },
+  "validation": {
+    "textvqa": {
+      "manifest": "benchmarks/official/manifests/textvqa_subset_512.json",
+      "image_root": "benchmarks/official/data/textvqa/train_images",
+      "record_count": 512,
+      "missing_count": 0,
+      "missing_examples": []
+    },
+    "gqa": {
+      "manifest": "benchmarks/official/manifests/gqa_subset_512.json",
+      "image_root": "benchmarks/official/data/gqa/images",
+      "record_count": 512,
+      "missing_count": 0,
+      "missing_examples": []
+    },
+    "pope": {
+      "manifest": "benchmarks/official/manifests/pope_stratified_600.json",
+      "image_root": "benchmarks/official/data/pope/val2014",
+      "record_count": 600,
+      "missing_count": 0,
+      "missing_examples": []
+    }
+  }
+}

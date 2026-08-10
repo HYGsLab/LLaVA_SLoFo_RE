@@ -30,6 +30,13 @@ outputs/
 tmp/
 *.tar.gz
 
+# Large per-case artifacts and raw benchmark data
+experiments/**/cases/
+experiments/**/samples/
+experiments/**/packages/
+datasets/
+data/
+
 # Editors and OS files
 .vscode/
 .idea/

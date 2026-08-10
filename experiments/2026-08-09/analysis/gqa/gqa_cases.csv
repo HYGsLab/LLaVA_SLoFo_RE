@@ -1,0 +1,1025 @@
+﻿benchmark,question_id,image,question,category,ground_truth,original_answer,crop_answer,legacy_joint_answer,topk_joint_answer,focus_answer,score_original,score_crop_only,score_legacy_dual,score_topk_dual,score_focus,selected_rank,selection_changed,selected_bbox,legacy_bbox
+gqa,201497576,n315887.jpg,"Are both the phone and the coffee cup the same color?
+Answer the question using a single word or phrase.",compare,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[170, 0, 640, 425]","[170, 0, 640, 425]"
+gqa,201974971,n274905.jpg,"How is the clothing item that is pink called?
+Answer the question using a single word or phrase.",query,tank top,Tank top,Tank top,Tank top,Tank top,Tank top,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 63, 488, 399]","[152, 63, 488, 399]"
+gqa,201498767,n315887.jpg,"What is the device in front of the flat computer?
+Answer the question using a single word or phrase.",query,phone,Keyboard,Keyboard,Keyboard,Keyboard,Keyboard,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 27, 640, 363]","[304, 27, 640, 363]"
+gqa,202144708,n37274.jpg,"Is there a blender to the right of the yellow drink?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[259, 52, 595, 388]","[102, 0, 640, 480]"
+gqa,201896034,n111390.jpg,"What is the item of furniture to the right of the lady that is looking down at the cake called?
+Answer the question using a single word or phrase.",query,table,Chair,Chair,Chair,Chair,Chair,0.0,0.0,0.0,0.0,0.0,1,False,"[44, 232, 380, 568]","[44, 232, 380, 568]"
+gqa,201156466,n146522.jpg,"Do the balls to the left of the other ball look light?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[158, 0, 561, 403]","[158, 0, 561, 403]"
+gqa,201756501,n567860.jpg,"What is common to the door and the kitten?
+Answer the question using a single word or phrase.",compare,color,Color,Color,Color,Color,Color,1.0,1.0,1.0,1.0,1.0,3,True,"[78, 0, 616, 480]","[285, 32, 621, 368]"
+gqa,201056072,n259002.jpg,"Who is running?
+Answer the question using a single word or phrase.",query,soccer player,Boy,Man,Man,Man,Man,0.0,0.0,0.0,0.0,0.0,1,False,"[170, 0, 640, 394]","[170, 0, 640, 394]"
+gqa,201047479,n234683.jpg,"Is the dress shirt gray or teal?
+Answer the question using a single word or phrase.",choose,teal,Teal,Teal,Teal,Teal,Teal,1.0,1.0,1.0,1.0,1.0,1,False,"[76, 304, 412, 640]","[76, 304, 412, 640]"
+gqa,201595841,n302358.jpg,"Is the person near the grass sitting on a bench?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 0, 640, 304]","[304, 0, 640, 304]"
+gqa,20692296,n499081.jpg,"What is resting on the marble counter?
+Answer the question using a single word or phrase.",query,books,Towel,Book,Book,Book,Book,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+gqa,20679393,n493357.jpg,"Are there any seals or bunnies in the picture?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 112, 435, 448]","[99, 112, 435, 448]"
+gqa,20710154,n489699.jpg,"Is the sky above an airplane?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 426]","[102, 0, 640, 426]"
+gqa,20711540,n549922.jpg,"Which kind of toy is soft?
+Answer the question using a single word or phrase.",query,stuffed bear,Stuffed bear,Teddy bear,Teddy bear,Teddy bear,Teddy bear,1.0,0.0,0.0,0.0,0.0,1,False,"[0, 51, 336, 387]","[0, 51, 336, 387]"
+gqa,201621812,n275148.jpg,"What is the device to the right of the couch?
+Answer the question using a single word or phrase.",query,speaker,Speaker,Printer,Phone,Phone,Phone,1.0,0.0,0.0,0.0,0.0,1,False,"[285, 51, 621, 387]","[285, 51, 621, 387]"
+gqa,20480525,n520071.jpg,"Do the tall books look colorful and thick?
+Answer the question using a single word or phrase.",logical,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[152, 92, 488, 428]","[152, 92, 488, 428]"
+gqa,20157379,n170941.jpg,"What kind of furniture is wooden?
+Answer the question using a single word or phrase.",query,table,Table,Table,Table,Table,Table,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+gqa,20757119,n433532.jpg,"What is the lady doing?
+Answer the question using a single word or phrase.",query,looking down,Cooking,Cooking,Cooking,Cooking,Cooking,0.0,0.0,0.0,0.0,0.0,1,False,"[29, 205, 365, 541]","[29, 205, 365, 541]"
+gqa,20287967,n317260.jpg,"Are both the spectators to the left of the batter and the spectators that are to the right of the batter sitting?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,201640551,n235859.jpg,"How fat are the old people who are wearing a dress?
+Answer the question using a single word or phrase.",query,fat,Skinny,Fat,Fat,Fat,Skinny,0.0,1.0,1.0,1.0,0.0,1,False,"[30, 0, 500, 375]","[30, 0, 500, 375]"
+gqa,20248178,n49310.jpg,"Are the sweater and the black dress shirt both long sleeved?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 98, 515, 434]","[179, 98, 515, 434]"
+gqa,201735541,n240973.jpg,"Which kind of furniture are the shelves sitting on top of?
+Answer the question using a single word or phrase.",query,desk,Desk,Bookshelf,Desk,Desk,Desk,1.0,0.0,1.0,1.0,1.0,1,False,"[304, 52, 640, 388]","[304, 52, 640, 388]"
+gqa,201319540,n508733.jpg,"Who is wearing a shirt?
+Answer the question using a single word or phrase.",query,women,Woman,Woman,Woman,Woman,Woman,0.0,0.0,0.0,0.0,0.0,1,False,"[28, 99, 364, 435]","[28, 99, 364, 435]"
+gqa,201713385,n455563.jpg,"Is the mug to the left of a plate?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 144, 336, 480]","[0, 144, 336, 480]"
+gqa,201621693,n275148.jpg,"What type of furniture is to the right of the device that is on top of the TV stand?
+Answer the question using a single word or phrase.",query,couch,Couch,Cabinet,Couch,Couch,Couch,1.0,0.0,1.0,1.0,1.0,1,False,"[285, 51, 621, 387]","[285, 51, 621, 387]"
+gqa,201713366,n455563.jpg,"Is there any mug in the bathroom?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 480]","[0, 0, 605, 480]"
+gqa,201770690,n310625.jpg,"Does the toothbrush to the left of the faucet seem to be small and blue?
+Answer the question using a single word or phrase.",logical,yes,No,No,Yes,Yes,Yes,0.0,0.0,1.0,1.0,1.0,2,True,"[259, 132, 595, 468]","[24, 0, 562, 480]"
+gqa,201498423,n315887.jpg,"Does the tape that is made of plastic look small and yellow?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 425]","[170, 0, 640, 425]"
+gqa,202257504,n92308.jpg,"Does the sand on the beach look wet and rough?
+Answer the question using a single word or phrase.",logical,yes,Yes,No,No,No,No,1.0,0.0,0.0,0.0,0.0,1,False,"[304, 35, 640, 371]","[304, 35, 640, 371]"
+gqa,201247293,n83784.jpg,"What's located on top of the side table?
+Answer the question using a single word or phrase.",query,plant,Plant,Plant,Plant,Plant,Plant,1.0,1.0,1.0,1.0,1.0,1,False,"[19, 72, 355, 408]","[19, 72, 355, 408]"
+gqa,20836773,n507959.jpg,"What is hanging from the table that is to the left of the guitar?
+Answer the question using a single word or phrase.",query,purse,Bag,Hat,Hat,Hat,Bags,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 336, 335]","[0, 0, 336, 335]"
+gqa,201711276,n302387.jpg,"Does the fireplace have white color?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 480, 538]","[0, 0, 480, 538]"
+gqa,201882662,n125122.jpg,"Are the paintings on the right or on the left side?
+Answer the question using a single word or phrase.",choose,left,Left,Left,Left,Left,Left,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+gqa,202257089,n92308.jpg,"Is this photo showing a park?
+Answer the question using a single word or phrase.",verify,no,No,Yes,Yes,Yes,Yes,1.0,0.0,0.0,0.0,0.0,1,False,"[170, 0, 640, 424]","[170, 0, 640, 424]"
+gqa,201412341,n143672.jpg,"Do the snowpants that are not short look wet?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 425]","[102, 0, 640, 425]"
+gqa,201641288,n532213.jpg,"How is the sign that is hanging above the tall man called?
+Answer the question using a single word or phrase.",query,street sign,Street sign,Street sign,Street sign,Street sign,Street sign,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 425]","[0, 0, 470, 425]"
+gqa,201739230,n485969.jpg,"Is there a hat that is not blue?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 470]","[0, 0, 470, 470]"
+gqa,201987605,n470131.jpg,"Is the color of the bottle the same as the paper?
+Answer the question using a single word or phrase.",compare,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+gqa,202162658,n69237.jpg,"Which color is the bookcase?
+Answer the question using a single word or phrase.",query,black,Black,Black,Black,Black,Black,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 142, 640, 478]","[304, 142, 640, 478]"
+gqa,202241056,n460385.jpg,"What color is the pizza in the bottom of the image?
+Answer the question using a single word or phrase.",query,white,White,White,White,White,White,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 35, 480, 640]","[0, 35, 480, 640]"
+gqa,20968332,n288870.jpg,"What is the man leaning against?
+Answer the question using a single word or phrase.",query,pole,Sign,Sign,Pole,Pole,Sign,0.0,0.0,1.0,1.0,0.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+gqa,201882905,n125122.jpg,"What device is on the right of the curtains?
+Answer the question using a single word or phrase.",query,television,Television,Television,Television,Television,Television,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 32, 640, 368]","[304, 32, 640, 368]"
+gqa,20596524,n514467.jpg,"What is the sidewalk made of?
+Answer the question using a single word or phrase.",query,concrete,Concrete,Concrete,Concrete,Concrete,Concrete,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 376]","[97, 0, 500, 376]"
+gqa,20827504,n283587.jpg,"Which kind of furniture is cushioned?
+Answer the question using a single word or phrase.",query,chairs,Couch,Couch,Couch,Couch,Couch,0.0,0.0,0.0,0.0,0.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+gqa,202007024,n97485.jpg,"What's the kitchen decorated by?
+Answer the question using a single word or phrase.",query,cabinet,Tiles,Tiles,Tiles,Tiles,Tiles,0.0,0.0,0.0,0.0,0.0,1,False,"[19, 92, 355, 428]","[19, 92, 355, 428]"
+gqa,20753536,n481777.jpg,"Are both the sky and the mountain side the same color?
+Answer the question using a single word or phrase.",compare,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[19, 46, 355, 382]","[19, 46, 355, 382]"
+gqa,201983763,n16378.jpg,"Is the large bag on the left side or on the right?
+Answer the question using a single word or phrase.",choose,right,Right,Right,Right,Right,Right,1.0,1.0,1.0,1.0,1.0,1,False,"[144, 12, 480, 348]","[144, 12, 480, 348]"
+gqa,201765606,n488874.jpg,"Which place is it?
+Answer the question using a single word or phrase.",query,beach,Beach,Beach,Beach,Beach,Beach,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 46, 640, 382]","[304, 46, 640, 382]"
+gqa,202102901,n386682.jpg,"What is the shape of the appliance that is beneath the microwave?
+Answer the question using a single word or phrase.",query,square,Rectangular,Rectangular,Rectangular,Rectangular,Rectangular,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,201400164,n344136.jpg,"Which kind of furniture is not wooden?
+Answer the question using a single word or phrase.",query,couch,Bookshelf,Bookshelf,Bookshelf,Bookshelf,Bookshelf,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 418]","[0, 0, 470, 418]"
+gqa,201623712,n501609.jpg,"Are there white dishwashers or ovens?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+gqa,201549013,n314171.jpg,"Is there a white flag or balloon?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 434, 470]","[0, 0, 434, 470]"
+gqa,202053206,n334278.jpg,"Who is wearing a belt?
+Answer the question using a single word or phrase.",query,umpire,Batter,Batter,Batter,Batter,Batter,0.0,0.0,0.0,0.0,0.0,1,False,"[232, 62, 568, 398]","[232, 62, 568, 398]"
+gqa,201704515,n164272.jpg,"Is the cow above the flowers black and white or colorful?
+Answer the question using a single word or phrase.",choose,black and white,Black and white,Black and white,Colorful,Colorful,Colorful,1.0,1.0,0.0,0.0,0.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+gqa,201412361,n143672.jpg,"Is the backpack large and black?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 425]","[102, 0, 640, 425]"
+gqa,202053203,n334278.jpg,"Who is wearing the shirt?
+Answer the question using a single word or phrase.",query,umpire,Player,Batter,Player,Player,Player,0.0,0.0,0.0,0.0,0.0,1,False,"[232, 62, 568, 398]","[232, 62, 568, 398]"
+gqa,20345023,n560243.jpg,"What does that athlete look at?
+Answer the question using a single word or phrase.",query,tennis ball,Ball,Ball,Ball,Ball,Ball,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+gqa,20385575,n90294.jpg,"Is the remote to the right or to the left of the book?
+Answer the question using a single word or phrase.",choose,right,Left,Left,Left,Left,Left,0.0,0.0,0.0,0.0,0.0,1,False,"[285, 112, 621, 448]","[285, 112, 621, 448]"
+gqa,201188344,n483840.jpg,"What kind of device is the man using?
+Answer the question using a single word or phrase.",query,phone,Cell phone,Cell phone,Cell phone,Cell phone,Cell phone,0.0,0.0,0.0,0.0,0.0,2,True,"[179, 112, 515, 448]","[102, 0, 640, 480]"
+gqa,20120559,n117888.jpg,"Is the tall fence behind or in front of the bench made of wood?
+Answer the question using a single word or phrase.",choose,front,Behind,Behind,Behind,Behind,Behind,0.0,0.0,0.0,0.0,0.0,1,False,"[58, 125, 394, 461]","[58, 125, 394, 461]"
+gqa,20657100,n486200.jpg,"Is there a traffic light to the left of the minivan?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 425]","[0, 0, 470, 425]"
+gqa,201947686,n473688.jpg,"What is she wearing?
+Answer the question using a single word or phrase.",query,tank top,Tank top,Tank top,Tank top,Tank top,Tank top,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 480, 640]","[0, 102, 480, 640]"
+gqa,201947687,n473688.jpg,"What is the girl wearing?
+Answer the question using a single word or phrase.",query,tank top,Tank top,Tank top,Tank top,Tank top,Tank top,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 480, 640]","[0, 102, 480, 640]"
+gqa,201574246,n116329.jpg,"Are there any traffic lights or bombs in the photograph?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 63, 640, 399]","[304, 63, 640, 399]"
+gqa,201997214,n250715.jpg,"Which color is the chair?
+Answer the question using a single word or phrase.",query,black,Blue,Blue,Blue,Blue,Blue,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+gqa,20857040,n293477.jpg,"Are there either wood spoons or knives?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 132, 515, 468]","[179, 132, 515, 468]"
+gqa,202024751,n369595.jpg,"Is that shirt sleeveless or is it long sleeved?
+Answer the question using a single word or phrase.",choose,sleeveless,Long sleeved,Long sleeved,Long sleeved,Long sleeved,Long sleeved,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 424]","[102, 0, 640, 424]"
+gqa,2098205,n513429.jpg,"How large is the speaker that is sitting on the desk?
+Answer the question using a single word or phrase.",query,little,Large,Large,Small,Small,Large,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+gqa,2072790,n498140.jpg,"Is the grill below a bus driver?
+Answer the question using a single word or phrase.",verify,yes,No,Yes,No,Yes,Yes,0.0,1.0,0.0,1.0,1.0,2,True,"[179, 71, 515, 407]","[0, 0, 605, 424]"
+gqa,201765952,n488874.jpg,"What is scattered on the dirty dirt?
+Answer the question using a single word or phrase.",query,boats,Boats,Boats,Boats,Boats,Boats,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 64, 595, 400]","[259, 64, 595, 400]"
+gqa,201766020,n488874.jpg,"Is the dirt that looks dark brown dirty or clean?
+Answer the question using a single word or phrase.",choose,dirty,Dirty,Dirty,Dirty,Dirty,Dirty,1.0,1.0,1.0,1.0,1.0,2,True,"[179, 64, 515, 400]","[0, 0, 538, 428]"
+gqa,20733988,n90944.jpg,"What is surrounding the sand?
+Answer the question using a single word or phrase.",query,trees,Water,Water,Water,Water,Water,0.0,0.0,0.0,0.0,0.0,1,False,"[47, 304, 383, 640]","[47, 304, 383, 640]"
+gqa,202119181,n544255.jpg,"Is the man above a skateboard?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 0, 480, 538]","[32, 0, 368, 336]"
+gqa,2017157,n324908.jpg,"Is the pasture dry or wet?
+Answer the question using a single word or phrase.",choose,dry,Dry,Dry,Dry,Dry,Dry,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+gqa,20655403,n199097.jpg,"What type of sign is on the wide sidewalk?
+Answer the question using a single word or phrase.",query,street sign,Street sign,Movie,Street sign,Street sign,Street sign,1.0,0.0,1.0,1.0,1.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+gqa,202231819,n232810.jpg,"Does the suitcase on the floor have red color?
+Answer the question using a single word or phrase.",verify,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 375, 470]","[0, 0, 375, 470]"
+gqa,20827468,n283587.jpg,"What kind of furniture is in front of the window that looks square?
+Answer the question using a single word or phrase.",query,sofa,Couch,Couch,Couch,Couch,Couch,0.0,0.0,0.0,0.0,0.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+gqa,201795347,n119944.jpg,"Who is sitting?
+Answer the question using a single word or phrase.",query,woman,People,Woman,Woman,People,Woman,0.0,1.0,1.0,0.0,1.0,2,True,"[259, 30, 595, 366]","[35, 0, 640, 433]"
+gqa,201738980,n485969.jpg,"What is wearing pants?
+Answer the question using a single word or phrase.",query,pitcher,Pitcher,Pitcher,Pitcher,Pitcher,Pitcher,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 195, 381, 531]","[45, 195, 381, 531]"
+gqa,20667311,n181355.jpg,"Does the hat appear to be crooked?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 0, 515, 470]","[45, 0, 515, 470]"
+gqa,201832266,n432591.jpg,"Is it a bedroom or a bathroom?
+Answer the question using a single word or phrase.",choose,bedroom,Bedroom,Bedroom,Bedroom,Bedroom,Bedroom,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+gqa,201143245,n276011.jpg,"What is underneath the covered table?
+Answer the question using a single word or phrase.",query,chairs,Bag,Chair,Chair,Chair,Chair,0.0,0.0,0.0,0.0,0.0,1,False,"[72, 48, 408, 384]","[72, 48, 408, 384]"
+gqa,20722045,n89148.jpg,"Is the ladder below the windows?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 480, 605]","[0, 0, 480, 605]"
+gqa,20984478,n12214.jpg,"What is the skater holding onto?
+Answer the question using a single word or phrase.",query,skateboard,Skateboard,Skateboard,Skateboard,Skateboard,Skateboard,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+gqa,202023458,n95313.jpg,"What is the item of furniture that the bed is in front of?
+Answer the question using a single word or phrase.",query,closet,Closet,Closet,Closet,Closet,Closet,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 52, 461, 388]","[125, 52, 461, 388]"
+gqa,20618821,n126087.jpg,"Is the happy man wearing a cap?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 24, 403, 427]","[0, 24, 403, 427]"
+gqa,201303510,n518912.jpg,"Are there chairs in this image that are not white?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+gqa,201866684,n211324.jpg,"How big is the bicycle the baby is on?
+Answer the question using a single word or phrase.",query,small,Small,Small,Small,Small,Small,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 478]","[0, 0, 538, 478]"
+gqa,20783298,n355339.jpg,"Is the clear glass small or large?
+Answer the question using a single word or phrase.",choose,small,Small,Small,Small,Small,Small,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 63, 435, 399]","[99, 63, 435, 399]"
+gqa,201498370,n315887.jpg,"What kind of device is to the left of the phone?
+Answer the question using a single word or phrase.",query,computer mouse,Keyboard,Computer,Keyboard,Keyboard,Keyboard,0.0,0.0,0.0,0.0,0.0,2,True,"[0, 44, 336, 380]","[0, 0, 538, 425]"
+gqa,20157457,n170941.jpg,"What is located on top of the pancake?
+Answer the question using a single word or phrase.",query,butter,Butter,Butter,Butter,Butter,Butter,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 72, 435, 408]","[99, 72, 435, 408]"
+gqa,201410972,n415215.jpg,"Is the mirror made of the same material as the tool?
+Answer the question using a single word or phrase.",compare,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 428, 538]","[0, 0, 428, 538]"
+gqa,202119839,n500308.jpg,"Which kind of appliance is clean?
+Answer the question using a single word or phrase.",query,refrigerator,Refrigerator,Refrigerator,Refrigerator,Refrigerator,Refrigerator,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 19, 388, 355]","[52, 19, 388, 355]"
+gqa,20865433,n143935.jpg,"What kind of animal is large?
+Answer the question using a single word or phrase.",query,cow,Cow,Cow,Cow,Cow,Cow,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 52, 435, 388]","[99, 52, 435, 388]"
+gqa,202101042,n472825.jpg,"Is the staircase below a snowboarder?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 132, 515, 468]","[179, 132, 515, 468]"
+gqa,202081532,n433692.jpg,"What shape is the mousepad, square or round?
+Answer the question using a single word or phrase.",choose,square,Square,Square,Square,Square,Square,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+gqa,201570646,n382416.jpg,"What is the cabinet made of?
+Answer the question using a single word or phrase.",query,glass,Wood,Wood,Wood,Wood,Wood,0.0,0.0,0.0,0.0,0.0,1,False,"[52, 125, 388, 461]","[52, 125, 388, 461]"
+gqa,202179627,n523165.jpg,"What is the man looking at?
+Answer the question using a single word or phrase.",query,kite,Kite,Kite,Kite,Kite,Kite,1.0,1.0,1.0,1.0,1.0,1,False,"[98, 0, 568, 470]","[98, 0, 568, 470]"
+gqa,202266148,n534106.jpg,"Are there cones or mirrors?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 92, 336, 428]","[0, 92, 336, 428]"
+gqa,201759286,n150962.jpg,"Is the pot to the right or to the left of the chair?
+Answer the question using a single word or phrase.",choose,right,Right,Right,Right,Right,Right,1.0,1.0,1.0,1.0,1.0,1,False,"[61, 26, 397, 362]","[61, 26, 397, 362]"
+gqa,20710514,n489699.jpg,"The kid that is not male is wearing what?
+Answer the question using a single word or phrase.",query,pants,Jacket,Jacket,Jacket,Jacket,Jacket,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 426]","[102, 0, 640, 426]"
+gqa,201798413,n530733.jpg,"Is the mirror above a sink?
+Answer the question using a single word or phrase.",verify,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+gqa,202001064,n299528.jpg,"How tall is the house to the right of the skater?
+Answer the question using a single word or phrase.",query,short,Short,Short,Short,Short,Short,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 152, 428, 488]","[92, 152, 428, 488]"
+gqa,20308883,n278312.jpg,"What type of appliance is on the counter made of marble?
+Answer the question using a single word or phrase.",query,toaster,Toaster,Toaster,Toaster,Toaster,Toaster,1.0,1.0,1.0,1.0,1.0,1,False,"[205, 52, 541, 388]","[205, 52, 541, 388]"
+gqa,201882767,n125122.jpg,"Do you see coffee tables or mirrors?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+gqa,20479971,n520071.jpg,"Which piece of furniture is large?
+Answer the question using a single word or phrase.",query,desk,Bookshelf,Bookshelf,Bookshelf,Bookshelf,Bookshelf,0.0,0.0,0.0,0.0,0.0,1,False,"[78, 58, 481, 461]","[78, 58, 481, 461]"
+gqa,201951903,n256120.jpg,"Does the jacket that looks beige look comfortable?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+gqa,201879239,n496803.jpg,"Who is wearing the tank top?
+Answer the question using a single word or phrase.",query,athlete,No one,No one,No one,No one,No one,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 47, 288, 383]","[0, 47, 288, 383]"
+gqa,202257495,n92308.jpg,"Is there any smooth sand or snow?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 424]","[0, 0, 470, 424]"
+gqa,20782996,n355339.jpg,"Is the person that is to the left of the screen sitting on a boat?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+gqa,20596548,n514467.jpg,"Is the trash can on the right?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 376]","[0, 0, 403, 376]"
+gqa,2053859,n146555.jpg,"Are the stone buildings new and tall?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 480, 605]","[0, 0, 480, 605]"
+gqa,20442474,n207708.jpg,"Does the drawer below the countertop seem to be rectangular and white?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 232, 428, 568]","[92, 232, 428, 568]"
+gqa,201109510,n167164.jpg,"What kind of vehicle is behind the SUV?
+Answer the question using a single word or phrase.",query,truck,Car,Car,Car,Car,Car,0.0,0.0,0.0,0.0,0.0,1,False,"[40, 39, 376, 375]","[40, 39, 376, 375]"
+gqa,201859010,n460556.jpg,"Does the light fixture have the same color as the hat?
+Answer the question using a single word or phrase.",compare,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+gqa,20752293,n209843.jpg,"Does that towel have green color and striped pattern?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[164, 39, 500, 375]","[164, 39, 500, 375]"
+gqa,202226281,n336443.jpg,"What is the food on the plate?
+Answer the question using a single word or phrase.",query,mashed potatoes,Mashed potatoes,Vegetables,Vegetables,Vegetables,Meat and vegetables,1.0,0.0,0.0,0.0,0.0,1,False,"[125, 63, 461, 399]","[125, 63, 461, 399]"
+gqa,202119823,n500308.jpg,"What kind of appliance is it?
+Answer the question using a single word or phrase.",query,refrigerator,Refrigerator,Refrigerator,Refrigerator,Refrigerator,Refrigerator,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 19, 388, 355]","[52, 19, 388, 355]"
+gqa,20542963,n100552.jpg,"What is the elephant inside of?
+Answer the question using a single word or phrase.",query,zoo,Pen,Pen,Pen,Pen,Pen,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 79, 336, 415]","[0, 79, 336, 415]"
+gqa,20863724,n14.jpg,"Is the motorbike to the right of the skateboarder in this photo?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 125, 408, 461]","[72, 125, 408, 461]"
+gqa,20865607,n143935.jpg,"Is the lush tree behind a house?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[125, 0, 595, 470]","[99, 52, 435, 388]"
+gqa,20414591,n16936.jpg,"Who is watching the skateboarder on the left side of the picture?
+Answer the question using a single word or phrase.",query,spectators,People,People,People,People,People,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+gqa,201983686,n16378.jpg,"How wide are the black jeans?
+Answer the question using a single word or phrase.",query,narrow,Wide,Wide,Wide,Wide,Wide,0.0,0.0,0.0,0.0,0.0,1,False,"[144, 12, 480, 348]","[144, 12, 480, 348]"
+gqa,201759185,n150962.jpg,"On which side of the image is the mat?
+Answer the question using a single word or phrase.",query,right,Right,Right,Right,Right,Right,1.0,1.0,1.0,1.0,1.0,1,False,"[164, 26, 500, 362]","[164, 26, 500, 362]"
+gqa,2090974,n565418.jpg,"Are the windows foggy and dark?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 360]","[170, 0, 640, 360]"
+gqa,20211037,n312206.jpg,"Is the knife on the left?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,20789953,n475030.jpg,"Does the horse that is to the right of the other horse look white and healthy?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 259, 428, 595]","[92, 259, 428, 595]"
+gqa,201947738,n473688.jpg,"What is the faucet mounted on?
+Answer the question using a single word or phrase.",query,countertop,Sink,Sink,Wall,Wall,Wall,0.0,0.0,0.0,0.0,0.0,1,False,"[52, 304, 388, 640]","[52, 304, 388, 640]"
+gqa,202106342,n574498.jpg,"What is the fence made of?
+Answer the question using a single word or phrase.",query,metal,Metal,Metal,Metal,Metal,Metal,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 348, 403]","[0, 0, 348, 403]"
+gqa,20285554,n192021.jpg,"What is the color of the curtain that is to the left of the pillows?
+Answer the question using a single word or phrase.",query,yellow,Yellow,Yellow,Yellow,Yellow,Yellow,1.0,1.0,1.0,1.0,1.0,1,False,"[46, 179, 382, 515]","[46, 179, 382, 515]"
+gqa,201411227,n415215.jpg,"What color is the toilet brush on the right?
+Answer the question using a single word or phrase.",query,black,Yellow,Yellow,Yellow,Yellow,Yellow,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 237, 403, 640]","[0, 237, 403, 640]"
+gqa,20609358,n437064.jpg,"The whipped cream is in front of what?
+Answer the question using a single word or phrase.",query,strawberry,Strawberry,Strawberry,Strawberry,Strawberry,Strawberry,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 428]","[170, 0, 640, 428]"
+gqa,201880434,n95369.jpg,"What color is the shower that is in the bathroom?
+Answer the question using a single word or phrase.",query,white,White,White,White,White,White,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 428, 470]","[0, 0, 428, 470]"
+gqa,20151660,n313060.jpg,"Is the sweatshirt black and open?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 538, 640]","[0, 102, 538, 640]"
+gqa,20317034,n350766.jpg,"Is that drawer below a counter?
+Answer the question using a single word or phrase.",verify,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+gqa,201037259,n393305.jpg,"What color is the hydrant on the sidewalk?
+Answer the question using a single word or phrase.",query,silver,Gold,Gold,Gold,Gold,Gold,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 480, 605]","[0, 0, 480, 605]"
+gqa,20226566,n68769.jpg,"Are there chairs underneath the light fixture that is made of wood?
+Answer the question using a single word or phrase.",verify,yes,No,No,Yes,No,Yes,0.0,0.0,1.0,0.0,1.0,2,True,"[0, 52, 336, 388]","[0, 0, 605, 480]"
+gqa,20473046,n126891.jpg,"Who is wearing the jersey?
+Answer the question using a single word or phrase.",query,boy,Boy,Boy,Boy,Boy,Boy,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 336]","[0, 0, 403, 336]"
+gqa,20789890,n475030.jpg,"Do you see a zebra or a giraffe there?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 35, 480, 640]","[0, 35, 480, 640]"
+gqa,20511681,n208458.jpg,"Is the dock wooden and long?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 334]","[97, 0, 500, 334]"
+gqa,20177767,n55058.jpg,"What kind of meat is on top of the cutting board?
+Answer the question using a single word or phrase.",query,burger,Burger,Burger,Burger,Burger,Burger,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 151, 336, 487]","[0, 151, 336, 487]"
+gqa,201623778,n501609.jpg,"Is the red oven below a microwave?
+Answer the question using a single word or phrase.",verify,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[152, 63, 488, 399]","[152, 63, 488, 399]"
+gqa,202119614,n544255.jpg,"Do the trees below the sky look tall or short?
+Answer the question using a single word or phrase.",choose,tall,Tall,Tall,Tall,Tall,Tall,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 125, 428, 461]","[92, 125, 428, 461]"
+gqa,20307200,n554880.jpg,"What device is behind the man?
+Answer the question using a single word or phrase.",query,television,Camera,Camera,Camera,Camera,Camera,0.0,0.0,0.0,0.0,0.0,1,False,"[152, 62, 488, 398]","[152, 62, 488, 398]"
+gqa,201711129,n302387.jpg,"Is the tall shelf on the left?
+Answer the question using a single word or phrase.",verify,yes,Yes,No,Yes,Yes,Yes,1.0,0.0,1.0,1.0,1.0,1,False,"[52, 0, 388, 336]","[52, 0, 388, 336]"
+gqa,201639085,n497789.jpg,"Are all the animals zebras?
+Answer the question using a single word or phrase.",compare,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[285, 52, 621, 388]","[285, 52, 621, 388]"
+gqa,20741063,n23762.jpg,"Are there bottles on the wood table?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[92, 304, 428, 640]","[0, 102, 480, 640]"
+gqa,2012597,n318370.jpg,"What do the bottle and the drink have in common?
+Answer the question using a single word or phrase.",compare,material,Color,Color,Color,Color,Color,0.0,0.0,0.0,0.0,0.0,1,False,"[72, 92, 408, 428]","[72, 92, 408, 428]"
+gqa,202240701,n162148.jpg,"What's the shirt worn on?
+Answer the question using a single word or phrase.",query,undershirt,Body,Body,Body,Body,Man,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,201431008,n206785.jpg,"What is pulled by the person?
+Answer the question using a single word or phrase.",query,tie,Tie,Tie,Tie,Tie,Tie,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 425]","[102, 0, 640, 425]"
+gqa,202266019,n534106.jpg,"Is this a bed or a couch?
+Answer the question using a single word or phrase.",choose,couch,Couch,Couch,Couch,Couch,Couch,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 92, 336, 428]","[0, 92, 336, 428]"
+gqa,20151642,n313060.jpg,"What clothing item is open?
+Answer the question using a single word or phrase.",query,sweatshirt,Jacket,Jacket,Jacket,Jacket,Jacket,0.0,0.0,0.0,0.0,0.0,1,False,"[179, 205, 515, 541]","[179, 205, 515, 541]"
+gqa,202082034,n433692.jpg,"Are the books to the right of the pens that look small?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[285, 72, 621, 408]","[285, 72, 621, 408]"
+gqa,201908911,n479092.jpg,"Do the utensils next to the forks look black and hard?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[205, 52, 541, 388]","[205, 52, 541, 388]"
+gqa,20644681,n250821.jpg,"What is falling off the floor?
+Answer the question using a single word or phrase.",query,sneakers,Shoe,Shoe,Shoe,Shoe,Shoe,0.0,0.0,0.0,0.0,0.0,1,False,"[92, 205, 428, 541]","[92, 205, 428, 541]"
+gqa,20119188,n540852.jpg,"What kind of clothing is black?
+Answer the question using a single word or phrase.",query,suit,Suit,Dress,Suit,Suit,Suit,1.0,0.0,1.0,1.0,1.0,1,False,"[60, 99, 396, 435]","[60, 99, 396, 435]"
+gqa,20785906,n12404.jpg,"What is the fire hydrant in front of?
+Answer the question using a single word or phrase.",query,cone,Tree,Fence,Tree,Tree,Tree,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 538, 432]","[0, 0, 538, 432]"
+gqa,20258739,n204894.jpg,"How old is the person that is wearing a shirt?
+Answer the question using a single word or phrase.",query,young,Little,Little,Little,Little,Little,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 35, 425, 640]","[0, 35, 425, 640]"
+gqa,201623758,n501609.jpg,"Is the oven to the left or to the right of the appliance the cabinets are below?
+Answer the question using a single word or phrase.",choose,left,Left,Right,Right,Right,Right,1.0,0.0,0.0,0.0,0.0,1,False,"[19, 63, 355, 399]","[19, 63, 355, 399]"
+gqa,201795070,n119944.jpg,"Does the elephant appear to be walking?
+Answer the question using a single word or phrase.",verify,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[259, 67, 595, 403]","[259, 67, 595, 403]"
+gqa,20836960,n507959.jpg,"Who is looking down?
+Answer the question using a single word or phrase.",query,people,Woman,Woman,Woman,Woman,Woman,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 335]","[0, 0, 470, 335]"
+gqa,20865390,n143935.jpg,"Is the pasture that is not closed green or brown?
+Answer the question using a single word or phrase.",choose,green,Green,Green,Green,Green,Green,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 52, 435, 388]","[99, 52, 435, 388]"
+gqa,20308158,n278312.jpg,"The microwave oven that is to the right of the refrigerator is of which shape?
+Answer the question using a single word or phrase.",query,rectangular,Square,Square,Square,Square,Square,0.0,0.0,0.0,0.0,0.0,2,True,"[125, 0, 461, 336]","[102, 0, 640, 480]"
+gqa,201065442,n429883.jpg,"What are the items of furniture to the right of the man that is wearing glasses?
+Answer the question using a single word or phrase.",query,chairs,Chairs,Chairs,Chairs,Chairs,Chairs,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+gqa,20302864,n318684.jpg,"What is the fence in front of?
+Answer the question using a single word or phrase.",query,bench,Ocean,Ocean,Ocean,Ocean,Ocean,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+gqa,20863394,n14.jpg,"What is the cyclist riding?
+Answer the question using a single word or phrase.",query,motorcycle,Scooter,Scooter,Skateboard,Skateboard,Skateboard,0.0,0.0,0.0,0.0,0.0,1,False,"[92, 125, 428, 461]","[92, 125, 428, 461]"
+gqa,202223212,n257997.jpg,"Is the man wearing shorts?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 401]","[0, 0, 403, 401]"
+gqa,201859264,n460556.jpg,"On which side of the image is the bicycle?
+Answer the question using a single word or phrase.",query,right,Right,Right,Right,Right,Right,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,201974825,n274905.jpg,"Is the tennis player holding the tennis racket?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 46, 408, 382]","[72, 46, 408, 382]"
+gqa,201030410,n54424.jpg,"Which kind of furniture is it?
+Answer the question using a single word or phrase.",query,couch,Couch,Couch,Couch,Couch,Couch,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+gqa,201185777,n494918.jpg,"Do the shorts made out of cotton look orange and long?
+Answer the question using a single word or phrase.",logical,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 375, 403]","[0, 0, 375, 403]"
+gqa,20754682,n566028.jpg,"What is the height of the person that is standing by the other person?
+Answer the question using a single word or phrase.",query,tall,Tall,Tall,Tall,Tall,Tall,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 24, 336, 360]","[51, 0, 589, 360]"
+gqa,201067749,n367944.jpg,"What kind of furniture is square?
+Answer the question using a single word or phrase.",query,table,Table,Table,Table,Table,Table,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 32, 336, 368]","[25, 58, 428, 461]"
+gqa,202284787,n100991.jpg,"What is common to the egg and the plate?
+Answer the question using a single word or phrase.",compare,shape,Color,Color,Color,Color,Color,0.0,0.0,0.0,0.0,0.0,1,False,"[205, 32, 541, 368]","[205, 32, 541, 368]"
+gqa,201593499,n524855.jpg,"Do the mountains that are not short look grassy or rocky?
+Answer the question using a single word or phrase.",choose,rocky,Rocky,Rocky,Rocky,Rocky,Rocky,1.0,1.0,1.0,1.0,1.0,1,False,"[98, 0, 568, 427]","[98, 0, 568, 427]"
+gqa,2091097,n565418.jpg,"Are there any buses or trucks in the image?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 360]","[0, 0, 403, 360]"
+gqa,20810802,n167552.jpg,"Do the dog and the rug have a different colors?
+Answer the question using a single word or phrase.",compare,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 63, 640, 399]","[304, 63, 640, 399]"
+gqa,20891595,n347706.jpg,"Is the cloth shirt short sleeved and gray?
+Answer the question using a single word or phrase.",logical,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 78, 403, 481]","[0, 78, 403, 481]"
+gqa,201556583,n525901.jpg,"Which piece of furniture is not tall, the shelf or the office chair?
+Answer the question using a single word or phrase.",choose,office chair,Office chair,Office chair,Office chair,Office chair,Office chair,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 39, 336, 375]","[0, 39, 336, 375]"
+gqa,202246683,n310828.jpg,"What kind of furniture is full?
+Answer the question using a single word or phrase.",query,computer desk,Desk,Desk,Desk,Desk,Desk,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 605, 431]","[0, 0, 605, 431]"
+gqa,20611686,n28996.jpg,"Which kind of food is not cut, the grapes or the sandwiches?
+Answer the question using a single word or phrase.",choose,grapes,Grapes,Grapes,Grapes,Grapes,Grapes,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 77, 455, 480]","[52, 77, 455, 480]"
+gqa,201751862,n355567.jpg,"Is the tennis net rectangular and small?
+Answer the question using a single word or phrase.",logical,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[205, 46, 541, 382]","[205, 46, 541, 382]"
+gqa,202006421,n97485.jpg,"What is the height of the chair that is underneath the table?
+Answer the question using a single word or phrase.",query,short,Short,Short,Short,Short,Short,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 92, 461, 428]","[125, 92, 461, 428]"
+gqa,202000909,n299528.jpg,"Who rides on a skateboard?
+Answer the question using a single word or phrase.",query,skater,Boy,Man,Man,Man,Man,0.0,0.0,0.0,0.0,0.0,1,False,"[92, 152, 428, 488]","[92, 152, 428, 488]"
+gqa,201623883,n501609.jpg,"Is the stove black?
+Answer the question using a single word or phrase.",verify,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[152, 46, 488, 382]","[152, 46, 488, 382]"
+gqa,201735648,n240973.jpg,"Is that a white desk?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+gqa,202106107,n574498.jpg,"Do the ball and the tennis racket have the same color?
+Answer the question using a single word or phrase.",compare,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 80, 348, 483]","[0, 80, 348, 483]"
+gqa,201535661,n272098.jpg,"How do the food to the left of the rope look, white or dark brown?
+Answer the question using a single word or phrase.",choose,dark brown,Dark brown,Dark brown,Dark brown,Dark brown,Dark brown,1.0,1.0,1.0,1.0,1.0,1,False,"[23, 276, 359, 612]","[23, 276, 359, 612]"
+gqa,20783391,n355339.jpg,"Is the plastic keyboard to the left or to the right of the chair on the left side?
+Answer the question using a single word or phrase.",choose,right,Right,Right,Right,Right,Right,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 63, 640, 399]","[304, 63, 640, 399]"
+gqa,20953056,n413319.jpg,"Who is about to hit the tennis ball?
+Answer the question using a single word or phrase.",query,player,Man,Man,Man,Man,Man,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 427, 605]","[0, 0, 427, 605]"
+gqa,20411825,n363445.jpg,"Are the orange vegetables to the right of the food above the apples?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 72, 595, 408]","[259, 72, 595, 408]"
+gqa,201536489,n538684.jpg,"Who is sitting?
+Answer the question using a single word or phrase.",query,spectators,People,Man,Woman,Woman,Woman,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 46, 336, 382]","[0, 46, 336, 382]"
+gqa,201228115,n154856.jpg,"What vehicle is black?
+Answer the question using a single word or phrase.",query,car,Car,Car,Car,Car,Car,1.0,1.0,1.0,1.0,1.0,2,True,"[164, 0, 500, 333]","[0, 0, 403, 333]"
+gqa,201639024,n271392.jpg,"Where are the phones?
+Answer the question using a single word or phrase.",query,sidewalk,On sidewalk,On sidewalk,On sidewalk,On sidewalk,On sidewalk,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+gqa,20667683,n181355.jpg,"What device is lying on top of the coffee table?
+Answer the question using a single word or phrase.",query,remote control,Remote control,Remote control,Remote control,Remote control,Remote control,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 132, 515, 468]","[179, 132, 515, 468]"
+gqa,20878950,n259949.jpg,"What is in front of the leafy trees?
+Answer the question using a single word or phrase.",query,parking lot,Parking lot,Road,Parking lot,Parking lot,Parking lot,1.0,0.0,1.0,1.0,1.0,1,False,"[45, 62, 381, 398]","[45, 62, 381, 398]"
+gqa,2075866,n315859.jpg,"Are the words red?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 336]","[0, 0, 605, 336]"
+gqa,201445019,n289376.jpg,"What is the name of the sign that is standing in the lawn?
+Answer the question using a single word or phrase.",query,street sign,Parking sign,Parking sign,Parking sign,Parking sign,Parking sign,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 51, 480, 589]","[0, 51, 480, 589]"
+gqa,201883141,n125122.jpg,"What shape are the pillows that look red and white?
+Answer the question using a single word or phrase.",query,rectangular,Square,Square,Square,Square,Square,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 92, 336, 428]","[0, 92, 336, 428]"
+gqa,202228494,n77818.jpg,"What is the animal behind the wall made of brick?
+Answer the question using a single word or phrase.",query,cat,Cat,Cat,Cat,Cat,Cat,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 77, 360, 480]","[0, 77, 360, 480]"
+gqa,202231564,n79078.jpg,"Is the gray shirt short sleeved or long sleeved?
+Answer the question using a single word or phrase.",choose,short sleeved,Short sleeved,Short sleeved,Short sleeved,Short sleeved,Short sleeved,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 72, 408, 408]","[72, 72, 408, 408]"
+gqa,2017055,n324908.jpg,"Which place is it?
+Answer the question using a single word or phrase.",query,pasture,Field,Field,Field,Field,Field,0.0,0.0,0.0,0.0,0.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+gqa,201504726,n298104.jpg,"Is the flower on the surfboard large and white?
+Answer the question using a single word or phrase.",logical,no,No,Yes,Yes,Yes,Yes,1.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 426, 605]","[0, 0, 426, 605]"
+gqa,202120062,n500308.jpg,"Is there any cabinet to the left of the appliance next to the window?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 45, 388, 381]","[52, 45, 388, 381]"
+gqa,201640322,n235859.jpg,"Who is the man holding?
+Answer the question using a single word or phrase.",query,women,Woman,Woman,Woman,Woman,Woman,0.0,0.0,0.0,0.0,0.0,1,False,"[30, 0, 500, 375]","[30, 0, 500, 375]"
+gqa,201711128,n302387.jpg,"Are there bottles or tables in this scene?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 0, 388, 336]","[52, 0, 388, 336]"
+gqa,201303430,n518912.jpg,"Is the floor low and green?
+Answer the question using a single word or phrase.",logical,yes,No,No,Yes,Yes,Yes,0.0,0.0,1.0,1.0,1.0,1,False,"[179, 144, 515, 480]","[179, 144, 515, 480]"
+gqa,201303292,n518912.jpg,"Do you see any chair on top of the floor?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 92, 435, 428]","[99, 92, 435, 428]"
+gqa,20330200,n260521.jpg,"What is the tall person reading?
+Answer the question using a single word or phrase.",query,book,Book,Book,Book,Book,Book,1.0,1.0,1.0,1.0,1.0,1,False,"[98, 0, 568, 427]","[98, 0, 568, 427]"
+gqa,201759241,n150962.jpg,"Do the coats look thin?
+Answer the question using a single word or phrase.",verify,no,Yes,No,Yes,Yes,Yes,0.0,1.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 389]","[0, 0, 403, 389]"
+gqa,201621358,n275148.jpg,"What is the desk made of?
+Answer the question using a single word or phrase.",query,metal,Wood,Wood,Wood,Wood,Wood,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 51, 336, 387]","[0, 51, 336, 387]"
+gqa,201056081,n259002.jpg,"Does the soccer player to the left of the ball appear to be playing?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 394]","[0, 0, 470, 394]"
+gqa,202101161,n472825.jpg,"Who is wearing jeans?
+Answer the question using a single word or phrase.",query,skateboarder,Boy,Boy,Boy,Boy,Boy,0.0,0.0,0.0,0.0,0.0,1,False,"[105, 58, 508, 461]","[105, 58, 508, 461]"
+gqa,20794158,n278453.jpg,"Which material was used to make the white plate?
+Answer the question using a single word or phrase.",query,porcelain,Porcelain,Porcelain,Porcelain,Porcelain,Porcelain,1.0,1.0,1.0,1.0,1.0,1,False,"[68, 304, 404, 640]","[68, 304, 404, 640]"
+gqa,20441884,n207708.jpg,"Does the plant have a different color than the bookcase?
+Answer the question using a single word or phrase.",compare,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 99, 428, 435]","[92, 99, 428, 435]"
+gqa,20412399,n445353.jpg,"What is in front of the bricks?
+Answer the question using a single word or phrase.",query,chair,Fireplace,Chair,Fireplace,Fireplace,Vase,0.0,1.0,0.0,0.0,0.0,1,False,"[152, 46, 488, 382]","[152, 46, 488, 382]"
+gqa,201902277,n435808.jpg,"Is the color of the chair the same as that of the computer?
+Answer the question using a single word or phrase.",compare,yes,Yes,No,No,No,Yes,1.0,0.0,0.0,0.0,1.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+gqa,201859509,n546884.jpg,"What is in the basket?
+Answer the question using a single word or phrase.",query,donut,Donut,Donut,Donut,Donut,Donut,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 52, 381, 388]","[45, 52, 381, 388]"
+gqa,20226689,n68769.jpg,"Which kind of furniture is not white?
+Answer the question using a single word or phrase.",query,chair,Chair,Chair,Chair,Chair,Chair,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 58, 403, 461]","[0, 58, 403, 461]"
+gqa,20508746,n511913.jpg,"Which kind of furniture is the woman before?
+Answer the question using a single word or phrase.",query,table,Chair,Chair,Chair,Chair,Chair,0.0,0.0,0.0,0.0,0.0,2,True,"[304, 28, 640, 364]","[0, 0, 605, 427]"
+gqa,201676461,n233607.jpg,"Which kind of furniture isn't brown?
+Answer the question using a single word or phrase.",query,shelf,Couch,Couch,Couch,Couch,Couch,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 28, 640, 364]","[304, 28, 640, 364]"
+gqa,20536048,n410476.jpg,"Are the animals of different types?
+Answer the question using a single word or phrase.",compare,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[28, 0, 364, 336]","[28, 0, 364, 336]"
+gqa,20878990,n259949.jpg,"Is the skater in the parking lot wearing shoes?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[98, 0, 568, 409]","[98, 0, 568, 409]"
+gqa,20412523,n445353.jpg,"Is the person in the top or in the bottom?
+Answer the question using a single word or phrase.",choose,top,Top,Top,Top,Top,Top,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 427]","[0, 0, 605, 427]"
+gqa,20744273,n562105.jpg,"Does the dirt look empty and white?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 130, 336, 466]","[0, 130, 336, 466]"
+gqa,201428945,n64959.jpg,"What appliance is to the right of the box?
+Answer the question using a single word or phrase.",query,refrigerator,Refrigerator,Dishwasher,Refrigerator,Refrigerator,Refrigerator,1.0,0.0,1.0,1.0,1.0,2,True,"[19, 46, 355, 382]","[0, 0, 605, 427]"
+gqa,20978210,n551964.jpg,"Is the young boy on the right?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 377]","[0, 0, 470, 377]"
+gqa,20515931,n70461.jpg,"Is this a train or a bus?
+Answer the question using a single word or phrase.",choose,train,Train,Train,Train,Train,Train,1.0,1.0,1.0,1.0,1.0,1,False,"[18, 0, 488, 433]","[18, 0, 488, 433]"
+gqa,20226352,n68769.jpg,"Are all the people the same gender?
+Answer the question using a single word or phrase.",compare,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[125, 112, 461, 448]","[0, 0, 605, 480]"
+gqa,202219027,n578564.jpg,"What shape is the toaster that is below the chalkboard?
+Answer the question using a single word or phrase.",query,rectangular,Square,Square,Square,Square,Square,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 35, 427, 640]","[0, 35, 427, 640]"
+gqa,2076343,n173807.jpg,"Is the vehicle that is driving light and cream colored?
+Answer the question using a single word or phrase.",logical,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[205, 52, 541, 388]","[205, 52, 541, 388]"
+gqa,201735595,n240973.jpg,"To what is the tray mounted?
+Answer the question using a single word or phrase.",query,desk,Wall,Shelf,Wall,Wall,Wall,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 52, 640, 388]","[304, 52, 640, 388]"
+gqa,201957088,n536256.jpg,"What does the standing person to the right of the lamp used, a Wii controller or a laptop?
+Answer the question using a single word or phrase.",choose,wii controller,Wii controller,Wii controller,Wii controller,Wii controller,Wii controller,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 112, 435, 448]","[99, 112, 435, 448]"
+gqa,20247586,n223750.jpg,"Does the woman's hair have brunette color and long length?
+Answer the question using a single word or phrase.",logical,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[116, 158, 519, 561]","[116, 158, 519, 561]"
+gqa,20781968,n317189.jpg,"Do the skis that are not short look thin and dirty?
+Answer the question using a single word or phrase.",logical,no,No,Yes,Yes,Yes,No,1.0,0.0,0.0,0.0,1.0,1,False,"[0, 35, 427, 640]","[0, 35, 427, 640]"
+gqa,202218731,n578564.jpg,"What is the shape of the chalkboard?
+Answer the question using a single word or phrase.",query,square,Rectangle,Rectangle,Rectangle,Rectangle,Rectangle,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 35, 427, 640]","[0, 35, 427, 640]"
+gqa,2098333,n513429.jpg,"Which kind of device is the poster behind of?
+Answer the question using a single word or phrase.",query,monitor,Monitor,Monitor,Monitor,Monitor,Monitor,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 375]","[0, 0, 470, 375]"
+gqa,201887105,n429961.jpg,"What is the vegetable that is on the table in front of the vehicle called?
+Answer the question using a single word or phrase.",query,cabbage,Broccoli,Broccoli,Broccoli,Broccoli,Broccoli,0.0,0.0,0.0,0.0,0.0,1,False,"[45, 52, 381, 388]","[45, 52, 381, 388]"
+gqa,20508728,n511913.jpg,"What device is the woman holding?
+Answer the question using a single word or phrase.",query,wii controller,Wii controller,Wii remote,Wii controller,Wii controller,Wii controller,1.0,0.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+gqa,201188326,n483840.jpg,"Who is wearing a ring?
+Answer the question using a single word or phrase.",query,man,Man,Man,Man,Man,Man,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 112, 461, 448]","[125, 112, 461, 448]"
+gqa,201654627,n6309.jpg,"What material is the fence made of?
+Answer the question using a single word or phrase.",query,metal,Wood,Metal,Metal,Metal,Metal,0.0,1.0,1.0,1.0,1.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+gqa,20317080,n350766.jpg,"Which type of material is used to make the trash bin below the pepper shaker?
+Answer the question using a single word or phrase.",query,plastic,Plastic,Plastic,Plastic,Plastic,Plastic,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+gqa,20427785,n281241.jpg,"Who is the man sitting beside?
+Answer the question using a single word or phrase.",query,gentleman,Man,Man,Man,Man,Man,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 35, 427, 640]","[0, 35, 427, 640]"
+gqa,202218847,n578564.jpg,"What kind of cooking utensil is above the flower pot?
+Answer the question using a single word or phrase.",query,pan,Kettle,Kettle,Kettle,Kettle,Kettle,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 35, 427, 640]","[0, 35, 427, 640]"
+gqa,202080991,n314630.jpg,"Is the house both wooden and red?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 333]","[0, 0, 470, 333]"
+gqa,20600162,n196058.jpg,"What are the large animals called?
+Answer the question using a single word or phrase.",query,zebras,Zebras,Zebras,Zebras,Zebras,Zebras,1.0,1.0,1.0,1.0,1.0,1,False,"[132, 24, 535, 427]","[132, 24, 535, 427]"
+gqa,20385467,n90294.jpg,"How thick is the book to the left of the remote?
+Answer the question using a single word or phrase.",query,thick,Thick,Thick,Thick,Thick,Thick,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 52, 595, 388]","[259, 52, 595, 388]"
+gqa,20866512,n579256.jpg,"How long is the brown hair?
+Answer the question using a single word or phrase.",query,long,Long,Short,Long,Long,Long,1.0,0.0,1.0,1.0,1.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+gqa,201593943,n200907.jpg,"Does the shirt look short sleeved or long sleeved?
+Answer the question using a single word or phrase.",choose,short sleeved,Short sleeved,Short sleeved,Short sleeved,Short sleeved,Short sleeved,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,201621788,n275148.jpg,"Is there a silver television or speaker?
+Answer the question using a single word or phrase.",logical,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[0, 51, 336, 387]","[0, 51, 336, 387]"
+gqa,20668061,n181355.jpg,"Which kind of furniture is brown?
+Answer the question using a single word or phrase.",query,couch,Couch,Couch,Couch,Couch,Couch,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 112, 461, 448]","[125, 112, 461, 448]"
+gqa,201879366,n290409.jpg,"What's the sidewalk in front of?
+Answer the question using a single word or phrase.",query,basket,Bushes,House,House,House,House,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+gqa,2094079,n450919.jpg,"What animal is the fence in front of?
+Answer the question using a single word or phrase.",query,giraffe,Giraffe,Giraffe,Giraffe,Giraffe,Giraffe,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 59, 375, 462]","[0, 59, 375, 462]"
+gqa,20954000,n498712.jpg,"What is the man doing?
+Answer the question using a single word or phrase.",query,talking,Standing,Standing,Standing,Standing,Standing,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,202041891,n449058.jpg,"What was used to make the street?
+Answer the question using a single word or phrase.",query,concrete,Asphalt,Asphalt,Asphalt,Asphalt,Asphalt,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 512]","[102, 0, 640, 512]"
+gqa,20609774,n437064.jpg,"Is the cake to the left or to the right of the bowl?
+Answer the question using a single word or phrase.",choose,left,Left,Left,Left,Left,Left,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 428]","[0, 0, 470, 428]"
+gqa,202244293,n296467.jpg,"Does the white food look small and thick?
+Answer the question using a single word or phrase.",logical,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[80, 0, 483, 375]","[80, 0, 483, 375]"
+gqa,201068789,n159802.jpg,"What piece of clothing is long sleeved?
+Answer the question using a single word or phrase.",query,blouse,Shirt,Jacket,Sweater,Jacket,Jacket,0.0,0.0,0.0,0.0,0.0,2,True,"[99, 46, 435, 382]","[0, 46, 336, 382]"
+gqa,201996866,n250715.jpg,"Does the shirt look brown and clean?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[285, 52, 621, 388]","[285, 52, 621, 388]"
+gqa,201206885,n222915.jpg,"What is sitting on the papers?
+Answer the question using a single word or phrase.",query,bowl,Glass,Glass,Glass,Glass,Glass,0.0,0.0,0.0,0.0,0.0,1,False,"[19, 52, 355, 388]","[19, 52, 355, 388]"
+gqa,202285182,n100991.jpg,"On which side is the cooked meat?
+Answer the question using a single word or phrase.",query,left,Left,Left,Left,Left,Left,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 52, 381, 388]","[45, 52, 381, 388]"
+gqa,20894052,n272313.jpg,"Do the building and the helmet have the same color?
+Answer the question using a single word or phrase.",compare,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[179, 63, 515, 399]","[179, 63, 515, 399]"
+gqa,202226078,n336443.jpg,"Is the white bowl on the left of the photo?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 426]","[102, 0, 640, 426]"
+gqa,20797804,n16656.jpg,"What race is the person that the tree is behind of?
+Answer the question using a single word or phrase.",query,caucasian,White,White,White,White,White,0.0,0.0,0.0,0.0,0.0,1,False,"[205, 37, 541, 373]","[205, 37, 541, 373]"
+gqa,20536279,n410476.jpg,"What animal is to the left of the giraffe?
+Answer the question using a single word or phrase.",query,bison,Buffalo,Rhino,Rhino,Rhino,Rhino,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 427, 470]","[0, 0, 427, 470]"
+gqa,20866392,n579256.jpg,"Which kind of clothing is white?
+Answer the question using a single word or phrase.",query,shirt,T-shirt,T-shirt,T-shirt,T-shirt,T-shirt,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+gqa,201576672,n187961.jpg,"Which kind of animal isn't short?
+Answer the question using a single word or phrase.",query,goat,Dog,Dog,Dog,Dog,Dog,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 605, 474]","[0, 0, 605, 474]"
+gqa,20644658,n250821.jpg,"What is on the paper?
+Answer the question using a single word or phrase.",query,cable,Money,Pen,Pen,Pen,Pen,0.0,0.0,0.0,0.0,0.0,2,True,"[92, 45, 428, 381]","[0, 0, 480, 605]"
+gqa,20381084,n398257.jpg,"Is the rug the same color as the plant?
+Answer the question using a single word or phrase.",compare,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[52, 285, 388, 621]","[52, 285, 388, 621]"
+gqa,20120095,n117888.jpg,"Is the bench behind a fence?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[56, 105, 459, 508]","[56, 105, 459, 508]"
+gqa,202121662,n140421.jpg,"How are the items of furniture below the chandelier called?
+Answer the question using a single word or phrase.",query,chairs,Chairs,Chairs,Chairs,Chairs,Chairs,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 63, 595, 399]","[259, 63, 595, 399]"
+gqa,202240877,n460385.jpg,"Who is sitting at the table?
+Answer the question using a single word or phrase.",query,woman,Woman,Woman,Woman,Woman,Woman,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 152, 428, 488]","[92, 152, 428, 488]"
+gqa,202081203,n314630.jpg,"What is the appliance that is to the right of the house that is in front of the light switch?
+Answer the question using a single word or phrase.",query,toaster,Toaster,Toaster,Toaster,Toaster,Toaster,1.0,1.0,1.0,1.0,1.0,1,False,"[124, 0, 460, 333]","[124, 0, 460, 333]"
+gqa,20543021,n100552.jpg,"Is the fence behind the elephant tall and wooden?
+Answer the question using a single word or phrase.",logical,no,Yes,No,No,No,No,0.0,1.0,1.0,1.0,1.0,1,False,"[0, 79, 336, 415]","[0, 79, 336, 415]"
+gqa,202262330,n28572.jpg,"Is the glass in front of the menu clear and full?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 170, 427, 640]","[0, 170, 427, 640]"
+gqa,201639194,n497789.jpg,"Where is the vehicle?
+Answer the question using a single word or phrase.",query,field,Field,Field,Field,Field,Field,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,202060003,n14087.jpg,"What is the dog in front of?
+Answer the question using a single word or phrase.",query,couch,Christmas tree,Christmas tree,Christmas tree,Christmas tree,Christmas tree,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+gqa,20600081,n196058.jpg,"Is the stone behind the zebras above the grass?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[170, 0, 640, 427]","[0, 0, 470, 427]"
+gqa,201952882,n525029.jpg,"On which side of the picture is the white car?
+Answer the question using a single word or phrase.",query,left,Left,Left,Left,Left,Left,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 112, 640, 448]","[304, 112, 640, 448]"
+gqa,20631887,n570181.jpg,"What is the catcher doing?
+Answer the question using a single word or phrase.",query,waiting,Crouching,Crouching,Crouching,Crouching,Crouching,0.0,0.0,0.0,0.0,0.0,1,False,"[232, 28, 568, 364]","[232, 28, 568, 364]"
+gqa,20403352,n249639.jpg,"What is on the white wall?
+Answer the question using a single word or phrase.",query,mirror,Mirror,Mirror,Mirror,Mirror,Mirror,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 45, 425, 515]","[0, 45, 425, 515]"
+gqa,20508512,n511913.jpg,"What is the man in front of the table holding?
+Answer the question using a single word or phrase.",query,wii controller,Wii controller,Wii controller,Wii controller,Wii controller,Wii controller,1.0,1.0,1.0,1.0,1.0,2,True,"[304, 28, 640, 364]","[45, 0, 515, 427]"
+gqa,202100467,n386688.jpg,"What is in front of the beautiful trees?
+Answer the question using a single word or phrase.",query,ocean,Water,Boats,Boats,Boats,Boats,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 538, 413]","[0, 0, 538, 413]"
+gqa,20511632,n208458.jpg,"The canopy is standing where?
+Answer the question using a single word or phrase.",query,beach,Beach,Beach,Beach,Beach,Beach,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 334]","[0, 0, 403, 334]"
+gqa,201391827,n477702.jpg,"What kind of furniture is the happy man sitting on, a sofa or a coffee table?
+Answer the question using a single word or phrase.",choose,sofa,Sofa,Sofa,Sofa,Sofa,Sofa,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 85, 488, 421]","[152, 85, 488, 421]"
+gqa,201757694,n4777.jpg,"Are there any paper cups or napkins?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 375, 403]","[0, 0, 375, 403]"
+gqa,20654958,n199097.jpg,"Does the street sign have the same color as the vehicle?
+Answer the question using a single word or phrase.",compare,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+gqa,201908802,n479092.jpg,"Are the forks silver and hard?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[205, 52, 541, 388]","[205, 52, 541, 388]"
+gqa,20442346,n207708.jpg,"Are there bookcases in the image?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 99, 408, 435]","[72, 99, 408, 435]"
+gqa,20785815,n12404.jpg,"What's the sidewalk made of?
+Answer the question using a single word or phrase.",query,concrete,Concrete,Concrete,Concrete,Concrete,Concrete,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 432]","[0, 0, 538, 432]"
+gqa,20734044,n90944.jpg,"Is the wet suit comfortable?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[66, 259, 402, 595]","[66, 259, 402, 595]"
+gqa,201885501,n222297.jpg,"The young man above the swimming pool is wearing what?
+Answer the question using a single word or phrase.",query,swimsuit,Shorts,Shorts,Shorts,Shorts,Shorts,0.0,0.0,0.0,0.0,0.0,1,False,"[158, 24, 561, 427]","[158, 24, 561, 427]"
+gqa,202081460,n433692.jpg,"What is the device that is the same shape as the pot called?
+Answer the question using a single word or phrase.",query,computer mouse,Keyboard,Keyboard,Keyboard,Keyboard,Computer mouse,0.0,0.0,0.0,0.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+gqa,20262802,n172618.jpg,"Are there any kites in front of the blue dress?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 129, 515, 465]","[179, 129, 515, 465]"
+gqa,20317086,n350766.jpg,"Is the garbage can below a sink?
+Answer the question using a single word or phrase.",verify,no,No,Yes,Yes,Yes,Yes,1.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+gqa,201080523,n154160.jpg,"Is the catcher on the left side or on the right of the picture?
+Answer the question using a single word or phrase.",choose,right,Right,Right,Right,Right,Right,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 19, 428, 355]","[92, 19, 428, 355]"
+gqa,20866135,n579256.jpg,"Is the tall woman wearing jeans?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+gqa,201682418,n51658.jpg,"What is the standing person to the right of the man doing?
+Answer the question using a single word or phrase.",query,waiting,Watching,Sitting,Watching,Watching,Watching,0.0,0.0,0.0,0.0,0.0,1,False,"[28, 0, 364, 336]","[28, 0, 364, 336]"
+gqa,20621841,n210269.jpg,"Are there any bicycles or fences in the photograph?
+Answer the question using a single word or phrase.",logical,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 336, 330]","[0, 0, 336, 330]"
+gqa,20655181,n199097.jpg,"Is the store that is not antique huge or small?
+Answer the question using a single word or phrase.",choose,huge,Huge,Huge,Huge,Huge,Huge,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+gqa,201758014,n4777.jpg,"How large is the table that the cup sits on top of?
+Answer the question using a single word or phrase.",query,small,Small,Small,Small,Small,Small,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+gqa,20149847,n65866.jpg,"What item of furniture isn't modern?
+Answer the question using a single word or phrase.",query,drawer,Drawer,Drawer,Drawer,Drawer,Drawer,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 0, 388, 336]","[52, 0, 388, 336]"
+gqa,202244095,n296467.jpg,"What kind of dessert is baked?
+Answer the question using a single word or phrase.",query,cupcakes,Cupcake,Cupcake,Cupcake,Cupcake,Cupcake,0.0,0.0,0.0,0.0,0.0,1,False,"[15, 0, 485, 375]","[15, 0, 485, 375]"
+gqa,201671819,n410289.jpg,"Is the bright window rectangular or round?
+Answer the question using a single word or phrase.",choose,rectangular,Rectangular,Rectangular,Rectangular,Rectangular,Rectangular,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 103, 336, 439]","[0, 103, 336, 439]"
+gqa,201303522,n518912.jpg,"What is the item of furniture on top of the floor?
+Answer the question using a single word or phrase.",query,chair,Chair,Chair,Chair,Chair,Chair,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+gqa,202228717,n77818.jpg,"Is the printed book near the pepper grinder brown and rectangular?
+Answer the question using a single word or phrase.",logical,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 77, 360, 480]","[0, 77, 360, 480]"
+gqa,201951720,n256120.jpg,"Which kind of vehicle is it?
+Answer the question using a single word or phrase.",query,van,Van,Van,Van,Van,Van,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+gqa,201227912,n154856.jpg,"What color is the window that is made of metal?
+Answer the question using a single word or phrase.",query,black,Black,Black,Black,Black,Black,1.0,1.0,1.0,1.0,1.0,1,False,"[103, 0, 439, 333]","[103, 0, 439, 333]"
+gqa,201492361,n9856.jpg,"What is the tree in front of?
+Answer the question using a single word or phrase.",query,fence,Fence,Fence,House,House,House,1.0,1.0,0.0,0.0,0.0,1,False,"[0, 0, 428, 538]","[0, 0, 428, 538]"
+gqa,20508170,n511913.jpg,"How big are the blinds?
+Answer the question using a single word or phrase.",query,large,Large,Large,Large,Large,Large,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+gqa,201623664,n501609.jpg,"Is the sink that is not turned on silver and curved?
+Answer the question using a single word or phrase.",logical,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+gqa,201412492,n143672.jpg,"Who is standing?
+Answer the question using a single word or phrase.",query,skier,Skier,People,People,People,People,1.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 425]","[102, 0, 640, 425]"
+gqa,2076204,n173807.jpg,"The street is in front of what?
+Answer the question using a single word or phrase.",query,houses,Building,Bus,Building,Building,Building,0.0,0.0,0.0,0.0,0.0,1,False,"[179, 52, 515, 388]","[179, 52, 515, 388]"
+gqa,201047402,n234683.jpg,"Does the telephone look black and old?
+Answer the question using a single word or phrase.",logical,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[56, 179, 392, 515]","[56, 179, 392, 515]"
+gqa,201765948,n488874.jpg,"What is the watercraft behind the beach that the surfer is walking across?
+Answer the question using a single word or phrase.",query,boats,Boats,Boats,Boats,Boats,Boats,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 64, 595, 400]","[259, 64, 595, 400]"
+gqa,2098070,n513429.jpg,"On which side of the picture is the glass bottle?
+Answer the question using a single word or phrase.",query,left,Left,Left,Left,Left,Left,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+gqa,202060047,n14087.jpg,"Which kind of furniture is this?
+Answer the question using a single word or phrase.",query,couch,Chair,Couch,Couch,Couch,Couch,0.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,201156083,n146522.jpg,"What is hitting the ball that he is playing with?
+Answer the question using a single word or phrase.",query,bat,Bat,Bat,Bat,Bat,Bat,1.0,1.0,1.0,1.0,1.0,1,False,"[205, 63, 541, 399]","[205, 63, 541, 399]"
+gqa,201235692,n527589.jpg,"What is the name of the fruits below the person that is wearing an earring?
+Answer the question using a single word or phrase.",query,bananas,Bananas,Bananas,Bananas,Bananas,Bananas,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+gqa,20518618,n141939.jpg,"The tissue is in what?
+Answer the question using a single word or phrase.",query,tissue box,Bowl,Basket,Bowl,Bowl,Bowl,0.0,0.0,0.0,0.0,0.0,1,False,"[72, 259, 408, 595]","[72, 259, 408, 595]"
+gqa,202225858,n336443.jpg,"What kind of meat is on the plate?
+Answer the question using a single word or phrase.",query,turkey,Chicken,Chicken,Chicken,Chicken,Chicken,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 426]","[102, 0, 640, 426]"
+gqa,20982613,n52544.jpg,"On which side is the bucket?
+Answer the question using a single word or phrase.",query,right,Right,Right,Right,Right,Right,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 35, 427, 640]","[0, 35, 427, 640]"
+gqa,201593537,n524855.jpg,"Where are the green trees standing?
+Answer the question using a single word or phrase.",query,mountains,Mountain,Mountain,Mountain,Mountain,Mountain,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 46, 336, 382]","[0, 46, 336, 382]"
+gqa,20631691,n570181.jpg,"Who is standing before the catcher?
+Answer the question using a single word or phrase.",query,batter,Batter,Batter,Batter,Batter,Batter,1.0,1.0,1.0,1.0,1.0,1,False,"[232, 64, 568, 400]","[232, 64, 568, 400]"
+gqa,20827479,n283587.jpg,"What kind of furniture is below the overhead light fixture?
+Answer the question using a single word or phrase.",query,sofa,Couch,Couch,Couch,Couch,Couch,0.0,0.0,0.0,0.0,0.0,1,False,"[30, 0, 500, 375]","[30, 0, 500, 375]"
+gqa,201879533,n290409.jpg,"What vehicle is behind the logo?
+Answer the question using a single word or phrase.",query,truck,Truck,Truck,Truck,Truck,Truck,1.0,1.0,1.0,1.0,1.0,1,False,"[98, 10, 568, 480]","[98, 10, 568, 480]"
+gqa,201235852,n527589.jpg,"What does the woman hold?
+Answer the question using a single word or phrase.",query,handbag,Bananas,Bananas,Bananas,Bananas,Banana,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+gqa,201951705,n256120.jpg,"What vehicle is the flag behind of?
+Answer the question using a single word or phrase.",query,van,Van,Van,Van,Van,Van,1.0,1.0,1.0,1.0,1.0,2,True,"[45, 46, 381, 382]","[102, 0, 640, 427]"
+gqa,201756945,n567860.jpg,"What do you think hangs above the counter top?
+Answer the question using a single word or phrase.",query,banana bunch,Bananas,Bananas,Bananas,Bananas,Bananas,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,201549035,n314171.jpg,"Does the bracelet look green and small?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[49, 304, 385, 640]","[49, 304, 385, 640]"
+gqa,20306719,n554880.jpg,"What device is to the right of the laptop?
+Answer the question using a single word or phrase.",query,cell phone,Camera,Camera,Camera,Camera,Camera,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 425]","[102, 0, 640, 425]"
+gqa,201498387,n315887.jpg,"What device is on top of the desk that the keyboard is above?
+Answer the question using a single word or phrase.",query,computer mouse,Monitor,Computer,Phone,Phone,Computer,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 27, 640, 363]","[304, 27, 640, 363]"
+gqa,202174631,n398429.jpg,"Is the table in front of a couch?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 72, 488, 408]","[152, 72, 488, 408]"
+gqa,201599775,n285391.jpg,"Are there any drawers or tables?
+Answer the question using a single word or phrase.",logical,no,No,No,No,Yes,No,1.0,1.0,1.0,0.0,1.0,2,True,"[45, 0, 381, 336]","[0, 0, 537, 538]"
+gqa,201997263,n250715.jpg,"What type of furniture is to the right of the controller that is mounted to the helicopter?
+Answer the question using a single word or phrase.",query,chair,Chair,Chair,Chair,Chair,Chair,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,20711536,n549922.jpg,"What toy is this, a doll or a stuffed bear?
+Answer the question using a single word or phrase.",choose,stuffed bear,Stuffed bear,Stuffed bear,Stuffed bear,Stuffed bear,Stuffed bear,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 51, 336, 387]","[0, 51, 336, 387]"
+gqa,20330326,n260521.jpg,"What is the statue holding?
+Answer the question using a single word or phrase.",query,broom,Broom,Broom,Broom,Broom,Broom,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 46, 640, 382]","[304, 46, 640, 382]"
+gqa,202036818,n200225.jpg,"Does the pepper look red and cooked?
+Answer the question using a single word or phrase.",logical,no,No,Yes,No,No,No,1.0,0.0,1.0,1.0,1.0,1,False,"[285, 99, 621, 435]","[285, 99, 621, 435]"
+gqa,201462385,n508641.jpg,"Is the jersey white and clean?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 52, 435, 388]","[99, 52, 435, 388]"
+gqa,201490977,n86120.jpg,"Does the person that is not young wear shorts?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+gqa,20794215,n278453.jpg,"Which kind of meat is the mustard on?
+Answer the question using a single word or phrase.",query,ham,Chicken,Bacon,Bacon,Bacon,Bacon,0.0,0.0,0.0,0.0,0.0,1,False,"[68, 205, 404, 541]","[68, 205, 404, 541]"
+gqa,201887056,n429961.jpg,"What type of furniture is in front of the vehicle made of metal?
+Answer the question using a single word or phrase.",query,table,Table,Table,Table,Table,Table,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,20456669,n65885.jpg,"What is the table in front of?
+Answer the question using a single word or phrase.",query,cabinet,Window,Window,Window,Window,Window,0.0,0.0,0.0,0.0,0.0,1,False,"[92, 0, 428, 336]","[92, 0, 428, 336]"
+gqa,20551622,n153118.jpg,"What vehicle is in front of the trees made of wood?
+Answer the question using a single word or phrase.",query,train,Train,Train,Train,Train,Train,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 136, 461, 472]","[125, 136, 461, 472]"
+gqa,20667401,n181355.jpg,"What kind of device is to the right of the pillow made of cloth?
+Answer the question using a single word or phrase.",query,wii controller,Remote control,Remote control,Remote control,Remote control,Remote control,0.0,0.0,0.0,0.0,0.0,1,False,"[179, 132, 515, 468]","[179, 132, 515, 468]"
+gqa,202218650,n578564.jpg,"What is the picture hanging above?
+Answer the question using a single word or phrase.",query,chalkboard,Counter,Wall,Chalkboard,Chalkboard,Chalkboard,0.0,0.0,1.0,1.0,1.0,1,False,"[28, 125, 364, 461]","[28, 125, 364, 461]"
+gqa,201765905,n488874.jpg,"Who is holding onto the surf board that is made of wood?
+Answer the question using a single word or phrase.",query,surfer,Man,Man,Man,Man,Man,0.0,0.0,0.0,0.0,0.0,1,False,"[259, 64, 595, 400]","[259, 64, 595, 400]"
+gqa,202012410,n326988.jpg,"What is the doll inside of?
+Answer the question using a single word or phrase.",query,cabinets,Cabinet,Cabinet,Cabinet,Cabinet,Cabinet,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 46, 640, 382]","[304, 46, 640, 382]"
+gqa,20287937,n317260.jpg,"On which side is the coach?
+Answer the question using a single word or phrase.",query,left,Left,Left,Left,Left,Left,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 0, 336, 336]","[0, 0, 538, 480]"
+gqa,201360988,n541688.jpg,"Is the shirt both striped and gray?
+Answer the question using a single word or phrase.",logical,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[237, 25, 640, 428]","[237, 25, 640, 428]"
+gqa,20899609,n186491.jpg,"Is there any tea in this photograph that is not wet?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[232, 112, 568, 448]","[232, 112, 568, 448]"
+gqa,20886951,n282436.jpg,"Are there any blue chairs or computer mice?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 112, 336, 448]","[0, 112, 336, 448]"
+gqa,20656929,n486200.jpg,"What vehicle is in front of the building?
+Answer the question using a single word or phrase.",query,minivan,Car,Car,Car,Car,Car,0.0,0.0,0.0,0.0,0.0,1,False,"[132, 22, 535, 425]","[132, 22, 535, 425]"
+gqa,20752282,n209843.jpg,"Does the striped towel look blue?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[17, 0, 420, 375]","[17, 0, 420, 375]"
+gqa,20285351,n192021.jpg,"What is the shape of the blue picture?
+Answer the question using a single word or phrase.",query,rectangular,Rectangle,Rectangle,Rectangle,Rectangle,Rectangle,0.0,0.0,0.0,0.0,0.0,1,False,"[46, 205, 382, 541]","[46, 205, 382, 541]"
+gqa,20414584,n16936.jpg,"What are the people to the right of the skateboarder doing?
+Answer the question using a single word or phrase.",query,waiting,Standing,Standing,Standing,Standing,Standing,0.0,0.0,0.0,0.0,0.0,1,False,"[125, 0, 595, 426]","[125, 0, 595, 426]"
+gqa,20811125,n167552.jpg,"What is the animal that is standing?
+Answer the question using a single word or phrase.",query,dog,Dog,Dog,Dog,Dog,Dog,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 63, 640, 399]","[304, 63, 640, 399]"
+gqa,202147881,n194179.jpg,"Does the athlete that is playing look adult and male?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 377, 538]","[0, 0, 377, 538]"
+gqa,201370346,n351318.jpg,"Is the paper different in color than the tape?
+Answer the question using a single word or phrase.",compare,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 185, 403, 588]","[0, 185, 403, 588]"
+gqa,202100904,n280089.jpg,"What is the appliance that is not dirty sitting in front of?
+Answer the question using a single word or phrase.",query,wall,Stove,Stove,Stove,Stove,Stove,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 141, 336, 477]","[0, 141, 336, 477]"
+gqa,20120466,n117888.jpg,"What is the color of the sand that is not thick?
+Answer the question using a single word or phrase.",query,beige,Gray,Gray,Gray,Gray,Gray,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 102, 494, 640]","[0, 102, 494, 640]"
+gqa,20385662,n90294.jpg,"Is the laptop on the left side?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 52, 381, 388]","[45, 52, 381, 388]"
+gqa,20162119,n202379.jpg,"How long do you think are the trousers the boy is wearing?
+Answer the question using a single word or phrase.",query,short,Short,Long,Long,Long,Long,1.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 538, 440]","[0, 0, 538, 440]"
+gqa,20789886,n475030.jpg,"Does the water look dark?
+Answer the question using a single word or phrase.",verify,no,No,Yes,Yes,Yes,No,1.0,0.0,0.0,0.0,1.0,1,False,"[92, 259, 428, 595]","[92, 259, 428, 595]"
+gqa,201235538,n527589.jpg,"Are there shelves on top of the floor?
+Answer the question using a single word or phrase.",verify,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+gqa,20361481,n352479.jpg,"Which kind of clothing is long?
+Answer the question using a single word or phrase.",query,snow pants,Pants,Jacket,Jacket,Jacket,Jacket,0.0,0.0,0.0,0.0,0.0,1,False,"[28, 61, 364, 397]","[28, 61, 364, 397]"
+gqa,201590051,n260762.jpg,"Are there any balls to the left of the male person?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[98, 0, 568, 425]","[98, 0, 568, 425]"
+gqa,201976726,n279173.jpg,"Is the helmet blue and round?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[158, 24, 561, 427]","[158, 24, 561, 427]"
+gqa,201490938,n86120.jpg,"Is the woman near the wall tall and old?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+gqa,201030639,n54424.jpg,"What kind of furniture is the boy sitting on top of?
+Answer the question using a single word or phrase.",query,couch,Couch,Couch,Couch,Couch,Couch,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+gqa,20306227,n554880.jpg,"What piece of clothing is black?
+Answer the question using a single word or phrase.",query,shirt,Jacket,Jacket,Jacket,Jacket,Jacket,0.0,0.0,0.0,0.0,0.0,1,False,"[132, 0, 535, 403]","[132, 0, 535, 403]"
+gqa,201061136,n25275.jpg,"Who is wearing shorts?
+Answer the question using a single word or phrase.",query,boy,Boy,Boy,Boy,Boy,Boy,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 46, 461, 382]","[125, 46, 461, 382]"
+gqa,20939817,n240666.jpg,"What do both the mirror and the window have in common?
+Answer the question using a single word or phrase.",compare,material,Color,Color,Color,Color,Color,0.0,0.0,0.0,0.0,0.0,1,False,"[52, 0, 388, 336]","[52, 0, 388, 336]"
+gqa,20515853,n70461.jpg,"On which side of the photo is the traffic signal?
+Answer the question using a single word or phrase.",query,right,Right,Right,Right,Right,Right,1.0,1.0,1.0,1.0,1.0,1,False,"[285, 48, 621, 384]","[285, 48, 621, 384]"
+gqa,20691514,n153293.jpg,"Does the floor look dirty?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 304, 488, 640]","[152, 304, 488, 640]"
+gqa,201713567,n455563.jpg,"Is the bottle near the mug red or blue?
+Answer the question using a single word or phrase.",choose,blue,Blue,Blue,Blue,Blue,Red,1.0,1.0,1.0,1.0,0.0,1,False,"[0, 0, 605, 480]","[0, 0, 605, 480]"
+gqa,20706005,n264887.jpg,"Which kind of device is in front of the speaker?
+Answer the question using a single word or phrase.",query,keyboard,Keyboard,Keyboard,Keyboard,Keyboard,Keyboard,1.0,1.0,1.0,1.0,1.0,1,False,"[30, 0, 500, 197]","[30, 0, 500, 197]"
+gqa,201832399,n432591.jpg,"Are there any lamps next to the books on the right?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+gqa,20964062,n119886.jpg,"Is the sink below a cabinet?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 425, 640]","[0, 102, 425, 640]"
+gqa,201885243,n222297.jpg,"Is the frisbee inside the fence?
+Answer the question using a single word or phrase.",verify,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 28, 640, 364]","[304, 28, 640, 364]"
+gqa,20837017,n507959.jpg,"On which side of the picture is the umbrella?
+Answer the question using a single word or phrase.",query,left,Left,Left,Left,Left,Left,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 335]","[0, 0, 336, 335]"
+gqa,201056104,n259002.jpg,"Who is wearing a jersey?
+Answer the question using a single word or phrase.",query,soccer player,Boy,Man,Man,Man,Man,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 394]","[0, 0, 470, 394]"
+gqa,201822197,n417401.jpg,"Is the toilet paper next to the toilet made of paper?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 152, 408, 488]","[72, 152, 408, 488]"
+gqa,20611913,n28996.jpg,"What's sitting inside the container?
+Answer the question using a single word or phrase.",query,brownie,Nothing,Nothing,Nothing,Nothing,Nothing,0.0,0.0,0.0,0.0,0.0,1,False,"[179, 72, 515, 408]","[179, 72, 515, 408]"
+gqa,201446988,n54180.jpg,"What is the cup on?
+Answer the question using a single word or phrase.",query,shelf,Counter,Counter,Counter,Counter,Counter,0.0,0.0,0.0,0.0,0.0,1,False,"[92, 72, 428, 408]","[92, 72, 428, 408]"
+gqa,20262438,n172618.jpg,"How heavy is the dress?
+Answer the question using a single word or phrase.",query,heavy,Heavy,Heavy,Heavy,Heavy,Heavy,1.0,1.0,1.0,1.0,1.0,1,False,"[205, 70, 541, 406]","[205, 70, 541, 406]"
+gqa,201952930,n525029.jpg,"How big is that window?
+Answer the question using a single word or phrase.",query,huge,Large,Large,Large,Large,Large,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,20982293,n52544.jpg,"What's the man in front of?
+Answer the question using a single word or phrase.",query,door,Door,Wine glass,Door,Door,Door,1.0,0.0,1.0,1.0,1.0,1,False,"[0, 35, 427, 640]","[0, 35, 427, 640]"
+gqa,201185971,n494918.jpg,"Does the brown ground look bare?
+Answer the question using a single word or phrase.",verify,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 124, 336, 460]","[0, 124, 336, 460]"
+gqa,2017081,n324908.jpg,"The snow is resting on what?
+Answer the question using a single word or phrase.",query,mountains,Mountains,Mountains,Mountains,Mountains,Mountains,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+gqa,201713283,n455563.jpg,"Do the outlet and the mug have the same color?
+Answer the question using a single word or phrase.",compare,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 480]","[0, 0, 605, 480]"
+gqa,20394837,n369313.jpg,"Is the man wearing a watch?
+Answer the question using a single word or phrase.",verify,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,2,True,"[259, 27, 595, 363]","[179, 63, 515, 399]"
+gqa,201671884,n410289.jpg,"Does the toilet that is to the right of the tap look hard and blue?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+gqa,20306603,n554880.jpg,"What color does the camera that the woman is holding have?
+Answer the question using a single word or phrase.",query,gray,White,White,White,White,White,0.0,0.0,0.0,0.0,0.0,1,False,"[179, 44, 515, 380]","[179, 44, 515, 380]"
+gqa,202180309,n380113.jpg,"Are there any umpires on the field?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 63, 515, 399]","[179, 63, 515, 399]"
+gqa,20647350,n98540.jpg,"What color is the logo that is sewn on the jersey?
+Answer the question using a single word or phrase.",query,yellow,Blue,Blue,Blue,Blue,Blue,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 400, 470]","[0, 0, 400, 470]"
+gqa,201872934,n309148.jpg,"Does the vehicle below the flag look large and brown?
+Answer the question using a single word or phrase.",logical,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[0, 125, 336, 461]","[0, 125, 336, 461]"
+gqa,201763978,n246334.jpg,"Which kind of furniture is covered?
+Answer the question using a single word or phrase.",query,beds,Bed,Bed,Bed,Bed,Bed,0.0,0.0,0.0,0.0,0.0,1,False,"[285, 75, 621, 411]","[285, 75, 621, 411]"
+gqa,201447165,n54180.jpg,"What's the man using?
+Answer the question using a single word or phrase.",query,camera,Camera,Camera,Camera,Camera,Camera,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 72, 428, 408]","[92, 72, 428, 408]"
+gqa,20349768,n468864.jpg,"Is she reading?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+gqa,202262744,n538039.jpg,"Is the old woman to the left or to the right of the car that looks black?
+Answer the question using a single word or phrase.",choose,left,Left,Left,Left,Left,Left,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 63, 515, 399]","[179, 63, 515, 399]"
+gqa,202241153,n460385.jpg,"Is the black chair on the right or on the left side?
+Answer the question using a single word or phrase.",choose,left,Right,Left,Right,Right,Right,0.0,1.0,0.0,0.0,0.0,1,False,"[92, 304, 428, 640]","[92, 304, 428, 640]"
+gqa,201623741,n501609.jpg,"Which kind of appliance is to the left of the stove?
+Answer the question using a single word or phrase.",query,oven,Refrigerator,Refrigerator,Refrigerator,Refrigerator,Refrigerator,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+gqa,20479881,n520071.jpg,"Do both the radio and the computer to the right of the lamps seem to be silver?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 92, 488, 428]","[152, 92, 488, 428]"
+gqa,201669673,n238266.jpg,"Which kind of furniture is made of wood?
+Answer the question using a single word or phrase.",query,table,Table,Table,Table,Table,Table,1.0,1.0,1.0,1.0,1.0,2,True,"[205, 52, 541, 388]","[0, 0, 605, 480]"
+gqa,2075297,n469525.jpg,"Do you see any grass or sand that are not light brown?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+gqa,202100888,n280089.jpg,"What sits next to the counter?
+Answer the question using a single word or phrase.",query,stove,Stove,Stove,Stove,Stove,Stove,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 494]","[0, 0, 538, 494]"
+gqa,201976763,n279173.jpg,"Is there a black backpack or briefcase?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 24, 403, 427]","[0, 24, 403, 427]"
+gqa,201879431,n290409.jpg,"Does that license plate look white?
+Answer the question using a single word or phrase.",verify,no,Yes,No,Yes,Yes,Yes,0.0,1.0,0.0,0.0,0.0,1,False,"[152, 92, 488, 428]","[152, 92, 488, 428]"
+gqa,201527959,n118102.jpg,"What is the girl doing?
+Answer the question using a single word or phrase.",query,sitting,Cutting cake,Cutting cake,Cutting cake,Cutting cake,Cutting cake,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+gqa,20810817,n167552.jpg,"What is the large tree standing on?
+Answer the question using a single word or phrase.",query,rug,Carpet,Carpet,Carpet,Carpet,Carpet,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 63, 640, 399]","[304, 63, 640, 399]"
+gqa,20491689,n335542.jpg,"Does the ground look covered and dry?
+Answer the question using a single word or phrase.",logical,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[152, 98, 488, 434]","[152, 98, 488, 434]"
+gqa,201307350,n161313.jpg,"What is the person in front of?
+Answer the question using a single word or phrase.",query,sky,Sky,Sky,Sky,Sky,Sky,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 280]","[97, 0, 500, 280]"
+gqa,201548879,n314171.jpg,"Does the shirt appear to be gray and small?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 170, 434, 640]","[0, 170, 434, 640]"
+gqa,20536288,n410476.jpg,"What is the animal below the sky?
+Answer the question using a single word or phrase.",query,bison,Giraffe,Giraffe,Giraffe,Giraffe,Giraffe,0.0,0.0,0.0,0.0,0.0,1,False,"[28, 0, 364, 336]","[28, 0, 364, 336]"
+gqa,201462252,n508641.jpg,"Is the helmet worn on the person to the right of the catcher?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[45, 52, 381, 388]","[0, 0, 538, 480]"
+gqa,201671940,n410289.jpg,"Does the white bathtub look round?
+Answer the question using a single word or phrase.",verify,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 164, 336, 500]","[0, 164, 336, 500]"
+gqa,202246148,n310828.jpg,"How clean is the mouse pad in the bottom of the image?
+Answer the question using a single word or phrase.",query,clean,Dirty,Dirty,Dirty,Dirty,Dirty,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 605, 431]","[0, 0, 605, 431]"
+gqa,202228078,n77818.jpg,"What is the item of furniture that the DVD player is inside of called?
+Answer the question using a single word or phrase.",query,entertainment center,Cabinet,Cabinet,Cabinet,Cabinet,Cabinet,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 77, 360, 480]","[0, 77, 360, 480]"
+gqa,201079794,n23181.jpg,"How big is the table?
+Answer the question using a single word or phrase.",query,small,Small,Small,Small,Small,Small,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 232]","[0, 0, 403, 232]"
+gqa,20473011,n126891.jpg,"Who is the boy in front of?
+Answer the question using a single word or phrase.",query,woman,Woman,Woman,Woman,Woman,Woman,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 336]","[0, 0, 336, 336]"
+gqa,20435192,n431447.jpg,"Which kind of furniture is rectangular, the chair or the table?
+Answer the question using a single word or phrase.",choose,table,Table,Table,Table,Table,Table,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+gqa,20785959,n12404.jpg,"Are there cones behind the hydrant made of metal?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 48, 515, 384]","[179, 48, 515, 384]"
+gqa,202107965,n133585.jpg,"Is the skateboard to the right of the person brown or white?
+Answer the question using a single word or phrase.",choose,brown,Brown,Brown,Brown,Brown,Brown,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 62, 640, 398]","[304, 62, 640, 398]"
+gqa,202246752,n310828.jpg,"How is the piece of furniture that the cable is on called?
+Answer the question using a single word or phrase.",query,computer desk,Shelf,Desk,Desk,Desk,Desk,0.0,0.0,0.0,0.0,0.0,2,True,"[179, 30, 515, 366]","[0, 0, 605, 431]"
+gqa,2091313,n565418.jpg,"What's the fence made of?
+Answer the question using a single word or phrase.",query,wood,Wood,Metal,Wood,Wood,Wood,1.0,0.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 360]","[170, 0, 640, 360]"
+gqa,201878321,n342511.jpg,"What is worn around the old person?
+Answer the question using a single word or phrase.",query,jacket,Coat,Jacket,Jacket,Jacket,Jacket,0.0,1.0,1.0,1.0,1.0,2,True,"[92, 99, 428, 435]","[0, 0, 480, 605]"
+gqa,2012745,n318370.jpg,"What does the person next to the drink hold?
+Answer the question using a single word or phrase.",query,donut,Donut,Donut,Donut,Donut,Donut,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 92, 408, 428]","[72, 92, 408, 428]"
+gqa,201207272,n222915.jpg,"Is there a sandwich or a pizza that is not round?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+gqa,201404253,n331357.jpg,"What is the animal that is standing next to the mom?
+Answer the question using a single word or phrase.",query,calf,Calf,Calf,Calf,Calf,Calf,1.0,1.0,1.0,1.0,1.0,1,False,"[212, 0, 615, 396]","[212, 0, 615, 396]"
+gqa,202169059,n451187.jpg,"What vehicles are made of metal?
+Answer the question using a single word or phrase.",query,cars,Cars,Cars,Cars,Cars,Cars,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 326]","[97, 0, 500, 326]"
+gqa,202082277,n433692.jpg,"Which kind of device is connected to the laptop?
+Answer the question using a single word or phrase.",query,keyboard,Computer mouse,Computer mouse,Computer mouse,Computer mouse,Computer mouse,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+gqa,202110116,n511881.jpg,"What is the animal that is grazing on grass?
+Answer the question using a single word or phrase.",query,sheep,Sheep,Sheep,Sheep,Sheep,Sheep,1.0,1.0,1.0,1.0,1.0,1,False,"[35, 0, 640, 480]","[35, 0, 640, 480]"
+gqa,20299855,n195925.jpg,"Is there a white flag or boat?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 0, 542, 426]","[72, 0, 542, 426]"
+gqa,201080180,n23181.jpg,"Are there both a couch and a nightstand in the photo?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 232]","[0, 0, 336, 232]"
+gqa,20894184,n272313.jpg,"Who is looking at the skateboard?
+Answer the question using a single word or phrase.",query,boy,Boy,Boy,Boy,Boy,Boy,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 45, 336, 381]","[0, 45, 336, 381]"
+gqa,2076661,n214497.jpg,"Do the wheels look gray and small?
+Answer the question using a single word or phrase.",logical,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[72, 63, 408, 399]","[72, 63, 408, 399]"
+gqa,202228670,n77818.jpg,"Are the towels white and dirty?
+Answer the question using a single word or phrase.",logical,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 77, 360, 480]","[0, 77, 360, 480]"
+gqa,201988045,n470131.jpg,"What is the food that the cake is sitting beside?
+Answer the question using a single word or phrase.",query,cookie,Sandwich,Sandwich,Sandwich,Sandwich,Sandwich,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 24, 403, 427]","[0, 24, 403, 427]"
+gqa,20385888,n90294.jpg,"Is the white device in the top or in the bottom?
+Answer the question using a single word or phrase.",choose,bottom,Bottom,Top,Bottom,Bottom,Bottom,1.0,0.0,1.0,1.0,1.0,1,False,"[45, 112, 381, 448]","[45, 112, 381, 448]"
+gqa,20489546,n145498.jpg,"How wide is the comfortable bed?
+Answer the question using a single word or phrase.",query,wide,Wide,Wide,Wide,Wide,Wide,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 421]","[102, 0, 640, 421]"
+gqa,201639012,n271392.jpg,"How tall are the phones?
+Answer the question using a single word or phrase.",query,tall,Short,Tall,Tall,Tall,Tall,0.0,1.0,1.0,1.0,1.0,1,False,"[19, 70, 355, 406]","[19, 70, 355, 406]"
+gqa,202246770,n310828.jpg,"Which kind of clothing is black?
+Answer the question using a single word or phrase.",query,shirt,Shirt,Shirt,Shirt,Shirt,Shirt,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 431]","[0, 0, 605, 431]"
+gqa,2055708,n263180.jpg,"Is this a bus or a truck?
+Answer the question using a single word or phrase.",choose,bus,Bus,Bus,Bus,Bus,Bus,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 128, 461, 464]","[125, 128, 461, 464]"
+gqa,202285118,n100991.jpg,"Is the napkin made of cloth or paper?
+Answer the question using a single word or phrase.",choose,paper,Paper,Paper,Paper,Paper,Paper,1.0,1.0,1.0,1.0,1.0,1,False,"[285, 52, 621, 388]","[285, 52, 621, 388]"
+gqa,202243658,n296467.jpg,"Do the container and the table have the same material?
+Answer the question using a single word or phrase.",compare,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+gqa,201947832,n473688.jpg,"What is the sink that is not dirty mounted on?
+Answer the question using a single word or phrase.",query,countertop,Wall,Wall,Wall,Wall,Wall,0.0,0.0,0.0,0.0,0.0,1,False,"[52, 304, 388, 640]","[52, 304, 388, 640]"
+gqa,20899521,n403734.jpg,"Is the bag that looks brown made of leather or cloth?
+Answer the question using a single word or phrase.",choose,cloth,Leather,Leather,Leather,Leather,Leather,0.0,0.0,0.0,0.0,0.0,1,False,"[285, 46, 621, 382]","[285, 46, 621, 382]"
+gqa,201143304,n276011.jpg,"What is the lamp hanging above?
+Answer the question using a single word or phrase.",query,table,Table,Table,Table,Table,Table,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 48, 461, 384]","[125, 48, 461, 384]"
+gqa,20644779,n250821.jpg,"What animal is the person that is staring watching?
+Answer the question using a single word or phrase.",query,cat,Cat,Cat,Cat,Cat,Cat,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 45, 428, 381]","[92, 45, 428, 381]"
+gqa,201735673,n240973.jpg,"What is sitting in front of the white wall?
+Answer the question using a single word or phrase.",query,desk,Chicken,Chicken,Chicken,Chicken,Chicken,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 58, 403, 461]","[0, 58, 403, 461]"
+gqa,202119195,n544255.jpg,"Is the man riding an elephant?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[32, 0, 368, 336]","[32, 0, 368, 336]"
+gqa,20492041,n335542.jpg,"Which kind of animal is walking on the ground?
+Answer the question using a single word or phrase.",query,birds,Bird,Seagull,Bear,Bear,Bear,0.0,0.0,0.0,0.0,0.0,1,False,"[72, 98, 408, 434]","[72, 98, 408, 434]"
+gqa,20786179,n12404.jpg,"Does the hair that looks black and dark have short length?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 48, 408, 384]","[72, 48, 408, 384]"
+gqa,20609497,n437064.jpg,"Is the fork above a napkin?
+Answer the question using a single word or phrase.",verify,no,No,No,Yes,Yes,Yes,1.0,1.0,0.0,0.0,0.0,1,False,"[0, 0, 605, 428]","[0, 0, 605, 428]"
+gqa,201064885,n88933.jpg,"What color is the flower pot?
+Answer the question using a single word or phrase.",query,brown,Brown,Brown,Brown,Brown,Brown,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+gqa,201207355,n222915.jpg,"What is the fork made of?
+Answer the question using a single word or phrase.",query,metal,Metal,Metal,Metal,Metal,Metal,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 52, 435, 388]","[99, 52, 435, 388]"
+gqa,201759251,n150962.jpg,"Are there both a pot and a cabinet in this image?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[30, 0, 500, 389]","[30, 0, 500, 389]"
+gqa,20541650,n527290.jpg,"Is that an Asian woman?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 480]","[0, 0, 605, 480]"
+gqa,201621612,n275148.jpg,"What kind of furniture is not comfortable?
+Answer the question using a single word or phrase.",query,desk,Table,Desk,Table,Table,Table,0.0,1.0,0.0,0.0,0.0,1,False,"[0, 131, 336, 467]","[0, 131, 336, 467]"
+gqa,20511494,n229548.jpg,"What's the weight of the ship?
+Answer the question using a single word or phrase.",query,heavy,Heavy,Heavy,Heavy,Heavy,Heavy,1.0,1.0,1.0,1.0,1.0,1,False,"[63, 304, 399, 640]","[63, 304, 399, 640]"
+gqa,20300407,n208302.jpg,"Does the sidewalk look brown?
+Answer the question using a single word or phrase.",verify,yes,No,No,Yes,Yes,Yes,0.0,0.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 378]","[97, 0, 500, 378]"
+gqa,20316977,n350766.jpg,"Is the trash bin made of the same material as the drawer?
+Answer the question using a single word or phrase.",compare,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+gqa,202243292,n557666.jpg,"Who is wearing the jeans?
+Answer the question using a single word or phrase.",query,woman,Girl,Woman,Woman,Woman,Woman,0.0,1.0,1.0,1.0,1.0,1,False,"[158, 25, 561, 428]","[158, 25, 561, 428]"
+gqa,20647214,n98540.jpg,"What kind of clothing is white?
+Answer the question using a single word or phrase.",query,pants,Pants,Pants,Pants,Pants,Pants,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 400, 470]","[0, 0, 400, 470]"
+gqa,202257370,n92308.jpg,"The clouds are what color?
+Answer the question using a single word or phrase.",query,white,Dark,Dark,Dark,Dark,Dark,0.0,0.0,0.0,0.0,0.0,1,False,"[170, 0, 640, 424]","[170, 0, 640, 424]"
+gqa,20781763,n317189.jpg,"Is the person near the snow high and small?
+Answer the question using a single word or phrase.",logical,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[28, 152, 364, 488]","[28, 152, 364, 488]"
+gqa,20602905,n168412.jpg,"Do you think the horse is walking?
+Answer the question using a single word or phrase.",verify,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 396]","[102, 0, 640, 396]"
+gqa,20262515,n172618.jpg,"What is walking on the grass?
+Answer the question using a single word or phrase.",query,boots,Kite,Kite,Kite,Kite,Kite,0.0,0.0,0.0,0.0,0.0,1,False,"[125, 109, 461, 445]","[125, 109, 461, 445]"
+gqa,202100276,n386688.jpg,"What place is this?
+Answer the question using a single word or phrase.",query,ocean,Ocean,Ocean,Ocean,Ocean,Ocean,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 413]","[0, 0, 538, 413]"
+gqa,20783618,n355339.jpg,"Is the table underneath the laptop covered and beige?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[212, 0, 615, 403]","[212, 0, 615, 403]"
+gqa,201804591,n51002.jpg,"What shape is the device the fireplace is under of?
+Answer the question using a single word or phrase.",query,rectangular,Square,Square,Square,Square,Square,0.0,0.0,0.0,0.0,0.0,1,False,"[285, 27, 621, 363]","[285, 27, 621, 363]"
+gqa,202174150,n398429.jpg,"Which shape is the appliance the stove is on top of?
+Answer the question using a single word or phrase.",query,rectangular,Square,Square,Square,Square,Square,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 92, 336, 428]","[0, 92, 336, 428]"
+gqa,201504928,n298104.jpg,"Who holds onto the surfboard?
+Answer the question using a single word or phrase.",query,woman,Girl,Girl,Girl,Girl,Girl,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 170, 426, 640]","[0, 170, 426, 640]"
+gqa,20381590,n398257.jpg,"Is the computer monitor above a Wii controller?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 99, 388, 435]","[52, 99, 388, 435]"
+gqa,201756544,n567860.jpg,"What kind of animal is it?
+Answer the question using a single word or phrase.",query,kitten,Cat,Cat,Cat,Cat,Cat,0.0,0.0,0.0,0.0,0.0,1,False,"[152, 52, 488, 388]","[152, 52, 488, 388]"
+gqa,20827540,n283587.jpg,"Which kind of furniture is in front of the staircase?
+Answer the question using a single word or phrase.",query,chairs,Couch,Couch,Couch,Couch,Couch,0.0,0.0,0.0,0.0,0.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+gqa,201957264,n536256.jpg,"What is the woman looking at?
+Answer the question using a single word or phrase.",query,television,Tv,Tv,Tv,Tv,Tv,0.0,0.0,0.0,0.0,0.0,1,False,"[99, 112, 435, 448]","[99, 112, 435, 448]"
+gqa,201952693,n525029.jpg,"Do the wires look short?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+gqa,201143322,n276011.jpg,"Are there motorbikes in the photo?
+Answer the question using a single word or phrase.",verify,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 433]","[0, 0, 470, 433]"
+gqa,201055796,n259002.jpg,"What is the goal in front of?
+Answer the question using a single word or phrase.",query,car,Goal,Fence,Goal,Goal,Goal,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 394]","[0, 0, 470, 394]"
+gqa,20709888,n24526.jpg,"Is the black umbrella to the right or to the left of the person that is skating on the road?
+Answer the question using a single word or phrase.",choose,left,Left,Left,Left,Left,Left,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 425]","[0, 0, 470, 425]"
+gqa,201438594,n66756.jpg,"What is the weight of the batter?
+Answer the question using a single word or phrase.",query,heavy,200,200,200,200,200,0.0,0.0,0.0,0.0,0.0,1,False,"[45, 46, 381, 382]","[45, 46, 381, 382]"
+gqa,20285115,n192021.jpg,"What kind of furniture is on the carpet?
+Answer the question using a single word or phrase.",query,chair,Chair,Couch,Chair,Chair,Chair,1.0,0.0,1.0,1.0,1.0,1,False,"[46, 259, 382, 595]","[46, 259, 382, 595]"
+gqa,20902550,n411121.jpg,"What color is the small bag?
+Answer the question using a single word or phrase.",query,blue,Blue,Blue,Blue,Blue,Blue,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 112, 381, 448]","[45, 112, 381, 448]"
+gqa,20710052,n24526.jpg,"What vehicle is behind the woman?
+Answer the question using a single word or phrase.",query,car,Car,Car,Car,Car,Car,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 425]","[0, 0, 470, 425]"
+gqa,201887134,n429961.jpg,"What is the vegetable on the table the vehicle is behind of?
+Answer the question using a single word or phrase.",query,cabbage,Broccoli,Cauliflower,Broccoli,Broccoli,Broccoli,0.0,0.0,0.0,0.0,0.0,1,False,"[105, 58, 508, 461]","[105, 58, 508, 461]"
+gqa,201370383,n351318.jpg,"Are there any pencils to the right of the scissors on the paper?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[18, 185, 421, 588]","[18, 185, 421, 588]"
+gqa,201079978,n23181.jpg,"What is the piece of furniture that is not clean?
+Answer the question using a single word or phrase.",query,table,Bed,Bed,Bed,Bed,Bed,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 232]","[0, 0, 403, 232]"
+gqa,201110506,n546616.jpg,"How hard is the marshmallow?
+Answer the question using a single word or phrase.",query,soft,Soft,Soft,Soft,Soft,Soft,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+gqa,202262098,n28572.jpg,"Which color do you think the flowers in front of the napkin are?
+Answer the question using a single word or phrase.",query,white,Yellow,Orange,Yellow,Yellow,Yellow,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 35, 427, 640]","[0, 35, 427, 640]"
+gqa,20434860,n431447.jpg,"Who is sitting at the table?
+Answer the question using a single word or phrase.",query,boy,Boy,Boy,Boy,Boy,Boy,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+gqa,201574011,n115614.jpg,"Are the people to the left or to the right of the black car?
+Answer the question using a single word or phrase.",choose,right,Right,Right,Right,Right,Right,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+gqa,201758216,n4777.jpg,"What kind of furniture is to the right of the stroller?
+Answer the question using a single word or phrase.",query,chair,Chair,Chair,Chair,Chair,Chair,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 375, 403]","[0, 0, 375, 403]"
+gqa,20899572,n403734.jpg,"Is the device to the left of the notebook off or on?
+Answer the question using a single word or phrase.",choose,off,Off,Off,Off,Off,Off,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 64, 408, 400]","[72, 64, 408, 400]"
+gqa,201109362,n167164.jpg,"What vehicle is driving on the street?
+Answer the question using a single word or phrase.",query,car,Car,Car,Car,Car,Car,1.0,1.0,1.0,1.0,1.0,1,False,"[164, 12, 500, 348]","[164, 12, 500, 348]"
+gqa,201687514,n228268.jpg,"How is the water today?
+Answer the question using a single word or phrase.",query,wavy,Choppy,Choppy,Choppy,Choppy,Choppy,0.0,0.0,0.0,0.0,0.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+gqa,201957249,n536256.jpg,"Who is standing?
+Answer the question using a single word or phrase.",query,woman,Man,Man,Man,Man,Man,0.0,0.0,0.0,0.0,0.0,1,False,"[99, 112, 435, 448]","[99, 112, 435, 448]"
+gqa,201481657,n470920.jpg,"Are there any umbrellas to the left of the man that is holding onto the sweater?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+gqa,201109453,n167164.jpg,"Is the truck large and red?
+Answer the question using a single word or phrase.",logical,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+gqa,2098282,n513429.jpg,"Does the speaker seem to be sitting?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+gqa,201880467,n95369.jpg,"What is the mirror made of?
+Answer the question using a single word or phrase.",query,glass,Wood,Wood,Wood,Wood,Wood,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+gqa,201759370,n150962.jpg,"Is the window above the shoes that look brown?
+Answer the question using a single word or phrase.",verify,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[164, 26, 500, 362]","[164, 26, 500, 362]"
+gqa,202156791,n543966.jpg,"The grass is in front of what?
+Answer the question using a single word or phrase.",query,rocks,Rock,Rocks,Rock,Rock,Rock,0.0,1.0,0.0,0.0,0.0,1,False,"[205, 132, 541, 468]","[205, 132, 541, 468]"
+gqa,201247158,n83784.jpg,"Which kind of animal sits atop the chair?
+Answer the question using a single word or phrase.",query,cat,Cat,Cat,Cat,Cat,Cat,1.0,1.0,1.0,1.0,1.0,1,False,"[105, 58, 508, 461]","[105, 58, 508, 461]"
+gqa,201879596,n290409.jpg,"Which color do you think the dog in the center of the picture is?
+Answer the question using a single word or phrase.",query,light brown,White,White,White,White,White,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+gqa,202006198,n97485.jpg,"What is underneath the cabinet that is decorating the kitchen?
+Answer the question using a single word or phrase.",query,shelves,Microwave,Oven,Oven,Oven,Microwave,0.0,0.0,0.0,0.0,0.0,1,False,"[125, 92, 461, 428]","[125, 92, 461, 428]"
+gqa,201935188,n556604.jpg,"What is in front of the lamp?
+Answer the question using a single word or phrase.",query,tree,Tree,Tree,Tree,Tree,Tree,1.0,1.0,1.0,1.0,1.0,2,True,"[50, 304, 386, 640]","[0, 102, 454, 640]"
+gqa,201795695,n119944.jpg,"Is the bag open and leather?
+Answer the question using a single word or phrase.",logical,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 433]","[102, 0, 640, 433]"
+gqa,20781688,n317189.jpg,"Are the trousers the same color as the shoes?
+Answer the question using a single word or phrase.",compare,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[28, 179, 364, 515]","[28, 179, 364, 515]"
+gqa,201080243,n23181.jpg,"Is the couch still and wide?
+Answer the question using a single word or phrase.",logical,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 232]","[0, 0, 336, 232]"
+gqa,201997034,n250715.jpg,"What color are the pants?
+Answer the question using a single word or phrase.",query,brown,Black,Gray,Gray,Gray,Gray,0.0,0.0,0.0,0.0,0.0,1,False,"[259, 92, 595, 428]","[259, 92, 595, 428]"

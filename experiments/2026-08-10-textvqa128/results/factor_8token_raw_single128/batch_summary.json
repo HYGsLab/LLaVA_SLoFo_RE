@@ -1,0 +1,786 @@
+{
+  "benchmark": "textvqa",
+  "manifest": "benchmarks/08_10_textvqa_memory/manifests/textvqa_fixed_128.json",
+  "requested_count": 128,
+  "completed_count": 128,
+  "skipped_count": 0,
+  "elapsed_seconds": 264.8906287699938,
+  "configuration": {
+    "top_k": 1,
+    "semantic_rollout_tokens": 8,
+    "scan_capture_mode": "selective_hook",
+    "fusion_normalization": "none",
+    "locate_coordinate_space": "original",
+    "semantic_token_aggregation": "mean"
+  },
+  "cases": [
+    {
+      "qa_id": "34607",
+      "status": "completed",
+      "wall_seconds": 8.89110879204236,
+      "artifact_mode": "full"
+    },
+    {
+      "qa_id": "34622",
+      "status": "completed",
+      "wall_seconds": 1.8987464371602982,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34623",
+      "status": "completed",
+      "wall_seconds": 2.094872333109379,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34625",
+      "status": "completed",
+      "wall_seconds": 1.7119127581827343,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34634",
+      "status": "completed",
+      "wall_seconds": 1.8164327600970864,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34648",
+      "status": "completed",
+      "wall_seconds": 1.834842688171193,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34652",
+      "status": "completed",
+      "wall_seconds": 2.302385787013918,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34654",
+      "status": "completed",
+      "wall_seconds": 1.6176507759373635,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34686",
+      "status": "completed",
+      "wall_seconds": 1.9950532589573413,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34694",
+      "status": "completed",
+      "wall_seconds": 2.1066897201817483,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34713",
+      "status": "completed",
+      "wall_seconds": 2.040195264853537,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34715",
+      "status": "completed",
+      "wall_seconds": 1.7017267160117626,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34717",
+      "status": "completed",
+      "wall_seconds": 2.159022478852421,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34721",
+      "status": "completed",
+      "wall_seconds": 2.4104548629838973,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34724",
+      "status": "completed",
+      "wall_seconds": 1.6259608170948923,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34733",
+      "status": "completed",
+      "wall_seconds": 1.690490016946569,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34750",
+      "status": "completed",
+      "wall_seconds": 2.250457927118987,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34760",
+      "status": "completed",
+      "wall_seconds": 2.2801648708991706,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34763",
+      "status": "completed",
+      "wall_seconds": 1.7374844360165298,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34771",
+      "status": "completed",
+      "wall_seconds": 1.7387231159955263,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34773",
+      "status": "completed",
+      "wall_seconds": 1.5946948460768908,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34777",
+      "status": "completed",
+      "wall_seconds": 1.796069114934653,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34783",
+      "status": "completed",
+      "wall_seconds": 2.2849346918519586,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34804",
+      "status": "completed",
+      "wall_seconds": 2.075404244940728,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34808",
+      "status": "completed",
+      "wall_seconds": 2.2952455261256546,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34836",
+      "status": "completed",
+      "wall_seconds": 1.9046599809080362,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34858",
+      "status": "completed",
+      "wall_seconds": 2.8594643680844456,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34859",
+      "status": "completed",
+      "wall_seconds": 1.6180353472009301,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34861",
+      "status": "completed",
+      "wall_seconds": 1.986276509007439,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34871",
+      "status": "completed",
+      "wall_seconds": 1.7959438911639154,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34874",
+      "status": "completed",
+      "wall_seconds": 1.9141993671655655,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34882",
+      "status": "completed",
+      "wall_seconds": 1.9065145330969244,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34891",
+      "status": "completed",
+      "wall_seconds": 2.757118578068912,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34900",
+      "status": "completed",
+      "wall_seconds": 2.3702440208289772,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34901",
+      "status": "completed",
+      "wall_seconds": 1.9052365999668837,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34909",
+      "status": "completed",
+      "wall_seconds": 1.8447132180444896,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34924",
+      "status": "completed",
+      "wall_seconds": 1.908029933925718,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34930",
+      "status": "completed",
+      "wall_seconds": 2.066513346042484,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34942",
+      "status": "completed",
+      "wall_seconds": 2.4943884620442986,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34944",
+      "status": "completed",
+      "wall_seconds": 1.968029122101143,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34961",
+      "status": "completed",
+      "wall_seconds": 1.8566633760929108,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34973",
+      "status": "completed",
+      "wall_seconds": 1.7753460181411356,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34983",
+      "status": "completed",
+      "wall_seconds": 1.859127864940092,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34988",
+      "status": "completed",
+      "wall_seconds": 1.7470807919744402,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "34991",
+      "status": "completed",
+      "wall_seconds": 1.648913461016491,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35001",
+      "status": "completed",
+      "wall_seconds": 1.9228008249774575,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35009",
+      "status": "completed",
+      "wall_seconds": 1.795779098989442,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35011",
+      "status": "completed",
+      "wall_seconds": 1.936807420803234,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35031",
+      "status": "completed",
+      "wall_seconds": 1.9900422259233892,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35045",
+      "status": "completed",
+      "wall_seconds": 1.7493124220054597,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35073",
+      "status": "completed",
+      "wall_seconds": 1.8827819698490202,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35108",
+      "status": "completed",
+      "wall_seconds": 2.361392815131694,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35113",
+      "status": "completed",
+      "wall_seconds": 2.293954361928627,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35114",
+      "status": "completed",
+      "wall_seconds": 2.227454223902896,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35120",
+      "status": "completed",
+      "wall_seconds": 1.9081455171108246,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35128",
+      "status": "completed",
+      "wall_seconds": 1.8762180309277028,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35131",
+      "status": "completed",
+      "wall_seconds": 2.409589604008943,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35157",
+      "status": "completed",
+      "wall_seconds": 2.057620487175882,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35169",
+      "status": "completed",
+      "wall_seconds": 1.9557555369101465,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35197",
+      "status": "completed",
+      "wall_seconds": 1.6155081579927355,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35203",
+      "status": "completed",
+      "wall_seconds": 1.7506235248874873,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35205",
+      "status": "completed",
+      "wall_seconds": 1.909028148977086,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35244",
+      "status": "completed",
+      "wall_seconds": 1.7765818720217794,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35249",
+      "status": "completed",
+      "wall_seconds": 1.848573629045859,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35251",
+      "status": "completed",
+      "wall_seconds": 1.7370435460470617,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35255",
+      "status": "completed",
+      "wall_seconds": 2.039320481941104,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35258",
+      "status": "completed",
+      "wall_seconds": 1.7663292998913676,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35265",
+      "status": "completed",
+      "wall_seconds": 1.8796307609882206,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35277",
+      "status": "completed",
+      "wall_seconds": 1.9993677358143032,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35278",
+      "status": "completed",
+      "wall_seconds": 1.7674427370075136,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35286",
+      "status": "completed",
+      "wall_seconds": 1.8593064160086215,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35296",
+      "status": "completed",
+      "wall_seconds": 2.0206106258556247,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35300",
+      "status": "completed",
+      "wall_seconds": 2.4193409748841077,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35303",
+      "status": "completed",
+      "wall_seconds": 1.5620260669384152,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35319",
+      "status": "completed",
+      "wall_seconds": 2.1958045600913465,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35324",
+      "status": "completed",
+      "wall_seconds": 1.9054990869481117,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35349",
+      "status": "completed",
+      "wall_seconds": 1.630482133012265,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35360",
+      "status": "completed",
+      "wall_seconds": 3.0319977710023522,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35371",
+      "status": "completed",
+      "wall_seconds": 1.9170249581802636,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35376",
+      "status": "completed",
+      "wall_seconds": 1.8305185588542372,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35386",
+      "status": "completed",
+      "wall_seconds": 1.6857210770249367,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35399",
+      "status": "completed",
+      "wall_seconds": 1.707671056035906,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35405",
+      "status": "completed",
+      "wall_seconds": 1.8841593200340867,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35408",
+      "status": "completed",
+      "wall_seconds": 1.708848237991333,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35416",
+      "status": "completed",
+      "wall_seconds": 1.7022033461835235,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35420",
+      "status": "completed",
+      "wall_seconds": 1.7794819390401244,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35430",
+      "status": "completed",
+      "wall_seconds": 1.7015282651409507,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35431",
+      "status": "completed",
+      "wall_seconds": 2.0317926399875432,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35449",
+      "status": "completed",
+      "wall_seconds": 2.93706984189339,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35464",
+      "status": "completed",
+      "wall_seconds": 1.7878951630555093,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35465",
+      "status": "completed",
+      "wall_seconds": 1.9198506860993803,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35473",
+      "status": "completed",
+      "wall_seconds": 2.0425927829928696,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35496",
+      "status": "completed",
+      "wall_seconds": 2.3063354620244354,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35500",
+      "status": "completed",
+      "wall_seconds": 2.135958916042,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35502",
+      "status": "completed",
+      "wall_seconds": 1.9890837809070945,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35525",
+      "status": "completed",
+      "wall_seconds": 1.659515665145591,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35526",
+      "status": "completed",
+      "wall_seconds": 2.4150129400659353,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35531",
+      "status": "completed",
+      "wall_seconds": 1.87529616500251,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35535",
+      "status": "completed",
+      "wall_seconds": 1.8382307970896363,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35544",
+      "status": "completed",
+      "wall_seconds": 1.8346951799467206,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35580",
+      "status": "completed",
+      "wall_seconds": 1.962779490975663,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35582",
+      "status": "completed",
+      "wall_seconds": 1.9113133661448956,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35592",
+      "status": "completed",
+      "wall_seconds": 1.8073555920273066,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35593",
+      "status": "completed",
+      "wall_seconds": 1.8343529580160975,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35596",
+      "status": "completed",
+      "wall_seconds": 1.8931379788555205,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35604",
+      "status": "completed",
+      "wall_seconds": 2.3099227270577103,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35628",
+      "status": "completed",
+      "wall_seconds": 1.8125817929394543,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35642",
+      "status": "completed",
+      "wall_seconds": 1.8237612079828978,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35654",
+      "status": "completed",
+      "wall_seconds": 2.6215930220205337,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35660",
+      "status": "completed",
+      "wall_seconds": 1.7286814309190959,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35667",
+      "status": "completed",
+      "wall_seconds": 1.6871315129101276,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35670",
+      "status": "completed",
+      "wall_seconds": 1.7530692911241204,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35679",
+      "status": "completed",
+      "wall_seconds": 1.8082201960496604,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35688",
+      "status": "completed",
+      "wall_seconds": 2.117439994821325,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35693",
+      "status": "completed",
+      "wall_seconds": 1.7146485999692231,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35698",
+      "status": "completed",
+      "wall_seconds": 2.504893490113318,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35700",
+      "status": "completed",
+      "wall_seconds": 1.5334270419552922,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35735",
+      "status": "completed",
+      "wall_seconds": 1.727576200850308,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35739",
+      "status": "completed",
+      "wall_seconds": 1.5464167278259993,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35740",
+      "status": "completed",
+      "wall_seconds": 1.658027321100235,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35742",
+      "status": "completed",
+      "wall_seconds": 1.8464139739517123,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35757",
+      "status": "completed",
+      "wall_seconds": 1.872370322002098,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35764",
+      "status": "completed",
+      "wall_seconds": 1.6161070889793336,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35767",
+      "status": "completed",
+      "wall_seconds": 2.1043431400321424,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35770",
+      "status": "completed",
+      "wall_seconds": 1.8000811680685729,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35777",
+      "status": "completed",
+      "wall_seconds": 1.8750898879952729,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35783",
+      "status": "completed",
+      "wall_seconds": 2.343512357212603,
+      "artifact_mode": "none"
+    },
+    {
+      "qa_id": "35791",
+      "status": "completed",
+      "wall_seconds": 1.8808067659847438,
+      "artifact_mode": "none"
+    }
+  ]
+}

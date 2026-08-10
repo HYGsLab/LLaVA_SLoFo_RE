@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <rect width="960" height="560" fill="#fbfcfe"/>
+  <text x="480" y="38" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" fill="#172033">TextVQA 128题：论文默认配置与当前扩展配置</text>
+  <text x="480" y="64" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="14" fill="#566074">官方soft accuracy（固定开发子集，非全量官方分数）</text>
+  <g stroke="#dfe4ec" stroke-width="1">
+    <line x1="95" y1="470" x2="920" y2="470"/><line x1="95" y1="393" x2="920" y2="393"/>
+    <line x1="95" y1="316" x2="920" y2="316"/><line x1="95" y1="239" x2="920" y2="239"/>
+    <line x1="95" y1="162" x2="920" y2="162"/><line x1="95" y1="85" x2="920" y2="85"/>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#697386" text-anchor="end">
+    <text x="84" y="475">50</text><text x="84" y="398">52</text><text x="84" y="321">54</text>
+    <text x="84" y="244">56</text><text x="84" y="167">58</text><text x="84" y="90">60%</text>
+  </g>
+  <g>
+    <rect x="125" y="355.7" width="56" height="114.3" rx="4" fill="#2a9d8f"/><rect x="185" y="355.7" width="56" height="114.3" rx="4" fill="#e9a23b"/>
+    <rect x="285" y="277.5" width="56" height="192.5" rx="4" fill="#2a9d8f"/><rect x="345" y="382.8" width="56" height="87.2" rx="4" fill="#e9a23b"/>
+    <rect x="445" y="343.1" width="56" height="126.9" rx="4" fill="#2a9d8f"/><rect x="505" y="181.3" width="56" height="288.7" rx="4" fill="#e9a23b"/>
+    <rect x="605" y="291.5" width="56" height="178.5" rx="4" fill="#2a9d8f"/><rect x="665" y="181.3" width="56" height="288.7" rx="4" fill="#e9a23b"/>
+    <rect x="765" y="321.6" width="56" height="148.4" rx="4" fill="#2a9d8f"/><rect x="825" y="184.3" width="56" height="285.7" rx="4" fill="#e9a23b"/>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="12" fill="#172033" text-anchor="middle">
+    <text x="153" y="348">52.97</text><text x="213" y="348">52.97</text>
+    <text x="313" y="270">55.00</text><text x="373" y="376">52.27</text>
+    <text x="473" y="336">53.28</text><text x="533" y="174">57.50</text>
+    <text x="633" y="284">54.61</text><text x="693" y="174">57.50</text>
+    <text x="793" y="315">53.83</text><text x="853" y="177">57.42</text>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="14" fill="#263044" text-anchor="middle">
+    <text x="183" y="500">原图</text><text x="343" y="500">仅裁切</text><text x="503" y="500">旧单框双图</text>
+    <text x="663" y="500">Top-k双图</text><text x="823" y="500">Focus</text>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#566074">
+    <rect x="630" y="22" width="14" height="14" fill="#2a9d8f"/><text x="650" y="34">8 Token + min-max + Top-k</text>
+    <rect x="817" y="22" width="14" height="14" fill="#e9a23b"/><text x="837" y="34">论文默认</text>
+  </g>
+</svg>

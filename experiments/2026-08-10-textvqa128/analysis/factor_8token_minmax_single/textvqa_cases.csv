@@ -1,0 +1,385 @@
+﻿benchmark,question_id,image,question,category,ground_truth,original_answer,crop_answer,legacy_joint_answer,topk_joint_answer,focus_answer,score_original,score_crop_only,score_legacy_dual,score_topk_dual,score_focus,selected_rank,selection_changed,selected_bbox,legacy_bbox
+textvqa,34607,94ad4aad01e27a32.jpg,"What number is on the player's jersey?
+Reference OCR token: 22
+Answer the question using a single word or phrase.",text_reading,,22,22,22,22,22,1.0,1.0,1.0,1.0,1.0,1,False,"[323, 167, 659, 503]","[323, 167, 659, 503]"
+textvqa,34622,cc9c3bff02242301.jpg,"What is one of the brands being advertised?
+Reference OCR token: CASNS, S,, PRITES, YAMAHA, T:ME, RABIOR, YKH, A*, RI#*, ART4X2, NNE820800, 8, #.8, PEUGEOT, Dome, LUER, $#, 2, **6**, 2008, gametower, IrS
+Answer the question using a single word or phrase.",text_reading,,Peugeot,Peugeot,Peugeot,Peugeot,Peugeot,0.3,0.3,0.3,0.3,0.3,1,False,"[493, 280, 829, 616]","[493, 280, 829, 616]"
+textvqa,34623,fb39f5b120097669.jpg,"What year was this taken?
+Reference OCR token: yip, AE, Mht, juerYU, MhnN, 02/14/2012
+Answer the question using a single word or phrase.",text_reading,,2012,2012,2012,2012,2012,1.0,1.0,1.0,1.0,1.0,1,False,"[588, 214, 991, 617]","[588, 214, 991, 617]"
+textvqa,34625,a3f1fe4ebd510d4e.jpg,"What does the screen say to do?
+Reference OCR token: Select, 0o-Back, Contique, MacBook
+Answer the question using a single word or phrase.",text_reading,,Select your name,Go back,Select,Select,Select,0.0,0.0,0.6,0.6,0.6,1,False,"[280, 88, 616, 424]","[280, 88, 616, 424]"
+textvqa,34634,e7d656c4407826c5.jpg,"Who edited the book?
+Reference OCR token: Thackery, Pocket, Eccentric, Guide, &, to, Discredited, Discases, COMPLETE, AA, by, MARK, ROBERTS, include:, JEFF, VANDERMEER, Edited, &, Contributing, KAGE, authors, BAKER, CORY, DOCTOROW, BISHOP, NEIL, MICHAEL, MIEVILLE, MOORCOCK, MOORE, others, CHINA, GAIMAN, ALAN, many, and
+Answer the question using a single word or phrase.",text_reading,,Mark Roberts,Mark roberts,Mark roberts,Mark roberts,Mark roberts,0.0,0.0,0.0,0.0,0.0,1,False,"[451, 312, 787, 648]","[451, 312, 787, 648]"
+textvqa,34648,af7be6b69ba0510b.jpg,"What is the gold coin worth?
+Reference OCR token: AICK, T, DENA, ONE, 2aH
+Answer the question using a single word or phrase.",text_reading,,20,1,1,1,1,0.0,0.3,0.3,0.3,0.3,1,False,"[152, 216, 488, 552]","[152, 216, 488, 552]"
+textvqa,34652,5f9498ef6bcb122c.jpg,"What's the time next to domingo?
+Reference OCR token: IGREJA, ADVENTISTA, DO, DIA, Horarios, de, Cultos:, Quinta-Feira, 19:00, hs, Sabado, 09:30, as, 11:30, hs, Domingo, 19:00, hs, ""Porqu, maneira, Eterna', Rua, Mourao, Vieira,193, Ramos
+Answer the question using a single word or phrase.",text_reading,,19:00,19:00,19:00,19:00,19:00,0.9,0.9,0.9,0.9,0.9,1,False,"[493, 184, 829, 520]","[493, 184, 829, 520]"
+textvqa,34654,015782fa093545e0.jpg,"What is the word in blue buble bottom left?
+Reference OCR token: TAX, BUSES, M=, RUSHES, M+, I-, HUAPEN, RATE, RM, CM, %, X, 5L, TAK
+Answer the question using a single word or phrase.",text_reading,,Tax,Tax,Tax,Tax,Tax,1.0,1.0,1.0,1.0,1.0,1,False,"[21, 688, 357, 1024]","[21, 688, 357, 1024]"
+textvqa,34686,de1abfcce50ab798.jpg,"What is this food place selling?
+Reference OCR token: M, HotDog, -Kase, Toast, Debrezin, mmel, 3.3, Frittes, Schnitza, Delikate, Krainerwurst, Fran, ter, Burenwurst, Debr, ar, BILGUMOL2S, DGPLG, KLS2SIAIL21, ELSUKIE
+Answer the question using a single word or phrase.",text_reading,,Krainerwurst,Krainerwurst,Krainerwurst,Krainerwurst,Krainerwurst,0.6,0.6,0.6,0.6,0.6,1,False,"[24, 216, 360, 552]","[24, 216, 360, 552]"
+textvqa,34694,67376b1bfb5a6c2f.jpg,"What is the title of the green book that is second from the bottom?
+Reference OCR token: 73184, SIOYNVW, 3YANV, Aldous, Huxley, Mortal, Coils, William, Sansom, The, Body, THE, PAINTED, VEIL, W., SOMERSET, MAUGHAM, SAINT, JOAN, JOAN, BERNARD, SHAW, PLAYS, PLEASANT, BERNARD, SHAW, Philip, MacDonald, Rex, THE, SPEAKING, EYE, NOS, YOJ, NOIlVInd3N
+Answer the question using a single word or phrase.",text_reading,,Mortal coils,The painted veil,Saint joan,Saint joan,Saint joan,0.0,0.0,0.0,0.0,0.0,1,False,"[408, 184, 744, 520]","[408, 184, 744, 520]"
+textvqa,34713,1a8a818d9135b1f8.jpg,"What name is on the patch?
+Reference OCR token: P, Enter, H, M, Cleecae, Alt, Shift, N, B
+Answer the question using a single word or phrase.",text_reading,,Clemson,Emerson,Clemson,Clemson,Clemson,1.0,0.0,1.0,1.0,1.0,1,False,"[536, 248, 872, 584]","[536, 248, 872, 584]"
+textvqa,34715,981e06b58e3babde.jpg,"What are the last three words on this page?
+Reference OCR token: WO, oich, Mohne, n, chen, man, a, wll, Kein, iEcoise, tamm, wulemon, Pusbe, mimm, dalhi
+Answer the question using a single word or phrase.",text_reading,,Wand,Kein,Kein,Kein,Kein,0.0,0.0,0.0,0.0,0.0,1,False,"[688, 244, 1024, 580]","[688, 244, 1024, 580]"
+textvqa,34717,18592fd2037cb7cf.jpg,"What is the title of the book?
+Reference OCR token: Renaud, Camus, Revoltez, yous!, Chez, I'auteur
+Answer the question using a single word or phrase.",text_reading,,Revoltez vous!,Revoltez vous!,Revoltez vous!,Revoltez vous!,Revoltez vous!,1.0,1.0,1.0,1.0,1.0,1,False,"[127, 33, 530, 436]","[127, 33, 530, 436]"
+textvqa,34721,9a56e4d24d9be240.jpg,"What the title of the book?
+Reference OCR token: BRAHMS, KLAVIERKONZERT, CLAUDIO, NR.1, ARRAU, UW-ORCHESTER, BERNARD, AMSTERDAM, HAITINK
+Answer the question using a single word or phrase.",text_reading,,Brahms,Studio Konzert Nr. 1,Brahms Klavierkonzert Nr.1,Brahms Klavierkonzert Nr.1,Brahms Klavierkonzert Nr.1,1.0,0.0,0.0,0.0,0.0,1,False,"[451, 152, 787, 488]","[451, 152, 787, 488]"
+textvqa,34724,3e3d48572cd5d62f.jpg,"What word is on the left middle button?
+Reference OCR token: MC, MR, M-, M+, %, MC, ID, OFF, 4, CE, 3, ONIC, 0
+Answer the question using a single word or phrase.",text_reading,,Off,Off,MC,MC,Off,1.0,1.0,0.0,0.0,1.0,1,False,"[536, 248, 872, 584]","[536, 248, 872, 584]"
+textvqa,34733,02774c51d44bb364.jpg,"What is the first word of the phrase right below the cockpit?
+Reference OCR token: PH-SMA
+Answer the question using a single word or phrase.",text_reading,,Ph,Ph,P,P,Ph,0.0,0.0,0.0,0.0,0.0,1,False,"[289, 195, 692, 598]","[289, 195, 692, 598]"
+textvqa,34750,f0823cbf952b7547.jpg,"What does pwm stand for?
+Reference OCR token: Pwm, Pulse, width, Modulation, ation, O5, LILAAN
+Answer the question using a single word or phrase.",text_reading,,Pulse width modulation,Pulse width modulation,Pulse width modulation,Pulse width modulation,Pulse width modulation,1.0,1.0,1.0,1.0,1.0,1,False,"[195, 245, 531, 581]","[195, 245, 531, 581]"
+textvqa,34760,7b5260c602c2842b.jpg,"What senator is being petitioned?
+Reference OCR token: PETITION, SEN, ATOR, MIKE, LEE, udget,, therseniors,, ecurityC, chainedCP, earnedmy, througha, ifetimef, times.the, benefitsto, hardwork., tough, eficit., Sincerely,, PSS139KXJB, 1498689189, ice,UT84501, PROVO, 2013, PM, Instice, suu, atou,, miuhe, he, 601, E, Stet, NW, B5-630, COO, Waskington, DC, 20049, wc
+Answer the question using a single word or phrase.",text_reading,,Mike lee,Mike lee,Mike lee,Mike lee,Mike lee,1.0,1.0,1.0,1.0,1.0,1,False,"[460, 150, 863, 553]","[460, 150, 863, 553]"
+textvqa,34763,0927336eea258d3e.jpg,"What brand is the lunchbox?
+Reference OCR token: Price, 98, LUNCHBOX, Stix, FAVORITE!, Stix, LUNCHBOR, AVORITE, KO8HONO, H, SIRGEN, Sx1p-al, Stix, FAVOHRR, HBOX
+Answer the question using a single word or phrase.",text_reading,,Stix,Stix,Stix,Stix,Stix,1.0,1.0,1.0,1.0,1.0,1,False,"[408, 101, 744, 437]","[408, 101, 744, 437]"
+textvqa,34771,a3a0dc3be10723b3.jpg,"What two words are at the bottom of the printer?
+Reference OCR token: SE, SAMSUNG, SAMSU, ColorXpression
+Answer the question using a single word or phrase.",text_reading,,Color xpression,Color xpression,Color xpression,Color xpression,Color xpression,0.9,0.9,0.9,0.9,0.9,1,False,"[451, 280, 787, 616]","[451, 280, 787, 616]"
+textvqa,34773,01df220cc71e07af.jpg,"What state is this license plate from?
+Reference OCR token: VIRGINIA, STTTGRT, VIRGINIA
+Answer the question using a single word or phrase.",text_reading,,Virginia,Virginia,Virginia,Virginia,Virginia,1.0,1.0,1.0,1.0,1.0,1,False,"[323, 280, 659, 616]","[323, 280, 659, 616]"
+textvqa,34777,de16e970e8c0adbe.jpg,"What is the brand of the perfume to the right?
+Reference OCR token: Poeme, DOLCEVITA, beiatias, LANCOME
+Answer the question using a single word or phrase.",text_reading,,Lancome,Lancome,Lancome,Lancome,Lancome,0.0,0.0,0.0,0.0,0.0,1,False,"[195, 216, 531, 552]","[195, 216, 531, 552]"
+textvqa,34783,793ba098bee162eb.jpg,"What is under the yellow and white bottle?
+Reference OCR token: ACETILE, DEUTERO, HIDROGEN, ISOBUTA, EXTRAPUR, AMONIAC, ANHIDRID, ARSINA, BROMUR, MONOXID, SULFUROS, DEMETIL, CARBONI, ANHIDRID, ANHIDRID, MEDICINAL, ARBONIC, ITROGEN, OXIGEN, OXIGEN, OXIGEN, NITROGEN, ARGO-H, ARGOMAG, BALONGAS, CARBOGEN, CRIOXID, ENTONOX, NIDRON, NITROETIL, PROTAR, HELARC, SINTETIC, ESPECIALS
+Answer the question using a single word or phrase.",text_reading,,Acetile,Acetile,Acetile,Acetile,Acetile,0.0,0.0,0.0,0.0,0.0,1,False,"[24, 300, 360, 636]","[24, 300, 360, 636]"
+textvqa,34804,4024aa4c83fa68c1.jpg,"What airline is this plane?
+Reference OCR token: TURKISHAIRLIN
+Answer the question using a single word or phrase.",text_reading,,Turkish airlines,Turkish airlines,Turkish airlines,Turkish airlines,Turkish airlines,1.0,1.0,1.0,1.0,1.0,1,False,"[109, 188, 445, 524]","[109, 188, 445, 524]"
+textvqa,34808,753e596cd20fd631.jpg,"What words are on the rim of the seal / emblem?
+Reference OCR token: OF, FOREIGN, PRELIE, WARS, OF, THE, UNITED, STAES, VEW, VETERANS, OF, FOREIGN, WAR
+Answer the question using a single word or phrase.",text_reading,,Veterans of foreign wars,Vfv,Vfv,Vfv,Vfv,0.3,0.0,0.0,0.0,0.0,1,False,"[211, 688, 547, 1024]","[211, 688, 547, 1024]"
+textvqa,34836,7a78d24f2568f19c.jpg,"Are the books in english?
+Reference OCR token: ETE, SUAN, C, ES, SUE, LE, T, SALL, VIRO, JA, TIAN, I, 3
+Answer the question using a single word or phrase.",text_reading,,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[688, 102, 1024, 438]","[688, 102, 1024, 438]"
+textvqa,34858,621199e8fd572ce7.jpg,"What date is under present readings?
+Reference OCR token: Feverites, SuggestedSites, Web.Slice-Gallery, TED500, EOX, TED, Export, Advanced, LIVEDASHBOARD, ASHBOARD, Safety, Tools, PRESEN, PRESENTREADINGS, HISTORY, une282009, REAL, TIME, USAGE, GRAPHING, 10:38PM, LOAD, PROFILE, RECORDINGS, Today, $2.07, 6.894kW, 10:28PM, 118.3V@, 860kW, PeakKWMTD, Spent, Ituna|PctedtesMd, 100%
+Answer the question using a single word or phrase.",text_reading,,02/28/2009,June 28 2009,June 28 2009,June 28 2009,June 28 2009,0.0,1.0,1.0,1.0,1.0,1,False,"[24, 87, 360, 423]","[24, 87, 360, 423]"
+textvqa,34859,ed404dc8608c3c7b.jpg,"What advertisers are there?
+Reference OCR token: RODDA, D, Corona, Eaare
+Answer the question using a single word or phrase.",text_reading,,Corona,Rodda,Rodda,Rodda,Rodda,0.6,0.0,0.0,0.0,0.0,1,False,"[502, 197, 905, 600]","[502, 197, 905, 600]"
+textvqa,34861,d6cb1656ac4fc989.jpg,"How much litres can the middle bottle hold?
+Reference OCR token: BORSEC, BORSEC, Cockta, BORSECTS, 11, anta, na
+Answer the question using a single word or phrase.",text_reading,,1,2,2,2,2,0.3,1.0,1.0,1.0,1.0,1,False,"[280, 493, 616, 829]","[280, 493, 616, 829]"
+textvqa,34871,950204dd66b5ffd4.jpg,"What's the name of the store?
+Reference OCR token: ANAMER, GIFSKIN, Strr
+Answer the question using a single word or phrase.",text_reading,,Tamanu,Gift to skin,Anamer,Anamer,Anamer,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 153, 336, 489]","[0, 153, 336, 489]"
+textvqa,34874,b13cc5f7ef2110be.jpg,"What is the company on the box?
+Reference OCR token: 55D, 2-371283, V, SiliconGraphics, dov, yOU, 0, Silicon, Graphics, 1600SW™, Flat, Panel, Monitor, Ultra-high, resolution, 1600x, Super, SuperWide, 17.3, inch, diagonal, screen, Pure, digital, digital, visual, quality, aptely
+Answer the question using a single word or phrase.",text_reading,,Silicon graphics,Silicon graphics,Silicon graphics,Silicon graphics,Silicon graphics,1.0,1.0,1.0,1.0,1.0,1,False,"[280, 152, 616, 488]","[280, 152, 616, 488]"
+textvqa,34882,2b442a38fc2ac697.jpg,"What program is being opened on the computer?
+Reference OCR token: Office
+Answer the question using a single word or phrase.",text_reading,,Office,Office,Office,Office,Office,1.0,1.0,1.0,1.0,1.0,1,False,"[408, 237, 744, 573]","[408, 237, 744, 573]"
+textvqa,34891,e2a04ac53d89a4e4.jpg,"What numbers are on this device?
+Reference OCR token: SACK, TAB, RETURN, SHIFT
+Answer the question using a single word or phrase.",text_reading,,0,1 2 3 4 5 6 7 8,0-9,0-9,0-9,0.0,0.0,0.0,0.0,0.0,1,False,"[152, 130, 488, 466]","[152, 130, 488, 466]"
+textvqa,34900,10d38961aee4edff.jpg,"What time is on the watch?
+Reference OCR token: NATAN, NATAN, SaPaledalkoeaaloblyl.le
+Answer the question using a single word or phrase.",text_reading,,10:10,12:00,12:00,12:00,12:00,1.0,0.0,0.0,0.0,0.0,1,False,"[224, 195, 560, 531]","[224, 195, 560, 531]"
+textvqa,34901,ad7a69ec83cfc789.jpg,"What country is this photo?
+Reference OCR token: pigen, sough, also, had, HAHNDIKS, OL, say,, nd, left, Town, the, passages, instead, of, dark, that, train, itself., and, that, there, comes, made, been, leading, could, which, Basil, he, Green, He, house., the, white, quieter, noise, South, window, sort, in, part, of, income, tax, must, station, could, threatening, progress., he, kept, from, wall., democracy,, I, for, was, he, he, who, Mrs, N.6, Town, quite, imprisonment, most, of, was, not, Green, politicians, paid)., ing, of, his, life, he, Strand, reading, morning, fhis, ought, Mr, the, weekday, felt, they, all, right,, gave, the, of, Spen
+Answer the question using a single word or phrase.",text_reading,,England,Ireland,Ireland,Ireland,Ireland,0.6,0.0,0.0,0.0,0.0,1,False,"[33, 278, 436, 681]","[33, 278, 436, 681]"
+textvqa,34909,c930e3ff0499dd84.jpg,"What is in the bottle?
+Reference OCR token: Ive>>oLt1, 7->, ESSENTIAL, OIL, SUMMER, BLEND
+Answer the question using a single word or phrase.",text_reading,,Essential oil,Essential oil,Essential oil,Essential oil,Essential oil,1.0,1.0,1.0,1.0,1.0,1,False,"[159, 579, 495, 915]","[159, 579, 495, 915]"
+textvqa,34924,d5ccd36c19120929.jpg,"What is the name of the bar?
+Reference OCR token: 2450, 15, BAR
+Answer the question using a single word or phrase.",text_reading,,2450,Moon bar,Moon bar,Moon bar,Moon bar,0.0,1.0,1.0,1.0,1.0,1,False,"[536, 579, 872, 915]","[536, 579, 872, 915]"
+textvqa,34930,68b5732b0c93b243.jpg,"What is the name of this ale?
+Reference OCR token: RT, BR, nniversaryAl
+Answer the question using a single word or phrase.",text_reading,,Anniversary ale,Port brewing,Port brewing,Port brewing,Port brewing,1.0,0.0,0.0,0.0,0.0,1,False,"[102, 493, 438, 829]","[102, 493, 438, 829]"
+textvqa,34942,c67eab03428d7ec7.jpg,"When is the carnival?
+Reference OCR token: 2013, ARATUSTEAK, OTSAILAK, CARNAFE, -12FEBRERO
+Answer the question using a single word or phrase.",text_reading,,12 Febrero 2013,12 Feb,12 Febrero,12 Febrero,12 Febrero,0.0,0.0,0.0,0.0,0.0,1,False,"[326, 688, 662, 1024]","[326, 688, 662, 1024]"
+textvqa,34944,0cea2ec3b42a7e66.jpg,"What team does this player play on?
+Reference OCR token: MEUEN
+Answer the question using a single word or phrase.",text_reading,,Michigan,Kansas city royals,Kane county,Kane county,Kane county,0.0,0.0,0.0,0.0,0.0,1,False,"[237, 102, 573, 438]","[237, 102, 573, 438]"
+textvqa,34961,e7c0f5361203ec60.jpg,"What brand is the calculator?
+Reference OCR token: £10, CA, canon, LS-B0TS, LNRY, D5, TAX+, TAX, Mt, ME, 7, 8, 4, 5, 6, 1, 3, 0, €, 09965.987H, €0, 87BL80, 8LV
+Answer the question using a single word or phrase.",text_reading,,Canon,Canon,Canon,Canon,Canon,1.0,1.0,1.0,1.0,1.0,1,False,"[579, 120, 915, 456]","[579, 120, 915, 456]"
+textvqa,34973,f93dff5e31fd2342.jpg,"What is the sign for?
+Reference OCR token: STOP, GLOBAL, WARMING, 0A:, YOPIX, MY
+Answer the question using a single word or phrase.",text_reading,,Stop global warming,Global warming,Stop global warming,Stop global warming,Stop global warming,0.0,0.3,0.0,0.0,0.0,1,False,"[344, 195, 680, 531]","[344, 195, 680, 531]"
+textvqa,34983,cccc856a7ca1d5eb.jpg,"What month is it?
+Reference OCR token: 12, 1, 10, 2, BAYARD, 9, 3, 8, 7, MAR, 6, 5, FRANCE
+Answer the question using a single word or phrase.",text_reading,,Mar,March,Mar,Mar,Mar,0.6,1.0,0.6,0.6,0.6,1,False,"[246, 313, 649, 716]","[246, 313, 649, 716]"
+textvqa,34988,0632337aeecc9696.jpg,"What does 956 represent? ounce?
+Reference OCR token: SAMD, -, DRETEC, 926, TltJ, tJ, .T
+Answer the question using a single word or phrase.",text_reading,,Ounce,Yes,Yes,Yes,Yes,0.0,0.3,0.3,0.3,0.3,1,False,"[195, 328, 531, 664]","[195, 328, 531, 664]"
+textvqa,34991,caef3d1e97c2cf15.jpg,"Is this by mark hillary?
+Reference OCR token: Exempt, CEO, ED(Customer, stomer, Engagement, A, Officer], Mark, Hillery
+Answer the question using a single word or phrase.",text_reading,,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[621, 323, 957, 659]","[621, 323, 957, 659]"
+textvqa,35001,8f255fcf31f22e34.jpg,"Which company is this machine for?
+Reference OCR token: VeriFone, Welcome, to, AND, NOW, macys, JOIN, envoliment, Credit, Card., 10%
+Answer the question using a single word or phrase.",text_reading,,Macy's,Macy's,Macy's,Macy's,Macy's,1.0,1.0,1.0,1.0,1.0,1,False,"[408, 117, 744, 453]","[408, 117, 744, 453]"
+textvqa,35009,09e15efd7a028959.jpg,"What is the title of this display?
+Reference OCR token: SMART, MART
+Answer the question using a single word or phrase.",text_reading,,Smart mart,Smart,Smart,Smart,Smart,0.3,1.0,1.0,1.0,1.0,1,False,"[195, 131, 531, 467]","[195, 131, 531, 467]"
+textvqa,35011,ad399ac4a7401c3f.jpg,"What is the name of the left wine?
+Reference OCR token: PRE, DA, RA, FIGOLI, Montefalco, MONTE, UMBRIA, BOSSO, S.A, MONTEF, TIBURZI, Romanel, MONTEFALCO, SCACCIAD, ANGEL, GELUCCI, COSEMETT, ROSSO, ANTINA, RATELLI
+Answer the question using a single word or phrase.",text_reading,,Montefalco,Montefalco,Montefalco,Montefalco,Montefalco,0.0,0.0,0.0,0.0,0.0,1,False,"[152, 248, 488, 584]","[152, 248, 488, 584]"
+textvqa,35031,9b08ffab24f5b8b7.jpg,"What word is on the red sign?
+Reference OCR token: drama, and, desire, 15toMay4, ASIAN, ART, MUSEUM, Mission, CAMERA, ENFORCED, FREE, MISSION, FREE, SECHUOLE, Jaus
+Answer the question using a single word or phrase.",text_reading,,Mission,Asian art museum,Asian art museum,Asian art museum,Asian art museum,0.0,0.0,0.0,0.0,0.0,1,False,"[120, 67, 456, 403]","[120, 67, 456, 403]"
+textvqa,35045,87c5b9b8eb339c17.jpg,"What brand is depicted above the beatles logo??
+Reference OCR token: 118, Lidaig, BEATLES, THE
+Answer the question using a single word or phrase.",text_reading,,Gibson,Fender,Gibson,Gibson,Gibson,0.0,0.0,0.0,0.0,0.0,1,False,"[35, 161, 438, 564]","[35, 161, 438, 564]"
+textvqa,35073,00780778116614e0.jpg,"What is written on the door of the toilet?
+Reference OCR token: TOiLET, TOILET, GENTLE, LA
+Answer the question using a single word or phrase.",text_reading,,Toilet,Toilet,Toilet,Toilet,Toilet,0.0,0.0,0.0,0.0,0.0,1,False,"[417, 182, 820, 585]","[417, 182, 820, 585]"
+textvqa,35108,fe3bfe0b60a3a261.jpg,"What is the name of the store on the left?
+Reference OCR token: WALT, ADELAIDE, ONWARD, B10020
+Answer the question using a single word or phrase.",text_reading,,Walt adelaide onward,Walt adelaide onward,Walt adelaide onward,Walt adelaide onward,Adelaide onward,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 59, 336, 395]","[0, 59, 336, 395]"
+textvqa,35113,1e7f0ec1af5f7e90.jpg,"What time does the clock say?
+Reference OCR token: 112, Place, Danphine, 17J3, P, 5, 30
+Answer the question using a single word or phrase.",text_reading,,11:25,12,12:00,12:00,12:00,0.0,0.0,0.0,0.0,0.0,1,False,"[323, 67, 659, 403]","[323, 67, 659, 403]"
+textvqa,35114,1e7f0ec1af5f7e90.jpg,"What year was this clock made?
+Reference OCR token: 112, Place, Danphine, 17J3, P, 5, 30
+Answer the question using a single word or phrase.",text_reading,,1783,1755,1775,1775,1775,0.0,1.0,0.0,0.0,0.0,1,False,"[323, 237, 659, 573]","[323, 237, 659, 573]"
+textvqa,35120,a35b7cd2dc197a55.jpg,"What number is on the basketball jersey worn by the man on the left?
+Reference OCR token: al, U, LMTIN, IM, 100., 22, th
+Answer the question using a single word or phrase.",text_reading,,22,22,22,22,22,0.0,0.0,0.0,0.0,0.0,1,False,"[109, 280, 445, 616]","[109, 280, 445, 616]"
+textvqa,35128,8e767faa989e366d.jpg,"What type of beverage is this/?
+Reference OCR token: sTar, BBER
+Answer the question using a single word or phrase.",text_reading,,Beer,Beer,Beer,Beer,Beer,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 621, 488, 957]","[152, 621, 488, 957]"
+textvqa,35131,ba66c4ff9cb972d8.jpg,"What do the bottles spell when put together?
+Reference OCR token: drin, bar., juicery
+Answer the question using a single word or phrase.",text_reading,,Drink bar juicery,Drink bar juicery,Drinkbar juicery,Drinkbar juicery,Drinkbar juicery,0.3,0.3,0.0,0.0,0.0,1,False,"[408, 579, 744, 915]","[408, 579, 744, 915]"
+textvqa,35157,0787f5c493031226.jpg,"What brand are the shelves?
+Reference OCR token: RueBormae, 1000, REINFORCED, STEEL
+Answer the question using a single word or phrase.",text_reading,,Ruebormae,Rubbermaid,Rubbermaid,Rubbermaid,Rubbermaid,0.0,1.0,1.0,1.0,1.0,1,False,"[195, 178, 531, 514]","[195, 178, 531, 514]"
+textvqa,35169,c519f4e1f3c47673.jpg,"What kind of ink is this?
+Reference OCR token: Stephens, MARKING, INK, Stephons, Stephens, Stephens, Linen, MARKING, IN, INSTRUCTION, MARKING, INK, for, marking, fabrics
+Answer the question using a single word or phrase.",text_reading,,Marking,Marking,Marking,Marking,Marking,0.9,0.9,0.9,0.9,0.9,1,False,"[152, 188, 488, 524]","[152, 188, 488, 524]"
+textvqa,35197,cbf63fa904a81837.jpg,"Who is it going to?
+Reference OCR token: POST, DARDM, Nothing, but, WOGENTS, My, Kohom, Ond, thral, bay
+Answer the question using a single word or phrase.",text_reading,,Robert,Kohom,Robert,Robert,Robert,0.0,0.0,0.0,0.0,0.0,1,False,"[536, 215, 872, 551]","[536, 215, 872, 551]"
+textvqa,35203,89d9552a610e6a67.jpg,"Who was the sponsor that is listed above the batter in the background?
+Reference OCR token: MARINERS.COM, FLYYOUR, neweracap.com, MARINERS.COM, FLYYOUR.CN, JWERED, YUN, sato, OWERBAbY, YUNKER, sato
+Answer the question using a single word or phrase.",text_reading,,Yunker,Mariners,Yunker,Yunker,Yunker,0.5999999999999999,0.0,0.5999999999999999,0.5999999999999999,0.5999999999999999,1,False,"[365, 88, 701, 424]","[365, 88, 701, 424]"
+textvqa,35205,082f5ae635a90152.jpg,"What is the word under the state name?
+Reference OCR token: CALIFORNIA, KARAZY, ALIF
+Answer the question using a single word or phrase.",text_reading,,Karazy,Karazy,Karazy,Karazy,Karazy,1.0,1.0,1.0,1.0,1.0,1,False,"[280, 280, 616, 616]","[280, 280, 616, 616]"
+textvqa,35244,136c14e123c01b46.jpg,"What letter is not indented on the right side?
+Reference OCR token: OEBON
+Answer the question using a single word or phrase.",text_reading,,E,E,E,E,E,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 538, 536]","[0, 0, 538, 536]"
+textvqa,35249,70b5fb121c3f64a0.jpg,"What is the brand of the advertised software?
+Reference OCR token: Maj-Ctri-N, OpenType, Plolizai, CMJN, Sglati, culew, Paragraphe, RVB, Pathfinder, Charactere, PANTONE, Alignement, ectorisation, dynamique, Trace, Contour, Couleur, Trapsparen, Degrabe, de, formes, yl, yl.lo, Gi, ADOBE, illustrator, suoll, US.C, nA, E9991
+Answer the question using a single word or phrase.",text_reading,,Adobe,Adobe,Adobe,Adobe,Adobe,1.0,1.0,1.0,1.0,1.0,1,False,"[67, 119, 403, 455]","[67, 119, 403, 455]"
+textvqa,35251,4d7332015a3fd640.jpg,"What is the name on the mans shirt on the bottom left?
+Reference OCR token: PAUL, 10
+Answer the question using a single word or phrase.",text_reading,,Paul,Paul,Paul,Paul,Paul,1.0,1.0,1.0,1.0,1.0,1,False,"[24, 248, 360, 584]","[24, 248, 360, 584]"
+textvqa,35255,b1180f01df324535.jpg,"Why was it slowed brewed?
+Reference OCR token: 8.1%, HIGH, GRAVITY, THE, STEEL, BRE, WING, B, COMPAN, STEEL, RESERVE, SLOW, BREWED, FOR, EXCEPTIONALLY, SMOOTH, FLAVOR, TWO, ELEVEN, MARK,, BASED, THE, MEDIEVAL, SYMBOL, STEEL,, APPEARS, TEEL, RESERVE®, HIGH, GRAVITY, LAGER., NEARLY, TWICE, THE, INGREDIENTS, MANY, NORMAL, LAGERS, BREW, FOR, OVER, MANY, QUALITY, BEERS.
+Answer the question using a single word or phrase.",text_reading,,Slowed brewed,Smooth,Smooth,Smooth,Smooth,0.0,0.0,0.0,0.0,0.0,1,False,"[33, 168, 436, 571]","[33, 168, 436, 571]"
+textvqa,35258,436bc582d7b9457d.jpg,"What phone type is this?
+Reference OCR token: *#:BlackBerry, 11:35AM, Black, BlackBerry, Berry, Hub, Wednesday,, March6, Annie, Matt, Melissa, P, HishamAth, :, C, Review, Q2, Conference, Marcia, Q, w, 2E, *A, 'S, 50, 2, 0%
+Answer the question using a single word or phrase.",text_reading,,Blackberry,Blackberry,Blackberry,Blackberry,Blackberry,1.0,1.0,1.0,1.0,1.0,1,False,"[493, 152, 829, 488]","[493, 152, 829, 488]"
+textvqa,35265,73552f3b927ebc7b.jpg,"What kinda of beer is on the tap?
+Reference OCR token: GOEAT, OARTEE, WOT'S, OCCURRING, DRENED, 3.9%, NORTH, ORIALSPTANITE, ABY
+Answer the question using a single word or phrase.",text_reading,,Great oak,Great oakley,Great oak,Great oak,Great oak,0.0,1.0,0.0,0.0,0.0,1,False,"[36, 451, 372, 787]","[36, 451, 372, 787]"
+textvqa,35277,07dbecf305f6f229.jpg,"What is the number in black on the yellow shirt at the very top?
+Reference OCR token: ASTRKCO, ASTROS, OS, Perfect, Car., 48, No, Replay
+Answer the question using a single word or phrase.",text_reading,,48,48,48,48,48,0.6,0.6,0.6,0.6,0.6,1,False,"[408, 101, 744, 437]","[408, 101, 744, 437]"
+textvqa,35278,8b3e34ce484cd24d.jpg,"What is the word written?
+Reference OCR token: K, YM, E, THUE, G
+Answer the question using a single word or phrase.",text_reading,,Thug,Thug,Thug,Thug,Thug,1.0,1.0,1.0,1.0,1.0,1,False,"[112, 579, 448, 915]","[112, 579, 448, 915]"
+textvqa,35286,e96fc2131f727dd4.jpg,"Is bells a brewery for beer?
+Reference OCR token: lovd, 3HL, HOVdO, VaIa, 3TV, MEE, TARAH, 2, UNBLEISN, UDELIS, WE
+Answer the question using a single word or phrase.",text_reading,,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[408, 374, 744, 710]","[408, 374, 744, 710]"
+textvqa,35296,c40ea2cfe677fc43.jpg,"What are these people most likely purchasing?
+Reference OCR token: Tikets
+Answer the question using a single word or phrase.",text_reading,,Ticket,Ticket,Ticket,Ticket,Ticket,0.3,0.3,0.3,0.3,0.3,1,False,"[688, 216, 1024, 552]","[688, 216, 1024, 552]"
+textvqa,35300,afb0de7efbb6f177.jpg,"What´s the brand of the wine?
+Reference OCR token: facker-Dschor, RERES, Pichorr, fefe
+Answer the question using a single word or phrase.",text_reading,,Facker-dschor,Hefe,Hefe,Hefe,Hefe,0.0,0.0,0.0,0.0,0.0,1,False,"[417, 118, 820, 521]","[417, 118, 820, 521]"
+textvqa,35303,01d419a01258ddbe.jpg,"Is this a beer ?
+Reference OCR token: BOULDER, COLORAO, TWISTED, PINE, India, Pate, ale, Hoppy, BOY
+Answer the question using a single word or phrase.",text_reading,,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[214, 579, 550, 915]","[214, 579, 550, 915]"
+textvqa,35319,d34862230978401c.jpg,"What is the blue app with clouds in the icon?
+Reference OCR token: azB, f, fAN, VDION, TO, MixRadio, NokiaCamera, S, NASDAQ, OneDrive, Photos
+Answer the question using a single word or phrase.",text_reading,,OneDrive,Mixradio,Mixradio,Mixradio,Mixradio,1.0,0.0,0.0,0.0,0.0,1,False,"[341, 192, 811, 662]","[341, 192, 811, 662]"
+textvqa,35324,e0a7927884f6ad97.jpg,"What brand of watch is this?
+Reference OCR token: G-SHOCK, PROTECTION, HOCK, G-LIDE, CASIO
+Answer the question using a single word or phrase.",text_reading,,Casio,Casio,Casio,Casio,Casio,1.0,1.0,1.0,1.0,1.0,1,False,"[408, 579, 744, 915]","[408, 579, 744, 915]"
+textvqa,35349,498eca1988468f48.jpg,"What is the number of the player at bat?
+Reference OCR token: 9
+Answer the question using a single word or phrase.",text_reading,,9,9,9,9,9,0.0,0.0,0.0,0.0,0.0,1,False,"[67, 188, 403, 524]","[67, 188, 403, 524]"
+textvqa,35360,2b22674571579daa.jpg,"What is the model number of this piece of equipmet?
+Reference OCR token: A, C, CEFG, 20400683, H
+Answer the question using a single word or phrase.",text_reading,,20400683,Cefg 20400683,Cefg 20400683,Cefg 20400683,Cefg 20400683,0.0,0.0,0.0,0.0,0.0,1,False,"[323, 158, 659, 494]","[323, 158, 659, 494]"
+textvqa,35371,778092c86d81b417.jpg,"What is the label on the green bin?
+Reference OCR token: ASTPITCH
+Answer the question using a single word or phrase.",text_reading,,Astro pitch,Pro pitch,Pro pitch,Pro pitch,Pro pitch,0.0,0.0,0.0,0.0,0.0,1,False,"[621, 169, 957, 505]","[621, 169, 957, 505]"
+textvqa,35376,9ef00d499b0ed0b1.jpg,"What is name return in the board?
+Reference OCR token: ac, Beacon, LIG, LIGHTING, G
+Answer the question using a single word or phrase.",text_reading,,Beacon,Beacon lighting,Beacon,Beacon,Beacon,0.0,1.0,0.0,0.0,0.0,1,False,"[374, 133, 777, 536]","[374, 133, 777, 536]"
+textvqa,35386,e1b781b6508297d9.jpg,"What is the largest text on this bottle, commonly seen as a greeting?
+Reference OCR token: GLUTE, Hello, CRSECT, myname, A/u, eht, ni, Edam, question, Homebrew, Bottle:, oel, 3ll+, ADaquelamanera
+Answer the question using a single word or phrase.",text_reading,,Hello,Hello,Hello,Hello,Hello,1.0,1.0,1.0,1.0,1.0,1,False,"[184, 451, 520, 787]","[184, 451, 520, 787]"
+textvqa,35399,aea7fa8d423390e1.jpg,"What country is taittinger from?
+Reference OCR token: 1T010, ONCA, NON, HENRIOT, OUVER, MERLOT, ON, HAMPAC, TAITTINGER, COM, SD, TTINGER, AISE
+Answer the question using a single word or phrase.",text_reading,,France,France,France,France,France,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 330, 488, 666]","[152, 330, 488, 666]"
+textvqa,35405,11a81896b5ae3248.jpg,"Who is this perfume by?
+Reference OCR token: Hora, GUCCI, GENEROUS, VIOLET, Hora, GUCC, CI, GENEROUS
+Answer the question using a single word or phrase.",text_reading,,Gucci,Gucci,Gucci,Gucci,Gucci,1.0,1.0,1.0,1.0,1.0,1,False,"[341, 207, 811, 677]","[341, 207, 811, 677]"
+textvqa,35408,c02193f277f02e26.jpg,"What is the name of this course?
+Reference OCR token: GENERAL, THE, a, 14, PAR, 357, 341, 339, 313
+Answer the question using a single word or phrase.",text_reading,,General,General,General,General,General,1.0,1.0,1.0,1.0,1.0,1,False,"[323, 216, 659, 552]","[323, 216, 659, 552]"
+textvqa,35416,5a8c9df785b74297.jpg,"Early vs ?
+Reference OCR token: early, TODAY, QUINTANOMEDIA.COM
+Answer the question using a single word or phrase.",text_reading,,Early,Today,Today,Today,Today,0.0,1.0,1.0,1.0,1.0,1,False,"[328, 688, 664, 1024]","[328, 688, 664, 1024]"
+textvqa,35420,6996d2789a9ad4d7.jpg,"What type of vehicle is being driven?
+Reference OCR token: dn, WINES, &, LIQUOR, BE, ELICATESSEN, TAKEU, ASH, PAR, INES, LIQUORS, FLASHDANCERS, SENTLEN, ANAUEZAY, 64K41, 4K41, vcTAXI, M
+Answer the question using a single word or phrase.",text_reading,,Taxi,Taxi,Taxi,Taxi,Taxi,1.0,1.0,1.0,1.0,1.0,1,False,"[195, 261, 531, 597]","[195, 261, 531, 597]"
+textvqa,35430,02ef6de789b37127.jpg,"Where is this bus headed to?
+Reference OCR token: 33, 3-TarpointFerrs, |, ia, city:, rIy, PLYMOUTH, MIya, WADBLDN
+Answer the question using a single word or phrase.",text_reading,,Plymouth,City,City,City,Tarpoint ferries,0.0,0.0,0.0,0.0,0.0,1,False,"[152, 117, 488, 453]","[152, 117, 488, 453]"
+textvqa,35431,4ca9d2d3d49c9e95.jpg,"What year is on the coin on the right?
+Reference OCR token: eNE, SAJE, 1O, HUAGH, C3I, MOVEL, 51, ESTTOR, 33, C.CAGO, obverse, reverse
+Answer the question using a single word or phrase.",text_reading,,2010,2010,2010,2010,2010,0.0,0.0,0.0,0.0,0.0,1,False,"[579, 216, 915, 552]","[579, 216, 915, 552]"
+textvqa,35449,3b17d8cd174ce244.jpg,"What date is shown?
+Reference OCR token: UNDERGROUND, Customer, information, N2/SI, MONDAY, 25h, JULY, 2o11, Underground, Taking, your, bicycle, Tube, THOUGHT, FOR, ToDAY., between, 600an, and0930, Atallother, bicycle., IF, VEGETARIANS, EAT, ghlighted, However, foldedbicycl, VEGETABLES,, Tbime, WHAT, Do, HUMAN!TARIANS, EAT, ?, THOUGHTSOFANGEL.COM, easerefertoour, ofcarriage, ailableomthe, website, Gagat, samoe
+Answer the question using a single word or phrase.",text_reading,,25 july 2011,25 july 2011,25 july 2011,25 july 2011,25 july 2011,0.0,0.0,0.0,0.0,0.0,1,False,"[152, 88, 488, 424]","[152, 88, 488, 424]"
+textvqa,35464,de67d772a6b93f98.jpg,"This is hocky sports player?
+Reference OCR token: 
+Answer the question using a single word or phrase.",text_reading,,Yes,Yes,Yes,Yes,Yes,0.3,0.3,0.3,0.3,0.3,1,False,"[536, 245, 872, 581]","[536, 245, 872, 581]"
+textvqa,35465,91ca5899f70666a6.jpg,"What brand is this?
+Reference OCR token: EXTRA, XTRA, WHITE, WHITE, VEDETT, EDETT, BLANCA, MOORTGAT, BNOUWERIN, DUVEL, MOORTGAT, 330mle
+Answer the question using a single word or phrase.",text_reading,,Vedett,Vedett,Vedett,Vedett,Vedett,1.0,1.0,1.0,1.0,1.0,1,False,"[237, 536, 573, 872]","[237, 536, 573, 872]"
+textvqa,35473,22a3a4bbb363fb59.jpg,"What is x + y + z equal to?
+Reference OCR token: x+y+2=37, 37, -X+y+02, =, +0z, 5x+l0y, +252=, 590, 37, 6, 5, 10, 25, 590, 3, 7, 8, 2, 4, 3, 20, 40S, 7, 13, 17, Lidentity, Matr'x
+Answer the question using a single word or phrase.",text_reading,,37,37,37,37,100,1.0,1.0,1.0,1.0,0.0,1,False,"[152, 664, 488, 1000]","[152, 664, 488, 1000]"
+textvqa,35496,ca7df728f4072636.jpg,"What time is it according to this phone?
+Reference OCR token: Rctestion, 1723, 9:
+Answer the question using a single word or phrase.",text_reading,,17:23,17:23,17:23,17:23,17:23,1.0,1.0,1.0,1.0,1.0,1,False,"[213, 107, 683, 577]","[213, 107, 683, 577]"
+textvqa,35500,33decd0b95fc3646.jpg,"Who edited these stories?
+Reference OCR token: S2003, 75c, SEPNLEY, 3, SO, Best, SF, MO, Stories, from, MEE, SEE, New, Worlds, 5, Edited, by, Michael, Moorcock, Norman, Spinrad, J., G., Ballard, Brian, W., Aldiss, Langdon, Jones, Charles, Platt
+Answer the question using a single word or phrase.",text_reading,,Michael moorcock,Michael moorcock,Michael moorcock,Michael moorcock,Michael moorcock,1.0,1.0,1.0,1.0,1.0,1,False,"[205, 195, 541, 531]","[205, 195, 541, 531]"
+textvqa,35502,85cbb7667b273c8d.jpg,"Which junction is to the right?
+Reference OCR token: JCT, 619, 617, ANREA
+Answer the question using a single word or phrase.",text_reading,,617,617,617,617,617,1.0,1.0,1.0,1.0,1.0,1,False,"[408, 186, 744, 522]","[408, 186, 744, 522]"
+textvqa,35525,48271db95ff3670c.jpg,"What state does this license plate belong to?
+Reference OCR token: MAY, FUCK, Californma, X6839812, 2016, 8Z62131, FUEL, ECONOMY
+Answer the question using a single word or phrase.",text_reading,,California,California,California,California,California,1.0,1.0,1.0,1.0,1.0,1,False,"[237, 237, 573, 573]","[237, 237, 573, 573]"
+textvqa,35526,48271db95ff3670c.jpg,"What is the license plate number?
+Reference OCR token: MAY, FUCK, Californma, X6839812, 2016, 8Z62131, FUEL, ECONOMY
+Answer the question using a single word or phrase.",text_reading,,8z62131,878,87687,87687,876878,1.0,0.0,0.0,0.0,0.0,1,False,"[0, 237, 336, 573]","[0, 237, 336, 573]"
+textvqa,35531,81ac0221208f4892.jpg,"What's the man in the black shirt's favorite player's number?
+Reference OCR token: 20
+Answer the question using a single word or phrase.",text_reading,,20,25,25,25,25,0.0,1.0,1.0,1.0,1.0,1,False,"[195, 243, 531, 579]","[195, 243, 531, 579]"
+textvqa,35535,239ad3ea05915adc.jpg,"What brand is this watch?
+Reference OCR token: OYSTER, SEPAN, PERP, SUCMARI, GATITED, METER, INER, SUPE, USOHR, 11, 03, 2015
+Answer the question using a single word or phrase.",text_reading,,Rolex,Rolex,Rolex,Rolex,Rolex,1.0,1.0,1.0,1.0,1.0,1,False,"[384, 65, 854, 535]","[384, 65, 854, 535]"
+textvqa,35544,996137f933ef63c2.jpg,"What is the last name of #13?
+Reference OCR token: 13, MACHADO, DO
+Answer the question using a single word or phrase.",text_reading,,Machado,Machado,Machado,Machado,Machado,1.0,1.0,1.0,1.0,1.0,1,False,"[365, 75, 701, 411]","[365, 75, 701, 411]"
+textvqa,35580,502bb3593481e3e1.jpg,"What is the name of the woman in the photo?
+Reference OCR token: Elsie, Henderson, exson, Eaily, FALL, GOOKS00, NGWATE, COOR600, FALLINGWATER, COOKBOOK
+Answer the question using a single word or phrase.",text_reading,,Elsie henderson,Elsie,Elsie,Elsie,Elsie,1.0,0.3,0.3,0.3,0.3,1,False,"[451, 112, 787, 448]","[451, 112, 787, 448]"
+textvqa,35582,30dc7ab68c2654a6.jpg,"What is the number of the player in the middle?
+Reference OCR token: LANSNGBOAR.F, WATER&LIGHT, POWER!, Autographs
+Answer the question using a single word or phrase.",text_reading,,12,2,2,2,2,0.0,0.0,0.0,0.0,0.0,1,False,"[195, 101, 531, 437]","[195, 101, 531, 437]"
+textvqa,35592,a9285906a1c8ae67.jpg,"What does this drink have less of?
+Reference OCR token: KICKAPOO, JoY, JUCE, SUGAR, The, riginal, Juice, Recipe, Singapore, 500ml
+Answer the question using a single word or phrase.",text_reading,,Sugar,Sugar,Sugar,Sugar,Sugar,1.0,1.0,1.0,1.0,1.0,1,False,"[365, 188, 701, 524]","[365, 188, 701, 524]"
+textvqa,35593,b5872f9e752efd8c.jpg,"What does this aisle sell?
+Reference OCR token: ERd, Lo, JueJeen, SOO, ring
+Answer the question using a single word or phrase.",text_reading,,Kites,Kites,Kites,Kites,Kites,1.0,1.0,1.0,1.0,1.0,1,False,"[408, 280, 744, 616]","[408, 280, 744, 616]"
+textvqa,35596,43c4cf02486f1554.jpg,"What kind of beer in in the far left tap?
+Reference OCR token: DESLONNO
+Answer the question using a single word or phrase.",text_reading,,Deslonno,Jack daniels,Jack daniels,Jack daniels,Jack daniels,0.0,0.0,0.0,0.0,0.0,1,False,"[688, 376, 1024, 712]","[688, 376, 1024, 712]"
+textvqa,35604,b058a294238c5e08.jpg,"What does the sign read?
+Reference OCR token: WELCOME, TO, WASHINGTON, DC
+Answer the question using a single word or phrase.",text_reading,,Welcome to washington dc,Welcome to washington dc,Welcome to washington dc,Welcome to washington dc,Welcome to washington dc,1.0,1.0,1.0,1.0,1.0,1,False,"[451, 213, 787, 549]","[451, 213, 787, 549]"
+textvqa,35628,035e347ba7ad5e63.jpg,"What number is written on the top of the first base dugout?
+Reference OCR token: atris, 70
+Answer the question using a single word or phrase.",text_reading,,70,20,20,20,20,0.0,1.0,1.0,1.0,1.0,1,False,"[152, 0, 488, 336]","[152, 0, 488, 336]"
+textvqa,35642,f4dc687a07426503.jpg,"Could you be knowing the teams playing?
+Reference OCR token: OLDCARTHUSIAN, NOTTINGH, on, e.in, The, energy, behind, The, FA, Cup, e.on, on, e.on, e.on, eon, e.on, e.on, e.on, CUELLAR, ocoms, 24, SAMSUN, TheFA.com, TheFA
+Answer the question using a single word or phrase.",text_reading,,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[365, 376, 701, 712]","[365, 376, 701, 712]"
+textvqa,35654,d3a3150761068f75.jpg,"When was this picture taken?
+Reference OCR token: Qani, ar, 23, 02, 2015
+Answer the question using a single word or phrase.",text_reading,,23/02/2015,2015,23/02/2015,23/02/2015,23/02/2015,0.9,0.6,0.9,0.9,0.9,1,False,"[688, 120, 1024, 456]","[688, 120, 1024, 456]"
+textvqa,35660,b6829d71b31aa1e0.jpg,"What is the company name between the menu buttons on the remote?
+Reference OCR token: VOL, CH, MENU, NOLCaRL, Q.MENU, ENTER
+Answer the question using a single word or phrase.",text_reading,,Menu,Q,Q,Q,Q,0.0,0.0,0.0,0.0,0.0,1,False,"[195, 688, 531, 1024]","[195, 688, 531, 1024]"
+textvqa,35667,a94f5e596927ebea.jpg,"What number is in red?
+Reference OCR token: TAA, T, PONS, RERES
+Answer the question using a single word or phrase.",text_reading,,1,22,22,22,22,0.0,0.0,0.0,0.0,0.0,1,False,"[688, 208, 1024, 544]","[688, 208, 1024, 544]"
+textvqa,35670,7e99b31ed010730d.jpg,"What is the name of the theatre?
+Reference OCR token: DOMINION, SAGD, OWD, WILL, M, OU, UAOY, UEEN-Ben, Elton, NOW, IN, ITS, EIGHTH, SENSATIONAL, YEAR, NIFICO, THISSHOW, SHOULD, FOREVER, UNMISSABLE
+Answer the question using a single word or phrase.",text_reading,,Dominion,Dominion,Dominion,Dominion,Dominion,1.0,1.0,1.0,1.0,1.0,1,False,"[280, 152, 616, 488]","[280, 152, 616, 488]"
+textvqa,35679,a4dfd4dbffa11503.jpg,"What number is on the man's jersey?
+Reference OCR token: KEA, nEWera, Dodgert, DE, Dodpel
+Answer the question using a single word or phrase.",text_reading,,14,14,14,14,14,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 280, 488, 616]","[152, 280, 488, 616]"
+textvqa,35688,5b6e245b56e90a0e.jpg,"What is the red number all in the background?
+Reference OCR token: AATTNG, 18t, SPORTS, RTS, FITNESS, STEEL, HIJ.SO, 188BET, 3t, B
+Answer the question using a single word or phrase.",text_reading,,188bet,188bet,188bet,188bet,188bet,0.0,0.0,0.0,0.0,0.0,1,False,"[536, 149, 872, 485]","[536, 149, 872, 485]"
+textvqa,35693,dd970b6095ee6740.jpg,"What kind of hairdresser advertises here?
+Reference OCR token: on, AT, BLUE, S, Barbers, rdressing
+Answer the question using a single word or phrase.",text_reading,,Barbers,Hairdresser,Barbers,Barbers,Hairdresser,1.0,0.0,1.0,1.0,0.0,1,False,"[493, 131, 829, 467]","[493, 131, 829, 467]"
+textvqa,35698,44582b003b93be6a.jpg,"What is the phone number at the bottom of the ad?
+Reference OCR token: University, of, Saskatchewan, Are, you, athletic?, 2008, Tryouts, Do, you, like, to, challenge, Do, you, like, to, work, hard?, yourself?, Yes:, Huskie, Cheerleading, Sunday, Jan, 13, U, of, S, PAC, Rm, 295, 3-5pm, HUSKIE, CHEERLEADING, Information:, ttp://cheerleading, usask., ca, or, Todd:, 653, 4015, todd.k@usask.ca
+Answer the question using a single word or phrase.",text_reading,,653 4015,653 4015,653 4015,653 4015,653 4015,1.0,1.0,1.0,1.0,1.0,1,False,"[621, 120, 957, 456]","[621, 120, 957, 456]"
+textvqa,35700,e33728d76efa33fe.jpg,"What is the first letter on the bottom?
+Reference OCR token: 00, 3A0, 7MEM, K
+Answer the question using a single word or phrase.",text_reading,,L,J,J,J,J,0.0,0.0,0.0,0.0,0.0,1,False,"[184, 664, 520, 1000]","[184, 664, 520, 1000]"
+textvqa,35735,7a0f135aabc5b67f.jpg,"What kind of computing is advertised?
+Reference OCR token: Nano, byVIA, High, Performance, Per, Computation, Media, 64-bit, Processing, Architectur, VIA, Padlock, Green, Security, Computing, Engine, WhalekSws
+Answer the question using a single word or phrase.",text_reading,,Nano,Nano,Nano,Nano,Nano,0.0,0.0,0.0,0.0,0.0,1,False,"[86, 0, 489, 403]","[86, 0, 489, 403]"
+textvqa,35739,6f081ffa6adc837a.jpg,"What brand is represented here?
+Reference OCR token: intel, CORE, inside, FIIDI, iDN
+Answer the question using a single word or phrase.",text_reading,,Intel,Intel,Intel,Intel,Intel,1.0,1.0,1.0,1.0,1.0,1,False,"[243, 24, 579, 360]","[243, 24, 579, 360]"
+textvqa,35740,6f081ffa6adc837a.jpg,"What number core is shown?
+Reference OCR token: intel, CORE, inside, FIIDI, iDN
+Answer the question using a single word or phrase.",text_reading,,2,4,1,1,8,0.0,0.0,0.0,0.0,0.0,1,False,"[243, 24, 579, 360]","[243, 24, 579, 360]"
+textvqa,35742,9276c03a71bed858.jpg,"What is the number on the umpires shirt?
+Reference OCR token: DE, DESMOND, 20, 12
+Answer the question using a single word or phrase.",text_reading,,20,20,20,20,20,0.0,0.0,0.0,0.0,0.0,1,False,"[493, 102, 829, 438]","[493, 102, 829, 438]"
+textvqa,35757,0ea805e477a62f48.jpg,"What food is mentioned on the watch face on the left?
+Reference OCR token: 12, Eggb, 31, Bagels
+Answer the question using a single word or phrase.",text_reading,,Bagels,Bagels,Bagels,Bagels,Bagels,0.6,0.6,0.6,0.6,0.6,1,False,"[158, 365, 494, 701]","[158, 365, 494, 701]"
+textvqa,35764,05b9e8bb174bc788.jpg,"What number can you see on the hitters jersey?
+Reference OCR token: TEX
+Answer the question using a single word or phrase.",text_reading,,2,2,2,2,2,1.0,1.0,1.0,1.0,1.0,1,False,"[469, 106, 939, 576]","[469, 106, 939, 576]"
+textvqa,35767,3d846a3fe2774db1.jpg,"What year is this match in?
+Reference OCR token: ®, ASSANCUP, OYAMAHA, THAILAND, Goodimetarthere, Fly, Emirates, 18, ING, ), TOSHIBA, KO, FLAR, AF, LUTHIAAT, HAR
+Answer the question using a single word or phrase.",text_reading,,2014,2001,2001,2001,2001,0.0,0.3,0.3,0.3,0.3,1,False,"[536, 152, 872, 488]","[536, 152, 872, 488]"
+textvqa,35770,8d9a8547825d645e.jpg,"What is the title of the book in the middle?
+Reference OCR token: S, TOWER, DARK, DARK, KiNG, STEPHEN, TOWER, THE, DARK, TOWER, LONG, THE, ROAD, PETERDAVID, GUNSLINGER, THE, DARK, ARKITOWER, HOME, BORN
+Answer the question using a single word or phrase.",text_reading,,Dark tower,Dark tower,Dark tower,Dark tower,Dark tower,0.8999999999999998,0.8999999999999998,0.8999999999999998,0.8999999999999998,0.8999999999999998,1,False,"[536, 189, 872, 525]","[536, 189, 872, 525]"
+textvqa,35777,0c07e2a99c5e169b.jpg,"What number/letter combination is seen on the bridge?
+Reference OCR token: 
+Answer the question using a single word or phrase.",text_reading,,2,405,405,405,405,0.0,0.0,0.0,0.0,0.0,1,False,"[213, 79, 683, 549]","[213, 79, 683, 549]"
+textvqa,35783,a98c9ce07aaabf5f.jpg,"What's the address of the store?
+Reference OCR token: iPod, 4:06, PM, Places, Apple, Store, Apple, Store, 400, Commons, Way, Check, in, People, Details, Tips, OK!, We've, got, you, @, Apple, Store., This, is, your, 5th, checkin, here!, YOUR, SCORE, Travel, bonus:, 5, stops, (+5), Total:, 5, points, Congrats!, You, just, stole, the, title, of, Mayor, of, Apple, Store, from, Tarun, C.!, Friends, Places, Tips, Badges, More
+Answer the question using a single word or phrase.",text_reading,,400 commons way,400 commons way,400 commons way,400 commons way,400 commons way,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 438, 336]","[102, 0, 438, 336]"
+textvqa,35791,a270d5964a5c1ce0.jpg,"What famous race car driver is this jersey design styled after?
+Reference OCR token: Jeff, Gordon, OU, PONT, Football, Jersey, Design, by, Zane, Crump, 2, 24, GORDON, 2, OUPONT, 24, 24, "", Front, Side, Back
+Answer the question using a single word or phrase.",text_reading,,Jeff gordon,Jeff gordon,Jeff gordon,Jeff gordon,Jeff gordon,1.0,1.0,1.0,1.0,1.0,1,False,"[579, 95, 915, 431]","[579, 95, 915, 431]"

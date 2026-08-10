@@ -1,0 +1,14 @@
+{
+  "benchmark": "runner_smoke_test",
+  "records": [
+    {
+      "benchmark": "runner_smoke_test",
+      "qa_id": "smoke_coco128_001",
+      "image_file": "coco128_08_07_001.jpg",
+      "model_query": "Which object is located in the upper-right part of the image: orange or baseball bat? Answer only with the object name.",
+      "ground_truth": "orange",
+      "ground_truth_answers": ["orange"],
+      "category": "localized_object_choice"
+    }
+  ]
+}

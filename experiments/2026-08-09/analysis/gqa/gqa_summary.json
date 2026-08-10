@@ -1,0 +1,152 @@
+{
+  "benchmark": "gqa",
+  "sample_count": 512,
+  "seed": 20260809,
+  "sampling": {
+    "method": "deterministic uniform sample from testdev-balanced",
+    "source_count": 12578,
+    "requested_count": 512
+  },
+  "branch_metrics": {
+    "original": {
+      "score": 0.60546875,
+      "score_percent": 60.546875
+    },
+    "crop_only": {
+      "score": 0.587890625,
+      "score_percent": 58.7890625
+    },
+    "legacy_dual": {
+      "score": 0.607421875,
+      "score_percent": 60.7421875
+    },
+    "topk_dual": {
+      "score": 0.603515625,
+      "score_percent": 60.3515625
+    },
+    "focus": {
+      "score": 0.611328125,
+      "score_percent": 61.1328125
+    }
+  },
+  "category_metrics_percent": {
+    "choose": {
+      "original": 88.88888888888889,
+      "crop_only": 86.66666666666667,
+      "legacy_dual": 84.44444444444444,
+      "topk_dual": 84.44444444444444,
+      "focus": 82.22222222222221
+    },
+    "compare": {
+      "original": 62.5,
+      "crop_only": 58.333333333333336,
+      "legacy_dual": 58.333333333333336,
+      "topk_dual": 58.333333333333336,
+      "focus": 62.5
+    },
+    "logical": {
+      "original": 70.27027027027027,
+      "crop_only": 68.91891891891892,
+      "legacy_dual": 72.97297297297297,
+      "topk_dual": 71.62162162162163,
+      "focus": 74.32432432432432
+    },
+    "query": {
+      "original": 47.16312056737589,
+      "crop_only": 45.0354609929078,
+      "legacy_dual": 48.226950354609926,
+      "topk_dual": 47.87234042553192,
+      "focus": 47.87234042553192
+    },
+    "verify": {
+      "original": 80.45977011494253,
+      "crop_only": 80.45977011494253,
+      "legacy_dual": 79.3103448275862,
+      "topk_dual": 79.3103448275862,
+      "focus": 81.60919540229885
+    }
+  },
+  "comparisons": {
+    "crop_only": {
+      "answer_changed": 75,
+      "answer_changed_rate": 0.146484375,
+      "score_improved": 18,
+      "score_regressed": 27,
+      "net_improvement": -9,
+      "paired_score_delta_percentage_points": -1.7578125,
+      "paired_score_delta_95ci_percentage_points": [
+        -4.32378586668693,
+        0.8081608666869303
+      ],
+      "mcnemar_exact_two_sided_p": 0.23269319190831084
+    },
+    "legacy_dual": {
+      "answer_changed": 55,
+      "answer_changed_rate": 0.107421875,
+      "score_improved": 17,
+      "score_regressed": 16,
+      "net_improvement": 1,
+      "paired_score_delta_percentage_points": 0.1953125,
+      "paired_score_delta_95ci_percentage_points": [
+        -2.0058634464301237,
+        2.3964884464301237
+      ],
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "topk_dual": {
+      "answer_changed": 55,
+      "answer_changed_rate": 0.107421875,
+      "score_improved": 16,
+      "score_regressed": 17,
+      "net_improvement": -1,
+      "paired_score_delta_percentage_points": -0.1953125,
+      "paired_score_delta_95ci_percentage_points": [
+        -2.3964884464301237,
+        2.0058634464301237
+      ],
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "focus": {
+      "answer_changed": 54,
+      "answer_changed_rate": 0.10546875,
+      "score_improved": 17,
+      "score_regressed": 14,
+      "net_improvement": 3,
+      "paired_score_delta_percentage_points": 0.5859375,
+      "paired_score_delta_95ci_percentage_points": [
+        -1.5469518338812334,
+        2.7188268338812334
+      ],
+      "mcnemar_exact_two_sided_p": 0.720100131817162
+    },
+    "topk_vs_legacy": {
+      "answer_changed": 5,
+      "topk_score_improved": 1,
+      "topk_score_regressed": 3
+    },
+    "focus_vs_topk": {
+      "answer_changed": 18,
+      "focus_score_improved": 7,
+      "focus_score_regressed": 3
+    }
+  },
+  "localization": {
+    "selection_changed": 32,
+    "selection_changed_rate": 0.0625,
+    "selected_rank_counts": {
+      "1": 480,
+      "2": 30,
+      "3": 2
+    }
+  },
+  "runtime": {
+    "completed_with_timing": 512,
+    "total_batch_seconds": 1095.2896977039054,
+    "mean_case_seconds": 2.018923563209455,
+    "median_case_seconds": 1.9774384904885665,
+    "p95_case_seconds": 2.5357646024785936,
+    "throughput_questions_per_second": 0.46745623653114216,
+    "max_scan_peak_mib": 21471.2,
+    "max_generation_peak_mib": 18678.2
+  }
+}

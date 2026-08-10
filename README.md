@@ -1,100 +1,113 @@
 # LLaVA SLoFo RE
 
-这是一个面向代码学习与论文复现的非官方实验仓库，记录我们在
-LLaVA-1.5-7B 上实现和验证 SLoFo **Scan-Locate** 核心流程的代码与结果。
+这是一个面向代码学习与论文复现的**非官方实验仓库**。项目在
+LLaVA-v1.5-7B 上独立重建 SLoFo 的
+`Scan → Locate → 原图/裁切图双图输入 → Focus 四阶段剪枝`，并保留可重复的
+实验清单、逐题答案和汇总统计。
 
-> 当前仓库不是论文作者发布的官方实现。SLoFo 后续 Focus 四阶段 token
-> 剪枝尚未实现；当前完成的是扫描、定位、裁切和原图+裁切图联合推理。
+> SLoFo 作者未公开代码。本仓库的“论文公式直译基线”来自论文公式与文字，
+> 不代表作者官方实现；min-max、多 Token 与 Top-k 均明确作为实现补充或实验扩展。
 
-## 已完成
+## 当前进度
 
-- 从 LLaVA 指定层提取 576 个视觉 token 的注意力与梯度；
-- 计算梯度加权语义重要性图；
-- 从结构层隐状态计算 PCA 重构误差；
-- 融合语义/结构分支并进行多尺度滑窗定位；
-- 比较 raw/min-max 融合以及 original/padded 坐标映射；
-- 在同一个 prompt 中真正输入原图和裁切图两个图像张量；
-- 修复 FP16 下 `attention * gradient` 的显著性下溢；
-- 在 10 张测试图上完成可复现实验并保存报告。
+- Scan：梯度加权语义显著性、PCA 结构显著性与 SSIM 融合；
+- Locate：论文式多尺度单框定位，以及可选的 Top-k 候选生成、NMS、重排和安全回退；
+- 双图输入：原图和裁切图作为两个独立图像张量参与同一次生成；
+- Focus：32 层划分为四阶段，原图视觉 Token 按 `576→288→144→72` 真实缩短；
+- 数值修复：仅将 `attention × gradient` 转为 FP32，避免 FP16 下溢；
+- 低显存 Scan：选择性 Hook 只捕获语义层 14 的注意力与结构层 7 的隐藏状态；
+- 评测：完成 TextVQA、GQA、POPE 共 1,624 题固定开发子集，以及 TextVQA 128 题五组因子消融。
 
-## 关于 FP32 和 576 个非零 token
+## 关键结果
 
-LLaVA 模型仍以 FP16 运行。这里只把语义显著性计算中的 attention 和
-gradient 临时转为 FP32 后再相乘，避免约 `1e-8` 的小正数在 FP16 中被舍入
-为零。
+### 标准任务固定开发子集（2026-08-09）
 
-`18/576 -> 576/576` 表示显著性图中 576 个位置都保留了数值信息，**不表示
-最终保留了 576 个 token，也不表示没有裁切**。Scan-Locate 需要先观察全部
-视觉 token 才能选择裁切框；当前裁切结果记录在每个实验案例的
-`selected_bbox.png` 和 `crop.png` 中。真正减少后续语言模型视觉 token 的
-Focus 阶段仍未实现。
+| Benchmark | 原图 | Top-k 双图 | Focus |
+|---|---:|---:|---:|
+| TextVQA soft accuracy，512 题 | 56.76 | **62.36** | 61.60 |
+| GQA exact match，512 题 | 60.55 | 60.35 | **61.13** |
+| POPE Accuracy，600 题 | 87.17 | **89.33** | 89.00 |
+
+这些是固定开发子集结果，不是官方全量提交成绩。完整口径、置信区间和论文对照见
+[`2026-08-09` 实验报告](experiments/2026-08-09/SLoFo_08_09_TextVQA_GQA_POPE_实验报告.md)。
+
+### TextVQA 128 显存与因子消融（2026-08-10）
+
+- selective hook 将 Scan 最大 PyTorch 分配峰值从 `24,665.4 MiB` 降至
+  `19,086.9 MiB`，五路答案、候选框和排名与旧实现均为 `0/128` 差异；
+- 论文公式直译 `1 Token + raw + 单框`：原图 `52.97`、双图 `57.50`、Focus `57.42`；
+- raw 下 1/8 Token 的框、答案和分数完全一致，表明当前 raw 融合中结构分支淹没语义变化；
+- min-max 会改变 `87/128` 个框并改善仅裁切分支，但当前 8 Token mean 对双图/Focus 有负趋势；
+- Top-k 相对对应单框配置使双图和 Focus 各提高 `1.33` 个百分点（改善/退化 `3/0`），
+  但平均耗时约增加 `67%`。N=128 的配对区间均跨 0，现阶段只作为工程趋势。
+
+详见 [`2026-08-10` 实验目录](experiments/2026-08-10-textvqa128/README.md)。
 
 ## 仓库结构
 
 ```text
 LLaVA_SLoFo_RE/
-|-- slofo/                 独立 Scan-Locate 张量实现
-|-- scripts/               LLaVA 适配、双图推理、空卡守卫与批量实验
-|-- tests/                 单元测试
-|-- config/                最小推理依赖版本记录
-|-- images/test_08_06/     10 张测试输入与问题清单
-|-- experiments/2026-08-06/
-|   |-- SLoFo_08_06_实验报告.md
-|   `-- SLoFo_08_06_实验结果/  精简且可核验的结果
-`-- docs/SERVER_WORKFLOW.md  服务器复现工作流
+├── slofo/                   Scan-Locate 与 Focus 的张量核心
+├── scripts/                 LLaVA 适配、批处理、空卡守卫、数据准备与分析
+│   └── analysis/            早期 Focus/Top-k/图表分析脚本
+├── tests/                   不依赖模型权重的 CPU 单元测试
+├── config/                  最小推理依赖版本
+├── images/test_08_06/       早期 10 图功能验证输入
+├── experiments/
+│   ├── 2026-08-06/          Scan-Locate 与坐标映射
+│   ├── 2026-08-07/          Focus、随机对照与 Top-k 初测的精简产物
+│   ├── 2026-08-09/          三个标准任务的清单、逐题答案、统计与图表
+│   └── 2026-08-10-textvqa128/ 显存优化、论文基线与因子拆分
+└── docs/SERVER_WORKFLOW.md  服务器与 VS Code 工作流
 ```
+
+逐题大图、模型权重、数据集原图、缓存与服务器日志未提交。实验目录保留的是复核结论所需的
+manifest、`benchmark_answers.jsonl`、`batch_summary.json`、CSV、统计 JSON 和小型图表。
 
 ## 固定实验版本
 
-- LLaVA 源码：[`haotian-liu/LLaVA`](https://github.com/haotian-liu/LLaVA)，
-  commit `c121f0432da27facab705978f83c4ada465e46fd`
-- LLaVA checkpoint：`liuhaotian/llava-v1.5-7b`，revision
-  `4481d270cc22fd5c4d1bb5df129622006ccd9234`
-- Vision tower：`openai/clip-vit-large-patch14-336`，revision
-  `ce19dc912ca5cd21c8a653c79e251e808ccabcd1`
-- 模型精度：FP16；语义显著性乘法使用 FP32
-- 语义层 / 结构层：14 / 7
-- PCA 维度：20
-- 视觉 token：24 × 24 = 576
-- 实验 GPU：空闲的 NVIDIA GeForce RTX 4090
+- LLaVA 源码：[`haotian-liu/LLaVA`](https://github.com/haotian-liu/LLaVA)，commit
+  `c121f0432da27facab705978f83c4ada465e46fd`；
+- checkpoint：`liuhaotian/llava-v1.5-7b`，revision
+  `4481d270cc22fd5c4d1bb5df129622006ccd9234`；
+- vision tower：`openai/clip-vit-large-patch14-336`，revision
+  `ce19dc912ca5cd21c8a653c79e251e808ccabcd1`；
+- Python / PyTorch / Transformers：3.10.20 / 2.1.2+cu121 / 4.37.2；
+- 模型精度：FP16；仅语义显著性乘法转 FP32；
+- 语义层 / 结构层 / PCA：14 / 7 / 20；视觉 Token：`24×24=576`。
 
-上游 LLaVA 源码和模型权重没有复制进本仓库。服务器运行前需要按
-[`docs/SERVER_WORKFLOW.md`](docs/SERVER_WORKFLOW.md) 准备它们，并根据自己的
-目录修改 `scripts/activate_project.sh` 与批量脚本中的项目路径。
+上游 LLaVA 源码、checkpoint 与数据集是外部依赖，不复制进本仓库。服务器路径和安装步骤见
+[`docs/SERVER_WORKFLOW.md`](docs/SERVER_WORKFLOW.md)。
 
 ## 测试
 
-张量核心只需要可用的 PyTorch，不需要下载 LLaVA 权重：
+张量核心测试不需要下载 LLaVA 权重：
 
 ```bash
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-当前服务器结果：11/11 项通过。
-
-完整 LLaVA 批量实验入口：
+当前共 19 项 CPU 单元测试。服务器批处理的主要入口为：
 
 ```bash
 source scripts/activate_project.sh
-scripts/run_slofo_08_06_batch.sh
+python scripts/run_slofo_vqa_benchmark_batch.py --help
 ```
 
-脚本会通过 `run_on_empty_gpu.sh` 读取聚合显存/利用率，只选择空闲卡，不读取
-其他用户的项目或进程命令行。
+`run_on_empty_gpu.sh` / `run_on_specific_empty_gpu.sh` 仅根据显存与利用率选择空闲卡，
+不读取或操作其他用户的项目。
 
-## 实验结果
+## 当前边界
 
-结论、逐图 bbox、回答和失败原因见
-[`SLoFo_08_06_实验报告.md`](experiments/2026-08-06/SLoFo_08_06_实验报告.md)。
+已完成的是核心链路的功能性复现和初步标准数据集验证，尚不能称为论文完整复现。仍需完成：
 
-当前 10 图结果：
-
-- `minmax + original` 人工定位约 8/10；
-- 严格颜色回答为 6 个正确、2 个部分/近似正确、2 个错误；
-- 03、05 的失败来自扫描阶段语义峰值选错，而不是统一的坐标偏移。
+- 真实 24 GB 显卡端到端验证；
+- 高分辨率分块 Scan 与全局 SSIM 拼接；
+- TextVQA、GQA、POPE 全量官方评测；
+- 语义锚点、融合尺度与门控 Top-k 的进一步优化；
+- Focus 的实际墙钟加速，而不只是序列和 token-layer 工作量下降。
 
 ## 参考
 
-- LLaVA: <https://github.com/haotian-liu/LLaVA>
-- MLLMs Know Where to Look reference code:
-  <https://github.com/saccharomycetes/mllms_know>
+- [LLaVA](https://github.com/haotian-liu/LLaVA)
+- [MLLMs Know Where to Look reference code](https://github.com/saccharomycetes/mllms_know)

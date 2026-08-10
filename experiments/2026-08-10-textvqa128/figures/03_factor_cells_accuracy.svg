@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="600" viewBox="0 0 1080 600">
+  <rect width="1080" height="600" fill="#fbfcfe"/>
+  <text x="540" y="38" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" fill="#172033">TextVQA 128题：因子拆分配置得分</text>
+  <text x="540" y="65" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="14" fill="#566074">官方soft accuracy；虚线为原图52.97</text>
+  <g stroke="#dfe4ec" stroke-width="1">
+    <line x1="90" y1="490" x2="1040" y2="490"/><line x1="90" y1="409" x2="1040" y2="409"/>
+    <line x1="90" y1="328" x2="1040" y2="328"/><line x1="90" y1="247" x2="1040" y2="247"/>
+    <line x1="90" y1="166" x2="1040" y2="166"/><line x1="90" y1="85" x2="1040" y2="85"/>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#697386" text-anchor="end">
+    <text x="80" y="495">50</text><text x="80" y="414">52</text><text x="80" y="333">54</text>
+    <text x="80" y="252">56</text><text x="80" y="171">58</text><text x="80" y="90">60%</text>
+  </g>
+  <line x1="90" y1="369.7" x2="1040" y2="369.7" stroke="#8b95a5" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="1035" y="361" text-anchor="end" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="12" fill="#697386">原图52.97</text>
+  <g>
+    <rect x="110" y="398.2" width="43" height="91.8" rx="3" fill="#577590"/><rect x="157" y="186.3" width="43" height="303.7" rx="3" fill="#2a9d8f"/><rect x="204" y="189.4" width="43" height="300.6" rx="3" fill="#e9a23b"/>
+    <rect x="300" y="287.5" width="43" height="202.5" rx="3" fill="#577590"/><rect x="347" y="297.0" width="43" height="193.0" rx="3" fill="#2a9d8f"/><rect x="394" y="297.0" width="43" height="193.0" rx="3" fill="#e9a23b"/>
+    <rect x="490" y="398.2" width="43" height="91.8" rx="3" fill="#577590"/><rect x="537" y="186.3" width="43" height="303.7" rx="3" fill="#2a9d8f"/><rect x="584" y="189.4" width="43" height="300.6" rx="3" fill="#e9a23b"/>
+    <rect x="680" y="309.7" width="43" height="180.3" rx="3" fill="#577590"/><rect x="727" y="357.1" width="43" height="132.9" rx="3" fill="#2a9d8f"/><rect x="774" y="388.8" width="43" height="101.2" rx="3" fill="#e9a23b"/>
+    <rect x="870" y="287.5" width="43" height="202.5" rx="3" fill="#577590"/><rect x="917" y="303.3" width="43" height="186.7" rx="3" fill="#2a9d8f"/><rect x="964" y="335.0" width="43" height="155.0" rx="3" fill="#e9a23b"/>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="11" fill="#172033" text-anchor="middle">
+    <text x="131" y="391">52.27</text><text x="178" y="179">57.50</text><text x="225" y="182">57.42</text>
+    <text x="321" y="280">55.00</text><text x="368" y="290">54.77</text><text x="415" y="290">54.77</text>
+    <text x="511" y="391">52.27</text><text x="558" y="179">57.50</text><text x="605" y="182">57.42</text>
+    <text x="701" y="302">54.45</text><text x="748" y="350">53.28</text><text x="795" y="382">52.50</text>
+    <text x="891" y="280">55.00</text><text x="938" y="296">54.61</text><text x="985" y="328">53.83</text>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#263044" text-anchor="middle">
+    <text x="178" y="518">1T / raw / 单框</text><text x="368" y="518">1T / min-max / 单框</text>
+    <text x="558" y="518">8T / raw / 单框</text><text x="748" y="518">8T / min-max / 单框</text>
+    <text x="938" y="518">8T / min-max / Top-k</text>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#566074">
+    <rect x="340" y="550" width="14" height="14" fill="#577590"/><text x="360" y="562">仅裁切</text>
+    <rect x="455" y="550" width="14" height="14" fill="#2a9d8f"/><text x="475" y="562">双图</text>
+    <rect x="555" y="550" width="14" height="14" fill="#e9a23b"/><text x="575" y="562">Focus</text>
+  </g>
+</svg>

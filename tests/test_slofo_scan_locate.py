@@ -7,13 +7,20 @@ import unittest
 import torch
 
 from slofo import (
+    CROPPED_IMAGE_TOKEN,
+    ORIGINAL_IMAGE_TOKEN,
+    OTHER_TOKEN,
+    FocusConfig,
     ScanLocateConfig,
+    build_multimodal_token_layout,
     fuse_importance,
     gradient_weighted_semantic_importance,
     locate_from_importance_map,
     pca_reconstruction_error,
+    prune_original_image_tokens,
     scan_locate_from_tensors,
     stitch_importance_maps,
+    topk_crop_windows_from_importance_map,
 )
 
 
@@ -55,6 +62,21 @@ class SemanticBranchTests(unittest.TestCase):
             rtol=2e-3,
             atol=0.0,
         )
+
+    def test_max_token_aggregation_preserves_distinct_anchor_evidence(self) -> None:
+        attention = torch.ones(2, 3, 4)
+        gradient = torch.zeros_like(attention)
+        gradient[:, 0, 0] = 1.0
+        gradient[:, 1, 2] = 3.0
+        gradient[:, 2, 3] = 2.0
+
+        actual = gradient_weighted_semantic_importance(
+            attention,
+            gradient=gradient,
+            token_aggregation="max",
+        )
+
+        torch.testing.assert_close(actual, torch.tensor([1.0, 0.0, 3.0, 2.0]))
 
 
 class StructureBranchTests(unittest.TestCase):
@@ -128,6 +150,40 @@ class FusionAndLocationTests(unittest.TestCase):
         self.assertEqual(crop.bbox, (0, 0, 200, 100))
         self.assertEqual(candidates, tuple())
 
+    def test_topk_keeps_legacy_first_and_adds_distinct_regions(self) -> None:
+        importance = torch.zeros(12, 12)
+        importance[1:4, 1:4] = 8.0
+        importance[8:11, 8:11] = 7.0
+
+        legacy, _ = locate_from_importance_map(
+            importance,
+            (480, 480),
+            base_crop_size=120,
+            ratios=(1.0, 1.5),
+        )
+        crops = topk_crop_windows_from_importance_map(
+            importance,
+            (480, 480),
+            top_k=3,
+            base_crop_size=120,
+            ratios=(1.0, 1.5),
+            pre_nms_per_scale=10,
+            nms_iou_threshold=0.3,
+        )
+
+        self.assertEqual(crops[0], legacy)
+        self.assertGreaterEqual(len(crops), 2)
+        self.assertEqual(len({crop.bbox for crop in crops}), len(crops))
+        self.assertTrue(any(crop.x1 >= 240 and crop.y1 >= 240 for crop in crops))
+
+    def test_topk_validates_nms_threshold(self) -> None:
+        with self.assertRaises(ValueError):
+            topk_crop_windows_from_importance_map(
+                torch.ones(4, 4),
+                (100, 100),
+                nms_iou_threshold=1.1,
+            )
+
     def test_high_resolution_tile_maps_are_stitched(self) -> None:
         tiles = [
             [torch.ones(2, 2), torch.full((2, 2), 2.0)],
@@ -137,6 +193,124 @@ class FusionAndLocationTests(unittest.TestCase):
         self.assertEqual(tuple(actual.shape), (4, 4))
         self.assertEqual(float(actual[0, 3]), 2.0)
         self.assertEqual(float(actual[3, 0]), 3.0)
+
+
+class FocusStageTests(unittest.TestCase):
+    def test_four_equal_phases_end_at_expected_llava_layers(self) -> None:
+        self.assertEqual(FocusConfig().phase_end_layers(32), (7, 15, 23))
+
+    def test_random_focus_configuration_is_explicit_and_validated(self) -> None:
+        config = FocusConfig(selection_method="random", random_seed=2)
+        self.assertEqual(config.selection_method, "random")
+        self.assertEqual(config.random_seed, 2)
+        with self.assertRaises(ValueError):
+            FocusConfig(selection_method="unknown")
+
+    def test_multimodal_layout_separates_original_crop_and_prompt(self) -> None:
+        layout, patch_ids = build_multimodal_token_layout(
+            torch.tensor([-200, 11, -200, 12]),
+            image_token_index=-200,
+            tokens_per_image=4,
+        )
+
+        self.assertEqual(
+            layout.tolist(),
+            [
+                ORIGINAL_IMAGE_TOKEN,
+                ORIGINAL_IMAGE_TOKEN,
+                ORIGINAL_IMAGE_TOKEN,
+                ORIGINAL_IMAGE_TOKEN,
+                OTHER_TOKEN,
+                CROPPED_IMAGE_TOKEN,
+                CROPPED_IMAGE_TOKEN,
+                CROPPED_IMAGE_TOKEN,
+                CROPPED_IMAGE_TOKEN,
+                OTHER_TOKEN,
+            ],
+        )
+        self.assertEqual(
+            patch_ids.tolist(), [0, 1, 2, 3, -1, -1, -1, -1, -1, -1]
+        )
+
+    def test_pruning_only_removes_low_attention_original_tokens(self) -> None:
+        hidden = torch.arange(10, dtype=torch.float32).view(1, 10, 1)
+        position_ids = torch.arange(10).view(1, 10)
+        token_types = torch.tensor(
+            [
+                OTHER_TOKEN,
+                ORIGINAL_IMAGE_TOKEN,
+                ORIGINAL_IMAGE_TOKEN,
+                ORIGINAL_IMAGE_TOKEN,
+                ORIGINAL_IMAGE_TOKEN,
+                CROPPED_IMAGE_TOKEN,
+                CROPPED_IMAGE_TOKEN,
+                CROPPED_IMAGE_TOKEN,
+                CROPPED_IMAGE_TOKEN,
+                OTHER_TOKEN,
+            ],
+            dtype=torch.int8,
+        )
+        original_ids = torch.tensor([-1, 0, 1, 2, 3, -1, -1, -1, -1, -1])
+        result = prune_original_image_tokens(
+            hidden,
+            position_ids,
+            token_types,
+            original_ids,
+            torch.tensor([0.1, 0.9, 0.2, 0.8]),
+            prune_ratio=0.5,
+        )
+
+        self.assertEqual(result.hidden_states.shape[1], 8)
+        self.assertEqual(result.kept_original_token_ids.tolist(), [1, 3])
+        self.assertEqual(result.pruned_original_token_ids.tolist(), [0, 2])
+        self.assertEqual(
+            int((result.token_types == CROPPED_IMAGE_TOKEN).sum().item()), 4
+        )
+        self.assertEqual(int((result.token_types == OTHER_TOKEN).sum().item()), 2)
+        self.assertEqual(result.position_ids.tolist(), [[0, 1, 2, 3, 4, 5, 6, 7]])
+
+    def test_three_pruning_boundaries_follow_576_to_72_schedule(self) -> None:
+        original_count = 576
+        crop_count = 576
+        sequence_length = original_count + crop_count + 3
+        hidden = torch.zeros((1, sequence_length, 2))
+        position_ids = torch.arange(sequence_length).view(1, -1)
+        token_types = torch.tensor(
+            [ORIGINAL_IMAGE_TOKEN] * original_count
+            + [CROPPED_IMAGE_TOKEN] * crop_count
+            + [OTHER_TOKEN] * 3,
+            dtype=torch.int8,
+        )
+        original_ids = torch.tensor(
+            list(range(original_count)) + [-1] * (crop_count + 3)
+        )
+
+        remaining = []
+        for _ in range(3):
+            scores = torch.arange(
+                int((token_types == ORIGINAL_IMAGE_TOKEN).sum()),
+                dtype=torch.float32,
+            )
+            result = prune_original_image_tokens(
+                hidden,
+                position_ids,
+                token_types,
+                original_ids,
+                scores,
+                prune_ratio=0.5,
+            )
+            hidden = result.hidden_states
+            position_ids = result.position_ids
+            token_types = result.token_types
+            original_ids = result.original_token_ids
+            remaining.append(
+                int((token_types == ORIGINAL_IMAGE_TOKEN).sum().item())
+            )
+
+        self.assertEqual(remaining, [288, 144, 72])
+        self.assertEqual(
+            int((token_types == CROPPED_IMAGE_TOKEN).sum().item()), crop_count
+        )
 
 
 class EndToEndTensorTests(unittest.TestCase):

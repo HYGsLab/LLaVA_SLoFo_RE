@@ -1,0 +1,1201 @@
+﻿benchmark,question_id,image,question,category,ground_truth,original_answer,crop_answer,legacy_joint_answer,topk_joint_answer,focus_answer,score_original,score_crop_only,score_legacy_dual,score_topk_dual,score_focus,selected_rank,selection_changed,selected_bbox,legacy_bbox
+pope,7,COCO_val2014_000000210789.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 50, 369, 520]","[0, 50, 369, 520]"
+pope,18,COCO_val2014_000000429109.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",adversarial,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+pope,20,COCO_val2014_000000211674.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 406]","[0, 0, 470, 406]"
+pope,27,COCO_val2014_000000458338.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 333]","[0, 0, 403, 333]"
+pope,32,COCO_val2014_000000283412.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 63, 640, 399]","[304, 63, 640, 399]"
+pope,55,COCO_val2014_000000017708.jpg,"Is there a bird in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 58, 403, 461]","[0, 58, 403, 461]"
+pope,105,COCO_val2014_000000131115.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 64, 640, 400]","[304, 64, 640, 400]"
+pope,116,COCO_val2014_000000381895.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 307]","[0, 0, 470, 307]"
+pope,126,COCO_val2014_000000336872.jpg,"Is there a fork in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 52, 640, 388]","[304, 52, 640, 388]"
+pope,145,COCO_val2014_000000218224.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 361]","[170, 0, 640, 361]"
+pope,153,COCO_val2014_000000297078.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 336]","[0, 0, 336, 336]"
+pope,155,COCO_val2014_000000297078.jpg,"Is there a skis in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 336]","[0, 0, 336, 336]"
+pope,175,COCO_val2014_000000288639.jpg,"Is there a sink in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 92, 336, 428]","[0, 92, 336, 428]"
+pope,221,COCO_val2014_000000498759.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 46, 336, 382]","[0, 46, 336, 382]"
+pope,227,COCO_val2014_000000360600.jpg,"Is there a knife in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[19, 72, 355, 408]","[19, 72, 355, 408]"
+pope,229,COCO_val2014_000000031773.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 58, 403, 461]","[0, 58, 403, 461]"
+pope,232,COCO_val2014_000000031773.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[232, 92, 568, 428]","[232, 92, 568, 428]"
+pope,247,COCO_val2014_000000456178.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,No,Yes,Yes,1.0,1.0,0.0,1.0,1.0,2,True,"[52, 304, 388, 640]","[0, 35, 480, 640]"
+pope,261,COCO_val2014_000000485564.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 27, 640, 363]","[304, 27, 640, 363]"
+pope,268,COCO_val2014_000000454642.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 375]","[0, 0, 470, 375]"
+pope,271,COCO_val2014_000000205729.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 92, 461, 428]","[125, 92, 461, 428]"
+pope,292,COCO_val2014_000000012333.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 416]","[0, 0, 538, 416]"
+pope,304,COCO_val2014_000000515904.jpg,"Is there a bottle in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 428]","[102, 0, 640, 428]"
+pope,324,COCO_val2014_000000538236.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 428]","[0, 0, 470, 428]"
+pope,345,COCO_val2014_000000054025.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[285, 27, 621, 363]","[285, 27, 621, 363]"
+pope,353,COCO_val2014_000000084447.jpg,"Is there a bicycle in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[72, 52, 408, 388]","[72, 52, 408, 388]"
+pope,370,COCO_val2014_000000354088.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",adversarial,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[170, 0, 640, 428]","[170, 0, 640, 428]"
+pope,382,COCO_val2014_000000456552.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,386,COCO_val2014_000000350898.jpg,"Is there a bowl in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 112, 336, 448]","[0, 112, 336, 448]"
+pope,399,COCO_val2014_000000021645.jpg,"Is there a clock in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+pope,404,COCO_val2014_000000528905.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 426]","[0, 0, 470, 426]"
+pope,406,COCO_val2014_000000528905.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",adversarial,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[205, 63, 541, 399]","[205, 63, 541, 399]"
+pope,433,COCO_val2014_000000564336.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 336]","[0, 0, 336, 336]"
+pope,439,COCO_val2014_000000231589.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 425]","[0, 0, 538, 425]"
+pope,479,COCO_val2014_000000332025.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[0, 202, 336, 538]","[0, 202, 336, 538]"
+pope,488,COCO_val2014_000000455157.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 237, 403, 640]","[0, 237, 403, 640]"
+pope,499,COCO_val2014_000000199764.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 63, 461, 399]","[125, 63, 461, 399]"
+pope,515,COCO_val2014_000000175506.jpg,"Is there a frisbee in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 63, 488, 399]","[152, 63, 488, 399]"
+pope,526,COCO_val2014_000000207205.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,541,COCO_val2014_000000013348.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 28, 336, 364]","[0, 0, 538, 427]"
+pope,552,COCO_val2014_000000081336.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 448]","[0, 0, 470, 448]"
+pope,564,COCO_val2014_000000209755.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[125, 63, 461, 399]","[304, 28, 640, 364]"
+pope,574,COCO_val2014_000000397705.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[30, 0, 500, 359]","[30, 0, 500, 359]"
+pope,585,COCO_val2014_000000257327.jpg,"Is there a toilet in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+pope,596,COCO_val2014_000000105732.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+pope,617,COCO_val2014_000000580294.jpg,"Is there a spoon in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[158, 29, 561, 432]","[158, 29, 561, 432]"
+pope,637,COCO_val2014_000000387098.jpg,"Is there a spoon in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 605, 480]","[0, 0, 605, 480]"
+pope,641,COCO_val2014_000000387098.jpg,"Is there a remote in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,No,No,No,No,1.0,0.0,0.0,0.0,0.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,644,COCO_val2014_000000382670.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 480]","[0, 0, 605, 480]"
+pope,648,COCO_val2014_000000382670.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 144, 640, 480]","[304, 144, 640, 480]"
+pope,673,COCO_val2014_000000370900.jpg,"Is there a tie in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[19, 142, 355, 478]","[19, 142, 355, 478]"
+pope,682,COCO_val2014_000000094501.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[169, 0, 639, 470]","[169, 0, 639, 470]"
+pope,696,COCO_val2014_000000366141.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[158, 38, 561, 441]","[158, 38, 561, 441]"
+pope,740,COCO_val2014_000000065001.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 92, 435, 428]","[99, 92, 435, 428]"
+pope,744,COCO_val2014_000000065001.jpg,"Is there a bus in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+pope,745,COCO_val2014_000000482275.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[35, 0, 640, 480]","[35, 0, 640, 480]"
+pope,765,COCO_val2014_000000518177.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,775,COCO_val2014_000000551881.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[285, 52, 621, 388]","[285, 52, 621, 388]"
+pope,779,COCO_val2014_000000551881.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[237, 38, 640, 441]","[237, 38, 640, 441]"
+pope,791,COCO_val2014_000000007795.jpg,"Is there a remote in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 46, 461, 382]","[125, 46, 461, 382]"
+pope,795,COCO_val2014_000000303099.jpg,"Is there a cat in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+pope,833,COCO_val2014_000000167110.jpg,"Is there a skateboard in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 425]","[102, 0, 640, 425]"
+pope,840,COCO_val2014_000000300876.jpg,"Is there a banana in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[237, 48, 640, 451]","[285, 263, 621, 599]"
+pope,844,COCO_val2014_000000443240.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[19, 112, 355, 448]","[19, 112, 355, 448]"
+pope,853,COCO_val2014_000000270609.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 426]","[0, 0, 538, 426]"
+pope,864,COCO_val2014_000000208028.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 428]","[0, 0, 470, 428]"
+pope,906,COCO_val2014_000000430052.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[152, 92, 488, 428]","[0, 0, 605, 480]"
+pope,918,COCO_val2014_000000539251.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 18, 393, 488]","[0, 237, 393, 640]"
+pope,919,COCO_val2014_000000551908.jpg,"Is there a broccoli in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 63, 408, 399]","[72, 63, 408, 399]"
+pope,920,COCO_val2014_000000551908.jpg,"Is there a bowl in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+pope,1001,COCO_val2014_000000468934.jpg,"Is there a fork in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 72, 595, 408]","[259, 72, 595, 408]"
+pope,1007,COCO_val2014_000000189694.jpg,"Is there a bottle in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[285, 112, 621, 448]","[102, 0, 640, 480]"
+pope,1011,COCO_val2014_000000273450.jpg,"Is there an orange in the imange?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 276, 640, 612]","[304, 276, 640, 612]"
+pope,1034,COCO_val2014_000000506178.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 30, 375, 500]","[0, 30, 375, 500]"
+pope,1069,COCO_val2014_000000134075.jpg,"Is there a spoon in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[125, 93, 461, 429]","[125, 93, 461, 429]"
+pope,1087,COCO_val2014_000000142774.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 91, 515, 427]","[179, 91, 515, 427]"
+pope,1119,COCO_val2014_000000574790.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+pope,1137,COCO_val2014_000000246145.jpg,"Is there a clock in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 72, 388, 408]","[52, 72, 388, 408]"
+pope,1151,COCO_val2014_000000529668.jpg,"Is there a cell phone in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 480, 640]","[0, 102, 480, 640]"
+pope,1156,COCO_val2014_000000376959.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[152, 144, 488, 480]","[72, 112, 408, 448]"
+pope,1168,COCO_val2014_000000327038.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 361]","[0, 0, 403, 361]"
+pope,1180,COCO_val2014_000000184338.jpg,"Is there a book in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,Yes,Yes,Yes,Yes,1.0,0.0,0.0,0.0,0.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+pope,1217,COCO_val2014_000000112664.jpg,"Is there a suitcase in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[61, 0, 397, 332]","[61, 0, 397, 332]"
+pope,1292,COCO_val2014_000000307166.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,Yes,Yes,Yes,Yes,1.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 479]","[102, 0, 640, 479]"
+pope,1301,COCO_val2014_000000313034.jpg,"Is there a bottle in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,Yes,No,Yes,Yes,0.0,1.0,0.0,1.0,1.0,2,True,"[152, 112, 488, 448]","[102, 0, 640, 480]"
+pope,1315,COCO_val2014_000000526368.jpg,"Is there a laptop in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 51, 488, 387]","[152, 51, 488, 387]"
+pope,1418,COCO_val2014_000000424585.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,Yes,No,No,No,1.0,0.0,1.0,1.0,1.0,1,False,"[304, 46, 640, 382]","[304, 46, 640, 382]"
+pope,1433,COCO_val2014_000000017379.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[51, 125, 387, 461]","[51, 125, 387, 461]"
+pope,1460,COCO_val2014_000000115626.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 205, 388, 541]","[52, 205, 388, 541]"
+pope,1478,COCO_val2014_000000463542.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,Yes,No,No,No,1.0,0.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+pope,1500,COCO_val2014_000000554328.jpg,"Is there a tennis racket in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[0, 61, 336, 397]","[0, 0, 538, 499]"
+pope,1537,COCO_val2014_000000318209.jpg,"Is there a sandwich in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[25, 57, 428, 460]","[25, 57, 428, 460]"
+pope,1556,COCO_val2014_000000441156.jpg,"Is there a skis in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 72, 336, 408]","[0, 72, 336, 408]"
+pope,1563,COCO_val2014_000000408757.jpg,"Is there a kite in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 125, 371, 595]","[0, 125, 371, 595]"
+pope,1567,COCO_val2014_000000550691.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[105, 58, 508, 461]","[105, 58, 508, 461]"
+pope,1569,COCO_val2014_000000550691.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[105, 58, 508, 461]","[105, 58, 508, 461]"
+pope,1586,COCO_val2014_000000198312.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,1587,COCO_val2014_000000198312.jpg,"Is there a couch in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+pope,1604,COCO_val2014_000000472143.jpg,"Is there a boat in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 152, 515, 488]","[179, 152, 515, 488]"
+pope,1653,COCO_val2014_000000199122.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 63, 640, 399]","[304, 63, 640, 399]"
+pope,1676,COCO_val2014_000000246999.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 92, 461, 428]","[125, 92, 461, 428]"
+pope,1688,COCO_val2014_000000331366.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,1724,COCO_val2014_000000473199.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 92, 336, 428]","[0, 92, 336, 428]"
+pope,1730,COCO_val2014_000000311759.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 528]","[0, 0, 538, 528]"
+pope,1740,COCO_val2014_000000431615.jpg,"Is there a bird in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 71, 488, 407]","[152, 71, 488, 407]"
+pope,1760,COCO_val2014_000000346707.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 164, 333, 500]","[0, 164, 333, 500]"
+pope,1792,COCO_val2014_000000001171.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",adversarial,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,2,True,"[232, 63, 568, 399]","[102, 0, 640, 426]"
+pope,1807,COCO_val2014_000000392364.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 147, 640, 483]","[304, 147, 640, 483]"
+pope,1812,COCO_val2014_000000392364.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 147, 640, 483]","[304, 147, 640, 483]"
+pope,1817,COCO_val2014_000000188958.jpg,"Is there a skis in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[25, 58, 428, 461]","[25, 58, 428, 461]"
+pope,1836,COCO_val2014_000000349936.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,1881,COCO_val2014_000000495311.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,1884,COCO_val2014_000000495311.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,1888,COCO_val2014_000000312406.jpg,"Is there a spoon in the image?
+Answer the question using a single word or phrase.",adversarial,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[285, 52, 621, 388]","[285, 52, 621, 388]"
+pope,1894,COCO_val2014_000000515820.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 304, 336, 640]","[304, 304, 640, 640]"
+pope,1923,COCO_val2014_000000276693.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 46, 488, 382]","[152, 46, 488, 382]"
+pope,1938,COCO_val2014_000000505335.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",adversarial,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[99, 63, 435, 399]","[99, 63, 435, 399]"
+pope,1945,COCO_val2014_000000384970.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 333]","[0, 0, 470, 333]"
+pope,1967,COCO_val2014_000000379404.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,Yes,No,Yes,Yes,0.0,1.0,0.0,1.0,1.0,4,True,"[237, 54, 640, 457]","[0, 0, 538, 457]"
+pope,1976,COCO_val2014_000000293564.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 425]","[0, 0, 538, 425]"
+pope,1977,COCO_val2014_000000293564.jpg,"Is there a surfboard in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 425]","[0, 0, 538, 425]"
+pope,2016,COCO_val2014_000000501294.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,Yes,Yes,Yes,Yes,1.0,0.0,0.0,0.0,0.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+pope,2028,COCO_val2014_000000091954.jpg,"Is there a bus in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 132, 461, 468]","[125, 132, 461, 468]"
+pope,2031,COCO_val2014_000000454607.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 57, 461, 393]","[125, 57, 461, 393]"
+pope,2036,COCO_val2014_000000363908.jpg,"Is there a dog in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+pope,2051,COCO_val2014_000000348469.jpg,"Is there a baseball bat in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 432, 538]","[0, 0, 432, 538]"
+pope,2061,COCO_val2014_000000262736.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+pope,2083,COCO_val2014_000000433574.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 112, 515, 448]","[179, 112, 515, 448]"
+pope,2090,COCO_val2014_000000212241.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,2104,COCO_val2014_000000493753.jpg,"Is there a cell phone in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 52, 408, 388]","[72, 52, 408, 388]"
+pope,2105,COCO_val2014_000000493753.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 112, 640, 448]","[304, 112, 640, 448]"
+pope,2121,COCO_val2014_000000467887.jpg,"Is there a mouse in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,Yes,No,Yes,Yes,0.0,1.0,0.0,1.0,1.0,2,True,"[19, 52, 355, 388]","[0, 0, 538, 480]"
+pope,2168,COCO_val2014_000000252135.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,2171,COCO_val2014_000000252135.jpg,"Is there a couch in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+pope,2185,COCO_val2014_000000332908.jpg,"Is there a bowl in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 92, 408, 428]","[72, 92, 408, 428]"
+pope,2192,COCO_val2014_000000372819.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 426]","[170, 0, 640, 426]"
+pope,2193,COCO_val2014_000000372819.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 426]","[170, 0, 640, 426]"
+pope,2215,COCO_val2014_000000394535.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[205, 28, 541, 364]","[0, 0, 538, 427]"
+pope,2216,COCO_val2014_000000394535.jpg,"Is there a skis in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[205, 63, 541, 399]","[205, 63, 541, 399]"
+pope,2247,COCO_val2014_000000240434.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[158, 0, 561, 403]","[158, 0, 561, 403]"
+pope,2248,COCO_val2014_000000240434.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[24, 0, 562, 427]","[24, 0, 562, 427]"
+pope,2258,COCO_val2014_000000549390.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",adversarial,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[105, 0, 508, 403]","[105, 0, 508, 403]"
+pope,2264,COCO_val2014_000000235541.jpg,"Is there a cow in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 170, 427, 640]","[0, 170, 427, 640]"
+pope,2265,COCO_val2014_000000235541.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 427, 640]","[0, 102, 427, 640]"
+pope,2269,COCO_val2014_000000068418.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,2,True,"[304, 52, 640, 388]","[102, 0, 640, 480]"
+pope,2309,COCO_val2014_000000579277.jpg,"Is there a carrot in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[19, 63, 355, 399]","[19, 63, 355, 399]"
+pope,2311,COCO_val2014_000000042685.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 28, 640, 364]","[304, 28, 640, 364]"
+pope,2315,COCO_val2014_000000042685.jpg,"Is there a pizza in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[132, 25, 535, 428]","[132, 25, 535, 428]"
+pope,2328,COCO_val2014_000000243158.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+pope,2329,COCO_val2014_000000303971.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,2336,COCO_val2014_000000405762.jpg,"Is there a bus in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,2347,COCO_val2014_000000477598.jpg,"Is there a dog in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 333]","[0, 0, 403, 333]"
+pope,2365,COCO_val2014_000000337502.jpg,"Is there a pizza in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[98, 0, 568, 427]","[98, 0, 568, 427]"
+pope,2372,COCO_val2014_000000325347.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,Yes,Yes,Yes,No,1.0,0.0,0.0,0.0,1.0,1,False,"[185, 0, 588, 359]","[185, 0, 588, 359]"
+pope,2398,COCO_val2014_000000288576.jpg,"Is there a motorcycle in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[19, 64, 355, 400]","[19, 64, 355, 400]"
+pope,2401,COCO_val2014_000000328301.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[35, 0, 640, 427]","[35, 0, 640, 427]"
+pope,2409,COCO_val2014_000000307262.jpg,"Is there a fork in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[304, 14, 640, 350]","[304, 14, 640, 350]"
+pope,2420,COCO_val2014_000000154846.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 0, 336, 336]","[237, 25, 640, 428]"
+pope,2424,COCO_val2014_000000154846.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 428]","[0, 0, 470, 428]"
+pope,2460,COCO_val2014_000000149592.jpg,"Is there a bird in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+pope,2472,COCO_val2014_000000458325.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,2481,COCO_val2014_000000038645.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,2,True,"[91, 304, 427, 640]","[0, 102, 478, 640]"
+pope,2494,COCO_val2014_000000170077.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 45, 428, 381]","[92, 45, 428, 381]"
+pope,2510,COCO_val2014_000000246928.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 409]","[0, 0, 470, 409]"
+pope,2520,COCO_val2014_000000528136.jpg,"Is there a bicycle in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[237, 18, 640, 421]","[0, 92, 336, 428]"
+pope,2522,COCO_val2014_000000209290.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[49, 276, 385, 612]","[49, 276, 385, 612]"
+pope,2569,COCO_val2014_000000052689.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,2626,COCO_val2014_000000514292.jpg,"Is there a bed in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+pope,2629,COCO_val2014_000000117527.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 424]","[0, 0, 605, 424]"
+pope,2632,COCO_val2014_000000117527.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[185, 21, 588, 424]","[185, 21, 588, 424]"
+pope,2642,COCO_val2014_000000429706.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 382]","[0, 0, 470, 382]"
+pope,2647,COCO_val2014_000000429580.jpg,"Is there a dog in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 439]","[102, 0, 640, 439]"
+pope,2648,COCO_val2014_000000429580.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 439]","[102, 0, 640, 439]"
+pope,2656,COCO_val2014_000000283168.jpg,"Is there a knife in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 333]","[97, 0, 500, 333]"
+pope,2658,COCO_val2014_000000283168.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 333]","[97, 0, 500, 333]"
+pope,2679,COCO_val2014_000000224155.jpg,"Is there a toilet in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,No,No,No,No,1.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+pope,2698,COCO_val2014_000000550514.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",adversarial,no,Yes,No,Yes,Yes,Yes,0.0,1.0,0.0,0.0,0.0,2,True,"[152, 52, 488, 388]","[102, 0, 640, 480]"
+pope,2701,COCO_val2014_000000163814.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[44, 205, 380, 541]","[44, 205, 380, 541]"
+pope,2732,COCO_val2014_000000214421.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+pope,2735,COCO_val2014_000000214421.jpg,"Is there a potted plant in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 82, 336, 418]","[0, 82, 336, 418]"
+pope,2747,COCO_val2014_000000233426.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 425]","[0, 0, 470, 425]"
+pope,2770,COCO_val2014_000000092624.jpg,"Is there a bicycle in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 336]","[0, 0, 336, 336]"
+pope,2771,COCO_val2014_000000092624.jpg,"Is there a zebra in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,3,True,"[0, 46, 336, 382]","[0, 0, 605, 429]"
+pope,2772,COCO_val2014_000000092624.jpg,"Is there an airplane in the imange?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 336]","[0, 0, 336, 336]"
+pope,2787,COCO_val2014_000000465346.jpg,"Is there a sandwich in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 185, 403, 588]","[0, 185, 403, 588]"
+pope,2804,COCO_val2014_000000575355.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 125, 388, 461]","[52, 125, 388, 461]"
+pope,2830,COCO_val2014_000000159969.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+pope,2840,COCO_val2014_000000555538.jpg,"Is there a dog in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 400]","[0, 0, 403, 400]"
+pope,2842,COCO_val2014_000000555538.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 400]","[0, 0, 403, 400]"
+pope,2843,COCO_val2014_000000555538.jpg,"Is there a sports ball in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 403, 400]","[0, 0, 403, 400]"
+pope,2864,COCO_val2014_000000045685.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 375]","[0, 0, 470, 375]"
+pope,2882,COCO_val2014_000000069863.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 426]","[0, 0, 470, 426]"
+pope,2894,COCO_val2014_000000429913.jpg,"Is there a dog in the image?
+Answer the question using a single word or phrase.",adversarial,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 46, 640, 382]","[304, 46, 640, 382]"
+pope,2903,COCO_val2014_000000554002.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 62, 336, 398]","[0, 62, 336, 398]"
+pope,2904,COCO_val2014_000000554002.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",adversarial,no,Yes,No,No,No,Yes,0.0,1.0,1.0,1.0,0.0,1,False,"[237, 0, 640, 403]","[237, 0, 640, 403]"
+pope,2919,COCO_val2014_000000534942.jpg,"Is there a cat in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 46, 488, 382]","[152, 46, 488, 382]"
+pope,2927,COCO_val2014_000000377951.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 426]","[170, 0, 640, 426]"
+pope,2941,COCO_val2014_000000468997.jpg,"Is there a baseball glove in the image?
+Answer the question using a single word or phrase.",adversarial,yes,No,No,Yes,Yes,No,0.0,0.0,1.0,1.0,0.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,2967,COCO_val2014_000000122962.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 424]","[170, 0, 640, 424]"
+pope,2971,COCO_val2014_000000015738.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",adversarial,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 152, 381, 488]","[45, 152, 381, 488]"
+pope,10000003,COCO_val2014_000000310196.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 24, 403, 427]","[0, 24, 403, 427]"
+pope,10000026,COCO_val2014_000000458338.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 333]","[0, 0, 403, 333]"
+pope,10000027,COCO_val2014_000000458338.jpg,"Is there a surfboard in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[164, 0, 500, 333]","[61, 0, 397, 333]"
+pope,10000036,COCO_val2014_000000265719.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 112, 640, 448]","[304, 112, 640, 448]"
+pope,10000041,COCO_val2014_000000461331.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",random,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,10000051,COCO_val2014_000000544456.jpg,"Is there a skis in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+pope,10000097,COCO_val2014_000000131115.jpg,"Is there a baseball glove in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 28, 595, 364]","[259, 28, 595, 364]"
+pope,10000099,COCO_val2014_000000131115.jpg,"Is there a sheep in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[237, 25, 640, 428]","[237, 25, 640, 428]"
+pope,10000102,COCO_val2014_000000157084.jpg,"Is there a sink in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 428, 605]","[0, 0, 428, 605]"
+pope,10000111,COCO_val2014_000000381895.jpg,"Is there a bear in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 307]","[97, 0, 500, 307]"
+pope,10000121,COCO_val2014_000000075591.jpg,"Is there a clock in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 0, 595, 336]","[259, 0, 595, 336]"
+pope,10000183,COCO_val2014_000000526321.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[144, 0, 480, 333]","[144, 0, 480, 333]"
+pope,10000185,COCO_val2014_000000526321.jpg,"Is there a hot dog in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[144, 0, 480, 333]","[144, 0, 480, 333]"
+pope,10000193,COCO_val2014_000000042190.jpg,"Is there a wine glass in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,10000232,COCO_val2014_000000574057.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",random,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[78, 58, 481, 461]","[78, 58, 481, 461]"
+pope,10000248,COCO_val2014_000000485564.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 27, 640, 363]","[304, 27, 640, 363]"
+pope,10000268,COCO_val2014_000000329717.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 358]","[0, 0, 470, 358]"
+pope,10000271,COCO_val2014_000000329717.jpg,"Is there a bird in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 358]","[0, 0, 403, 358]"
+pope,10000273,COCO_val2014_000000329717.jpg,"Is there a toaster in the image?
+Answer the question using a single word or phrase.",random,no,No,Yes,No,No,No,1.0,0.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 358]","[0, 0, 470, 358]"
+pope,10000298,COCO_val2014_000000354229.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,No,Yes,No,Yes,Yes,0.0,1.0,0.0,1.0,1.0,2,True,"[304, 37, 640, 373]","[19, 37, 355, 373]"
+pope,10000308,COCO_val2014_000000538236.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 428]","[0, 0, 470, 428]"
+pope,10000328,COCO_val2014_000000054025.jpg,"Is there a pizza in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 27, 595, 363]","[259, 27, 595, 363]"
+pope,10000343,COCO_val2014_000000192660.jpg,"Is there a refrigerator in the image?
+Answer the question using a single word or phrase.",random,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,2,True,"[152, 72, 488, 408]","[304, 52, 640, 388]"
+pope,10000346,COCO_val2014_000000575755.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 427, 470]","[0, 0, 427, 470]"
+pope,10000395,COCO_val2014_000000239347.jpg,"Is there a tie in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[158, 38, 561, 441]","[158, 38, 561, 441]"
+pope,10000399,COCO_val2014_000000007320.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 375, 403]","[0, 0, 375, 403]"
+pope,10000418,COCO_val2014_000000564336.jpg,"Is there a skateboard in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[237, 0, 640, 360]","[24, 0, 562, 360]"
+pope,10000430,COCO_val2014_000000465275.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 0, 388, 336]","[52, 0, 388, 336]"
+pope,10000450,COCO_val2014_000000131018.jpg,"Is there a giraffe in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[152, 10, 622, 480]","[45, 112, 381, 448]"
+pope,10000456,COCO_val2014_000000332625.jpg,"Is there a frisbee in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[237, 26, 640, 429]","[237, 26, 640, 429]"
+pope,10000464,COCO_val2014_000000318204.jpg,"Is there a baseball glove in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 72, 336, 408]","[0, 72, 336, 408]"
+pope,10000472,COCO_val2014_000000455157.jpg,"Is there a tennis racket in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 179, 381, 515]","[45, 179, 381, 515]"
+pope,10000479,COCO_val2014_000000069189.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[69, 179, 405, 515]","[69, 179, 405, 515]"
+pope,10000491,COCO_val2014_000000175506.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 63, 488, 399]","[152, 63, 488, 399]"
+pope,10000511,COCO_val2014_000000427113.jpg,"Is there a donut in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 144, 336, 480]","[0, 144, 336, 480]"
+pope,10000515,COCO_val2014_000000498374.jpg,"Is there a broccoli in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 480, 640]","[0, 102, 480, 640]"
+pope,10000547,COCO_val2014_000000227227.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[164, 0, 500, 334]","[164, 0, 500, 334]"
+pope,10000561,COCO_val2014_000000257327.jpg,"Is there a toilet in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+pope,10000567,COCO_val2014_000000557016.jpg,"Is there a bicycle in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[232, 118, 568, 454]","[232, 118, 568, 454]"
+pope,10000571,COCO_val2014_000000105732.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 72, 640, 408]","[304, 72, 640, 408]"
+pope,10000626,COCO_val2014_000000414516.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 72, 640, 408]","[304, 72, 640, 408]"
+pope,10000643,COCO_val2014_000000237767.jpg,"Is there a remote in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 202, 461, 538]","[125, 202, 461, 538]"
+pope,10000644,COCO_val2014_000000237767.jpg,"Is there a train in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[23, 202, 359, 538]","[23, 202, 359, 538]"
+pope,10000660,COCO_val2014_000000069196.jpg,"Is there a bus in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[77, 304, 413, 640]","[0, 102, 512, 640]"
+pope,10000672,COCO_val2014_000000093946.jpg,"Is there an apple in the imange?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[132, 57, 535, 460]","[132, 57, 535, 460]"
+pope,10000694,COCO_val2014_000000538054.jpg,"Is there a banana in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 52, 381, 388]","[45, 52, 381, 388]"
+pope,10000721,COCO_val2014_000000482275.jpg,"Is there a pizza in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[205, 92, 541, 428]","[205, 92, 541, 428]"
+pope,10000728,COCO_val2014_000000044520.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",random,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[38, 0, 441, 375]","[38, 0, 441, 375]"
+pope,10000737,COCO_val2014_000000518177.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 441]","[170, 0, 640, 441]"
+pope,10000759,COCO_val2014_000000007795.jpg,"Is there a train in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 46, 381, 382]","[45, 46, 381, 382]"
+pope,10000770,COCO_val2014_000000147289.jpg,"Is there a fire hydrant in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[168, 41, 571, 444]","[168, 41, 571, 444]"
+pope,10000776,COCO_val2014_000000102439.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+pope,10000812,COCO_val2014_000000443240.jpg,"Is there a keyboard in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[232, 112, 568, 448]","[232, 112, 568, 448]"
+pope,10000833,COCO_val2014_000000208028.jpg,"Is there a laptop in the image?
+Answer the question using a single word or phrase.",random,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 428]","[0, 0, 470, 428]"
+pope,10000847,COCO_val2014_000000467176.jpg,"Is there a donut in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 428]","[0, 0, 538, 428]"
+pope,10000849,COCO_val2014_000000467176.jpg,"Is there a sink in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 428]","[0, 0, 538, 428]"
+pope,10000871,COCO_val2014_000000430052.jpg,"Is there a tennis racket in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,10000879,COCO_val2014_000000567886.jpg,"Is there a sports ball in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+pope,10000893,COCO_val2014_000000102906.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 46, 488, 382]","[152, 46, 488, 382]"
+pope,10000894,COCO_val2014_000000102906.jpg,"Is there a zebra in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 25, 403, 428]","[0, 25, 403, 428]"
+pope,10000918,COCO_val2014_000000379162.jpg,"Is there a bus in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,10000945,COCO_val2014_000000178078.jpg,"Is there a laptop in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+pope,10000969,COCO_val2014_000000468934.jpg,"Is there an elephant in the imange?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[98, 10, 568, 480]","[98, 10, 568, 480]"
+pope,10000983,COCO_val2014_000000278226.jpg,"Is there a train in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 112, 515, 448]","[179, 112, 515, 448]"
+pope,10000993,COCO_val2014_000000153300.jpg,"Is there a toaster in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 0, 336, 336]","[0, 0, 538, 501]"
+pope,10001000,COCO_val2014_000000506178.jpg,"Is there a bed in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 30, 375, 500]","[0, 30, 375, 500]"
+pope,10001039,COCO_val2014_000000227204.jpg,"Is there a banana in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[152, 92, 488, 428]","[0, 0, 538, 480]"
+pope,10001041,COCO_val2014_000000227204.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[212, 38, 615, 441]","[212, 38, 615, 441]"
+pope,10001042,COCO_val2014_000000227204.jpg,"Is there a cake in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,10001048,COCO_val2014_000000124629.jpg,"Is there a surfboard in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,10001067,COCO_val2014_000000316700.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+pope,10001081,COCO_val2014_000000574790.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+pope,10001092,COCO_val2014_000000011241.jpg,"Is there a cow in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[185, 24, 588, 427]","[185, 24, 588, 427]"
+pope,10001124,COCO_val2014_000000275863.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,10001145,COCO_val2014_000000184338.jpg,"Is there a banana in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[102, 0, 640, 427]","[304, 91, 640, 427]"
+pope,10001161,COCO_val2014_000000375909.jpg,"Is there a bed in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 99, 336, 435]","[0, 99, 336, 435]"
+pope,10001172,COCO_val2014_000000124930.jpg,"Is there a bicycle in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 63, 595, 399]","[259, 63, 595, 399]"
+pope,10001178,COCO_val2014_000000112664.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[38, 0, 441, 332]","[38, 0, 441, 332]"
+pope,10001196,COCO_val2014_000000049473.jpg,"Is there a bed in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[164, 0, 500, 335]","[164, 0, 500, 335]"
+pope,10001230,COCO_val2014_000000244455.jpg,"Is there a bed in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 486]","[0, 0, 538, 486]"
+pope,10001231,COCO_val2014_000000244455.jpg,"Is there a bicycle in the image?
+Answer the question using a single word or phrase.",random,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 538, 486]","[0, 0, 538, 486]"
+pope,10001259,COCO_val2014_000000313034.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,10001275,COCO_val2014_000000526368.jpg,"Is there a laptop in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 51, 488, 387]","[152, 51, 488, 387]"
+pope,10001287,COCO_val2014_000000287035.jpg,"Is there a horse in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 39, 336, 375]","[0, 39, 336, 375]"
+pope,10001301,COCO_val2014_000000120648.jpg,"Is there a suitcase in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 470]","[170, 0, 640, 470]"
+pope,10001305,COCO_val2014_000000186709.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 99, 388, 435]","[52, 99, 388, 435]"
+pope,10001345,COCO_val2014_000000123017.jpg,"Is there a bowl in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[105, 53, 508, 456]","[105, 53, 508, 456]"
+pope,10001377,COCO_val2014_000000424585.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 63, 595, 399]","[259, 63, 595, 399]"
+pope,10001379,COCO_val2014_000000100215.jpg,"Is there a clock in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+pope,10001386,COCO_val2014_000000017379.jpg,"Is there an apple in the imange?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[51, 152, 387, 488]","[51, 152, 387, 488]"
+pope,10001395,COCO_val2014_000000511622.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 35, 480, 640]","[0, 35, 480, 640]"
+pope,10001400,COCO_val2014_000000407386.jpg,"Is there a scissors in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,10001420,COCO_val2014_000000115626.jpg,"Is there a pizza in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[92, 0, 428, 336]","[0, 35, 480, 640]"
+pope,10001439,COCO_val2014_000000377352.jpg,"Is there a motorcycle in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 53, 515, 389]","[179, 53, 515, 389]"
+pope,10001450,COCO_val2014_000000554328.jpg,"Is there a bear in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[232, 102, 568, 438]","[232, 102, 568, 438]"
+pope,10001478,COCO_val2014_000000524979.jpg,"Is there a baseball glove in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[61, 304, 397, 640]","[61, 304, 397, 640]"
+pope,10001481,COCO_val2014_000000524979.jpg,"Is there a suitcase in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 237, 397, 640]","[0, 237, 397, 640]"
+pope,10001488,COCO_val2014_000000070813.jpg,"Is there a bottle in the image?
+Answer the question using a single word or phrase.",random,yes,No,Yes,No,No,No,0.0,1.0,0.0,0.0,0.0,1,False,"[304, 93, 640, 429]","[304, 93, 640, 429]"
+pope,10001508,COCO_val2014_000000441156.jpg,"Is there an airplane in the imange?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 72, 336, 408]","[0, 72, 336, 408]"
+pope,10001523,COCO_val2014_000000550691.jpg,"Is there a bus in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 92, 488, 428]","[152, 92, 488, 428]"
+pope,10001526,COCO_val2014_000000204100.jpg,"Is there a fire hydrant in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 281]","[97, 0, 500, 281]"
+pope,10001549,COCO_val2014_000000309371.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 196, 640, 532]","[304, 196, 640, 532]"
+pope,10001551,COCO_val2014_000000309371.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 196, 336, 532]","[237, 128, 640, 531]"
+pope,10001560,COCO_val2014_000000472143.jpg,"Is there a frisbee in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[19, 232, 355, 568]","[0, 35, 605, 640]"
+pope,10001563,COCO_val2014_000000236023.jpg,"Is there a clock in the image?
+Answer the question using a single word or phrase.",random,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[30, 0, 500, 376]","[30, 0, 500, 376]"
+pope,10001578,COCO_val2014_000000397665.jpg,"Is there a toothbrush in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 427, 470]","[0, 0, 427, 470]"
+pope,10001588,COCO_val2014_000000499105.jpg,"Is there a tennis racket in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 375, 403]","[0, 0, 375, 403]"
+pope,10001616,COCO_val2014_000000482829.jpg,"Is there a tennis racket in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+pope,10001623,COCO_val2014_000000097994.jpg,"Is there a skateboard in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 46, 336, 382]","[0, 46, 336, 382]"
+pope,10001634,COCO_val2014_000000338291.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+pope,10001637,COCO_val2014_000000331366.jpg,"Is there a bottle in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[205, 92, 541, 428]","[205, 92, 541, 428]"
+pope,10001644,COCO_val2014_000000348524.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[27, 125, 363, 461]","[27, 125, 363, 461]"
+pope,10001660,COCO_val2014_000000239773.jpg,"Is there a skis in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 344]","[0, 0, 403, 344]"
+pope,10001684,COCO_val2014_000000431615.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 424]","[102, 0, 640, 424]"
+pope,10001697,COCO_val2014_000000246199.jpg,"Is there a snowboard in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[46, 0, 382, 336]","[46, 0, 382, 336]"
+pope,10001707,COCO_val2014_000000346707.jpg,"Is there a kite in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 164, 333, 500]","[0, 164, 333, 500]"
+pope,10001724,COCO_val2014_000000245448.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,10001732,COCO_val2014_000000510138.jpg,"Is there a wine glass in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 304, 336, 640]","[0, 304, 336, 640]"
+pope,10001744,COCO_val2014_000000100238.jpg,"Is there a bicycle in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+pope,10001747,COCO_val2014_000000465418.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 0, 403, 403]","[17, 205, 353, 541]"
+pope,10001751,COCO_val2014_000000465418.jpg,"Is there a bus in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 170, 423, 640]","[0, 170, 423, 640]"
+pope,10001774,COCO_val2014_000000198397.jpg,"Is there a sports ball in the image?
+Answer the question using a single word or phrase.",random,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 400, 470]","[0, 0, 400, 470]"
+pope,10001791,COCO_val2014_000000474741.jpg,"Is there a donut in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 400]","[0, 0, 403, 400]"
+pope,10001797,COCO_val2014_000000286342.jpg,"Is there a bird in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[152, 0, 622, 427]","[0, 0, 470, 427]"
+pope,10001834,COCO_val2014_000000515820.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",random,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,4,True,"[99, 304, 435, 640]","[285, 304, 621, 640]"
+pope,10001835,COCO_val2014_000000515820.jpg,"Is there a skateboard in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 304, 640, 640]","[304, 304, 640, 640]"
+pope,10001848,COCO_val2014_000000418680.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 52, 381, 388]","[45, 52, 381, 388]"
+pope,10001902,COCO_val2014_000000418471.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[158, 58, 561, 461]","[158, 58, 561, 461]"
+pope,10001911,COCO_val2014_000000044801.jpg,"Is there a giraffe in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 333]","[0, 0, 336, 333]"
+pope,10001918,COCO_val2014_000000293564.jpg,"Is there an umbrella in the imange?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 425]","[0, 0, 538, 425]"
+pope,10001926,COCO_val2014_000000543393.jpg,"Is there a fire hydrant in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 259, 428, 595]","[92, 259, 428, 595]"
+pope,10001933,COCO_val2014_000000172648.jpg,"Is there a skateboard in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,10001935,COCO_val2014_000000172648.jpg,"Is there a bird in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,10001943,COCO_val2014_000000308907.jpg,"Is there a suitcase in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 333]","[0, 0, 336, 333]"
+pope,10001960,COCO_val2014_000000500680.jpg,"Is there a sheep in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+pope,10001972,COCO_val2014_000000363908.jpg,"Is there a baseball glove in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 46, 488, 382]","[152, 46, 488, 382]"
+pope,10001975,COCO_val2014_000000363908.jpg,"Is there a bird in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+pope,10001982,COCO_val2014_000000560064.jpg,"Is there a potted plant in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 170, 428, 640]","[0, 170, 428, 640]"
+pope,10001988,COCO_val2014_000000348469.jpg,"Is there a baseball bat in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 432, 538]","[0, 0, 432, 538]"
+pope,10001999,COCO_val2014_000000262736.jpg,"Is there a potted plant in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 46, 461, 382]","[125, 46, 461, 382]"
+pope,10002011,COCO_val2014_000000541783.jpg,"Is there a keyboard in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 456]","[0, 0, 470, 456]"
+pope,10002015,COCO_val2014_000000445200.jpg,"Is there a toothbrush in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,4,True,"[0, 0, 605, 427]","[152, 46, 488, 382]"
+pope,10002018,COCO_val2014_000000445200.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[304, 63, 640, 399]","[102, 0, 640, 427]"
+pope,10002029,COCO_val2014_000000212241.jpg,"Is there an orange in the imange?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,10002038,COCO_val2014_000000493753.jpg,"Is there a remote in the image?
+Answer the question using a single word or phrase.",random,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[19, 72, 355, 408]","[19, 72, 355, 408]"
+pope,10002061,COCO_val2014_000000467887.jpg,"Is there a cat in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 10, 470, 480]","[0, 10, 470, 480]"
+pope,10002095,COCO_val2014_000000155131.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[285, 52, 621, 388]","[285, 52, 621, 388]"
+pope,10002124,COCO_val2014_000000332908.jpg,"Is there a train in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 112, 336, 448]","[0, 112, 336, 448]"
+pope,10002134,COCO_val2014_000000470699.jpg,"Is there an airplane in the imange?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[164, 0, 500, 333]","[0, 0, 403, 333]"
+pope,10002139,COCO_val2014_000000023084.jpg,"Is there a sports ball in the image?
+Answer the question using a single word or phrase.",random,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,2,True,"[0, 164, 336, 500]","[0, 0, 375, 403]"
+pope,10002172,COCO_val2014_000000304819.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,no,No,Yes,No,No,Yes,1.0,0.0,1.0,1.0,0.0,1,False,"[125, 92, 461, 428]","[125, 92, 461, 428]"
+pope,10002174,COCO_val2014_000000304819.jpg,"Is there a skis in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[304, 32, 640, 368]","[35, 0, 640, 480]"
+pope,10002183,COCO_val2014_000000199940.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",random,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+pope,10002221,COCO_val2014_000000021327.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+pope,10002236,COCO_val2014_000000579277.jpg,"Is there a clock in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+pope,10002260,COCO_val2014_000000303971.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[179, 46, 515, 382]","[0, 46, 336, 382]"
+pope,10002268,COCO_val2014_000000405762.jpg,"Is there a sports ball in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+pope,10002277,COCO_val2014_000000477598.jpg,"Is there a zebra in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[20, 0, 356, 333]","[20, 0, 356, 333]"
+pope,10002286,COCO_val2014_000000044993.jpg,"Is there an orange in the imange?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 0, 426, 605]","[27, 179, 363, 515]"
+pope,10002301,COCO_val2014_000000325347.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 359]","[102, 0, 640, 359]"
+pope,10002352,COCO_val2014_000000472375.jpg,"Is there a dog in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[176, 202, 512, 538]","[176, 202, 512, 538]"
+pope,10002360,COCO_val2014_000000446651.jpg,"Is there a motorcycle in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 426]","[102, 0, 640, 426]"
+pope,10002395,COCO_val2014_000000458325.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[105, 24, 508, 427]","[105, 24, 508, 427]"
+pope,10002400,COCO_val2014_000000388237.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+pope,10002406,COCO_val2014_000000038645.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",random,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,2,True,"[91, 304, 427, 640]","[0, 102, 478, 640]"
+pope,10002408,COCO_val2014_000000038645.jpg,"Is there a potted plant in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[91, 259, 427, 595]","[0, 35, 478, 640]"
+pope,10002429,COCO_val2014_000000073182.jpg,"Is there a dog in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 64, 408, 400]","[72, 64, 408, 400]"
+pope,10002432,COCO_val2014_000000073182.jpg,"Is there a bicycle in the image?
+Answer the question using a single word or phrase.",random,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[170, 0, 640, 428]","[170, 0, 640, 428]"
+pope,10002441,COCO_val2014_000000528136.jpg,"Is there a banana in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+pope,10002455,COCO_val2014_000000564511.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[91, 304, 427, 640]","[91, 304, 427, 640]"
+pope,10002487,COCO_val2014_000000156282.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+pope,10002491,COCO_val2014_000000156282.jpg,"Is there an umbrella in the imange?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+pope,10002492,COCO_val2014_000000156282.jpg,"Is there a tennis racket in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+pope,10002508,COCO_val2014_000000562155.jpg,"Is there a sports ball in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 480, 640]","[0, 102, 480, 640]"
+pope,10002520,COCO_val2014_000000299986.jpg,"Is there a bowl in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 35, 480, 640]","[0, 35, 480, 640]"
+pope,10002554,COCO_val2014_000000117527.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 424]","[170, 0, 640, 424]"
+pope,10002558,COCO_val2014_000000016451.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[276, 227, 612, 563]","[276, 227, 612, 563]"
+pope,10002570,COCO_val2014_000000429580.jpg,"Is there a dog in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 439]","[102, 0, 640, 439]"
+pope,10002586,COCO_val2014_000000405205.jpg,"Is there an airplane in the imange?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 46, 336, 382]","[0, 46, 336, 382]"
+pope,10002589,COCO_val2014_000000123570.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 425]","[170, 0, 640, 425]"
+pope,10002596,COCO_val2014_000000365317.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,10002622,COCO_val2014_000000163814.jpg,"Is there a carrot in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 425, 640]","[0, 102, 425, 640]"
+pope,10002634,COCO_val2014_000000318550.jpg,"Is there a cow in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 112, 336, 448]","[0, 112, 336, 448]"
+pope,10002644,COCO_val2014_000000367528.jpg,"Is there a teddy bear in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 426]","[0, 0, 470, 426]"
+pope,10002650,COCO_val2014_000000252911.jpg,"Is there a mouse in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 46, 435, 382]","[99, 46, 435, 382]"
+pope,10002653,COCO_val2014_000000214421.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+pope,10002676,COCO_val2014_000000536073.jpg,"Is there a bottle in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 232, 388, 568]","[52, 232, 388, 568]"
+pope,10002681,COCO_val2014_000000579231.jpg,"Is there a laptop in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 426]","[170, 0, 640, 426]"
+pope,10002687,COCO_val2014_000000092624.jpg,"Is there a bottle in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 429]","[0, 0, 605, 429]"
+pope,10002693,COCO_val2014_000000390184.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 45, 336, 381]","[0, 45, 336, 381]"
+pope,10002722,COCO_val2014_000000575355.jpg,"Is there a bench in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[92, 19, 428, 355]","[52, 125, 388, 461]"
+pope,10002730,COCO_val2014_000000396068.jpg,"Is there a remote in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[146, 304, 482, 640]","[144, 125, 614, 595]"
+pope,10002735,COCO_val2014_000000559547.jpg,"Is there a mouse in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 155, 640, 491]","[304, 155, 640, 491]"
+pope,10002742,COCO_val2014_000000230175.jpg,"Is there a tie in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[232, 109, 568, 445]","[232, 109, 568, 445]"
+pope,10002768,COCO_val2014_000000125572.jpg,"Is there a clock in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[25, 0, 428, 403]","[25, 0, 428, 403]"
+pope,10002780,COCO_val2014_000000045685.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 375]","[97, 0, 500, 375]"
+pope,10002787,COCO_val2014_000000434179.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 92, 381, 428]","[45, 92, 381, 428]"
+pope,10002789,COCO_val2014_000000008749.jpg,"Is there a pizza in the image?
+Answer the question using a single word or phrase.",random,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 46, 408, 382]","[72, 46, 408, 382]"
+pope,10002827,COCO_val2014_000000190788.jpg,"Is there a tie in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 51, 336, 387]","[0, 51, 336, 387]"
+pope,10002849,COCO_val2014_000000235203.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",random,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[170, 10, 640, 480]","[0, 52, 336, 388]"
+pope,20000013,COCO_val2014_000000429109.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+pope,20000052,COCO_val2014_000000544456.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[19, 46, 355, 382]","[19, 46, 355, 382]"
+pope,20000081,COCO_val2014_000000569839.jpg,"Is there a sandwich in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 334, 470]","[0, 0, 334, 470]"
+pope,20000085,COCO_val2014_000000219622.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 342]","[0, 0, 403, 342]"
+pope,20000091,COCO_val2014_000000300368.jpg,"Is there a knife in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[52, 72, 388, 408]","[52, 72, 388, 408]"
+pope,20000122,COCO_val2014_000000336872.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,20000125,COCO_val2014_000000336872.jpg,"Is there a sandwich in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 480]","[0, 0, 605, 480]"
+pope,20000136,COCO_val2014_000000516916.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[152, 72, 488, 408]","[152, 72, 488, 408]"
+pope,20000140,COCO_val2014_000000542145.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 30, 375, 500]","[0, 30, 375, 500]"
+pope,20000167,COCO_val2014_000000140583.jpg,"Is there a cow in the image?
+Answer the question using a single word or phrase.",popular,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,2,True,"[152, 91, 488, 427]","[285, 91, 621, 427]"
+pope,20000168,COCO_val2014_000000140583.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 91, 336, 427]","[0, 91, 336, 427]"
+pope,20000209,COCO_val2014_000000553165.jpg,"Is there a boat in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 243]","[0, 0, 336, 243]"
+pope,20000214,COCO_val2014_000000170517.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 320]","[0, 0, 336, 320]"
+pope,20000224,COCO_val2014_000000360600.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,4,True,"[237, 18, 640, 421]","[0, 0, 538, 480]"
+pope,20000228,COCO_val2014_000000360600.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,20000239,COCO_val2014_000000500257.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 400]","[0, 0, 403, 400]"
+pope,20000244,COCO_val2014_000000574057.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 92, 336, 428]","[0, 92, 336, 428]"
+pope,20000276,COCO_val2014_000000205729.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[19, 52, 355, 388]","[19, 52, 355, 388]"
+pope,20000287,COCO_val2014_000000329717.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 358]","[0, 0, 470, 358]"
+pope,20000335,COCO_val2014_000000217397.jpg,"Is there a bottle in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 92, 336, 428]","[0, 92, 336, 428]"
+pope,20000397,COCO_val2014_000000021645.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+pope,20000409,COCO_val2014_000000239347.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[158, 38, 561, 441]","[158, 38, 561, 441]"
+pope,20000450,COCO_val2014_000000465275.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 0, 388, 336]","[52, 0, 388, 336]"
+pope,20000522,COCO_val2014_000000353096.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 344]","[0, 0, 403, 344]"
+pope,20000551,COCO_val2014_000000081336.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[107, 0, 577, 448]","[107, 0, 577, 448]"
+pope,20000559,COCO_val2014_000000209755.jpg,"Is there a spoon in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+pope,20000582,COCO_val2014_000000287305.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 56, 336, 392]","[0, 56, 336, 392]"
+pope,20000585,COCO_val2014_000000257327.jpg,"Is there a toilet in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 97, 375, 500]","[0, 97, 375, 500]"
+pope,20000605,COCO_val2014_000000534121.jpg,"Is there a boat in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 72, 461, 408]","[125, 72, 461, 408]"
+pope,20000606,COCO_val2014_000000534121.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 52, 461, 388]","[125, 52, 461, 388]"
+pope,20000638,COCO_val2014_000000387098.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 0, 605, 480]","[205, 72, 541, 408]"
+pope,20000660,COCO_val2014_000000204360.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+pope,20000667,COCO_val2014_000000237767.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[74, 202, 410, 538]","[74, 202, 410, 538]"
+pope,20000671,COCO_val2014_000000237767.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[23, 276, 359, 612]","[23, 276, 359, 612]"
+pope,20000698,COCO_val2014_000000093946.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[35, 0, 640, 478]","[35, 0, 640, 478]"
+pope,20000707,COCO_val2014_000000032610.jpg,"Is there a laptop in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[125, 46, 461, 382]","[125, 46, 461, 382]"
+pope,20000738,COCO_val2014_000000113701.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,20000740,COCO_val2014_000000065001.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 92, 435, 428]","[99, 92, 435, 428]"
+pope,20000751,COCO_val2014_000000140983.jpg,"Is there a toothbrush in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[103, 27, 439, 363]","[103, 27, 439, 363]"
+pope,20000762,COCO_val2014_000000044520.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[40, 39, 376, 375]","[40, 39, 376, 375]"
+pope,20000764,COCO_val2014_000000518177.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 441]","[0, 0, 470, 441]"
+pope,20000769,COCO_val2014_000000203479.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 352]","[97, 0, 500, 352]"
+pope,20000780,COCO_val2014_000000551881.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 92, 595, 428]","[259, 92, 595, 428]"
+pope,20000815,COCO_val2014_000000183757.jpg,"Is there a cat in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 232, 388, 568]","[52, 232, 388, 568]"
+pope,20000822,COCO_val2014_000000500473.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 0, 428, 336]","[92, 0, 428, 336]"
+pope,20000840,COCO_val2014_000000300876.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 0, 408, 336]","[72, 0, 408, 336]"
+pope,20000843,COCO_val2014_000000443240.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[19, 112, 355, 448]","[19, 112, 355, 448]"
+pope,20000878,COCO_val2014_000000467176.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 82, 515, 418]","[179, 82, 515, 418]"
+pope,20000969,COCO_val2014_000000358255.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 336, 234]","[0, 0, 336, 234]"
+pope,20000970,COCO_val2014_000000358255.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 234]","[0, 0, 336, 234]"
+pope,20000984,COCO_val2014_000000197219.jpg,"Is there a bottle in the image?
+Answer the question using a single word or phrase.",popular,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[205, 63, 541, 399]","[205, 63, 541, 399]"
+pope,20000986,COCO_val2014_000000460931.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[276, 100, 612, 436]","[276, 100, 612, 436]"
+pope,20000989,COCO_val2014_000000460931.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 336, 336]","[0, 0, 336, 336]"
+pope,20000996,COCO_val2014_000000506483.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 46, 336, 382]","[0, 46, 336, 382]"
+pope,20001027,COCO_val2014_000000153300.jpg,"Is there a spoon in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,Yes,Yes,No,0.0,0.0,1.0,1.0,0.0,1,False,"[304, 124, 640, 460]","[304, 124, 640, 460]"
+pope,20001029,COCO_val2014_000000153300.jpg,"Is there a bowl in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 501]","[0, 0, 605, 501]"
+pope,20001056,COCO_val2014_000000018150.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,Yes,No,No,No,1.0,0.0,1.0,1.0,1.0,1,False,"[99, 52, 435, 388]","[99, 52, 435, 388]"
+pope,20001076,COCO_val2014_000000227204.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[205, 112, 541, 448]","[205, 112, 541, 448]"
+pope,20001101,COCO_val2014_000000316700.jpg,"Is there a broccoli in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 538, 458]","[0, 0, 538, 458]"
+pope,20001119,COCO_val2014_000000574790.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+pope,20001126,COCO_val2014_000000011241.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20001131,COCO_val2014_000000525667.jpg,"Is there a bicycle in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 92, 640, 428]","[304, 92, 640, 428]"
+pope,20001137,COCO_val2014_000000246145.jpg,"Is there a clock in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 72, 388, 408]","[52, 72, 388, 408]"
+pope,20001148,COCO_val2014_000000529668.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 480, 640]","[0, 102, 480, 640]"
+pope,20001161,COCO_val2014_000000275863.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20001182,COCO_val2014_000000184338.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,Yes,Yes,Yes,Yes,No,0.0,0.0,0.0,0.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+pope,20001183,COCO_val2014_000000175437.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[232, 32, 568, 368]","[232, 32, 568, 368]"
+pope,20001189,COCO_val2014_000000498100.jpg,"Is there a vase in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 524, 538]","[0, 0, 524, 538]"
+pope,20001195,COCO_val2014_000000375909.jpg,"Is there a refrigerator in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 383, 605]","[0, 0, 383, 605]"
+pope,20001198,COCO_val2014_000000375909.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 383, 605]","[0, 0, 383, 605]"
+pope,20001237,COCO_val2014_000000153865.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 393]","[0, 0, 538, 393]"
+pope,20001251,COCO_val2014_000000388983.jpg,"Is there a bowl in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 0, 375, 403]","[0, 0, 375, 403]"
+pope,20001252,COCO_val2014_000000388983.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 375, 403]","[0, 0, 375, 403]"
+pope,20001268,COCO_val2014_000000244455.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 486]","[0, 0, 538, 486]"
+pope,20001273,COCO_val2014_000000303652.jpg,"Is there a spoon in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,No,No,No,No,1.0,0.0,0.0,0.0,0.0,1,False,"[179, 52, 515, 388]","[179, 52, 515, 388]"
+pope,20001275,COCO_val2014_000000303652.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 52, 515, 388]","[179, 52, 515, 388]"
+pope,20001277,COCO_val2014_000000303652.jpg,"Is there a knife in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[179, 52, 515, 388]","[179, 52, 515, 388]"
+pope,20001282,COCO_val2014_000000098493.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 170, 428, 640]","[0, 170, 428, 640]"
+pope,20001340,COCO_val2014_000000120648.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 470]","[170, 0, 640, 470]"
+pope,20001350,COCO_val2014_000000186709.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[72, 99, 408, 435]","[0, 102, 479, 640]"
+pope,20001367,COCO_val2014_000000115636.jpg,"Is there a cow in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[109, 99, 445, 435]","[109, 99, 445, 435]"
+pope,20001369,COCO_val2014_000000280810.jpg,"Is there a broccoli in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+pope,20001390,COCO_val2014_000000123017.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 96, 336, 432]","[0, 96, 336, 432]"
+pope,20001391,COCO_val2014_000000123017.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 53, 455, 456]","[52, 53, 455, 456]"
+pope,20001409,COCO_val2014_000000511341.jpg,"Is there a handbag in the image?
+Answer the question using a single word or phrase.",popular,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 569]","[0, 0, 605, 569]"
+pope,20001432,COCO_val2014_000000017379.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 478, 640]","[0, 102, 478, 640]"
+pope,20001480,COCO_val2014_000000463542.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 426]","[0, 0, 470, 426]"
+pope,20001497,COCO_val2014_000000554328.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 82, 640, 418]","[304, 82, 640, 418]"
+pope,20001512,COCO_val2014_000000023731.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 383, 403]","[0, 0, 383, 403]"
+pope,20001515,COCO_val2014_000000463640.jpg,"Is there a wine glass in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 285, 336, 621]","[0, 285, 336, 621]"
+pope,20001518,COCO_val2014_000000463640.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 285, 336, 621]","[0, 285, 336, 621]"
+pope,20001545,COCO_val2014_000000016775.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,20001569,COCO_val2014_000000550691.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[105, 58, 508, 461]","[105, 58, 508, 461]"
+pope,20001572,COCO_val2014_000000550691.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,20001587,COCO_val2014_000000198312.jpg,"Is there a couch in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+pope,20001603,COCO_val2014_000000472143.jpg,"Is there a bird in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,No,Yes,Yes,Yes,1.0,0.0,1.0,1.0,1.0,1,False,"[285, 72, 621, 408]","[285, 72, 621, 408]"
+pope,20001607,COCO_val2014_000000472143.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,No,Yes,Yes,Yes,1.0,0.0,1.0,1.0,1.0,1,False,"[304, 72, 640, 408]","[304, 72, 640, 408]"
+pope,20001608,COCO_val2014_000000472143.jpg,"Is there a bowl in the image?
+Answer the question using a single word or phrase.",popular,no,Yes,No,No,No,No,0.0,1.0,1.0,1.0,1.0,1,False,"[285, 72, 621, 408]","[285, 72, 621, 408]"
+pope,20001619,COCO_val2014_000000214244.jpg,"Is there a skis in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 46, 435, 382]","[99, 46, 435, 382]"
+pope,20001621,COCO_val2014_000000397665.jpg,"Is there a motorcycle in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[28, 99, 364, 435]","[24, 212, 427, 615]"
+pope,20001661,COCO_val2014_000000442809.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20001674,COCO_val2014_000000097994.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20001680,COCO_val2014_000000246999.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 10, 640, 480]","[170, 10, 640, 480]"
+pope,20001688,COCO_val2014_000000331366.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,20001691,COCO_val2014_000000331366.jpg,"Is there a bicycle in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 480]","[102, 0, 640, 480]"
+pope,20001698,COCO_val2014_000000348524.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[27, 179, 363, 515]","[27, 179, 363, 515]"
+pope,20001703,COCO_val2014_000000108189.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 0, 388, 336]","[52, 0, 388, 336]"
+pope,20001710,COCO_val2014_000000301575.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 534]","[0, 0, 538, 534]"
+pope,20001765,COCO_val2014_000000501898.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[152, 63, 488, 399]","[102, 0, 640, 427]"
+pope,20001769,COCO_val2014_000000501898.jpg,"Is there a tennis racket in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+pope,20001811,COCO_val2014_000000392364.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,4,True,"[72, 103, 408, 439]","[0, 60, 336, 396]"
+pope,20001813,COCO_val2014_000000188958.jpg,"Is there a snowboard in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,20001825,COCO_val2014_000000198397.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 400, 470]","[0, 0, 400, 470]"
+pope,20001830,COCO_val2014_000000198397.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 400, 470]","[0, 0, 400, 470]"
+pope,20001839,COCO_val2014_000000333756.jpg,"Is there a sports ball in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 538]","[0, 0, 538, 538]"
+pope,20001850,COCO_val2014_000000286342.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20001865,COCO_val2014_000000405740.jpg,"Is there a laptop in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 426]","[0, 0, 605, 426]"
+pope,20001885,COCO_val2014_000000312406.jpg,"Is there a banana in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 52, 381, 388]","[45, 52, 381, 388]"
+pope,20001891,COCO_val2014_000000515820.jpg,"Is there a tv in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,4,True,"[99, 304, 435, 640]","[285, 304, 621, 640]"
+pope,20001897,COCO_val2014_000000031971.jpg,"Is there an orange in the imange?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[194, 0, 597, 403]","[194, 0, 597, 403]"
+pope,20001905,COCO_val2014_000000418680.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[45, 52, 381, 388]","[45, 52, 381, 388]"
+pope,20001932,COCO_val2014_000000356424.jpg,"Is there a bowl in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 102, 480, 640]","[0, 102, 480, 640]"
+pope,20001934,COCO_val2014_000000505335.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 63, 336, 399]","[0, 63, 336, 399]"
+pope,20001939,COCO_val2014_000000172342.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+pope,20001944,COCO_val2014_000000172342.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[285, 63, 621, 399]","[285, 63, 621, 399]"
+pope,20001967,COCO_val2014_000000379404.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,yes,No,Yes,No,Yes,Yes,0.0,1.0,0.0,1.0,1.0,4,True,"[237, 54, 640, 457]","[0, 0, 538, 457]"
+pope,20001969,COCO_val2014_000000044801.jpg,"Is there a traffic light in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 333]","[0, 0, 336, 333]"
+pope,20001975,COCO_val2014_000000293564.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 425]","[0, 0, 538, 425]"
+pope,20001978,COCO_val2014_000000293564.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 425]","[0, 0, 538, 425]"
+pope,20001987,COCO_val2014_000000543393.jpg,"Is there a fire hydrant in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[92, 259, 428, 595]","[92, 259, 428, 595]"
+pope,20001993,COCO_val2014_000000172648.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[259, 52, 595, 388]","[259, 52, 595, 388]"
+pope,20002000,COCO_val2014_000000308907.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[97, 0, 500, 333]","[97, 0, 500, 333]"
+pope,20002005,COCO_val2014_000000263594.jpg,"Is there a bird in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 336, 336]","[0, 0, 336, 336]"
+pope,20002040,COCO_val2014_000000363908.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+pope,20002050,COCO_val2014_000000348469.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 170, 432, 640]","[0, 170, 432, 640]"
+pope,20002056,COCO_val2014_000000167724.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,3,True,"[0, 144, 336, 480]","[259, 144, 595, 480]"
+pope,20002058,COCO_val2014_000000167724.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 92, 336, 428]","[0, 92, 336, 428]"
+pope,20002064,COCO_val2014_000000262736.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+pope,20002074,COCO_val2014_000000541783.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 456]","[0, 0, 538, 456]"
+pope,20002078,COCO_val2014_000000445200.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 46, 640, 382]","[304, 46, 640, 382]"
+pope,20002090,COCO_val2014_000000212241.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20002091,COCO_val2014_000000212241.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20002100,COCO_val2014_000000114941.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 424]","[0, 0, 605, 424]"
+pope,20002106,COCO_val2014_000000493753.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 52, 336, 388]","[0, 52, 336, 388]"
+pope,20002136,COCO_val2014_000000125524.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20002140,COCO_val2014_000000196053.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 333, 336]","[0, 0, 333, 336]"
+pope,20002143,COCO_val2014_000000156704.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 427]","[102, 0, 640, 427]"
+pope,20002149,COCO_val2014_000000088507.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20002170,COCO_val2014_000000252135.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20002189,COCO_val2014_000000332908.jpg,"Is there an oven in the imange?
+Answer the question using a single word or phrase.",popular,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[99, 92, 435, 428]","[99, 92, 435, 428]"
+pope,20002207,COCO_val2014_000000023084.jpg,"Is there a tennis racket in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 375, 403]","[0, 0, 375, 403]"
+pope,20002218,COCO_val2014_000000394535.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[179, 63, 515, 399]","[179, 63, 515, 399]"
+pope,20002224,COCO_val2014_000000579415.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 36, 640, 372]","[304, 36, 640, 372]"
+pope,20002288,COCO_val2014_000000021327.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+pope,20002291,COCO_val2014_000000021327.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+pope,20002315,COCO_val2014_000000042685.jpg,"Is there a pizza in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[132, 25, 535, 428]","[132, 25, 535, 428]"
+pope,20002320,COCO_val2014_000000553992.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+pope,20002322,COCO_val2014_000000553992.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 375]","[0, 0, 403, 375]"
+pope,20002325,COCO_val2014_000000243158.jpg,"Is there a couch in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 605, 480]","[0, 0, 605, 480]"
+pope,20002350,COCO_val2014_000000477598.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 333]","[0, 0, 403, 333]"
+pope,20002374,COCO_val2014_000000325347.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[237, 0, 640, 359]","[237, 0, 640, 359]"
+pope,20002394,COCO_val2014_000000084410.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 10, 640, 480]","[170, 10, 640, 480]"
+pope,20002403,COCO_val2014_000000328301.jpg,"Is there a boat in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 63, 640, 399]","[304, 63, 640, 399]"
+pope,20002407,COCO_val2014_000000307262.jpg,"Is there a bowl in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[304, 14, 640, 350]","[304, 14, 640, 350]"
+pope,20002412,COCO_val2014_000000307262.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[237, 17, 640, 420]","[237, 17, 640, 420]"
+pope,20002440,COCO_val2014_000000267684.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 480]","[0, 0, 538, 480]"
+pope,20002454,COCO_val2014_000000294475.jpg,"Is there a backpack in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 53, 336, 389]","[0, 53, 336, 389]"
+pope,20002474,COCO_val2014_000000388237.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 538, 427]","[0, 0, 538, 427]"
+pope,20002483,COCO_val2014_000000038645.jpg,"Is there a potted plant in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,2,True,"[91, 259, 427, 595]","[0, 35, 478, 640]"
+pope,20002486,COCO_val2014_000000071738.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 35, 425, 640]","[0, 35, 425, 640]"
+pope,20002488,COCO_val2014_000000071738.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[62, 0, 398, 336]","[62, 0, 398, 336]"
+pope,20002518,COCO_val2014_000000528136.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[0, 12, 336, 348]","[24, 0, 562, 480]"
+pope,20002522,COCO_val2014_000000209290.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[49, 276, 385, 612]","[49, 276, 385, 612]"
+pope,20002533,COCO_val2014_000000200739.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 403, 403]","[0, 0, 403, 403]"
+pope,20002560,COCO_val2014_000000478736.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 92, 336, 428]","[0, 92, 336, 428]"
+pope,20002569,COCO_val2014_000000052689.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20002584,COCO_val2014_000000562155.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 304, 388, 640]","[52, 304, 388, 640]"
+pope,20002590,COCO_val2014_000000142056.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 170, 427, 640]","[0, 170, 427, 640]"
+pope,20002609,COCO_val2014_000000574454.jpg,"Is there a kite in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[102, 0, 640, 426]","[102, 0, 640, 426]"
+pope,20002627,COCO_val2014_000000514292.jpg,"Is there a bear in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[99, 92, 435, 428]","[99, 92, 435, 428]"
+pope,20002652,COCO_val2014_000000429580.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,2,True,"[304, 0, 640, 336]","[102, 0, 640, 439]"
+pope,20002661,COCO_val2014_000000405205.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 46, 336, 382]","[0, 46, 336, 382]"
+pope,20002673,COCO_val2014_000000365317.jpg,"Is there a sports ball in the image?
+Answer the question using a single word or phrase.",popular,yes,No,Yes,Yes,Yes,Yes,0.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 427]","[170, 0, 640, 427]"
+pope,20002686,COCO_val2014_000000191964.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 470, 375]","[0, 0, 470, 375]"
+pope,20002701,COCO_val2014_000000163814.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[44, 205, 380, 541]","[44, 205, 380, 541]"
+pope,20002704,COCO_val2014_000000163814.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 0, 425, 605]","[0, 0, 425, 605]"
+pope,20002715,COCO_val2014_000000318550.jpg,"Is there a truck in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 112, 336, 448]","[0, 112, 336, 448]"
+pope,20002803,COCO_val2014_000000575355.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 125, 388, 461]","[52, 125, 388, 461]"
+pope,20002807,COCO_val2014_000000575355.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[52, 125, 388, 461]","[52, 125, 388, 461]"
+pope,20002811,COCO_val2014_000000396068.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[178, 25, 581, 428]","[178, 25, 581, 428]"
+pope,20002850,COCO_val2014_000000264155.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,Yes,Yes,Yes,Yes,Yes,0.0,0.0,0.0,0.0,0.0,1,False,"[304, 62, 640, 398]","[304, 62, 640, 398]"
+pope,20002852,COCO_val2014_000000125572.jpg,"Is there a dining table in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[0, 46, 336, 382]","[0, 46, 336, 382]"
+pope,20002854,COCO_val2014_000000125572.jpg,"Is there a car in the image?
+Answer the question using a single word or phrase.",popular,no,Yes,No,Yes,Yes,Yes,0.0,1.0,0.0,0.0,0.0,1,False,"[0, 0, 470, 427]","[0, 0, 470, 427]"
+pope,20002893,COCO_val2014_000000429913.jpg,"Is there a baseball glove in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,No,Yes,Yes,Yes,1.0,0.0,1.0,1.0,1.0,1,False,"[0, 46, 336, 382]","[0, 46, 336, 382]"
+pope,20002897,COCO_val2014_000000429913.jpg,"Is there a sports ball in the image?
+Answer the question using a single word or phrase.",popular,yes,No,No,No,No,No,0.0,0.0,0.0,0.0,0.0,1,False,"[0, 46, 336, 382]","[0, 46, 336, 382]"
+pope,20002940,COCO_val2014_000000235203.jpg,"Is there a cup in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[98, 10, 568, 480]","[98, 10, 568, 480]"
+pope,20002967,COCO_val2014_000000122962.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[170, 0, 640, 424]","[170, 0, 640, 424]"
+pope,20002979,COCO_val2014_000000497599.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,yes,Yes,Yes,Yes,Yes,Yes,1.0,1.0,1.0,1.0,1.0,1,False,"[28, 152, 364, 488]","[28, 152, 364, 488]"
+pope,20002996,COCO_val2014_000000277289.jpg,"Is there a person in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 52, 408, 388]","[72, 52, 408, 388]"
+pope,20003000,COCO_val2014_000000277289.jpg,"Is there a chair in the image?
+Answer the question using a single word or phrase.",popular,no,No,No,No,No,No,1.0,1.0,1.0,1.0,1.0,1,False,"[72, 52, 408, 388]","[72, 52, 408, 388]"

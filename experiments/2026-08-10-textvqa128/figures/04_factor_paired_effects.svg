@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="590" viewBox="0 0 1080 590">
+  <rect width="1080" height="590" fill="#fbfcfe"/>
+  <text x="540" y="38" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="24" font-weight="700" fill="#172033">逐因素配对影响（右配置－左配置）</text>
+  <text x="540" y="65" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="14" fill="#566074">正值代表该因素提高准确率；单位：百分点</text>
+  <g stroke="#dfe4ec" stroke-width="1">
+    <line x1="90" y1="90" x2="1040" y2="90"/><line x1="90" y1="145" x2="1040" y2="145"/>
+    <line x1="90" y1="200" x2="1040" y2="200"/><line x1="90" y1="255" x2="1040" y2="255"/>
+    <line x1="90" y1="310" x2="1040" y2="310"/><line x1="90" y1="365" x2="1040" y2="365"/>
+    <line x1="90" y1="420" x2="1040" y2="420"/><line x1="90" y1="475" x2="1040" y2="475"/>
+  </g>
+  <line x1="90" y1="200" x2="1040" y2="200" stroke="#4e5969" stroke-width="2"/>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#697386" text-anchor="end">
+    <text x="80" y="95">+2</text><text x="80" y="150">+1</text><text x="80" y="205">0</text>
+    <text x="80" y="260">-1</text><text x="80" y="315">-2</text><text x="80" y="370">-3</text>
+    <text x="80" y="425">-4</text><text x="80" y="480">-5</text>
+  </g>
+  <g>
+    <rect x="130" y="200" width="56" height="150.4" rx="3" fill="#2a9d8f"/><rect x="190" y="200" width="56" height="146.1" rx="3" fill="#e9a23b"/>
+    <rect x="320" y="198" width="56" height="2" rx="1" fill="#2a9d8f"/><rect x="380" y="198" width="56" height="2" rx="1" fill="#e9a23b"/>
+    <rect x="510" y="200" width="56" height="232.0" rx="3" fill="#2a9d8f"/><rect x="570" y="200" width="56" height="270.7" rx="3" fill="#e9a23b"/>
+    <rect x="700" y="200" width="56" height="81.6" rx="3" fill="#2a9d8f"/><rect x="760" y="200" width="56" height="124.6" rx="3" fill="#e9a23b"/>
+    <rect x="890" y="126.9" width="56" height="73.1" rx="3" fill="#2a9d8f"/><rect x="950" y="126.9" width="56" height="73.1" rx="3" fill="#e9a23b"/>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="12" fill="#172033" text-anchor="middle">
+    <text x="158" y="367">-2.73</text><text x="218" y="363">-2.66</text>
+    <text x="348" y="190">0.00</text><text x="408" y="190">0.00</text>
+    <text x="538" y="449">-4.22</text><text x="598" y="487">-4.92</text>
+    <text x="728" y="298">-1.48</text><text x="788" y="341">-2.27</text>
+    <text x="918" y="119">+1.33</text><text x="978" y="119">+1.33</text>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#263044" text-anchor="middle">
+    <text x="188" y="515">min-max效应</text><text x="188" y="534">（1 Token）</text>
+    <text x="378" y="515">8 Token效应</text><text x="378" y="534">（raw）</text>
+    <text x="568" y="515">min-max效应</text><text x="568" y="534">（8 Token）</text>
+    <text x="758" y="515">8 Token效应</text><text x="758" y="534">（min-max）</text>
+    <text x="948" y="515">Top-k效应</text><text x="948" y="534">（8T + min-max）</text>
+  </g>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="13" fill="#566074">
+    <rect x="430" y="557" width="14" height="14" fill="#2a9d8f"/><text x="450" y="569">双图</text>
+    <rect x="535" y="557" width="14" height="14" fill="#e9a23b"/><text x="555" y="569">Focus</text>
+  </g>
+</svg>

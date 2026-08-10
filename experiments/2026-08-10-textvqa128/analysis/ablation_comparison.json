@@ -1,0 +1,84 @@
+{
+  "sample_count": 128,
+  "question_id_first_last": [
+    "34607",
+    "35791"
+  ],
+  "scan_memory_mib": {
+    "legacy_all_outputs_8token_minmax_topk": {
+      "min": 21390.5,
+      "mean": 22015.93046875,
+      "median": 21748.35,
+      "p95": 23718.1,
+      "max": 24665.4
+    },
+    "optimized_selective_8token_minmax_topk": {
+      "min": 17484.7,
+      "mean": 17799.40390625,
+      "median": 17678.65,
+      "p95": 18641.949999999997,
+      "max": 19086.9
+    },
+    "paper_selective_1token_raw_single": {
+      "min": 17466.2,
+      "mean": 17774.31328125,
+      "median": 17640.4,
+      "p95": 18577.995000000003,
+      "max": 19088.5
+    }
+  },
+  "optimized_minus_legacy_mib": {
+    "min": -3905.7999999999993,
+    "mean": -4216.526562499999,
+    "median": -4069.699999999997,
+    "p95": -5076.1500000000015,
+    "max": -5578.5
+  },
+  "optimized_reduction_percent": {
+    "min": 18.259507725392112,
+    "mean": 19.152161515431064,
+    "median": 18.71268395073648,
+    "p95": 21.40200943583171,
+    "max": 22.616701938748204
+  },
+  "optimized_vs_legacy_exact_differences": {
+    "original_answer": 0,
+    "crop_answer": 0,
+    "legacy_joint_answer": 0,
+    "topk_joint_answer": 0,
+    "focus_answer": 0,
+    "selected_bbox": 0,
+    "legacy_bbox": 0,
+    "selected_rank": 0
+  },
+  "textvqa_soft_accuracy_percent": {
+    "legacy_all_outputs_8token_minmax_topk": {
+      "original_answer": 52.96875000000001,
+      "crop_answer": 54.99999999999999,
+      "legacy_joint_answer": 53.28125,
+      "topk_joint_answer": 54.60937499999999,
+      "focus_answer": 53.82812499999999
+    },
+    "optimized_selective_8token_minmax_topk": {
+      "original_answer": 52.96875000000001,
+      "crop_answer": 54.99999999999999,
+      "legacy_joint_answer": 53.28125,
+      "topk_joint_answer": 54.60937499999999,
+      "focus_answer": 53.82812499999999
+    },
+    "paper_selective_1token_raw_single": {
+      "original_answer": 52.96875000000001,
+      "crop_answer": 52.26562499999999,
+      "legacy_joint_answer": 57.49999999999999,
+      "topk_joint_answer": 57.49999999999999,
+      "focus_answer": 57.421875
+    }
+  },
+  "paper_vs_optimized_answer_differences": {
+    "original_answer": 0,
+    "crop_answer": 38,
+    "legacy_joint_answer": 26,
+    "topk_joint_answer": 29,
+    "focus_answer": 30
+  }
+}

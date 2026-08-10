@@ -1,0 +1,162 @@
+[
+  {
+    "dataset_index": 5,
+    "person_index": 1,
+    "query_zh": "图中撑着粉色雨伞的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person holding the pink umbrella?",
+    "expected_answer_zh": "多种颜色（蓝、粉、白等图案）",
+    "expected_answer_en": "multicolored (blue, pink, and white pattern)"
+  },
+  {
+    "dataset_index": 22,
+    "person_index": 1,
+    "query_zh": "图中正在切披萨的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person cutting the pizza?",
+    "expected_answer_zh": "灰色开衫内搭深蓝色上衣",
+    "expected_answer_en": "gray cardigan over a navy blue top"
+  },
+  {
+    "dataset_index": 35,
+    "person_index": 1,
+    "query_zh": "图中正在给男子佩戴物品的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person pinning an item onto the man?",
+    "expected_answer_zh": "迷彩色",
+    "expected_answer_en": "camouflage green and tan"
+  },
+  {
+    "dataset_index": 41,
+    "person_index": 1,
+    "query_zh": "图中站在沙发前的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person standing in front of the sofa?",
+    "expected_answer_zh": "蓝色格纹",
+    "expected_answer_en": "blue plaid"
+  },
+  {
+    "dataset_index": 48,
+    "person_index": 1,
+    "query_zh": "图中正在拿着炊具的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person holding the cookware?",
+    "expected_answer_zh": "浅灰色",
+    "expected_answer_en": "light gray"
+  },
+  {
+    "dataset_index": 50,
+    "person_index": 5,
+    "query_zh": "图中戴着帽子并在木桶旁写字的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person wearing a hat and writing beside the barrel?",
+    "expected_answer_zh": "深蓝或黑色上衣，搭配卡其色围裙",
+    "expected_answer_en": "dark navy or black shirt with a tan apron"
+  },
+  {
+    "dataset_index": 55,
+    "person_index": 1,
+    "query_zh": "图中正在投掷飞盘的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person throwing the frisbee?",
+    "expected_answer_zh": "深蓝或深灰色图案",
+    "expected_answer_en": "dark blue or dark gray patterned"
+  },
+  {
+    "dataset_index": 56,
+    "person_index": 1,
+    "query_zh": "图中举着酒杯的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person holding up the wine glass?",
+    "expected_answer_zh": "白色",
+    "expected_answer_en": "white"
+  },
+  {
+    "dataset_index": 59,
+    "person_index": 1,
+    "query_zh": "图中站在冰箱旁的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person standing beside the refrigerator?",
+    "expected_answer_zh": "黑色",
+    "expected_answer_en": "black"
+  },
+  {
+    "dataset_index": 65,
+    "person_index": 1,
+    "query_zh": "图中拿着西兰花的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person holding the broccoli?",
+    "expected_answer_zh": "白色和粉色",
+    "expected_answer_en": "white and pink"
+  },
+  {
+    "dataset_index": 71,
+    "person_index": 1,
+    "query_zh": "图中正在打电话的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person talking on the phone?",
+    "expected_answer_zh": "红色",
+    "expected_answer_en": "red"
+  },
+  {
+    "dataset_index": 75,
+    "person_index": 1,
+    "query_zh": "图中弯腰准备击球的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person bending down to prepare for a tennis shot?",
+    "expected_answer_zh": "深蓝色",
+    "expected_answer_en": "dark navy blue"
+  },
+  {
+    "dataset_index": 76,
+    "person_index": 1,
+    "query_zh": "图中正在篮筐附近投篮的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person shooting near the basketball hoop?",
+    "expected_answer_zh": "红色",
+    "expected_answer_en": "red"
+  },
+  {
+    "dataset_index": 78,
+    "person_index": 1,
+    "query_zh": "图中正在挥拍打网球的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person swinging a tennis racket?",
+    "expected_answer_zh": "白色",
+    "expected_answer_en": "white"
+  },
+  {
+    "dataset_index": 79,
+    "person_index": 1,
+    "query_zh": "图中正在吃东西的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person eating the sandwich?",
+    "expected_answer_zh": "浅蓝色",
+    "expected_answer_en": "light blue"
+  },
+  {
+    "dataset_index": 82,
+    "person_index": 1,
+    "query_zh": "图中双手拿着游戏控制器的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person holding the game controller with both hands?",
+    "expected_answer_zh": "白色和深灰色上衣，搭配黑色裤子",
+    "expected_answer_en": "white and dark gray top with black pants"
+  },
+  {
+    "dataset_index": 84,
+    "person_index": 1,
+    "query_zh": "图中正在对镜拿相机拍照的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person taking a mirror photo with a camera?",
+    "expected_answer_zh": "深棕或黑色西装，搭配灰色衬衫",
+    "expected_answer_en": "dark brown or black suit with a gray shirt"
+  },
+  {
+    "dataset_index": 87,
+    "person_index": 1,
+    "query_zh": "图中蹲下并戴着棒球手套的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person crouching with a baseball glove?",
+    "expected_answer_zh": "白色带粉色和浅蓝色图案",
+    "expected_answer_en": "white with pink and light blue patterns"
+  },
+  {
+    "dataset_index": 94,
+    "person_index": 1,
+    "query_zh": "图中坐在长椅上并双手相握的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person sitting on the bench with hands clasped?",
+    "expected_answer_zh": "蓝色",
+    "expected_answer_en": "blue"
+  },
+  {
+    "dataset_index": 108,
+    "person_index": 1,
+    "query_zh": "图中站在行李箱旁并走进门的人物的衣服颜色是？",
+    "query_en": "What color are the clothes worn by the person standing beside the suitcase and entering the doorway?",
+    "expected_answer_zh": "深蓝或黑色上衣，搭配蓝色牛仔裤",
+    "expected_answer_en": "dark navy or black top with blue jeans"
+  }
+]

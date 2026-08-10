@@ -24,6 +24,7 @@ from torch import Tensor
 
 Normalization = Literal["none", "minmax"]
 PCASolver = Literal["lowrank", "svd"]
+SemanticTokenAggregation = Literal["mean", "max"]
 
 
 @dataclass(frozen=True)
@@ -38,6 +39,7 @@ class ScanLocateConfig:
     base_crop_size: int = 336
     window_ratios: tuple[float, ...] = (1.0, 1.2, 1.4, 1.6, 1.8, 2.0)
     fusion_normalization: Normalization = "none"
+    semantic_token_aggregation: SemanticTokenAggregation = "mean"
     pca_solver: PCASolver = "lowrank"
     eps: float = 1e-6
 
@@ -56,6 +58,8 @@ class ScanLocateConfig:
             raise ValueError("window_ratios must contain positive values.")
         if self.fusion_normalization not in ("none", "minmax"):
             raise ValueError("fusion_normalization must be 'none' or 'minmax'.")
+        if self.semantic_token_aggregation not in ("mean", "max"):
+            raise ValueError("semantic_token_aggregation must be 'mean' or 'max'.")
         if self.pca_solver not in ("lowrank", "svd"):
             raise ValueError("pca_solver must be 'lowrank' or 'svd'.")
         if self.eps <= 0:
@@ -131,6 +135,7 @@ def gradient_weighted_semantic_importance(
     *,
     gradient: Tensor | None = None,
     planning_score: Tensor | None = None,
+    token_aggregation: SemanticTokenAggregation = "mean",
 ) -> Tensor:
     """Compute the paper's semantic branch: ``A_v = A_a2v * ReLU(G_v)``.
 
@@ -139,6 +144,9 @@ def gradient_weighted_semantic_importance(
     captured by a model adapter or pass the differentiable scalar
     ``planning_score`` and let this function call ``torch.autograd.grad``.
     Leading batch/head dimensions are averaged after element-wise weighting.
+    With ``token_aggregation='max'``, the penultimate axis is treated as a
+    sequence of response-planning anchors: heads/batches are averaged first,
+    then the strongest positive response-token evidence is kept per patch.
     """
 
     if not torch.is_floating_point(attention):
@@ -162,6 +170,10 @@ def gradient_weighted_semantic_importance(
             "gradient and attention must have the same shape; "
             f"got {tuple(gradient.shape)} and {tuple(attention.shape)}."
         )
+    if token_aggregation not in ("mean", "max"):
+        raise ValueError("token_aggregation must be 'mean' or 'max'.")
+    if token_aggregation == "max" and attention.ndim < 2:
+        raise ValueError("max token aggregation requires an explicit token axis.")
 
     # Scan-Locate is training-free.  Detaching here avoids retaining the large
     # LLaVA forward graph after the one gradient needed by the semantic branch.
@@ -173,6 +185,11 @@ def gradient_weighted_semantic_importance(
     attention_work = attention.detach().float()
     gradient_work = gradient.detach().float()
     weighted = attention_work * gradient_work.clamp_min(0)
+    if token_aggregation == "max":
+        tokenwise = weighted.reshape(
+            -1, weighted.shape[-2], weighted.shape[-1]
+        ).mean(dim=0)
+        return tokenwise.amax(dim=0)
     return _reduce_leading_dimensions(weighted)
 
 
@@ -410,6 +427,166 @@ def locate_from_importance_map(
     return crop, tuple(candidates)
 
 
+def _candidate_to_crop(
+    candidate: WindowCandidate,
+    *,
+    image_size: tuple[int, int],
+    map_shape: tuple[int, int],
+    base_crop_size: int,
+) -> CropWindow:
+    """Convert a map-space sliding-window candidate to a pixel crop."""
+
+    image_width, image_height = image_size
+    map_height, map_width = map_shape
+    cell_width = image_width / map_width
+    cell_height = image_height / map_height
+    center_x = (candidate.map_x + candidate.map_width / 2.0) * cell_width
+    center_y = (candidate.map_y + candidate.map_height / 2.0) * cell_height
+    requested_size = int(round(base_crop_size * candidate.ratio))
+    crop_width = min(requested_size, image_width)
+    crop_height = min(requested_size, image_height)
+    x1 = min(
+        max(int(round(center_x - crop_width / 2.0)), 0),
+        image_width - crop_width,
+    )
+    y1 = min(
+        max(int(round(center_y - crop_height / 2.0)), 0),
+        image_height - crop_height,
+    )
+    return CropWindow(
+        x1=x1,
+        y1=y1,
+        x2=x1 + crop_width,
+        y2=y1 + crop_height,
+        selected_ratio=candidate.ratio,
+        evidence_sum=candidate.evidence_sum,
+        contrast=candidate.contrast,
+    )
+
+
+def crop_iou(left: CropWindow, right: CropWindow) -> float:
+    """Return intersection-over-union for two crop windows."""
+
+    intersection_width = max(0, min(left.x2, right.x2) - max(left.x1, right.x1))
+    intersection_height = max(0, min(left.y2, right.y2) - max(left.y1, right.y1))
+    intersection = intersection_width * intersection_height
+    left_area = left.width * left.height
+    right_area = right.width * right.height
+    union = left_area + right_area - intersection
+    return float(intersection / union) if union > 0 else 0.0
+
+
+def topk_crop_windows_from_importance_map(
+    importance_map: Tensor,
+    image_size: tuple[int, int],
+    *,
+    top_k: int = 5,
+    base_crop_size: int = 336,
+    ratios: Sequence[float] = (1.0, 1.2, 1.4, 1.6, 1.8, 2.0),
+    pre_nms_per_scale: int = 12,
+    nms_iou_threshold: float = 0.55,
+) -> tuple[CropWindow, ...]:
+    """Build distinct top-k crop proposals for model-based reranking.
+
+    Candidate 1 is always the legacy Scan-Locate result so a reranking run has
+    an exact, leakage-free baseline.  Remaining proposals come from the
+    highest-evidence positions at every scale, are ordered by local contrast,
+    and are deduplicated with crop-space IoU NMS.
+    """
+
+    if importance_map.ndim != 2:
+        raise ValueError("importance_map must be two-dimensional.")
+    if top_k < 1:
+        raise ValueError("top_k must be positive.")
+    if pre_nms_per_scale < 1:
+        raise ValueError("pre_nms_per_scale must be positive.")
+    if not 0.0 <= nms_iou_threshold <= 1.0:
+        raise ValueError("nms_iou_threshold must be in [0, 1].")
+
+    legacy_crop, _ = locate_from_importance_map(
+        importance_map,
+        image_size,
+        base_crop_size=base_crop_size,
+        ratios=ratios,
+    )
+    if top_k == 1:
+        return (legacy_crop,)
+
+    if not torch.is_floating_point(importance_map):
+        importance_map = importance_map.float()
+    image_width, image_height = image_size
+    map_height, map_width = importance_map.shape
+    cell_width = image_width / map_width
+    cell_height = image_height / map_height
+    raw_candidates: list[WindowCandidate] = []
+
+    for ratio in ratios:
+        requested_size = base_crop_size * float(ratio)
+        block_width = min(max(int(requested_size / cell_width), 1), map_width)
+        block_height = min(max(int(requested_size / cell_height), 1), map_height)
+        if block_width == map_width and block_height == map_height:
+            continue
+
+        sums = _window_sums(importance_map, block_height, block_width)
+        count = min(pre_nms_per_scale, sums.numel())
+        top_indices = torch.topk(sums.reshape(-1), k=count).indices.tolist()
+        for flat_index in top_indices:
+            position_y = int(flat_index) // sums.shape[1]
+            position_x = int(flat_index) % sums.shape[1]
+            evidence = sums[position_y, position_x]
+            neighbors: list[Tensor] = []
+            if position_x > 0:
+                neighbors.append(sums[position_y, position_x - 1])
+            if position_x + 1 < sums.shape[1]:
+                neighbors.append(sums[position_y, position_x + 1])
+            if position_y > 0:
+                neighbors.append(sums[position_y - 1, position_x])
+            if position_y + 1 < sums.shape[0]:
+                neighbors.append(sums[position_y + 1, position_x])
+            contrast = (
+                float(
+                    (
+                        (evidence - torch.stack(neighbors).mean())
+                        / (block_width * block_height)
+                    ).item()
+                )
+                if neighbors
+                else 0.0
+            )
+            raw_candidates.append(
+                WindowCandidate(
+                    ratio=float(ratio),
+                    map_x=position_x,
+                    map_y=position_y,
+                    map_width=block_width,
+                    map_height=block_height,
+                    evidence_sum=float(evidence.item()),
+                    contrast=contrast,
+                )
+            )
+
+    raw_candidates.sort(
+        key=lambda candidate: (candidate.contrast, candidate.evidence_sum),
+        reverse=True,
+    )
+    selected: list[CropWindow] = [legacy_crop]
+    for candidate in raw_candidates:
+        crop = _candidate_to_crop(
+            candidate,
+            image_size=image_size,
+            map_shape=(map_height, map_width),
+            base_crop_size=base_crop_size,
+        )
+        if crop.bbox == legacy_crop.bbox:
+            continue
+        if any(crop_iou(crop, kept) > nms_iou_threshold for kept in selected):
+            continue
+        selected.append(crop)
+        if len(selected) == top_k:
+            break
+    return tuple(selected)
+
+
 def scan_locate_from_tensors(
     planning_attention: Tensor,
     structure_hidden_states: Tensor,
@@ -426,6 +603,7 @@ def scan_locate_from_tensors(
         planning_attention,
         gradient=attention_gradient,
         planning_score=planning_score,
+        token_aggregation=config.semantic_token_aggregation,
     )
     structure = pca_reconstruction_error(
         structure_hidden_states,

@@ -1,0 +1,560 @@
+{
+  "design": {
+    "case_count": 10,
+    "random_seeds": [
+      0,
+      1,
+      2
+    ],
+    "random_trial_count": 30,
+    "token_schedule": [
+      576,
+      288,
+      144,
+      72
+    ],
+    "aligned_kl_definition": "Mean symmetric KL over the common generated-token history, including the first divergence decision step."
+  },
+  "aggregate": {
+    "attention_focus": {
+      "exact_answer_matches": 10,
+      "exact_answer_trials": 10,
+      "color_matches": 10,
+      "color_trials": 10,
+      "mean_aligned_symmetric_kl": 0.0027297987828703496,
+      "median_aligned_symmetric_kl": 0.0008679984794953948,
+      "mean_top1_agreement_fraction": 1.0
+    },
+    "random_focus": {
+      "exact_answer_matches": 26,
+      "exact_answer_trials": 30,
+      "color_matches": 28,
+      "color_trials": 30,
+      "mean_aligned_symmetric_kl": 0.0057369357564413985,
+      "median_aligned_symmetric_kl": 0.001416456430821255,
+      "mean_top1_agreement_fraction": 0.9420634915431341,
+      "attention_kl_lower_than_random_pair_count": 22,
+      "paired_trial_count": 30,
+      "attention_kl_lower_than_case_random_mean_count": 7,
+      "case_count": 10
+    },
+    "crop_only": {
+      "exact_answer_matches": 7,
+      "exact_answer_trials": 10,
+      "color_matches": 7,
+      "color_trials": 10,
+      "mean_aligned_symmetric_kl": 0.016685483124874518,
+      "median_aligned_symmetric_kl": 0.008271471789325514,
+      "mean_top1_agreement_fraction": 0.9058479562401771
+    },
+    "retained_token_overlap": {
+      "mean_attention_vs_random_final_jaccard": 0.06147577215400243,
+      "mean_random_vs_random_final_jaccard": 0.0753723183840159,
+      "mean_attention_vs_random_final_intersection": 8.3,
+      "mean_random_vs_random_final_intersection": 10.0,
+      "expected_random_intersection_tokens": 9.0
+    }
+  },
+  "rows": [
+    {
+      "case_id": "test_08_06_01",
+      "joint_answer": "The person holding the phone horizontally to take a photo is wearing blue clothes.",
+      "crop_only": {
+        "answer": "The person holding the phone horizontally to take a photo is wearing gray clothes.",
+        "answer_matches_joint": false,
+        "color_matches_joint": false,
+        "aligned_symmetric_kl": 0.009664679783172092,
+        "aligned_steps": 16,
+        "top1_agreement_fraction": 0.9473684430122375
+      },
+      "attention_focus": {
+        "answer": "The person holding the phone horizontally to take a photo is wearing blue clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.000979996916555826,
+        "aligned_steps": 19,
+        "top1_agreement_fraction": 1.0
+      },
+      "random_focus": {
+        "0": {
+          "answer": "The person holding the phone horizontally to take a photo is wearing blue clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0018593487215290182,
+          "aligned_steps": 19,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.058823529411764705
+        },
+        "1": {
+          "answer": "The person holding the phone horizontally to take a photo is wearing blue clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.002633366380101114,
+          "aligned_steps": 19,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.058823529411764705
+        },
+        "2": {
+          "answer": "The person holding the phone horizontally to take a photo is wearing blue clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0016047259470192553,
+          "aligned_steps": 19,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.051094890510948905
+        }
+      },
+      "random_mean_aligned_symmetric_kl": 0.002032480349549796
+    },
+    {
+      "case_id": "test_08_06_02",
+      "joint_answer": "The person standing to the right of the snowman and making a V sign is wearing black clothes.",
+      "crop_only": {
+        "answer": "The person standing to the right of the snowman and making a V sign is wearing black clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.0027556132410392242,
+        "aligned_steps": 22,
+        "top1_agreement_fraction": 1.0
+      },
+      "attention_focus": {
+        "answer": "The person standing to the right of the snowman and making a V sign is wearing black clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.0005269238721621731,
+        "aligned_steps": 22,
+        "top1_agreement_fraction": 1.0
+      },
+      "random_focus": {
+        "0": {
+          "answer": "The person standing to the right of the snowman and making a V sign is wearing black clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0009745666575191401,
+          "aligned_steps": 22,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.03597122302158273
+        },
+        "1": {
+          "answer": "The person standing to the right of the snowman and making a V sign is wearing black clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0008919762338560521,
+          "aligned_steps": 22,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.058823529411764705
+        },
+        "2": {
+          "answer": "The person standing to the right of the snowman and making a V sign is wearing black clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0009975646672463706,
+          "aligned_steps": 22,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.07462686567164178
+        }
+      },
+      "random_mean_aligned_symmetric_kl": 0.0009547025195405208
+    },
+    {
+      "case_id": "test_08_06_03",
+      "joint_answer": "The person standing in front and holding a water bottle with both hands is wearing white clothes.",
+      "crop_only": {
+        "answer": "The person standing in front and holding a water bottle with both hands is wearing white clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.002448884481025072,
+        "aligned_steps": 21,
+        "top1_agreement_fraction": 1.0
+      },
+      "attention_focus": {
+        "answer": "The person standing in front and holding a water bottle with both hands is wearing white clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.00027160903016972985,
+        "aligned_steps": 21,
+        "top1_agreement_fraction": 1.0
+      },
+      "random_focus": {
+        "0": {
+          "answer": "The person standing in front and holding a water bottle with both hands is wearing white clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0007949446111980695,
+          "aligned_steps": 21,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.03597122302158273
+        },
+        "1": {
+          "answer": "The person standing in front and holding a water bottle with both hands is wearing white clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0006140572705668373,
+          "aligned_steps": 21,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.058823529411764705
+        },
+        "2": {
+          "answer": "The person standing in front and holding a water bottle with both hands is wearing white clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0005807651563280896,
+          "aligned_steps": 21,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.07462686567164178
+        }
+      },
+      "random_mean_aligned_symmetric_kl": 0.0006632556793643322
+    },
+    {
+      "case_id": "test_08_06_04",
+      "joint_answer": "The person is wearing black clothes.",
+      "crop_only": {
+        "answer": "The person is wearing blue clothes.",
+        "answer_matches_joint": false,
+        "color_matches_joint": false,
+        "aligned_symmetric_kl": 0.025666813779745706,
+        "aligned_steps": 6,
+        "top1_agreement_fraction": 0.8888888955116272
+      },
+      "attention_focus": {
+        "answer": "The person is wearing black clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.001699853870558204,
+        "aligned_steps": 9,
+        "top1_agreement_fraction": 1.0
+      },
+      "random_focus": {
+        "0": {
+          "answer": "The person is wearing blue clothes.",
+          "answer_matches_joint": false,
+          "color_matches_joint": false,
+          "aligned_symmetric_kl": 0.010931891730782203,
+          "aligned_steps": 6,
+          "top1_agreement_fraction": 0.8888888955116272,
+          "attention_random_final_jaccard": 0.07462686567164178
+        },
+        "1": {
+          "answer": "The person is wearing black clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0038454882214548685,
+          "aligned_steps": 9,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.043478260869565216
+        },
+        "2": {
+          "answer": "The person is wearing black clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.003494850634005786,
+          "aligned_steps": 9,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.06666666666666667
+        }
+      },
+      "random_mean_aligned_symmetric_kl": 0.006090743528747619
+    },
+    {
+      "case_id": "test_08_06_05",
+      "joint_answer": "The person leaning forward against the pool table is wearing black clothes.",
+      "crop_only": {
+        "answer": "The person leaning forward against the pool table is wearing black clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.03286384981132784,
+        "aligned_steps": 16,
+        "top1_agreement_fraction": 1.0
+      },
+      "attention_focus": {
+        "answer": "The person leaning forward against the pool table is wearing black clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.008922792966791437,
+        "aligned_steps": 16,
+        "top1_agreement_fraction": 1.0
+      },
+      "random_focus": {
+        "0": {
+          "answer": "The person leaning forward against the pool table is wearing black clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.005267198208356305,
+          "aligned_steps": 16,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.051094890510948905
+        },
+        "1": {
+          "answer": "The person leaning forward against the pool table is wearing black clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.005329221551734875,
+          "aligned_steps": 16,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.08270676691729323
+        },
+        "2": {
+          "answer": "The person leaning forward against the pool table is wearing black clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.003220818279622506,
+          "aligned_steps": 16,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.07462686567164178
+        }
+      },
+      "random_mean_aligned_symmetric_kl": 0.004605746013237895
+    },
+    {
+      "case_id": "test_08_06_06",
+      "joint_answer": "The seated person is wearing white clothes.",
+      "crop_only": {
+        "answer": "The seated person is wearing white clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.006878263795478936,
+        "aligned_steps": 11,
+        "top1_agreement_fraction": 1.0
+      },
+      "attention_focus": {
+        "answer": "The seated person is wearing white clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.0007560000424349637,
+        "aligned_steps": 11,
+        "top1_agreement_fraction": 1.0
+      },
+      "random_focus": {
+        "0": {
+          "answer": "The seated person is wearing white clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0006463621010291056,
+          "aligned_steps": 11,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.07462686567164178
+        },
+        "1": {
+          "answer": "The seated person is wearing white clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0005830770671492887,
+          "aligned_steps": 11,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.06666666666666667
+        },
+        "2": {
+          "answer": "The seated person is wearing white clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0008090322549647185,
+          "aligned_steps": 11,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.058823529411764705
+        }
+      },
+      "random_mean_aligned_symmetric_kl": 0.0006794904743810375
+    },
+    {
+      "case_id": "test_08_06_07",
+      "joint_answer": "The person standing on the sidewalk is wearing blue clothes.",
+      "crop_only": {
+        "answer": "The person is wearing black clothes.",
+        "answer_matches_joint": false,
+        "color_matches_joint": false,
+        "aligned_symmetric_kl": 0.07051669878031437,
+        "aligned_steps": 3,
+        "top1_agreement_fraction": 0.2222222238779068
+      },
+      "attention_focus": {
+        "answer": "The person standing on the sidewalk is wearing blue clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.00434136085522953,
+        "aligned_steps": 14,
+        "top1_agreement_fraction": 1.0
+      },
+      "random_focus": {
+        "0": {
+          "answer": "The person standing on the sidewalk is wearing black clothes.",
+          "answer_matches_joint": false,
+          "color_matches_joint": false,
+          "aligned_symmetric_kl": 0.09052235677538854,
+          "aligned_steps": 11,
+          "top1_agreement_fraction": 0.9285714030265808,
+          "attention_random_final_jaccard": 0.03597122302158273
+        },
+        "1": {
+          "answer": "The person is wearing blue clothes.",
+          "answer_matches_joint": false,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.010227193214329114,
+          "aligned_steps": 3,
+          "top1_agreement_fraction": 0.2222222238779068,
+          "attention_random_final_jaccard": 0.02127659574468085
+        },
+        "2": {
+          "answer": "The person is wearing blue clothes.",
+          "answer_matches_joint": false,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.004477175966409656,
+          "aligned_steps": 3,
+          "top1_agreement_fraction": 0.2222222238779068,
+          "attention_random_final_jaccard": 0.058823529411764705
+        }
+      },
+      "random_mean_aligned_symmetric_kl": 0.035075575318709105
+    },
+    {
+      "case_id": "test_08_06_08",
+      "joint_answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+      "crop_only": {
+        "answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.0037850946952938166,
+        "aligned_steps": 22,
+        "top1_agreement_fraction": 1.0
+      },
+      "attention_focus": {
+        "answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.0003731208705737288,
+        "aligned_steps": 22,
+        "top1_agreement_fraction": 1.0
+      },
+      "random_focus": {
+        "0": {
+          "answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0011498195635717614,
+          "aligned_steps": 22,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.1076923076923077
+        },
+        "1": {
+          "answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0006989433624801998,
+          "aligned_steps": 22,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.07462686567164178
+        },
+        "2": {
+          "answer": "The person sitting cross-legged on a chair and looking at a phone is wearing green clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0009556470497962266,
+          "aligned_steps": 22,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.08270676691729323
+        }
+      },
+      "random_mean_aligned_symmetric_kl": 0.0009348033252827292
+    },
+    {
+      "case_id": "test_08_06_09",
+      "joint_answer": "The person lying down and holding a tablet is wearing white clothes.",
+      "crop_only": {
+        "answer": "The person lying down and holding a tablet is wearing white clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.009789258280060054,
+        "aligned_steps": 16,
+        "top1_agreement_fraction": 1.0
+      },
+      "attention_focus": {
+        "answer": "The person lying down and holding a tablet is wearing white clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.009225817793469204,
+        "aligned_steps": 16,
+        "top1_agreement_fraction": 1.0
+      },
+      "random_focus": {
+        "0": {
+          "answer": "The person lying down and holding a tablet is wearing white clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.004063812389160759,
+          "aligned_steps": 16,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.08270676691729323
+        },
+        "1": {
+          "answer": "The person lying down and holding a tablet is wearing white clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0049390471205619235,
+          "aligned_steps": 16,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.043478260869565216
+        },
+        "2": {
+          "answer": "The person lying down and holding a tablet is wearing white clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0067799064796147945,
+          "aligned_steps": 16,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.07462686567164178
+        }
+      },
+      "random_mean_aligned_symmetric_kl": 0.005260921996445826
+    },
+    {
+      "case_id": "test_08_06_10",
+      "joint_answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+      "crop_only": {
+        "answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.002485674601288061,
+        "aligned_steps": 23,
+        "top1_agreement_fraction": 1.0
+      },
+      "attention_focus": {
+        "answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+        "answer_matches_joint": true,
+        "color_matches_joint": true,
+        "aligned_symmetric_kl": 0.0002005116107587019,
+        "aligned_steps": 23,
+        "top1_agreement_fraction": 1.0
+      },
+      "random_focus": {
+        "0": {
+          "answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0008906686026053765,
+          "aligned_steps": 23,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.058823529411764705
+        },
+        "1": {
+          "answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0010960595602367478,
+          "aligned_steps": 23,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.06666666666666667
+        },
+        "2": {
+          "answer": "The person standing in front of the net and holding a badminton racket is wearing green clothes.",
+          "answer_matches_joint": true,
+          "color_matches_joint": true,
+          "aligned_symmetric_kl": 0.0012281869146232546,
+          "aligned_steps": 23,
+          "top1_agreement_fraction": 1.0,
+          "attention_random_final_jaccard": 0.03597122302158273
+        }
+      },
+      "random_mean_aligned_symmetric_kl": 0.0010716383591551264
+    }
+  ]
+}

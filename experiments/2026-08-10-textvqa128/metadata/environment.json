@@ -1,0 +1,28 @@
+{
+  "captured_at": "2026-08-10T20:23:29.894207+08:00",
+  "platform": "Linux-7.0.0-28-generic-x86_64-with-glibc2.39",
+  "python": "3.10.20",
+  "torch": "2.1.2+cu121",
+  "torch_cuda": "12.1",
+  "transformers": "4.37.2",
+  "cudnn": 8902,
+  "gpu_rows": [
+    "0, NVIDIA GeForce RTX 4090, 49140, 595.84",
+    "1, NVIDIA GeForce RTX 4090, 49140, 595.84",
+    "2, NVIDIA GeForce RTX 4090, 49140, 595.84",
+    "3, NVIDIA GeForce RTX 4090, 49140, 595.84",
+    "4, NVIDIA GeForce RTX 4090, 49140, 595.84",
+    "5, NVIDIA GeForce RTX 4090, 49140, 595.84",
+    "6, NVIDIA GeForce RTX 4090, 49140, 595.84"
+  ],
+  "project_git_commit": null,
+  "model_path": "models/llava-v1.5-7b",
+  "model_type": "llava",
+  "architectures": [
+    "LlavaLlamaForCausalLM"
+  ],
+  "vision_tower": "/data/workspace/Gexuri_Project/HYG_LLaVA_SLoFo/models/clip-vit-large-patch14-336",
+  "image_aspect_ratio": "pad",
+  "image_grid_pinpoints": null,
+  "torch_dtype_config": "float16"
+}
