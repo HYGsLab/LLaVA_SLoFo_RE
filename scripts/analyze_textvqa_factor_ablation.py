@@ -85,10 +85,15 @@ def main() -> None:
         name, raw_path = value.split("=", 1)
         run_paths[name] = Path(raw_path)
 
-    required_names = {name for _, left, right in COMPARISONS for name in (left, right)}
-    missing_names = required_names - run_paths.keys()
-    if missing_names:
-        raise ValueError(f"Missing factor cells: {sorted(missing_names)}")
+    if "t1_raw_single" not in run_paths:
+        raise ValueError("Missing reference factor cell: t1_raw_single")
+    active_comparisons = [
+        comparison
+        for comparison in COMPARISONS
+        if comparison[1] in run_paths and comparison[2] in run_paths
+    ]
+    if not active_comparisons:
+        raise ValueError("No complete factor comparison is available")
 
     evaluator = TextVQAAccuracyEvaluator()
     aligned: dict[str, list[dict[str, object]]] = {}
@@ -138,7 +143,7 @@ def main() -> None:
         }
 
     factor_results: dict[str, dict[str, object]] = {}
-    for comparison_name, left_name, right_name in COMPARISONS:
+    for comparison_name, left_name, right_name in active_comparisons:
         left_rows, right_rows = aligned[left_name], aligned[right_name]
         branch_results: dict[str, object] = {}
         for branch in ("crop_answer", "topk_joint_answer", "focus_answer"):
