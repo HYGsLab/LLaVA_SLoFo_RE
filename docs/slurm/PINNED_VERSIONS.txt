@@ -1,0 +1,14 @@
+project_repo=https://github.com/HYGsLab/LLaVA_SLoFo_RE.git
+project_commit=c452a07
+llava_repo=https://github.com/haotian-liu/LLaVA.git
+llava_commit=c121f0432da27facab705978f83c4ada465e46fd
+checkpoint=liuhaotian/llava-v1.5-7b
+checkpoint_revision=4481d270cc22fd5c4d1bb5df129622006ccd9234
+vision_tower=openai/clip-vit-large-patch14-336
+vision_tower_revision=ce19dc912ca5cd21c8a653c79e251e808ccabcd1
+python=3.10.20
+torch=2.1.2+cu121
+torchvision=0.16.2+cu121
+transformers=4.37.2
+numpy=1.26.4
+pytest=8.3.5
