@@ -30,3 +30,14 @@ def test_end_to_end_comparison_counts_fractional_score_changes() -> None:
     assert result["answer_changed"] == 1
     assert result["score_improved"] == 1
     assert result["score_regressed"] == 1
+
+
+def test_prompt_stratum_summary_keeps_the_stratum_size() -> None:
+    baseline = [{"focus_answer": "a"}, {"focus_answer": "b"}]
+    optimized = [{"focus_answer": "a"}, {"focus_answer": "c"}]
+    scores = {branch: [0.0, 1.0] for branch in MODULE.BRANCHES}
+    result = MODULE.prompt_stratum_summary(
+        [1], baseline, optimized, scores, scores
+    )
+    assert result["sample_count"] == 1
+    assert result["branch_accuracy_percent"]["baseline_A"]["focus_answer"] == 100.0

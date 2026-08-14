@@ -7,6 +7,12 @@
 
 固定清单 `manifests/textvqa_full_5000.json` 包含 TextVQA 0.5.1 validation 的全部 5,000 条问答和 3,166 张唯一图片；前 1,024 条与上一轮清单完全一致。仓库规范化 LF 文件的 SHA-256 为 `af133e3dcc2e4096f122dcdff4560fdfe95e745c2837f60f3f375cbcad499b90`。
 
+为保持嵌套清单不变，前序 512 题沿用 LLaVA TextVQA OCR question file 的
+`Reference OCR token` 辅助提示，另外 4,488 题使用“原始问题 + 单词或短语作答”
+提示。两组 A/E 对同一道题使用相同提示，因此配对差值是公平的；但混合提示下的
+绝对准确率不应直接当作统一纯问题提示的官方排行榜成绩。全量分析会同时报告
+`ocr_assisted_prompt` 与 `plain_question_prompt` 两个分层结果。
+
 本阶段仍是当前工程实现的官方 split 全量验证。由于目标论文未公开代码，不能把结果表述为作者实现的完全复现。
 
 ## Slurm 运行

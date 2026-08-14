@@ -158,6 +158,44 @@ def paired_branch_result(
     }
 
 
+def prompt_stratum_summary(
+    indices: list[int],
+    baseline_rows: list[dict[str, object]],
+    optimized_rows: list[dict[str, object]],
+    baseline_scores: dict[str, list[float]],
+    optimized_scores: dict[str, list[float]],
+) -> dict[str, object]:
+    if not indices:
+        raise ValueError("Prompt stratum is empty")
+    baseline_subset = [baseline_rows[index] for index in indices]
+    optimized_subset = [optimized_rows[index] for index in indices]
+    return {
+        "sample_count": len(indices),
+        "branch_accuracy_percent": {
+            "baseline_A": {
+                branch: 100.0
+                * statistics.fmean(baseline_scores[branch][index] for index in indices)
+                for branch in BRANCHES
+            },
+            "optimized_E": {
+                branch: 100.0
+                * statistics.fmean(optimized_scores[branch][index] for index in indices)
+                for branch in BRANCHES
+            },
+        },
+        "paired_optimized_minus_baseline": {
+            branch: paired_branch_result(
+                baseline_subset,
+                optimized_subset,
+                [baseline_scores[branch][index] for index in indices],
+                [optimized_scores[branch][index] for index in indices],
+                branch,
+            )
+            for branch in ("crop_answer", "topk_joint_answer", "focus_answer")
+        },
+    }
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--manifest", type=Path, required=True)
@@ -181,6 +219,19 @@ def main() -> None:
     evaluator = TextVQAAccuracyEvaluator()
     baseline_scores = score_rows(baseline_rows, evaluator)
     optimized_scores = score_rows(optimized_rows, evaluator)
+
+    prompt_strata = {
+        "ocr_assisted_prompt": [
+            index
+            for index, record in enumerate(manifest["records"])
+            if "Reference OCR token:" in str(record.get("model_query") or "")
+        ],
+        "plain_question_prompt": [
+            index
+            for index, record in enumerate(manifest["records"])
+            if "Reference OCR token:" not in str(record.get("model_query") or "")
+        ],
+    }
 
     prefixes = sorted(set(args.prefix or DEFAULT_PREFIXES))
     invalid = [value for value in prefixes if value <= 0 or value > len(ordered_ids)]
@@ -228,6 +279,16 @@ def main() -> None:
         },
         "paired_optimized_minus_baseline": paired,
         "nested_prefix_convergence": convergence,
+        "prompt_strata": {
+            name: prompt_stratum_summary(
+                indices,
+                baseline_rows,
+                optimized_rows,
+                baseline_scores,
+                optimized_scores,
+            )
+            for name, indices in prompt_strata.items()
+        },
         "original_answer_difference_count": sum(
             baseline.get("original_answer") != optimized.get("original_answer")
             for baseline, optimized in zip(baseline_rows, optimized_rows)
@@ -256,7 +317,8 @@ def main() -> None:
             "ground_truth_answers",
             "baseline_selected_bbox",
             "optimized_selected_bbox",
-            "optimized_selected_rank",
+                "optimized_selected_rank",
+                "prompt_stratum",
         ]
         for branch in ("crop_answer", "topk_joint_answer", "focus_answer"):
             fields.extend(
@@ -283,6 +345,11 @@ def main() -> None:
                 "baseline_selected_bbox": json.dumps(baseline.get("selected_bbox")),
                 "optimized_selected_bbox": json.dumps(optimized.get("selected_bbox")),
                 "optimized_selected_rank": optimized.get("selected_rank"),
+                "prompt_stratum": (
+                    "ocr_assisted_prompt"
+                    if index in set(prompt_strata["ocr_assisted_prompt"])
+                    else "plain_question_prompt"
+                ),
             }
             for branch in ("crop_answer", "topk_joint_answer", "focus_answer"):
                 baseline_score = baseline_scores[branch][index]
