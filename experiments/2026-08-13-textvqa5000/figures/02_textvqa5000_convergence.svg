@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="620" viewBox="0 0 1080 620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="540.0" y="30" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="bold">E−A 整体效果随样本量的收敛趋势</text>
+<text x="540.0" y="54" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" fill="#555">误差棒为配对 95% 置信区间；该差值包含三个同时变化的工程因素</text>
+<line x1="100" y1="484.3" x2="1000" y2="484.3" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="488.3" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">-9</text>
+<line x1="100" y1="464.3" x2="1000" y2="464.3" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="468.3" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">-8</text>
+<line x1="100" y1="444.2" x2="1000" y2="444.2" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="448.2" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">-7</text>
+<line x1="100" y1="424.1" x2="1000" y2="424.1" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="428.1" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">-6</text>
+<line x1="100" y1="404.1" x2="1000" y2="404.1" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="408.1" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">-5</text>
+<line x1="100" y1="384.0" x2="1000" y2="384.0" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="388.0" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">-4</text>
+<line x1="100" y1="364.0" x2="1000" y2="364.0" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="368.0" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">-3</text>
+<line x1="100" y1="343.9" x2="1000" y2="343.9" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="347.9" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">-2</text>
+<line x1="100" y1="323.8" x2="1000" y2="323.8" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="327.8" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">-1</text>
+<line x1="100" y1="303.8" x2="1000" y2="303.8" stroke="#777" stroke-width="1.5"/>
+<text x="88" y="307.8" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+0</text>
+<line x1="100" y1="283.7" x2="1000" y2="283.7" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="287.7" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+1</text>
+<line x1="100" y1="263.7" x2="1000" y2="263.7" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="267.7" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+2</text>
+<line x1="100" y1="243.6" x2="1000" y2="243.6" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="247.6" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+3</text>
+<line x1="100" y1="223.5" x2="1000" y2="223.5" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="227.5" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+4</text>
+<line x1="100" y1="203.5" x2="1000" y2="203.5" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="207.5" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+5</text>
+<line x1="100" y1="183.4" x2="1000" y2="183.4" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="187.4" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+6</text>
+<line x1="100" y1="163.3" x2="1000" y2="163.3" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="167.3" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+7</text>
+<line x1="100" y1="143.3" x2="1000" y2="143.3" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="147.3" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+8</text>
+<line x1="100" y1="123.2" x2="1000" y2="123.2" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="127.2" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+9</text>
+<line x1="100" y1="103.2" x2="1000" y2="103.2" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="107.2" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+10</text>
+<line x1="100" y1="83.1" x2="1000" y2="83.1" stroke="#e1e1e1" stroke-width="1"/>
+<text x="88" y="87.1" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">+11</text>
+<line x1="100.0" y1="124.7" x2="100.0" y2="373.1" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="96.0" y1="124.7" x2="104.0" y2="124.7" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="96.0" y1="373.1" x2="104.0" y2="373.1" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="228.6" y1="131.0" x2="228.6" y2="319.8" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="224.6" y1="131.0" x2="232.6" y2="131.0" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="224.6" y1="319.8" x2="232.6" y2="319.8" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="357.1" y1="129.7" x2="357.1" y2="256.9" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="353.1" y1="129.7" x2="361.1" y2="129.7" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="353.1" y1="256.9" x2="361.1" y2="256.9" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="485.7" y1="95.0" x2="485.7" y2="191.6" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="481.7" y1="95.0" x2="489.7" y2="95.0" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="481.7" y1="191.6" x2="489.7" y2="191.6" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="614.3" y1="106.7" x2="614.3" y2="176.5" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="610.3" y1="106.7" x2="618.3" y2="106.7" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="610.3" y1="176.5" x2="618.3" y2="176.5" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="742.9" y1="96.2" x2="742.9" y2="153.6" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="738.9" y1="96.2" x2="746.9" y2="96.2" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="738.9" y1="153.6" x2="746.9" y2="153.6" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="871.4" y1="98.0" x2="871.4" y2="146.7" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="867.4" y1="98.0" x2="875.4" y2="98.0" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="867.4" y1="146.7" x2="875.4" y2="146.7" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="1000.0" y1="104.4" x2="1000.0" y2="147.7" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="996.0" y1="104.4" x2="1004.0" y2="104.4" stroke="#4878CF" stroke-opacity="0.45"/>
+<line x1="996.0" y1="147.7" x2="1004.0" y2="147.7" stroke="#4878CF" stroke-opacity="0.45"/>
+<polyline points="100.0,248.9 228.6,225.4 357.1,193.3 485.7,143.3 614.3,141.6 742.9,124.9 871.4,122.4 1000.0,126.1" fill="none" stroke="#4878CF" stroke-width="3"/>
+<circle cx="100.0" cy="248.9" r="4.5" fill="#4878CF"/>
+<circle cx="228.6" cy="225.4" r="4.5" fill="#4878CF"/>
+<circle cx="357.1" cy="193.3" r="4.5" fill="#4878CF"/>
+<circle cx="485.7" cy="143.3" r="4.5" fill="#4878CF"/>
+<circle cx="614.3" cy="141.6" r="4.5" fill="#4878CF"/>
+<circle cx="742.9" cy="124.9" r="4.5" fill="#4878CF"/>
+<circle cx="871.4" cy="122.4" r="4.5" fill="#4878CF"/>
+<circle cx="1000.0" cy="126.1" r="4.5" fill="#4878CF"/>
+<line x1="100.0" y1="256.0" x2="100.0" y2="467.5" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="96.0" y1="256.0" x2="104.0" y2="256.0" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="96.0" y1="467.5" x2="104.0" y2="467.5" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="228.6" y1="235.3" x2="228.6" y2="389.4" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="224.6" y1="235.3" x2="232.6" y2="235.3" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="224.6" y1="389.4" x2="232.6" y2="389.4" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="357.1" y1="222.6" x2="357.1" y2="324.6" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="353.1" y1="222.6" x2="361.1" y2="222.6" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="353.1" y1="324.6" x2="361.1" y2="324.6" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="485.7" y1="192.9" x2="485.7" y2="267.0" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="481.7" y1="192.9" x2="489.7" y2="192.9" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="481.7" y1="267.0" x2="489.7" y2="267.0" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="614.3" y1="210.5" x2="614.3" y2="265.4" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="610.3" y1="210.5" x2="618.3" y2="210.5" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="610.3" y1="265.4" x2="618.3" y2="265.4" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="742.9" y1="207.7" x2="742.9" y2="253.1" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="738.9" y1="207.7" x2="746.9" y2="207.7" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="738.9" y1="253.1" x2="746.9" y2="253.1" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="871.4" y1="212.8" x2="871.4" y2="252.0" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="867.4" y1="212.8" x2="875.4" y2="212.8" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="867.4" y1="252.0" x2="875.4" y2="252.0" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="1000.0" y1="216.2" x2="1000.0" y2="251.4" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="996.0" y1="216.2" x2="1004.0" y2="216.2" stroke="#55A868" stroke-opacity="0.45"/>
+<line x1="996.0" y1="251.4" x2="1004.0" y2="251.4" stroke="#55A868" stroke-opacity="0.45"/>
+<polyline points="100.0,361.8 228.6,312.4 357.1,273.6 485.7,229.9 614.3,237.9 742.9,230.4 871.4,232.4 1000.0,233.8" fill="none" stroke="#55A868" stroke-width="3"/>
+<circle cx="100.0" cy="361.8" r="4.5" fill="#55A868"/>
+<circle cx="228.6" cy="312.4" r="4.5" fill="#55A868"/>
+<circle cx="357.1" cy="273.6" r="4.5" fill="#55A868"/>
+<circle cx="485.7" cy="229.9" r="4.5" fill="#55A868"/>
+<circle cx="614.3" cy="237.9" r="4.5" fill="#55A868"/>
+<circle cx="742.9" cy="230.4" r="4.5" fill="#55A868"/>
+<circle cx="871.4" cy="232.4" r="4.5" fill="#55A868"/>
+<circle cx="1000.0" cy="233.8" r="4.5" fill="#55A868"/>
+<line x1="100.0" y1="266.8" x2="100.0" y2="485.0" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="96.0" y1="266.8" x2="104.0" y2="266.8" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="96.0" y1="485.0" x2="104.0" y2="485.0" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="228.6" y1="234.9" x2="228.6" y2="388.4" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="224.6" y1="234.9" x2="232.6" y2="234.9" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="224.6" y1="388.4" x2="232.6" y2="388.4" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="357.1" y1="221.4" x2="357.1" y2="324.2" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="353.1" y1="221.4" x2="361.1" y2="221.4" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="353.1" y1="324.2" x2="361.1" y2="324.2" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="485.7" y1="185.5" x2="485.7" y2="260.6" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="481.7" y1="185.5" x2="489.7" y2="185.5" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="481.7" y1="260.6" x2="489.7" y2="260.6" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="614.3" y1="197.1" x2="614.3" y2="252.4" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="610.3" y1="197.1" x2="618.3" y2="197.1" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="610.3" y1="252.4" x2="618.3" y2="252.4" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="742.9" y1="209.4" x2="742.9" y2="253.7" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="738.9" y1="209.4" x2="746.9" y2="209.4" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="738.9" y1="253.7" x2="746.9" y2="253.7" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="871.4" y1="217.1" x2="871.4" y2="254.8" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="867.4" y1="217.1" x2="875.4" y2="217.1" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="867.4" y1="254.8" x2="875.4" y2="254.8" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="1000.0" y1="215.9" x2="1000.0" y2="249.9" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="996.0" y1="215.9" x2="1004.0" y2="215.9" stroke="#EE854A" stroke-opacity="0.45"/>
+<line x1="996.0" y1="249.9" x2="1004.0" y2="249.9" stroke="#EE854A" stroke-opacity="0.45"/>
+<polyline points="100.0,375.9 228.6,311.6 357.1,272.8 485.7,223.1 614.3,224.7 742.9,231.6 871.4,236.0 1000.0,232.9" fill="none" stroke="#EE854A" stroke-width="3"/>
+<circle cx="100.0" cy="375.9" r="4.5" fill="#EE854A"/>
+<circle cx="228.6" cy="311.6" r="4.5" fill="#EE854A"/>
+<circle cx="357.1" cy="272.8" r="4.5" fill="#EE854A"/>
+<circle cx="485.7" cy="223.1" r="4.5" fill="#EE854A"/>
+<circle cx="614.3" cy="224.7" r="4.5" fill="#EE854A"/>
+<circle cx="742.9" cy="231.6" r="4.5" fill="#EE854A"/>
+<circle cx="871.4" cy="236.0" r="4.5" fill="#EE854A"/>
+<circle cx="1000.0" cy="232.9" r="4.5" fill="#EE854A"/>
+<text x="100.0" y="522" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">128</text>
+<text x="228.6" y="522" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">256</text>
+<text x="357.1" y="522" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">512</text>
+<text x="485.7" y="522" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">1024</text>
+<text x="614.3" y="522" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">2048</text>
+<text x="742.9" y="522" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">3000</text>
+<text x="871.4" y="522" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">4000</text>
+<text x="1000.0" y="522" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12">5000</text>
+<line x1="280" y1="570" x2="306" y2="570" stroke="#4878CF" stroke-width="3"/>
+<text x="315" y="575" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13">裁切图</text>
+<line x1="470" y1="570" x2="496" y2="570" stroke="#55A868" stroke-width="3"/>
+<text x="505" y="575" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13">双图联合</text>
+<line x1="660" y1="570" x2="686" y2="570" stroke="#EE854A" stroke-width="3"/>
+<text x="695" y="575" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13">Focus</text>
+<text x="550.0" y="550" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14">嵌套样本数（题）</text>
+<text x="25" y="300" transform="rotate(-90 25 300)" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="14">E−A 得分变化（百分点）</text>
+</svg>

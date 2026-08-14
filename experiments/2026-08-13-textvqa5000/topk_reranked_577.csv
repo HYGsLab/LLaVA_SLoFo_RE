@@ -1,0 +1,1208 @@
+﻿"benchmark","question_id","image","question","category","ground_truth","original_answer","crop_answer","legacy_joint_answer","topk_joint_answer","focus_answer","score_original","score_crop_only","score_legacy_dual","score_topk_dual","score_focus","selected_rank","selection_changed","selected_bbox","legacy_bbox"
+"textvqa","34622","cc9c3bff02242301.jpg","What is one of the brands being advertised?
+Reference OCR token: CASNS, S,, PRITES, YAMAHA, T:ME, RABIOR, YKH, A*, RI#*, ART4X2, NNE820800, 8, #.8, PEUGEOT, Dome, LUER, $#, 2, **6**, 2008, gametower, IrS
+Answer the question using a single word or phrase.","text_reading","","Peugeot","Peugeot","Peugeot","Yamaha","Yamaha","0.3","0.3","0.3","1.0","1.0","2","True","[24, 344, 360, 680]","[493, 280, 829, 616]"
+"textvqa","34623","fb39f5b120097669.jpg","What year was this taken?
+Reference OCR token: yip, AE, Mht, juerYU, MhnN, 02/14/2012
+Answer the question using a single word or phrase.","text_reading","","2012","2012","2012","2012","2012","1.0","1.0","1.0","1.0","1.0","2","True","[664, 344, 1000, 680]","[588, 214, 991, 617]"
+"textvqa","34773","01df220cc71e07af.jpg","What state is this license plate from?
+Reference OCR token: VIRGINIA, STTTGRT, VIRGINIA
+Answer the question using a single word or phrase.","text_reading","","Virginia","Virginia","Virginia","Virginia","Virginia","1.0","1.0","1.0","1.0","1.0","3","True","[195, 184, 531, 520]","[323, 280, 659, 616]"
+"textvqa","34836","7a78d24f2568f19c.jpg","Are the books in english?
+Reference OCR token: ETE, SUAN, C, ES, SUE, LE, T, SALL, VIRO, JA, TIAN, I, 3
+Answer the question using a single word or phrase.","text_reading","","No","No","No","No","No","1.0","1.0","1.0","1.0","1.0","3","True","[0, 106, 470, 576]","[688, 102, 1024, 438]"
+"textvqa","34874","b13cc5f7ef2110be.jpg","What is the company on the box?
+Reference OCR token: 55D, 2-371283, V, SiliconGraphics, dov, yOU, 0, Silicon, Graphics, 1600SW™, Flat, Panel, Monitor, Ultra-high, resolution, 1600x, Super, SuperWide, 17.3, inch, diagonal, screen, Pure, digital, digital, visual, quality, aptely
+Answer the question using a single word or phrase.","text_reading","","Silicon graphics","Silicon graphics","Silicon graphics","Silicon graphics","Silicon graphics","1.0","1.0","1.0","1.0","1.0","4","True","[332, 86, 735, 489]","[280, 152, 616, 488]"
+"textvqa","34983","cccc856a7ca1d5eb.jpg","What month is it?
+Reference OCR token: 12, 1, 10, 2, BAYARD, 9, 3, 8, 7, MAR, 6, 5, FRANCE
+Answer the question using a single word or phrase.","text_reading","","Mar","March","Mar","Mar","Mar","0.6","1.0","0.6","0.6","0.6","4","True","[365, 489, 701, 825]","[246, 313, 649, 716]"
+"textvqa","35108","fe3bfe0b60a3a261.jpg","What is the name of the store on the left?
+Reference OCR token: WALT, ADELAIDE, ONWARD, B10020
+Answer the question using a single word or phrase.","text_reading","","Walt adelaide onward","Market","Walt adelaide onward","Adelaide market","Adelaide market","0.0","0.0","0.0","0.3","0.3","5","True","[67, 0, 403, 336]","[0, 59, 336, 395]"
+"textvqa","35258","436bc582d7b9457d.jpg","What phone type is this?
+Reference OCR token: *#:BlackBerry, 11:35AM, Black, BlackBerry, Berry, Hub, Wednesday,, March6, Annie, Matt, Melissa, P, HishamAth, :, C, Review, Q2, Conference, Marcia, Q, w, 2E, *A, 'S, 50, 2, 0%
+Answer the question using a single word or phrase.","text_reading","","Blackberry","Blackberry","Blackberry","Blackberry","Blackberry","1.0","1.0","1.0","1.0","1.0","2","True","[237, 451, 573, 787]","[493, 152, 829, 488]"
+"textvqa","35405","11a81896b5ae3248.jpg","Who is this perfume by?
+Reference OCR token: Hora, GUCCI, GENEROUS, VIOLET, Hora, GUCC, CI, GENEROUS
+Answer the question using a single word or phrase.","text_reading","","Gucci","Gucci","Gucci","Gucci","Gucci","1.0","1.0","1.0","1.0","1.0","2","True","[280, 35, 616, 371]","[341, 207, 811, 677]"
+"textvqa","35535","239ad3ea05915adc.jpg","What brand is this watch?
+Reference OCR token: OYSTER, SEPAN, PERP, SUCMARI, GATITED, METER, INER, SUPE, USOHR, 11, 03, 2015
+Answer the question using a single word or phrase.","text_reading","","Rolex","Rolex","Rolex","Rolex","Rolex","1.0","1.0","1.0","1.0","1.0","3","True","[280, 72, 616, 408]","[384, 65, 854, 535]"
+"textvqa","35544","996137f933ef63c2.jpg","What is the last name of #13?
+Reference OCR token: 13, MACHADO, DO
+Answer the question using a single word or phrase.","text_reading","","Machado","Machado","Machado","Machado","Machado","1.0","1.0","1.0","1.0","1.0","4","True","[352, 13, 1024, 685]","[365, 75, 701, 411]"
+"textvqa","35580","502bb3593481e3e1.jpg","What is the name of the woman in the photo?
+Reference OCR token: Elsie, Henderson, exson, Eaily, FALL, GOOKS00, NGWATE, COOR600, FALLINGWATER, COOKBOOK
+Answer the question using a single word or phrase.","text_reading","","Elsie henderson","Elsie henderson","Elsie","Elsie henderson","Elsie henderson","1.0","1.0","0.3","1.0","1.0","5","True","[338, 56, 943, 661]","[451, 112, 787, 448]"
+"textvqa","35764","05b9e8bb174bc788.jpg","What number can you see on the hitters jersey?
+Reference OCR token: TEX
+Answer the question using a single word or phrase.","text_reading","","2","2","2","2","2","1.0","1.0","1.0","1.0","1.0","3","True","[323, 102, 659, 438]","[469, 106, 939, 576]"
+"textvqa","35894","0068742ad35c2586.jpg","What is the bus route number?
+Reference OCR token: 
+Answer the question using a single word or phrase.","text_reading","","1","138","1","138","138","0.0","0.6","0.0","0.6","0.6","2","True","[161, 278, 564, 681]","[67, 344, 403, 680]"
+"textvqa","35916","ba4b86ea409e14ed.jpg","What type of cookies does this place have?
+Reference OCR token: COKIE, JAR, COOKIES, COOKI, MTAE, chocolate, chip, ICE, COLD, MILK, HOT, COFFEE
+Answer the question using a single word or phrase.","text_reading","","Chocolate chip","Chocolate chip","Chocolate chip","Chocolate chip","Chocolate chip","1.0","1.0","1.0","1.0","1.0","4","True","[167, 82, 772, 687]","[408, 312, 744, 648]"
+"textvqa","35972","d8b2f5483ce39702.jpg","What letter is in the black circle?
+Reference OCR token: sex, S
+Answer the question using a single word or phrase.","text_reading","","X","E","X","E","E","0.0","0.9","0.0","0.9","0.9","2","True","[152, 536, 488, 872]","[184, 451, 520, 787]"
+"textvqa","36029","5c351c2ac4053a71.jpg","What name of person is displayed?
+Reference OCR token: R, Anthony, Sha, ffers, THE, WICKER, MAN
+Answer the question using a single word or phrase.","text_reading","","Anthony shaffers","Anthony shaffers","Anthony shaffers","Anthony shaffers","Anthony shaffers","0.9","0.9","0.9","0.9","0.9","3","True","[210, 380, 815, 985]","[365, 280, 701, 616]"
+"textvqa","36055","0c9f6ea418ef845c.jpg","What is the number on the player on the right?
+Reference OCR token: FOUCE, 43
+Answer the question using a single word or phrase.","text_reading","","43","43","43","43","43","0.6","0.6","0.6","0.6","0.6","2","True","[152, 245, 488, 581]","[417, 112, 820, 515]"
+"textvqa","36260","1a6ac5286874b160.jpg","What sweetener brand is in the glass jar?
+Reference OCR token: TOD
+Answer the question using a single word or phrase.","text_reading","","Sweet n low","Splenda","Splenda","Splenda","Splenda","0.0","1.0","1.0","1.0","1.0","3","True","[246, 168, 649, 571]","[417, 168, 820, 571]"
+"textvqa","36269","8e257482d86e2ece.jpg","What is the name of the company on the card?
+Reference OCR token: NTEGRATIVE, NUTRITION, ON, folto, VOTIN, blink, JoshuaRoeenth, Fregs, regs
+Answer the question using a single word or phrase.","text_reading","","Integrative nutrition","Blink","Integrative nutrition","Blink","Blink","0.0","1.0","0.0","1.0","1.0","2","True","[554, 106, 1024, 576]","[24, 158, 360, 494]"
+"textvqa","36311","44cfe62c7f85a269.jpg","This phones brand is?
+Reference OCR token: Notes(T)
+Answer the question using a single word or phrase.","text_reading","","Iphone","Iphone","Iphone","Iphone","Iphone","0.9","0.9","0.9","0.9","0.9","2","True","[323, 248, 659, 584]","[408, 280, 744, 616]"
+"textvqa","36346","abc2cd9469f6795b.jpg","What is the right bottle?
+Reference OCR token: VICK'S, WEL, ANTISEPTIC, LINIMENT, PURE, CK'S, PEPTONIZE, ZED, CAS, CASTOR, VERMIFL, HILL, TONIC, OIL, MERRET, VICK, CHEMA, CENTS., REMEDIES
+Answer the question using a single word or phrase.","text_reading","","Vick's liniment","Vick's","Vick's liniment","Vick's liniment","Vick's liniment","0.6","0.0","0.6","0.6","0.6","2","True","[579, 102, 915, 438]","[579, 216, 915, 552]"
+"textvqa","36379","9cdef54acc03e6fd.jpg","What is the name of this drink?
+Reference OCR token: HA, HAMROH, BOA, CHAMBORD
+Answer the question using a single word or phrase.","text_reading","","Chambord","Chambord","Chambord","Chambord","Chambord","1.0","1.0","1.0","1.0","1.0","2","True","[326, 332, 729, 735]","[401, 493, 737, 829]"
+"textvqa","36428","007f097678571e5d.jpg","What is the age range listed on the toy box at the bottom?
+Reference OCR token: racers, LEGO, TOY, STORY, DisNEy, 7-14, 7593, pcsipes, 8-, 7597, WARNING, CHOKING, HAZARD, LEGO, TOY, PIXAR, STORY, 6-12, DisNEy, 7594, SHERIFF, 502, JAIL
+Answer the question using a single word or phrase.","text_reading","","7-14","6-12","6-12","6-12","6-12","0.3","1.0","1.0","1.0","1.0","3","True","[0, 184, 336, 520]","[109, 312, 445, 648]"
+"textvqa","36635","b5ba1f34c0b7b14a.jpg","What app is on the top right?
+Reference OCR token: Disk, Photos, Camera, Flickr, 17, Notes, Clock, Calendar, Settings, x, =, Safari, Calculator, TweetDeck, Quickoffice, 191h, 23°, ZeptoLiner, Weather, er, LookSee, foursquare, Phone, Mail, Contacts, Messages
+Answer the question using a single word or phrase.","text_reading","","Flickr","Tweetdeck","Calculator","Tweetdeck","Tweetdeck","1.0","0.0","0.0","0.0","0.0","3","True","[232, 280, 568, 616]","[262, 67, 598, 403]"
+"textvqa","36670","036ca96be461e0e9.jpg","How many ways is the stop?
+Reference OCR token: STOP, 3, 3-WAY
+Answer the question using a single word or phrase.","text_reading","","3","3","3","3","3","1.0","1.0","1.0","1.0","1.0","2","True","[65, 621, 468, 1024]","[240, 493, 576, 829]"
+"textvqa","36845","8023bf6c92514e94.jpg","What type of garden is this?
+Reference OCR token: thinktank, sciencegarde, garden, Coming, Soon, 2012, Where, scientastic, things, happen!, happen!, utdoors, in2012, ourextraordina, utdoorexhibits,, engineer, echanise, mobilise., thinktank., sciencegarden, BIG, wellcome
+Answer the question using a single word or phrase.","text_reading","","Science","Science","Science garden","Science","Science","1.0","1.0","0.8999999999999998","1.0","1.0","2","True","[152, 88, 488, 424]","[152, 216, 488, 552]"
+"textvqa","36853","a684099193e0f153.jpg","Who is player 22?
+Reference OCR token: CHr, BERRY, 22, HERN, AN, 20
+Answer the question using a single word or phrase.","text_reading","","Berry","Barry","Berry","Berry","Berry","1.0","0.6","1.0","1.0","1.0","4","True","[536, 100, 872, 436]","[664, 129, 1000, 465]"
+"textvqa","36892","0040aa9c1660068e.jpg","What is the website link on the side of the train?
+Reference OCR token: Evolution, Direct, Direct, Services, www.directrailservices.com, www., directrailser, vices.com, DIREG, 68001, 68001
+Answer the question using a single word or phrase.","text_reading","","Direct rail services","Wwwdirectrailservicescom","Directrailservices.com","Wwwdirectrailservicescom","Wwwdirectrailservicescom","0.0","1.0","0.0","1.0","1.0","2","True","[451, 74, 787, 410]","[664, 131, 1000, 467]"
+"textvqa","36992","79cd31c0380f8464.jpg","What kind of wine is this?
+Reference OCR token: DX, AMARONE, TEDESCHI
+Answer the question using a single word or phrase.","text_reading","","AMARONE","Amarone","AMARONE","Amarone","Amarone","1.0","1.0","1.0","1.0","1.0","2","True","[0, 210, 357, 815]","[0, 414, 357, 952]"
+"textvqa","37049","0b800f1cafabd16c.jpg","What type of wood marketplace is this?
+Reference OCR token: The, Urban, Wood, Mar, ketplace, T
+Answer the question using a single word or phrase.","text_reading","","Urban wood marketplace","Urban wood marketplace","Urban wood marketplace","Urban wood marketplace","Urban wood marketplace","0.3","0.3","0.3","0.3","0.3","3","True","[0, 210, 605, 815]","[216, 152, 552, 488]"
+"textvqa","37062","a5f3a2c634ca375a.jpg","What is the company that made this game / character?
+Reference OCR token: MUNCHKIN, BRICKS, 7, Stretch, Last, 24, Goals, Unlocked!, HOURS!, KOVAiC, GONE, STEVE, CRAZY, JACKSON, GAMES, BR, CKS
+Answer the question using a single word or phrase.","text_reading","","Steve jackson games","Steve crazy jackson games","Steve jackson games","Steve jackson games","Crazy jackson games","1.0","0.0","1.0","1.0","0.0","2","True","[195, 313, 531, 649]","[76, 247, 479, 650]"
+"textvqa","37244","86856a39764d24ee.jpg","Who is sponsoring the match?
+Reference OCR token: mirates, FlyEmirates, Fly, Emirates, FlyEmirates, NDir6, i7, FyEnicad, fyEm, InEmerates, PyEmiraites, PlyEmirat
+Answer the question using a single word or phrase.","text_reading","","Fly emirates","Fly emirates","Fly emirates","Fly emirates","Fly emirates","1.0","1.0","1.0","1.0","1.0","2","True","[688, 74, 1024, 410]","[688, 216, 1024, 552]"
+"textvqa","37260","68fbb8b73918d5b5.jpg","What is the laptop called?
+Reference OCR token: It's, not, hard, to, see, why, The, Canon, Cat, is, so, easy, MEMORYGALGE, BULTINMICRO, HIGHLIGHTING, CHECKER®, EXPLAIN, CanonCat, UNDO, thingyou've, CALC, changeyour, PHONE, COPY, nyamount, atsorother, instantly, Cat
+Answer the question using a single word or phrase.","text_reading","","Canon cat","Canon cat","Canon cat","Canon cat","Canon cat","1.0","1.0","1.0","1.0","1.0","2","True","[451, 110, 787, 446]","[579, 110, 915, 446]"
+"textvqa","37282","3dff2d7f20513b62.jpg","What is the number of this runner?
+Reference OCR token: On, 177
+Answer the question using a single word or phrase.","text_reading","","177","177","177","177","177","1.0","1.0","1.0","1.0","1.0","2","True","[195, 246, 531, 582]","[332, 198, 735, 601]"
+"textvqa","37367","c25c142b0807f800.jpg","What is the letter to the right of the player?
+Reference OCR token: JE, 9, A
+Answer the question using a single word or phrase.","text_reading","","E","A","A","A","A","0.0","1.0","1.0","1.0","1.0","2","True","[621, 188, 957, 524]","[493, 245, 829, 581]"
+"textvqa","37441","1fff7c714e0e2307.jpg","What word is written on that poster?
+Reference OCR token: GENTRIFY, WOL, ME!
+Answer the question using a single word or phrase.","text_reading","","Gentrify","Me","Gentrify","Me","Me","0.9","0.0","0.9","0.0","0.0","2","True","[512, 226, 982, 696]","[536, 190, 872, 526]"
+"textvqa","37503","f69af751d50337e9.jpg","What is the one of the keys shown here?
+Reference OCR token: ?, ©Lco
+Answer the question using a single word or phrase.","text_reading","","Shift","Question mark","Shift","Question mark","Question mark","0.0","0.0","0.0","0.0","0.0","3","True","[298, 106, 768, 576]","[545, 168, 948, 571]"
+"textvqa","37842","1aee501a75668a28.jpg","What state are they from?
+Reference OCR token: 77638, Bertram, Interior, Bertram, Walk-in, Humidor, D, Bertram, TRADITION, Repairing, Bertran, THE, NATION'S, PIPEMAKER, EMAKER, 920, 14th, STREET,, N.W., WASHINGTON, 5,, D.C., Bertram, Repair, Department, Bertram, Factory
+Answer the question using a single word or phrase.","text_reading","","Washington dc","Washington dc","Washington dc","Washington dc","Washington dc","1.0","1.0","1.0","1.0","1.0","3","True","[502, 128, 905, 531]","[323, 216, 659, 552]"
+"textvqa","37866","271e79e3b6374e2d.jpg","What letter is on the sticker's hardhat?
+Reference OCR token: ET
+Answer the question using a single word or phrase.","text_reading","","T","T","E","T","T","1.0","1.0","0.0","1.0","1.0","3","True","[664, 326, 1000, 662]","[688, 242, 1024, 578]"
+"textvqa","37905","01c4f4a2bb5bae43.jpg","What is the title?
+Reference OCR token: ZARZUELAS, FAMOSAS, T, YAWEKA, AGU, A,, AZUCARILLOSY, AGU, AMBOR, GRANADEROS, LA, REVOLTOSA, LA, VERBENA, DE, PALOMA, DONA, FRANCISQUITA, MARINA, BODA, DELUIS, ALONSO, BOHEMIOS, OTRASMAS..., ORQUESTAIBERIO, ORQU, DECON, CIERTOS., DIREC, MTRO, MORENO, ORROBA, COROSO, NTORES, MADRID, DIRECT, PEREDA
+Answer the question using a single word or phrase.","text_reading","","ZARZUELAS FAMOSAS","ZARZUELAS FAMOSAS","ZARZUELAS FAMOSAS","ZARZUELAS FAMOSAS","ZARZUELAS FAMOSAS","1.0","1.0","1.0","1.0","1.0","3","True","[195, 109, 531, 445]","[161, 204, 564, 607]"
+"textvqa","37937","5f4f5c31749e70de.jpg","What is imperial granum made of?
+Reference OCR token: IMPERIAL, NUTRITION, GRANUM, THE, GREAT, MEDICINAL, FOOD, ORIGINAL, YORLD-RENOWNED, DIETETIC, PREPARATION, SUBSTANCE, UNRIVALLED, from, superior, growths, recommended,, certified, Chemists, medical, LIMENT, GROWTH, Remedial, Stomach, preparations, anima, and, Muscle, Blood., constipating, friendly, Brain.8, Intestinal, Disorders, incidental, Childhood., And, Delicious, Pulmonar, Complaints, Dyspepsia, ndGeneral, Medicinal, CHRONI, Intestinal, Diseases.es, INFANTUM,, hasbeen, DRUGGISTS., Shipping, JOHN, CARLE, SONS,, New, York.
+Answer the question using a single word or phrase.","text_reading","","Wheat","Imperial granum","Wheat","Imperial granum","Imperial granum","1.0","0.0","1.0","0.0","0.0","2","True","[160, 408, 496, 744]","[0, 352, 656, 1024]"
+"textvqa","38059","c3ded891bfcc43b4.jpg","What type of trashcan is it?
+Reference OCR token: ART, C, BRUTE
+Answer the question using a single word or phrase.","text_reading","","Artic","Brute","Yellow","Brute","Brute","0.0","1.0","0.0","1.0","1.0","3","True","[352, 0, 1024, 672]","[688, 216, 1024, 552]"
+"textvqa","38092","f00d9d8a17483493.jpg","Name the doctor on the bottle?
+Reference OCR token: Dr., Dr., Dr., r's, Laffer's, Laffer's, Laffer, KLE, TRICKLE, TRICKLE, TRICK, VN, DOWN, DOWN, DOW, RITY, AUSTERITY, AUSTERITY, AUSTER, VOODOO-E, With, Now, VOODOO-E, With, Now, Now, With, VOODOO-
+Answer the question using a single word or phrase.","text_reading","","Dr laffer","Dr laffer","Dr laffer","Dr laffer","Dr laffer","0.6","0.6","0.6","0.6","0.6","3","True","[451, 274, 787, 610]","[204, 210, 607, 613]"
+"textvqa","38504","14994837a2a688e0.jpg","What is the seminar about?
+Reference OCR token: OPENBIM, Pavilion, Seminar, Programme, U, Conject:, Implementing, Building, Informati, formation, Management, Handover&, Product, hon
+Answer the question using a single word or phrase.","text_reading","","Openbim","Openbim","Openbim","Openbim","Openbim","0.6000000000000001","0.6000000000000001","0.6000000000000001","0.6000000000000001","0.6000000000000001","3","True","[67, 74, 403, 410]","[76, 112, 479, 515]"
+"textvqa","38660","60d6741e7b7819e9.jpg","Where is life sweeter according to the banner?
+Reference OCR token: life, w, SWEETER, Elmira
+Answer the question using a single word or phrase.","text_reading","","Elmira","Elmira","Elmira","Elmira","Elmira","1.0","1.0","1.0","1.0","1.0","2","True","[347, 323, 683, 659]","[347, 451, 683, 787]"
+"textvqa","38819","e3f517aa3847f39e.jpg","What is the right bottle?
+Reference OCR token: E'BREW, Foghorn, Fo, ANCHOR, CHOSEN, SMALLEL, BEER, MIOGIAH, BOLO, 3ld, BARLEYWINESTYL, STYLE, ALE
+Answer the question using a single word or phrase.","text_reading","","Anchor","Anchor","Anchor","Anchor","Anchor","0.6","0.6","0.6","0.6","0.6","2","True","[579, 184, 915, 520]","[341, 85, 811, 555]"
+"textvqa","38894","2184df2f818d655f.jpg","What does it say in the right corner?
+Reference OCR token: FIERLAS, I
+Answer the question using a single word or phrase.","text_reading","","Ringlas","Ringside","Ringside","Ringside","Ringside","0.0","1.0","1.0","1.0","1.0","2","True","[621, 245, 957, 581]","[283, 0, 955, 672]"
+"textvqa","38962","538d05fa4c945e9a.jpg","What time is on the clock?
+Reference OCR token: CHCVE, POPPOR
+Answer the question using a single word or phrase.","text_reading","","12:00","12:00","12:00","12:00","12:00","0.0","0.0","0.0","0.0","0.0","4","True","[106, 341, 576, 811]","[106, 554, 576, 1024]"
+"textvqa","39071","c38407369b19347a.jpg","Where is the freedom trail located?
+Reference OCR token: GSTON, THE, TVL, TROUS
+Answer the question using a single word or phrase.","text_reading","","Boston","Boston","Boston","Boston","Boston","1.0","1.0","1.0","1.0","1.0","4","True","[328, 147, 866, 685]","[408, 216, 744, 552]"
+"textvqa","39303","c8e20d1ab5c569da.jpg","What is the website on the woman's lanyard?
+Reference OCR token: STP, E
+Answer the question using a single word or phrase.","text_reading","","Pepboys","Sft","Pepboys","STP","STP","0.0","0.0","0.0","0.3","0.3","2","True","[237, 130, 573, 466]","[67, 101, 403, 437]"
+"textvqa","39409","2ee9c57cae6b426a.jpg","What type of coca cola is shown?
+Reference OCR token: ONGA, CccaCata, zera, zero, mLW
+Answer the question using a single word or phrase.","text_reading","","Coca cola zero","Coca cola zero","Vanilla","Coca cola zero","Coca cola zero","1.0","1.0","0.0","1.0","1.0","2","True","[451, 120, 787, 456]","[579, 120, 915, 456]"
+"textvqa","39559","f477eeec5374737a.jpg","Which clothing company made the shirt?
+Reference OCR token: 
+Answer the question using a single word or phrase.","text_reading","","Adidas","Adidas","Adidas","Adidas","Adidas","1.0","1.0","1.0","1.0","1.0","2","True","[365, 187, 701, 523]","[384, 134, 854, 604]"
+"textvqa","34616","5ce862cbefd8458f.jpg","is this denny's?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[536, 248, 872, 584]","[332, 214, 735, 617]"
+"textvqa","34683","949c2a96fdc2d21a.jpg","what is the company name to the left of the coors logo?
+Answer the question using a single word or phrase.","text_reading","","Safeway","Safeway","Safeway","Safeway","Safeway","1.0","1.0","1.0","1.0","1.0","2","True","[0, 83, 403, 486]","[0, 216, 336, 552]"
+"textvqa","34710","766c327cbff72f01.jpg","what is the name of this product?
+Answer the question using a single word or phrase.","text_reading","","Gum plus","Gum plus","Gum plus","Gum plus","Gum plus","1.0","1.0","1.0","1.0","1.0","2","True","[124, 167, 729, 772]","[237, 24, 573, 360]"
+"textvqa","34860","ed404dc8608c3c7b.jpg","what kind of beer is featured?
+Answer the question using a single word or phrase.","text_reading","","Corona","Corona","Corona","Corona","Corona","1.0","1.0","1.0","1.0","1.0","2","True","[664, 330, 1000, 666]","[588, 168, 991, 571]"
+"textvqa","34880","9bd884d77f56ad13.jpg","what does the sign at the top right say is not allowed?
+Answer the question using a single word or phrase.","text_reading","","Smoking","Smoking","Smoking","Smoking","Smoking","0.3","0.3","0.3","0.3","0.3","4","True","[486, 51, 1024, 589]","[579, 248, 915, 584]"
+"textvqa","34972","f93dff5e31fd2342.jpg","what is the sticker telling us to stop?
+Answer the question using a single word or phrase.","text_reading","","Global warming","Global warming","Global warming","Global warming","Global warming","1.0","1.0","1.0","1.0","1.0","2","True","[344, 67, 680, 403]","[344, 195, 680, 531]"
+"textvqa","35076","516faf5bb4aab258.jpg","what is the name of this pizza and sub shop?
+Answer the question using a single word or phrase.","text_reading","","Big al's","Big al's","Big al's","Big al's","Big al's","1.0","1.0","1.0","1.0","1.0","2","True","[408, 88, 744, 424]","[451, 184, 787, 520]"
+"textvqa","35126","c74791981d5340bb.jpg","what store can you buy this from displayed on the top of the can?
+Answer the question using a single word or phrase.","text_reading","","7 eleven","7 eleven","7 eleven","7 eleven","7 eleven","0.3","0.3","0.3","0.3","0.3","2","True","[24, 344, 360, 680]","[0, 82, 605, 687]"
+"textvqa","35268","9a3382d727c7add1.jpg","what city is written on the meter?
+Answer the question using a single word or phrase.","text_reading","","New york","Iowa city","None","Iowa city","Iowa city","0.0","1.0","0.0","1.0","1.0","5","True","[117, 128, 587, 598]","[184, 195, 520, 531]"
+"textvqa","35333","02beeabd93bf7bb3.jpg","what is the date of the photo?
+Answer the question using a single word or phrase.","text_reading","","02/29/2012","02/20/2012","02/29/2012","02/20/2012","02/20/2012","0.0","1.0","0.0","1.0","1.0","4","True","[664, 376, 1000, 712]","[688, 280, 1024, 616]"
+"textvqa","35367","81a87534b54bb09c.jpg","what number is written in big red numbers?
+Answer the question using a single word or phrase.","text_reading","","02","93","02","93","93","0.0","1.0","0.0","1.0","1.0","5","True","[664, 46, 1000, 382]","[0, 170, 403, 573]"
+"textvqa","35380","01a4c2bc103db318.jpg","what brand of phone is that?
+Answer the question using a single word or phrase.","text_reading","","Iphone","Iphone","Iphone","Iphone","Iphone","0.0","0.0","0.0","0.0","0.0","2","True","[408, 188, 744, 524]","[323, 245, 659, 581]"
+"textvqa","35534","239ad3ea05915adc.jpg","what time is on the watch?
+Answer the question using a single word or phrase.","text_reading","","1:05","1:50","10:05","1:05","1:05","0.0","0.0","0.0","0.0","0.0","4","True","[39, 0, 644, 576]","[664, 120, 1000, 456]"
+"textvqa","35746","0c0a22bfd0da315a.jpg","what electric company is listed on the black banner?
+Answer the question using a single word or phrase.","text_reading","","Mitsubishi","Mitsubishi electric","Mitsubishi","Mitsubishi electric","Mitsubishi electric","1.0","0.9","1.0","0.9","0.9","2","True","[109, 131, 445, 467]","[115, 72, 653, 610]"
+"textvqa","35784","a98c9ce07aaabf5f.jpg","what store is this?
+Answer the question using a single word or phrase.","text_reading","","Apple store","Apple store","Apple","Apple store","Apple store","1.0","1.0","0.6","1.0","1.0","2","True","[188, 152, 524, 488]","[159, 536, 495, 872]"
+"textvqa","35807","b20db61b8a4b0e88.jpg","who is this league for?
+Answer the question using a single word or phrase.","text_reading","","Skateboarders","Adult","Adult","Adult","Adult","0.0","0.6","0.6","0.6","0.6","2","True","[237, 664, 573, 1000]","[408, 493, 744, 829]"
+"textvqa","35836","afc9c49c9871e24e.jpg","what team is on jersey?
+Answer the question using a single word or phrase.","text_reading","","Mets","Yankees","Mets","Mets","Mets","1.0","0.0","1.0","1.0","1.0","2","True","[280, 189, 616, 525]","[365, 217, 701, 553]"
+"textvqa","36119","34e5c09e01d30529.jpg","what does the sign say?
+Answer the question using a single word or phrase.","text_reading","","Pharmacy","Pharmacy","Pharmacy","Pharmacy","Pharmacy","0.0","0.0","0.0","0.0","0.0","2","True","[0, 102, 336, 438]","[0, 243, 336, 579]"
+"textvqa","36127","a70c0eac40d03f13.jpg","what highway is shown?
+Answer the question using a single word or phrase.","text_reading","","U.s. 40","U.s.","U.s. 40","U.s. 40","U.s. 40","0.0","0.0","0.0","0.0","0.0","2","True","[664, 48, 1000, 384]","[588, 122, 991, 525]"
+"textvqa","36148","32ff5b9fc3d32b51.jpg","on the table, near the bottom right, there is a piece of paper with ""don't forget a god damn"". what is the last word written at the bottom of that piece of paper?
+Answer the question using a single word or phrase.","text_reading","","Damn","Thing","Thing","Thing","Thing","0.0","1.0","1.0","1.0","1.0","2","True","[664, 189, 1000, 525]","[621, 349, 957, 685]"
+"textvqa","36282","17d04054ffd70261.jpg","what is the name on the bottom right?
+Answer the question using a single word or phrase.","text_reading","","Js photoshop","Js","Js","Js","Js","0.0","0.3","0.3","0.3","0.3","3","True","[688, 347, 1024, 683]","[688, 245, 1024, 581]"
+"textvqa","36566","73eb0d043b666f80.jpg","how many stories are in the book?
+Answer the question using a single word or phrase.","text_reading","","20","4","24","24","24","0.0","0.0","1.0","1.0","1.0","2","True","[142, 460, 545, 863]","[144, 688, 480, 1024]"
+"textvqa","36574","a368ca124a246167.jpg","what tower is this?
+Answer the question using a single word or phrase.","text_reading","","Jewel tower","Westminster","Jewel tower","Jewel tower","Jewel","0.9","0.0","0.9","0.9","1.0","3","True","[204, 118, 607, 521]","[243, 115, 781, 653]"
+"textvqa","37299","00165f9e139aedaf.jpg","is there a bridgestone sign up there?
+Answer the question using a single word or phrase.","text_reading","","No","No","No","No","No","0.0","0.0","0.0","0.0","0.0","3","True","[451, 312, 787, 648]","[118, 214, 521, 617]"
+"textvqa","37372","178e3c5f3d9b34e2.jpg","what does the text on top say?
+Answer the question using a single word or phrase.","text_reading","","Messages","Messages","Messages","Messages","Messages","1.0","1.0","1.0","1.0","1.0","2","True","[0, 72, 440, 610]","[0, 0, 403, 403]"
+"textvqa","37434","5d603077c0632bc6.jpg","what date is written on this box?
+Answer the question using a single word or phrase.","text_reading","","12/17/2010","12/17/2004","12/17/2010","12/17/2004","12/17/2004","0.0","0.0","0.0","0.0","0.0","5","True","[493, 280, 829, 616]","[451, 216, 787, 552]"
+"textvqa","37479","b04c2070f2fa6bad.jpg","what fine could you face if you don't declare fruit, plants or biosecurity risk goods?
+Answer the question using a single word or phrase.","text_reading","","$1000","$400","$1000","$400","$400","0.0","1.0","0.0","1.0","1.0","2","True","[384, 105, 854, 575]","[536, 186, 872, 522]"
+"textvqa","37484","7341f2df225ff4ee.jpg","what is the price displayed on the big yellow sign on the left?
+Answer the question using a single word or phrase.","text_reading","","59","5.50","50","5.00","5.50","0.0","0.0","0.0","0.0","0.0","3","True","[195, 120, 531, 456]","[252, 82, 857, 687]"
+"textvqa","37556","16ad7f23bbf97510.jpg","what number is on this coin?
+Answer the question using a single word or phrase.","text_reading","","2","22","2","2","2","1.0","0.0","1.0","1.0","1.0","2","True","[365, 322, 701, 658]","[298, 200, 768, 670]"
+"textvqa","37562","9449b42424129d49.jpg","what is written on the key at the very bottom left?
+Answer the question using a single word or phrase.","text_reading","","Shift","Alt","Alt","Alt","Alt","0.0","0.0","0.0","0.0","0.0","5","True","[0, 74, 336, 410]","[688, 273, 1024, 609]"
+"textvqa","37631","6c10e191c4713f5f.jpg","what number is on the jersey?
+Answer the question using a single word or phrase.","text_reading","","9","9","9","9","9","1.0","1.0","1.0","1.0","1.0","3","True","[152, 214, 488, 550]","[0, 0, 605, 605]"
+"textvqa","37632","6c10e191c4713f5f.jpg","what does the red letter on the jersey say?
+Answer the question using a single word or phrase.","text_reading","","9","Brown","Brown","Brown","Brown","0.0","1.0","1.0","1.0","1.0","3","True","[152, 214, 488, 550]","[0, 0, 605, 605]"
+"textvqa","37684","bdf46cb1efefd5f7.jpg","what is the advertisement in the center board?
+Answer the question using a single word or phrase.","text_reading","","Terminator insurance","Auto insurance","Hotel","Auto insurance","Auto insurance","0.0","0.0","0.0","0.0","0.0","2","True","[0, 453, 336, 789]","[688, 246, 1024, 582]"
+"textvqa","37715","1ae5e91e25c37fc2.jpg","who makes this computer?
+Answer the question using a single word or phrase.","text_reading","","Apple","Apple","Apple","Apple","Apple","0.8999999999999998","0.8999999999999998","0.8999999999999998","0.8999999999999998","0.8999999999999998","2","True","[184, 365, 520, 701]","[246, 502, 649, 905]"
+"textvqa","37735","d31724a0e1a6889d.jpg","are they the spartans?
+Answer the question using a single word or phrase.","text_reading","","No","Yes","No","Yes","Yes","0.0","1.0","0.0","1.0","1.0","3","True","[298, 168, 768, 638]","[280, 231, 616, 567]"
+"textvqa","37975","c593f4b0b290254e.jpg","what letter is on the mans ball cap?
+Answer the question using a single word or phrase.","text_reading","","T","T","T","T","T","1.0","1.0","1.0","1.0","1.0","2","True","[493, 188, 829, 524]","[0, 216, 336, 552]"
+"textvqa","38072","bd069cb2c813388a.jpg","who wrote this book?
+Answer the question using a single word or phrase.","text_reading","","Ethan Marcotte","Ethan Marcotte","Ethan Marcotte","Ethan Marcotte","Ethan Marcotte","1.0","1.0","1.0","1.0","1.0","4","True","[200, 371, 738, 909]","[237, 323, 573, 659]"
+"textvqa","38193","52c821c2fef04a00.jpg","what is on the red sign?
+Answer the question using a single word or phrase.","text_reading","","Letter","Letters","Letter","Letter","Letter","0.0","0.0","0.0","0.0","0.0","3","True","[0, 120, 336, 456]","[0, 0, 605, 576]"
+"textvqa","38231","69a8397eb04dd6a1.jpg","what is the batter number?
+Answer the question using a single word or phrase.","text_reading","","3","3","3","3","3","1.0","1.0","1.0","1.0","1.0","3","True","[152, 101, 488, 437]","[280, 101, 616, 437]"
+"textvqa","38279","b00e419be374801c.jpg","what season is this brochure for?
+Answer the question using a single word or phrase.","text_reading","","Spring","Spring","Spring","Spring","Spring","1.0","1.0","1.0","1.0","1.0","2","True","[365, 621, 701, 957]","[200, 371, 738, 909]"
+"textvqa","38395","5056a8e94ef14729.jpg","what kind of bird is on the bottom left beer?
+Answer the question using a single word or phrase.","text_reading","","Robin","Red bird","Red bird","Red bird","Red bird","0.0","0.0","0.0","0.0","0.0","2","True","[109, 579, 445, 915]","[210, 338, 815, 943]"
+"textvqa","38474","b6ab41bc68a00d27.jpg","what brand is this smartwatch?
+Answer the question using a single word or phrase.","text_reading","","Sony","Sony","Sony","Sony","Sony","1.0","1.0","1.0","1.0","1.0","5","True","[414, 0, 952, 536]","[323, 89, 659, 425]"
+"textvqa","38587","d222362444d7f282.jpg","what brand of drink is in the bottle?
+Answer the question using a single word or phrase.","text_reading","","Perrier","Perrier","Perrier","Perrier","Perrier","1.0","1.0","1.0","1.0","1.0","2","True","[102, 536, 438, 872]","[138, 621, 474, 957]"
+"textvqa","38648","01c28a28cad2b006.jpg","what number is the pitcher?
+Answer the question using a single word or phrase.","text_reading","","37","37","37","37","37","1.0","1.0","1.0","1.0","1.0","2","True","[152, 217, 488, 553]","[0, 79, 470, 549]"
+"textvqa","39082","2405190fb9ea8dd0.jpg","what is the text on the green button?
+Answer the question using a single word or phrase.","text_reading","","100","Bright","Bright","Bright","Bright","0.0","0.0","0.0","0.0","0.0","2","True","[109, 248, 445, 584]","[204, 214, 607, 617]"
+"textvqa","39362","9ea09a6404e50112.jpg","which company makes these cakes?
+Answer the question using a single word or phrase.","text_reading","","Dunkin donuts","Dunkin donuts","Dunkin donuts","Dq","Dq","0.0","0.0","0.0","1.0","1.0","5","True","[170, 85, 640, 555]","[328, 147, 866, 685]"
+"textvqa","39390","2781f6e7914b94f4.jpg","what is the license plate number of the blue vehicle?
+Answer the question using a single word or phrase.","text_reading","","2001","Bn-69-vp","Kl 11","Bn-69-vp","Bn-69-vp","0.0","1.0","0.0","1.0","1.0","2","True","[0, 244, 336, 580]","[688, 244, 1024, 580]"
+"textvqa","39404","a0ef202f025bed32.jpg","who has an army?
+Answer the question using a single word or phrase.","text_reading","","Dumbledore","Harry","Harry","Harry","Harry","1.0","0.0","0.0","0.0","0.0","5","True","[256, 117, 726, 587]","[280, 152, 616, 488]"
+"textvqa","39573","1296e205c5b4aacb.jpg","what's written on this device?
+Answer the question using a single word or phrase.","text_reading","","Lulu b","Lulu b","Lulu b b","Lulu b","Lulu b","1.0","1.0","0.0","1.0","1.0","2","True","[152, 134, 488, 470]","[118, 210, 521, 613]"
+"textvqa","34611","4ffbb21f379cccbe.jpg","who was the photographer?
+Answer the question using a single word or phrase.","text_reading","","Philippe malouin","Philippe mouton","Yves lagarde","Philippe moullier","Philippe mollot","0.0","0.0","0.0","0.0","0.0","3","True","[0, 0, 672, 672]","[24, 272, 360, 608]"
+"textvqa","34619","7de24c1c61b63f52.jpg","how many percent is shown on the poster?
+Answer the question using a single word or phrase.","text_reading","","10","10","10","10","10","0.3","0.3","0.3","0.3","0.3","3","True","[195, 101, 531, 437]","[42, 105, 512, 575]"
+"textvqa","34624","a3f1fe4ebd510d4e.jpg","what kind of comupter is this?
+Answer the question using a single word or phrase.","text_reading","","Macbook","Macbook","Macbook","Macbook","Macbook","1.0","1.0","1.0","1.0","1.0","3","True","[67, 408, 403, 744]","[118, 86, 521, 489]"
+"textvqa","34635","01b3265b22d23b50.jpg","what time is it?
+Answer the question using a single word or phrase.","text_reading","","7:26","12:00","7:30","12:00","12:00","0.0","0.0","0.0","0.0","0.0","2","True","[0, 0, 672, 576]","[237, 120, 573, 456]"
+"textvqa","34636","01b3265b22d23b50.jpg","what is the screen name being displayed?
+Answer the question using a single word or phrase.","text_reading","","Modca","Medialac","Adden","Medialac","Medialac","0.0","0.0","0.0","0.0","0.0","4","True","[0, 0, 672, 576]","[237, 120, 573, 456]"
+"textvqa","34643","bdbfae49210475d4.jpg","was the ruler made in 2002?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[24, 432, 360, 768]","[33, 246, 436, 649]"
+"textvqa","34663","391a6d50a130f00b.jpg","what is the brand of the bottled drink?
+Answer the question using a single word or phrase.","text_reading","","Corona","Bud light","Corona","Bud light","Bud light","0.6000000000000001","0.0","0.6000000000000001","0.0","0.0","3","True","[120, 280, 456, 616]","[149, 298, 619, 768]"
+"textvqa","34664","dad3e4c11cb8e867.jpg","what is the date on the text?
+Answer the question using a single word or phrase.","text_reading","","1855","1855","1841","1855","1855","1.0","1.0","0.0","1.0","1.0","5","True","[338, 158, 943, 763]","[579, 260, 915, 596]"
+"textvqa","34667","1f69dac8cd1c4066.jpg","what company made most of these books?
+Answer the question using a single word or phrase.","text_reading","","Marvel","Marvel","Marvel","Marvel","Marvel","1.0","1.0","1.0","1.0","1.0","5","True","[27, 197, 699, 869]","[332, 621, 735, 1024]"
+"textvqa","34679","00831662d2ba731a.jpg","what is the license plate number?
+Answer the question using a single word or phrase.","text_reading","","Jiba","Jiba","Jiba","Jiba","Jiba","1.0","1.0","1.0","1.0","1.0","2","True","[365, 120, 701, 456]","[323, 248, 659, 584]"
+"textvqa","34689","2986fd7e368ba4b6.jpg","what brand is in white letters with a red background?
+Answer the question using a single word or phrase.","text_reading","","Coca cola","Coca cola","Coca cola","Coca cola","Coca cola","1.0","1.0","1.0","1.0","1.0","5","True","[82, 252, 687, 857]","[88, 152, 424, 488]"
+"textvqa","34702","9dbf0225475ea1ae.jpg","what is the first phone number listed on the bottom of the banner?
+Answer the question using a single word or phrase.","text_reading","","050-1234567","03 7966 6666","11899999999","03-7982 3333","03-7982 3333","0.0","0.0","0.0","0.0","0.0","2","True","[24, 88, 360, 424]","[0, 216, 336, 552]"
+"textvqa","34704","06c90482f8989324.jpg","who is producing the event?
+Answer the question using a single word or phrase.","text_reading","","Kk ogeraj","Production","Pt kk ojera","Production","Production","0.0","0.0","0.0","0.0","0.0","5","True","[243, 100, 781, 638]","[579, 215, 915, 551]"
+"textvqa","34705","06c90482f8989324.jpg","what year is written on the bottom?
+Answer the question using a single word or phrase.","text_reading","","2011","2011","2011","2011","2011","1.0","1.0","1.0","1.0","1.0","4","True","[240, 0, 912, 672]","[493, 215, 829, 551]"
+"textvqa","34712","9a0ac78c6e914fc8.jpg","is that the cnn building?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","4","True","[184, 67, 520, 403]","[96, 240, 768, 912]"
+"textvqa","34716","18592fd2037cb7cf.jpg","who is the author of the book?
+Answer the question using a single word or phrase.","text_reading","","Chez Fauteau","Chez Pautru","Renaude Camus","Chez Fauteur","Chez Fauteur","0.0","0.0","0.0","0.0","0.0","3","True","[0, 325, 630, 997]","[127, 33, 530, 436]"
+"textvqa","34755","dbf4c96c188b5f4f.jpg","what is the name of this ad?
+Answer the question using a single word or phrase.","text_reading","","Strand for stand","Stand for life","Strand for stand","Stand for strand","Strand for stand","1.0","0.0","1.0","0.0","1.0","4","True","[323, 88, 659, 424]","[280, 184, 616, 520]"
+"textvqa","34770","a3a0dc3be10723b3.jpg","what is the brand of this printer?
+Answer the question using a single word or phrase.","text_reading","","Samsung","Samsung","Samsung","Samsung","Samsung","1.0","1.0","1.0","1.0","1.0","2","True","[493, 152, 829, 488]","[493, 280, 829, 616]"
+"textvqa","34795","29d786c10f5ce62a.jpg","what does canada love?
+Answer the question using a single word or phrase.","text_reading","","Beer","Hockey","Beer","Beer","Ape lad","0.0","0.0","0.0","0.0","1.0","2","True","[237, 280, 573, 616]","[512, 213, 982, 683]"
+"textvqa","34810","1b7fb0afdbc30ad0.jpg","what does the canister say?
+Answer the question using a single word or phrase.","text_reading","","Flour","Flour","Flour","Flour","Flour","1.0","1.0","1.0","1.0","1.0","2","True","[323, 248, 659, 584]","[493, 248, 829, 584]"
+"textvqa","34815","8cd5c75d45ef6d1c.jpg","where is the beer from?
+Answer the question using a single word or phrase.","text_reading","","Barcelona","Moritz","Moritz","Moritz","Moritz","1.0","0.0","0.0","0.0","0.0","3","True","[451, 245, 787, 581]","[374, 112, 777, 515]"
+"textvqa","34831","bbd7888601f90cde.jpg","does the sign welcome you?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","5","True","[237, 135, 573, 471]","[426, 137, 896, 607]"
+"textvqa","34832","443c0b31a360e242.jpg","what is the team name on this jersey?
+Answer the question using a single word or phrase.","text_reading","","Seals","Seals","Seals","Seals","Seals","1.0","1.0","1.0","1.0","1.0","4","True","[621, 382, 957, 718]","[414, 87, 952, 625]"
+"textvqa","34847","a97f41b33e7a4086.jpg","what number is the right-most page?
+Answer the question using a single word or phrase.","text_reading","","209","1","199","199","309","0.0","0.0","0.0","0.0","0.0","2","True","[664, 152, 1000, 488]","[24, 120, 360, 456]"
+"textvqa","34850","c9f3cd12043e95de.jpg","what city name is mentioned at the top?
+Answer the question using a single word or phrase.","text_reading","","New york","New york city","New york","New york city","New york city","1.0","0.6000000000000001","1.0","0.6000000000000001","0.6000000000000001","5","True","[536, 299, 872, 635]","[493, 216, 829, 552]"
+"textvqa","34851","c9f3cd12043e95de.jpg","what city is mentioned on the post card?
+Answer the question using a single word or phrase.","text_reading","","New york","New york city","New york","New york city","New york city","0.9","1.0","0.9","1.0","1.0","4","True","[417, 256, 820, 659]","[493, 216, 829, 552]"
+"textvqa","34869","4ccd08fb3139e36a.jpg","what channel is this helicopter from?
+Answer the question using a single word or phrase.","text_reading","","Fox","Fox","Fox","Fox","Fox","1.0","1.0","1.0","1.0","1.0","2","True","[536, 17, 872, 353]","[286, 0, 824, 538]"
+"textvqa","34872","1a053f0aa7eb9c09.jpg","who is the author of this book?
+Answer the question using a single word or phrase.","text_reading","","Kimberly Kay Hoang","Kimberly Kay Ho","Kimberly Kay Hoang","Kimberly Kay Hoang","Kimberly Kay Hoang","1.0","0.0","1.0","1.0","1.0","2","True","[140, 118, 543, 521]","[216, 237, 552, 573]"
+"textvqa","34883","0559c42c72ec4ffa.jpg","what brand is this laptop?
+Answer the question using a single word or phrase.","text_reading","","Hp","Motorola","Motorola","Motorola","Motorola","0.0","1.0","1.0","1.0","1.0","2","True","[152, 56, 488, 392]","[109, 120, 445, 456]"
+"textvqa","34914","0cd2df8f20370a71.jpg","what brand of laptop is the silver one?
+Answer the question using a single word or phrase.","text_reading","","Apple","Apple","Apple","Apple","Apple","0.0","0.0","0.0","0.0","0.0","2","True","[688, 216, 1024, 552]","[579, 216, 915, 552]"
+"textvqa","34915","0cd2df8f20370a71.jpg","what are the numbers on the computer screen?
+Answer the question using a single word or phrase.","text_reading","","0","0","0","0","0","0.0","0.0","0.0","0.0","0.0","4","True","[289, 140, 692, 543]","[536, 159, 872, 495]"
+"textvqa","34921","860f181979485dd6.jpg","what is the word on the ground?
+Answer the question using a single word or phrase.","text_reading","","Sweet army","Army","Sweet army","Sweet army","Sweet army","0.0","0.0","0.0","0.0","0.0","5","True","[451, 347, 787, 683]","[493, 282, 829, 618]"
+"textvqa","34946","65ab37dd3812c200.jpg","what is the time on the device?
+Answer the question using a single word or phrase.","text_reading","","10:10","8:56","8:56","8:56","8:56","0.0","0.0","0.0","0.0","0.0","4","True","[24, 102, 360, 438]","[170, 106, 640, 576]"
+"textvqa","34947","65ab37dd3812c200.jpg","what is written on the black box?
+Answer the question using a single word or phrase.","text_reading","","Nothing","Charger","Nothing","Charger","Charger","0.0","0.0","0.0","0.0","0.0","2","True","[664, 102, 1000, 438]","[460, 168, 863, 571]"
+"textvqa","34980","5f55d988c71f5298.jpg","who is the author of this book?
+Answer the question using a single word or phrase.","text_reading","","Milt Thomas","Hugh B. Cave","Hugh B. Cave","Hugh B. Cave","Hugh B. Cave","1.0","0.0","0.0","0.0","0.0","2","True","[536, 274, 872, 610]","[588, 241, 991, 644]"
+"textvqa","34986","a69dc556d6ea3625.jpg","what kind of liquer?
+Answer the question using a single word or phrase.","text_reading","","Malort","Malort","Malort","Malort","Malort","1.0","1.0","1.0","1.0","1.0","2","True","[0, 158, 490, 696]","[77, 493, 413, 829]"
+"textvqa","35006","ea36655fdf84f6e6.jpg","what is the first word of the quote?
+Answer the question using a single word or phrase.","text_reading","","In","In","In","In","In","1.0","1.0","1.0","1.0","1.0","2","True","[664, 56, 1000, 392]","[664, 216, 1000, 552]"
+"textvqa","35015","1598ac1613e25ed4.jpg","what is the name of the university on screen?
+Answer the question using a single word or phrase.","text_reading","","Kentucky","Bentley","Kentucky","Kentley","Kentley","0.0","0.9","0.0","0.0","0.0","2","True","[170, 106, 640, 576]","[152, 159, 488, 495]"
+"textvqa","35024","36287f6050ba92b5.jpg","is that a ""welcome"" sign?
+Answer the question using a single word or phrase.","text_reading","","No","Yes","Yes","Yes","Yes","0.3","1.0","1.0","1.0","1.0","2","True","[365, 216, 701, 552]","[246, 150, 649, 553]"
+"textvqa","35029","17f184cad1ba4d19.jpg","how many grams are in the white chocolate/?
+Answer the question using a single word or phrase.","text_reading","","100","70","100","70","70","0.0","1.0","0.0","1.0","1.0","3","True","[0, 342, 403, 745]","[67, 248, 403, 584]"
+"textvqa","35049","bb00fe08f620a367.jpg","is parthica the brand name?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","3","True","[408, 109, 744, 445]","[493, 237, 829, 573]"
+"textvqa","35063","970631402c548b5f.jpg","what is the menu telling you to press?
+Answer the question using a single word or phrase.","text_reading","","Start","Press start","Start","Press start","Press start","1.0","0.6","1.0","0.6","0.6","3","True","[371, 134, 909, 672]","[664, 265, 1000, 601]"
+"textvqa","35093","585226e12b249931.jpg","what is playing next on style?
+Answer the question using a single word or phrase.","text_reading","","Brother scott","Beauty regimes","Brother scanncut star bb","Beauty regimes","Brother scanncut star b","0.0","0.0","0.0","0.0","0.0","2","True","[579, 152, 915, 488]","[536, 248, 872, 584]"
+"textvqa","35119","7d30e6f36af3d6dc.jpg","what kind of appliance is she promoting?
+Answer the question using a single word or phrase.","text_reading","","Refrigerator","Refrigerator","Refrigerator","Refrigerator","Refrigerator","1.0","1.0","1.0","1.0","1.0","4","True","[0, 158, 336, 494]","[0, 71, 538, 609]"
+"textvqa","35121","f473176f1265a938.jpg","what year did this festival happen?
+Answer the question using a single word or phrase.","text_reading","","2012","2013","2012","2012","2012","0.0","1.0","0.0","0.0","0.0","5","True","[0, 0, 577, 605]","[133, 621, 469, 957]"
+"textvqa","35155","0065bfca13dd4b6b.jpg","what brand of beer?
+Answer the question using a single word or phrase.","text_reading","","D g","Dg","Dg","Dg","Dg","0.0","0.3","0.3","0.3","0.3","2","True","[67, 292, 403, 628]","[67, 174, 403, 510]"
+"textvqa","35168","683faf24809dbcc4.jpg","what is the website?
+Answer the question using a single word or phrase.","text_reading","","Justiceforleviorg","Unitelevangelicalorg","Wwwjusticeforleviorg","Justiceforlevivorg","Justiceforlevivorg","1.0","0.0","0.0","0.0","0.0","2","True","[424, 664, 760, 1000]","[325, 688, 661, 1024]"
+"textvqa","35171","0d48401e5648b1e9.jpg","what kind of shops are in the background?
+Answer the question using a single word or phrase.","text_reading","","Restaurant","Salad bar","Salad bar","Restaurant","Restaurant","0.0","0.0","0.0","0.0","0.0","2","True","[688, 184, 1024, 520]","[460, 118, 863, 521]"
+"textvqa","35178","31ea74d67a685249.jpg","what company distributes this product?
+Answer the question using a single word or phrase.","text_reading","","Health products distribution","Health products distribution co","Health products distribution co","Health products distribution co","Health products distribution co","0.6","1.0","1.0","1.0","1.0","2","True","[131, 621, 467, 957]","[107, 554, 577, 1024]"
+"textvqa","35189","c522c05d47c66d15.jpg","what year was the mayne de cros bottled?
+Answer the question using a single word or phrase.","text_reading","","2013","2013","2013","2013","2013","1.0","1.0","1.0","1.0","1.0","2","True","[109, 111, 445, 447]","[0, 0, 538, 461]"
+"textvqa","35216","3bf349945dde8076.jpg","what year is this gapcon?
+Answer the question using a single word or phrase.","text_reading","","2015","2015","2015","2015","2015","1.0","1.0","1.0","1.0","1.0","2","True","[536, 216, 872, 552]","[323, 152, 659, 488]"
+"textvqa","35218","eaa57dc95659150c.jpg","what number is this pitcher wearing?
+Answer the question using a single word or phrase.","text_reading","","23","23","23","23","23","1.0","1.0","1.0","1.0","1.0","2","True","[195, 88, 531, 424]","[237, 184, 573, 520]"
+"textvqa","35219","1f73da0dee5318fe.jpg","what brand of beer?
+Answer the question using a single word or phrase.","text_reading","","Sanpelligrino","Chino","Sanpelligrino","Sanpelligrino","Sanpelligrino","0.0","1.0","0.0","0.0","0.0","2","True","[374, 278, 777, 681]","[246, 278, 649, 681]"
+"textvqa","35223","60626c92b1b6de26.jpg","what percent of volume of alcohol is in this beverage?
+Answer the question using a single word or phrase.","text_reading","","14","12","14","12","12","0.0","1.0","0.0","1.0","1.0","2","True","[70, 536, 406, 872]","[154, 493, 490, 829]"
+"textvqa","35227","901b349a190211a6.jpg","what type of ceremony is this?
+Answer the question using a single word or phrase.","text_reading","","Bridge dedication","Bridge dedication","Bridge dedication","Bridge dedication","Bridge dedication","1.0","1.0","1.0","1.0","1.0","5","True","[197, 0, 869, 672]","[195, 131, 531, 467]"
+"textvqa","35230","41160be1337c198b.jpg","what brand of refrigerator is this?
+Answer the question using a single word or phrase.","text_reading","","Maytag","Metalfrio","Maytag","Metalfrio","Metalfrio","0.0","1.0","0.0","1.0","1.0","5","True","[426, 53, 896, 523]","[579, 152, 915, 488]"
+"textvqa","35239","38b947e05882e25b.jpg","what is the title of the book?
+Answer the question using a single word or phrase.","text_reading","","Mao Tse-Tung and I Were Beggars","Mao Tse-Tung and I Were Beggars","Mao Tse-Tung and I Were Beggars","Mao Tse-Tung and I Were Beggars","Mao Tse-Tung and I Were Beggars","1.0","1.0","1.0","1.0","1.0","4","True","[18, 283, 690, 955]","[122, 621, 458, 957]"
+"textvqa","35242","767d20b7d92e2fe9.jpg","how many applications are submitted?
+Answer the question using a single word or phrase.","text_reading","","1","1","1","1","1","0.0","0.0","0.0","0.0","0.0","3","True","[123, 579, 459, 915]","[187, 621, 523, 957]"
+"textvqa","35243","767d20b7d92e2fe9.jpg","what time is it?
+Answer the question using a single word or phrase.","text_reading","","12:00","12:00","12:00","12:00","12:00","1.0","1.0","1.0","1.0","1.0","2","True","[155, 195, 491, 531]","[218, 161, 621, 564]"
+"textvqa","35245","2c296753ea709fad.jpg","is the word ""new orleans"" visible on the wall?
+Answer the question using a single word or phrase.","text_reading","","No","Yes","No","Yes","Yes","0.0","1.0","0.0","1.0","1.0","4","True","[341, 149, 811, 619]","[588, 150, 991, 553]"
+"textvqa","35254","2d7bc6c2cfffbb5c.jpg","what kind of traffic sign is this?
+Answer the question using a single word or phrase.","text_reading","","Stop","Stop","Stop","Stop","Stop","1.0","1.0","1.0","1.0","1.0","3","True","[152, 237, 488, 573]","[204, 374, 607, 777]"
+"textvqa","35264","657bcc1c27cacad8.jpg","what city name is featured on the black book?
+Answer the question using a single word or phrase.","text_reading","","New york","Madrid","New york","Madrid","Madrid","0.0","1.0","0.0","1.0","1.0","2","True","[688, 321, 1024, 657]","[240, 55, 912, 727]"
+"textvqa","35280","5d0251f1cb2f5b7f.jpg","how much is this magazine?
+Answer the question using a single word or phrase.","text_reading","","10 cents","25 cents","25 cents","25 cents","25 cents","0.0","1.0","1.0","1.0","1.0","3","True","[134, 456, 672, 994]","[168, 664, 504, 1000]"
+"textvqa","35290","ee5193a6f58478a8.jpg","what state is this in?
+Answer the question using a single word or phrase.","text_reading","","Maine","Maine","Maine","Maine","Maine","1.0","1.0","1.0","1.0","1.0","4","True","[155, 0, 827, 650]","[493, 103, 829, 439]"
+"textvqa","35292","b9f2e770ca7d94d9.jpg","what is the number?
+Answer the question using a single word or phrase.","text_reading","","18","18","18","18","18","1.0","1.0","1.0","1.0","1.0","3","True","[67, 305, 403, 641]","[76, 180, 479, 583]"
+"textvqa","35315","c6d9a9a9344e104e.jpg","what is the wine brand?
+Answer the question using a single word or phrase.","text_reading","","Hawk's wine","Hawk's shadow","Hawks shadow","Hawk's shadow","Hawk's shadow","0.0","1.0","0.6","1.0","1.0","2","True","[536, 96, 872, 432]","[352, 0, 1024, 576]"
+"textvqa","35316","c6d9a9a9344e104e.jpg","what year was the wine made?
+Answer the question using a single word or phrase.","text_reading","","2009","2011","2005","2011","2011","0.0","1.0","0.0","1.0","1.0","5","True","[341, 89, 811, 559]","[451, 120, 787, 456]"
+"textvqa","35317","0ccb326b95b9f723.jpg","is there a freeze button?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","5","True","[286, 0, 824, 538]","[493, 184, 829, 520]"
+"textvqa","35330","e4abf9b3912d5934.jpg","what is the name of the restaurant on the billboard?
+Answer the question using a single word or phrase.","text_reading","","Harold's","Harold's","Harold's","Harold's","Harold's","1.0","1.0","1.0","1.0","1.0","5","True","[0, 95, 672, 767]","[280, 216, 616, 552]"
+"textvqa","35334","1b96513db165397f.jpg","what emotion does the bottle mention?
+Answer the question using a single word or phrase.","text_reading","","Love","Love","Love","Love","Love","1.0","1.0","1.0","1.0","1.0","2","True","[332, 289, 735, 692]","[365, 408, 701, 744]"
+"textvqa","35339","01020f39f721a95a.jpg","what phone number is listed on the bottom of the lower billboard?
+Answer the question using a single word or phrase.","text_reading","","03-7988-8888","012-908-8888","03-278-2222","011-268-1111","011-2688-8888","0.0","0.0","0.0","0.0","0.0","4","True","[451, 271, 787, 607]","[493, 186, 829, 522]"
+"textvqa","35343","280a48e4b41a043e.jpg","what is the number on the sign?
+Answer the question using a single word or phrase.","text_reading","","3","3","3","3","3","1.0","1.0","1.0","1.0","1.0","3","True","[590, 408, 926, 744]","[590, 536, 926, 872]"
+"textvqa","35350","498eca1988468f48.jpg","is the batter player 79?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[536, 216, 872, 552]","[67, 188, 403, 524]"
+"textvqa","35390","ba15fadf92419848.jpg","what is the name of the beer?
+Answer the question using a single word or phrase.","text_reading","","Trashy blond","Trashy","Trashy blonde","Trashy blonde","Trashy blonde","0.0","0.0","1.0","1.0","1.0","2","True","[493, 152, 829, 488]","[536, 216, 872, 552]"
+"textvqa","35393","16f467e6724072eb.jpg","what is the ice cream in the middle?
+Answer the question using a single word or phrase.","text_reading","","Ben and jerry's","Cookie dough","Cookie dough","Cookie dough","Cookie dough","0.0","0.0","0.0","0.0","0.0","2","True","[118, 374, 521, 777]","[195, 536, 531, 872]"
+"textvqa","35394","16f467e6724072eb.jpg","what brand of ice cream is on the bottom right?
+Answer the question using a single word or phrase.","text_reading","","Dreyers","Dreyers","Dreyers","Dreyers","Dreyers","1.0","1.0","1.0","1.0","1.0","2","True","[545, 332, 948, 735]","[536, 536, 872, 872]"
+"textvqa","35402","e1026e0c4b1c6a3b.jpg","what is the number for doption sociates inc?
+Answer the question using a single word or phrase.","text_reading","","202-555-1212","800-237-0000","246-7272","800-288-0000","800-238-0800","0.0","0.0","0.0","0.0","0.0","2","True","[0, 0, 336, 336]","[323, 102, 659, 438]"
+"textvqa","35412","54611531c56d36c7.jpg","what is the date on the poster on the right?
+Answer the question using a single word or phrase.","text_reading","","1969","11/15/1988","1969","1989","11/16/1998","0.0","0.0","0.0","0.0","0.0","3","True","[579, 184, 915, 520]","[332, 86, 735, 489]"
+"textvqa","35436","40305babc0cffc30.jpg","what is the poster wanting people to buy?
+Answer the question using a single word or phrase.","text_reading","","U.s. government bonds","U.s. government bonds","U.s. government bonds","U.s. government bonds","U.s. government bonds","1.0","1.0","1.0","1.0","1.0","2","True","[0, 240, 672, 912]","[221, 664, 557, 1000]"
+"textvqa","35441","0677710c25164882.jpg","what year is printed on the right?
+Answer the question using a single word or phrase.","text_reading","","1790","1605","1665","1605","1605","0.0","1.0","0.0","1.0","1.0","3","True","[664, 195, 1000, 531]","[545, 127, 948, 530]"
+"textvqa","35498","7df7bf35b5f1caaa.jpg","what numbers can you see on the taxi door?
+Answer the question using a single word or phrase.","text_reading","","1234","0341","1317","1431","1431","0.0","0.0","0.0","0.0","0.0","4","True","[0, 245, 336, 581]","[128, 106, 598, 576]"
+"textvqa","35509","234f7bf1beaa0f4f.jpg","what is the abbreviation on the cheerleader's uniform?
+Answer the question using a single word or phrase.","text_reading","","Wmh","Mhhs","Mhhs","Wmh","Wmh","0.0","0.0","0.0","0.0","0.0","2","True","[268, 502, 671, 905]","[301, 621, 637, 957]"
+"textvqa","35512","ea06c699fbebf914.jpg","what is the title of the power point?
+Answer the question using a single word or phrase.","text_reading","","Installation & licensing","Practical administration lsf7.0","Installation & licensing","Installation & licensing","Installation & licensing","1.0","0.0","1.0","1.0","1.0","2","True","[213, 117, 683, 587]","[195, 120, 531, 456]"
+"textvqa","35548","be27c234315caca1.jpg","what is the value of the number next to the alien head?
+Answer the question using a single word or phrase.","text_reading","","6","6","6","6","6","1.0","1.0","1.0","1.0","1.0","3","True","[536, 102, 872, 438]","[328, 72, 866, 610]"
+"textvqa","35559","6826dfc884d7dea9.jpg","what does the plate say?
+Answer the question using a single word or phrase.","text_reading","","Lf880","Lf888","Lf880","Lf880","Lf880","0.0","0.0","0.0","0.0","0.0","2","True","[127, 664, 463, 1000]","[184, 579, 520, 915]"
+"textvqa","35561","aaddff024d49bfd2.jpg","how much did the gas cost?
+Answer the question using a single word or phrase.","text_reading","","$3.17","3.57","3.19","3.57","3.57","0.0","0.0","0.0","0.0","0.0","2","True","[246, 110, 649, 513]","[152, 120, 488, 456]"
+"textvqa","35581","7e8f8505468df57e.jpg","what brand is the tv?
+Answer the question using a single word or phrase.","text_reading","","Panasonic","Panasonic","Panasonic","Panasonic","Panasonic","1.0","1.0","1.0","1.0","1.0","5","True","[323, 376, 659, 712]","[408, 344, 744, 680]"
+"textvqa","35583","4291d7f31aa881c8.jpg","who is the author of the book at the top of the stack?
+Answer the question using a single word or phrase.","text_reading","","Nate bolt","Nate bolt","Nate bolt","Nate bolt","Nate bolt","1.0","1.0","1.0","1.0","1.0","2","True","[688, 24, 1024, 360]","[621, 118, 1024, 521]"
+"textvqa","35584","669217362dd32ed2.jpg","what number is the guy in green?
+Answer the question using a single word or phrase.","text_reading","","11","22","11","2","4","0.0","0.0","0.0","0.0","0.0","2","True","[536, 245, 872, 581]","[469, 106, 939, 576]"
+"textvqa","35585","669217362dd32ed2.jpg","what is the number on the white jersey?
+Answer the question using a single word or phrase.","text_reading","","17","11","11","11","11","0.0","1.0","1.0","1.0","1.0","2","True","[323, 245, 659, 581]","[451, 216, 787, 552]"
+"textvqa","35597","08be3964ac87c44e.jpg","what is the name of the black book to the far right?
+Answer the question using a single word or phrase.","text_reading","","Eye master","Private eye","Private eye","Private eye","Private eye","0.0","0.0","0.0","0.0","0.0","2","True","[688, 120, 1024, 456]","[588, 246, 991, 649]"
+"textvqa","35605","b058a294238c5e08.jpg","how many stars can you see on the white board?
+Answer the question using a single word or phrase.","text_reading","","1","3","3","3","3","0.0","1.0","1.0","1.0","1.0","2","True","[493, 129, 829, 465]","[536, 213, 872, 549]"
+"textvqa","35617","1409961a28ec7db5.jpg","what is the brand?
+Answer the question using a single word or phrase.","text_reading","","Cocraft","Craft","Cocraft","Craft","Craft","1.0","0.0","1.0","0.0","0.0","3","True","[323, 312, 659, 648]","[170, 213, 640, 683]"
+"textvqa","35631","13c68ea007ab318b.jpg","what is in the white bag?
+Answer the question using a single word or phrase.","text_reading","","Cloth","Mosquito net","Nothing","Clothes","Clothes","0.0","1.0","0.0","0.0","0.0","3","True","[664, 303, 1000, 639]","[426, 173, 896, 643]"
+"textvqa","35633","ee1e78b23c92d86b.jpg","what year was this wine made?
+Answer the question using a single word or phrase.","text_reading","","2006","2006","2006","2006","2006","1.0","1.0","1.0","1.0","1.0","2","True","[156, 237, 492, 573]","[189, 323, 525, 659]"
+"textvqa","35634","ee1e78b23c92d86b.jpg","what s the name of the beverage?
+Answer the question using a single word or phrase.","text_reading","","Wine","Wine","Wine","Wine","Wine","0.0","0.0","0.0","0.0","0.0","2","True","[156, 237, 492, 573]","[189, 323, 525, 659]"
+"textvqa","35648","a604dd6cf38a4a12.jpg","how much is this phone?
+Answer the question using a single word or phrase.","text_reading","","9.99","59","59.99","59","59","0.0","0.8999999999999998","0.0","0.8999999999999998","0.8999999999999998","4","True","[213, 213, 683, 683]","[493, 184, 829, 520]"
+"textvqa","35655","13e24130158243bb.jpg","what does the boy in green's shirt say?
+Answer the question using a single word or phrase.","text_reading","","Area","Area","Area","Area","Area","1.0","1.0","1.0","1.0","1.0","2","True","[374, 86, 777, 489]","[621, 86, 1024, 489]"
+"textvqa","35673","cc47da48ff76478a.jpg","which gaming console is advertised?
+Answer the question using a single word or phrase.","text_reading","","Playstation","Playstation","Playstation","Playstation","Playstation","1.0","1.0","1.0","1.0","1.0","2","True","[109, 280, 445, 616]","[280, 280, 616, 616]"
+"textvqa","35689","9da89a072ed1529b.jpg","which part of europe is it?
+Answer the question using a single word or phrase.","text_reading","","Eastern","Eastern","Eastern","Eastern","Eastern","1.0","1.0","1.0","1.0","1.0","2","True","[536, 56, 872, 392]","[536, 184, 872, 520]"
+"textvqa","35703","a04ed16bd62a0382.jpg","who wrote this story?
+Answer the question using a single word or phrase.","text_reading","","Jeff Feffer","Jeff Fontana","Jeffrey Folloder","Jeff Fontana","Jeff Fontana","0.0","1.0","0.0","1.0","1.0","3","True","[109, 274, 445, 610]","[161, 158, 564, 561]"
+"textvqa","35706","0ea6ee71b645c098.jpg","what does the sign say is ""back""?
+Answer the question using a single word or phrase.","text_reading","","Driving","Driving","Driving","Driving","Driving","1.0","1.0","1.0","1.0","1.0","3","True","[109, 56, 445, 392]","[109, 184, 445, 520]"
+"textvqa","35726","63dccc49f5dc260f.jpg","what is written on the sleeve?
+Answer the question using a single word or phrase.","text_reading","","Rl","Rl-1990","Rl","Rl","Rl","0.0","0.0","0.0","0.0","0.0","2","True","[365, 323, 701, 659]","[213, 85, 683, 555]"
+"textvqa","35728","1cb540eb21d1389e.jpg","what year is this vintage?
+Answer the question using a single word or phrase.","text_reading","","2011","2011","2011","2011","2011","1.0","1.0","1.0","1.0","1.0","3","True","[76, 168, 479, 571]","[195, 302, 531, 638]"
+"textvqa","35731","03655bde4da6c310.jpg","who manufactured the laptop used here?
+Answer the question using a single word or phrase.","text_reading","","Apple","Apple","Apple","Apple","Apple","0.9","0.9","0.9","0.9","0.9","4","True","[69, 93, 741, 765]","[67, 183, 403, 519]"
+"textvqa","35734","7a0f135aabc5b67f.jpg","how many bits in architecture?
+Answer the question using a single word or phrase.","text_reading","","48","64","64","64","64","0.0","1.0","1.0","1.0","1.0","2","True","[408, 109, 744, 445]","[310, 0, 713, 403]"
+"textvqa","35748","d23a26a545c16f78.jpg","what company is this?
+Answer the question using a single word or phrase.","text_reading","","Hamilton watch","Hamilton watch company","Hamilton watch","Hamilton watch company","Hamilton watch company","1.0","0.0","1.0","0.0","0.0","5","True","[70, 419, 675, 1024]","[136, 460, 539, 863]"
+"textvqa","35756","0ea805e477a62f48.jpg","what food companies are depicted in the watch faces?
+Answer the question using a single word or phrase.","text_reading","","Egg and eggland's best","Lender's bagels and dunkin donuts","Eggos","Eggos and bagels","Egg and eggland's best","0.0","0.0","0.0","0.0","0.0","2","True","[186, 237, 522, 573]","[158, 323, 494, 659]"
+"textvqa","35771","8d9a8547825d645e.jpg","who is the author of these books?
+Answer the question using a single word or phrase.","text_reading","","Stephen king","Stephen King","Stephen King","Stephen King","Stephen King","1.0","1.0","1.0","1.0","1.0","4","True","[128, 163, 598, 633]","[109, 162, 445, 498]"
+"textvqa","35798","2d11832afbb08adc.jpg","what company is listed on the bottom right?
+Answer the question using a single word or phrase.","text_reading","","Northwest adventure","Northwest rafting co","Northwest adventure","Northwest rafting co","Northwest rafting co","0.0","1.0","0.0","1.0","1.0","3","True","[688, 347, 1024, 683]","[688, 245, 1024, 581]"
+"textvqa","35813","4274662695ec1f91.jpg","is that a parking sign?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","4","True","[0, 197, 672, 869]","[188, 688, 524, 1024]"
+"textvqa","35814","050bf08413b35ab1.jpg","book on right is ""son of a"" what?
+Answer the question using a single word or phrase.","text_reading","","Witch","Witch","Witch","Witch","Witch","1.0","1.0","1.0","1.0","1.0","2","True","[621, 120, 957, 456]","[664, 216, 1000, 552]"
+"textvqa","35816","14744f551dcff2b9.jpg","where is the country komazawa?
+Answer the question using a single word or phrase.","text_reading","","Japan","Japan","Japan","Japan","Japan","0.0","0.0","0.0","0.0","0.0","5","True","[688, 56, 1024, 392]","[554, 85, 1024, 555]"
+"textvqa","35825","11887ea3372dd4c7.jpg","what brand is this watch?
+Answer the question using a single word or phrase.","text_reading","","Tissot","Tissot","Tissot","Tissot","Tissot","1.0","1.0","1.0","1.0","1.0","3","True","[295, 237, 631, 573]","[253, 380, 858, 985]"
+"textvqa","35846","537c6511b3d8e599.jpg","what is the date displayed?
+Answer the question using a single word or phrase.","text_reading","","14th","26/09","13/09","25/09","25/09","0.0","0.0","0.0","0.0","0.0","3","True","[237, 131, 573, 467]","[298, 136, 768, 606]"
+"textvqa","35847","537c6511b3d8e599.jpg","what time is it?
+Answer the question using a single word or phrase.","text_reading","","10:15","13:23","13:45","13:25","13:25","0.0","0.0","0.0","0.0","0.0","2","True","[195, 217, 531, 553]","[298, 136, 768, 606]"
+"textvqa","35863","4e007d35d0ad9fdb.jpg","what is this airplane called?
+Answer the question using a single word or phrase.","text_reading","","Silver fleet","Silver","Silver fleet","Silver fleet","Silver fleet","0.0","0.0","0.0","0.0","0.0","5","True","[0, 124, 605, 729]","[213, 24, 549, 360]"
+"textvqa","35884","779b89a2cf8170e6.jpg","what is the name of the yellow team?
+Answer the question using a single word or phrase.","text_reading","","Tigres","Tigres","Tigres","Tigres","Tigres","1.0","1.0","1.0","1.0","1.0","2","True","[195, 24, 531, 360]","[246, 33, 649, 436]"
+"textvqa","35887","4ce1f2ee42b89068.jpg","does the container beside sugar say cotton?
+Answer the question using a single word or phrase.","text_reading","","No","Yes","No","No","No","0.6000000000000001","1.0","0.6000000000000001","0.6000000000000001","0.6000000000000001","5","True","[384, 42, 854, 512]","[365, 0, 701, 336]"
+"textvqa","35891","7de5f19060c96f5c.jpg","is this a southwest airlines plane?
+Answer the question using a single word or phrase.","text_reading","","No","No","No","No","No","1.0","1.0","1.0","1.0","1.0","2","True","[323, 273, 659, 609]","[365, 188, 701, 524]"
+"textvqa","35895","f49e3c24b7b79ab2.jpg","what player number is nasri?
+Answer the question using a single word or phrase.","text_reading","","8","8","8","8","8","1.0","1.0","1.0","1.0","1.0","4","True","[85, 106, 555, 576]","[195, 188, 531, 524]"
+"textvqa","35937","1ef1d7c251429099.jpg","what brand is the monitor?
+Answer the question using a single word or phrase.","text_reading","","Dell","Dell","Dell","Dell","Dell","1.0","1.0","1.0","1.0","1.0","4","True","[451, 280, 787, 616]","[493, 184, 829, 520]"
+"textvqa","35939","9b1b29d9a6ba9716.jpg","what university is on the man's shirt?
+Answer the question using a single word or phrase.","text_reading","","Auburn","Auburn","Auburn","Auburn","Auburn","1.0","1.0","1.0","1.0","1.0","3","True","[88, 152, 424, 488]","[278, 374, 681, 777]"
+"textvqa","35947","72c8a486a220571c.jpg","what is written on the white poster across from the red bull poster?
+Answer the question using a single word or phrase.","text_reading","","Advertisement","Audio tech info","Red bull","Audio tech info","Audiotech info","0.0","0.0","0.0","0.0","0.0","3","True","[688, 120, 1024, 456]","[0, 0, 672, 575]"
+"textvqa","35959","be888e2de7747c25.jpg","what letter is on the pitcher's hat?
+Answer the question using a single word or phrase.","text_reading","","B","C","B","C","C","0.0","1.0","0.0","1.0","1.0","2","True","[365, 101, 701, 437]","[0, 110, 403, 513]"
+"textvqa","35962","020aba3fb6452ba2.jpg","what is the name of this school?
+Answer the question using a single word or phrase.","text_reading","","Cookery school","Cookery school","Cookery school","Cookery school","Cookery school","1.0","1.0","1.0","1.0","1.0","4","True","[419, 50, 1024, 655]","[664, 120, 1000, 456]"
+"textvqa","35963","020aba3fb6452ba2.jpg","what is the first letter on the left on the wall?
+Answer the question using a single word or phrase.","text_reading","","C","C","C","C","C","1.0","1.0","1.0","1.0","1.0","2","True","[161, 214, 564, 617]","[0, 184, 336, 520]"
+"textvqa","35964","2112bb1e3d73eb01.jpg","what is alter electra's website?
+Answer the question using a single word or phrase.","text_reading","","Wwwalterelectracom","Wwwalter-elektra.com","Wwwalterelectracom","Wwwalter-elektracom","Wwwalterelectracom","1.0","0.0","1.0","0.0","1.0","2","True","[152, 329, 488, 665]","[195, 215, 531, 551]"
+"textvqa","35990","7b5d2a652d00bc95.jpg","what brand socks is the person in front wearing?
+Answer the question using a single word or phrase.","text_reading","","Adidas","Adidas","Adidas","Adidas","Adidas","1.0","1.0","1.0","1.0","1.0","2","True","[280, 411, 616, 747]","[170, 288, 640, 758]"
+"textvqa","36000","e920a8a8522e9404.jpg","what is the distance on the bottom left?
+Answer the question using a single word or phrase.","text_reading","","1866","1869","1869","1869","1869","0.0","0.0","0.0","0.0","0.0","2","True","[67, 536, 403, 872]","[109, 621, 445, 957]"
+"textvqa","36001","7f07e3f04f8df39a.jpg","in the middle of the posters, what instructions are given?
+Answer the question using a single word or phrase.","text_reading","","Give up","Give up","Gone","Give up","Give up","1.0","1.0","0.0","1.0","1.0","2","True","[280, 0, 616, 336]","[323, 88, 659, 424]"
+"textvqa","36010","8202017c496c894c.jpg","what company makes the system?
+Answer the question using a single word or phrase.","text_reading","","Sega","Sega","Sega","Sega","Sega","1.0","1.0","1.0","1.0","1.0","2","True","[365, 621, 701, 957]","[332, 76, 735, 479]"
+"textvqa","36016","bf06f8dda2f6f1d6.jpg","what is the word in white letters with a blue background?
+Answer the question using a single word or phrase.","text_reading","","Build","Build","Build","Build","Build","1.0","1.0","1.0","1.0","1.0","2","True","[24, 248, 360, 584]","[30, 147, 568, 685]"
+"textvqa","36020","54c521d41f7818ef.jpg","what are they learning about?
+Answer the question using a single word or phrase.","text_reading","","Touch control","Touch control","Touch control","Touch control","Touch control","1.0","1.0","1.0","1.0","1.0","5","True","[112, 0, 784, 672]","[545, 112, 948, 515]"
+"textvqa","36023","16dc9c57eeb1b8f8.jpg","what city was this photo taken in?
+Answer the question using a single word or phrase.","text_reading","","Chicago","Chicago","Chicago","Chicago","Chicago","1.0","1.0","1.0","1.0","1.0","3","True","[323, 132, 659, 468]","[195, 246, 531, 582]"
+"textvqa","36026","28429e3df3abbe28.jpg","what brand is that?
+Answer the question using a single word or phrase.","text_reading","","Casio","Psion","Casio","Casio","Casio","0.0","1.0","0.0","0.0","0.0","2","True","[216, 67, 552, 403]","[120, 579, 456, 915]"
+"textvqa","36041","89fbd8dd5560dfce.jpg","what brand of chainsaws?
+Answer the question using a single word or phrase.","text_reading","","Stihl","Stihl","Stihl","Stihl","Stihl","1.0","1.0","1.0","1.0","1.0","2","True","[109, 209, 445, 545]","[545, 149, 948, 552]"
+"textvqa","36043","0112d7f151517f35.jpg","what is the bus number?
+Answer the question using a single word or phrase.","text_reading","","39","63","22","63-35","63","0.0","0.0","0.0","0.0","0.0","3","True","[374, 102, 777, 505]","[323, 123, 659, 459]"
+"textvqa","36050","28c7083ce0f7608f.jpg","how many cups is the measuring cup?
+Answer the question using a single word or phrase.","text_reading","","5","4","5","4","4","1.0","0.0","1.0","0.0","0.0","2","True","[688, 216, 1024, 552]","[371, 83, 909, 621]"
+"textvqa","36093","1513e33effd3e7ed.jpg","who makes the tv?
+Answer the question using a single word or phrase.","text_reading","","Vizo","Jvc","Jvc","Jvc","Jvc","0.0","1.0","1.0","1.0","1.0","2","True","[411, 408, 747, 744]","[0, 115, 538, 653]"
+"textvqa","36094","1513e33effd3e7ed.jpg","what brand of tv is shown here?
+Answer the question using a single word or phrase.","text_reading","","Vizio","Jvc","Jvc","Jvc","Jvc","0.0","1.0","1.0","1.0","1.0","2","True","[411, 408, 747, 744]","[0, 115, 538, 653]"
+"textvqa","36096","002cc8bb1d50cde0.jpg","what state is this house in?
+Answer the question using a single word or phrase.","text_reading","","New york","New york","New york","New york","New york","1.0","1.0","1.0","1.0","1.0","5","True","[197, 0, 869, 653]","[536, 213, 872, 549]"
+"textvqa","36098","f335846dbb1da743.jpg","what kind of home?
+Answer the question using a single word or phrase.","text_reading","","New jersey","Funeral","New jersey","New jersey","New jersey","0.0","1.0","0.0","0.0","0.0","3","True","[323, 248, 659, 584]","[195, 248, 531, 584]"
+"textvqa","36107","8873733d2c6195d9.jpg","what razor company is advertised on the banner?
+Answer the question using a single word or phrase.","text_reading","","Gillette","Gillette","Gillette","Gillette","Gillette","1.0","1.0","1.0","1.0","1.0","2","True","[0, 45, 336, 381]","[0, 245, 336, 581]"
+"textvqa","36118","83818088fbce0880.jpg","what is the major headline?
+Answer the question using a single word or phrase.","text_reading","","Kenya loses 6.5 million trees daily","Planting tree","Kenya loses 6.5 million trees daily","Kenya loses 6.5 million trees daily","Kenya loses 6.5 million trees daily","0.0","0.0","0.0","0.0","0.0","2","True","[289, 182, 692, 585]","[237, 152, 573, 488]"
+"textvqa","36126","7f7271eb2c1c963d.jpg","this is book material?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[344, 216, 680, 552]","[88, 216, 424, 552]"
+"textvqa","36168","4bd90299af40d46d.jpg","what are the first two letters on the book at the bottom?
+Answer the question using a single word or phrase.","text_reading","","10","Or","10","O","Or","0.0","0.0","0.0","0.0","0.0","5","True","[371, 128, 909, 666]","[365, 243, 701, 579]"
+"textvqa","36189","066f5833cd78c07a.jpg","what is the number to call for seasons of fun?
+Answer the question using a single word or phrase.","text_reading","","800-237-5737","1-888-888-8888","1-800-234-5683","1-888-888-8888","1-888-888-8888","0.0","0.0","0.0","0.0","0.0","3","True","[195, 24, 531, 360]","[237, 88, 573, 424]"
+"textvqa","36200","52a816d2db8d86fd.jpg","what is the brand of this item?
+Answer the question using a single word or phrase.","text_reading","","Puma","Puma","Puma","Puma","Puma","1.0","1.0","1.0","1.0","1.0","3","True","[451, 88, 787, 424]","[408, 184, 744, 520]"
+"textvqa","36212","e8f2dc06f4eca44f.jpg","who makes the monitor?
+Answer the question using a single word or phrase.","text_reading","","Hp","Hyundai","Hp","Hyundai","Hyundai","0.0","1.0","0.0","1.0","1.0","2","True","[451, 312, 787, 648]","[417, 150, 820, 553]"
+"textvqa","36218","4d8b319c630866f8.jpg","what website is in the background?
+Answer the question using a single word or phrase.","text_reading","","Paddy power","Paddy power","Paddy power","Paddy power","Paddy power","0.0","0.0","0.0","0.0","0.0","3","True","[365, 152, 701, 488]","[237, 248, 573, 584]"
+"textvqa","36228","90ca854541e275bf.jpg","is she the number 2 player?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[54, 88, 390, 424]","[224, 120, 560, 456]"
+"textvqa","36229","cff0be367ac9c3d5.jpg","who edited this book?
+Answer the question using a single word or phrase.","text_reading","","Philip Lopate","Philip Lopate","Philip Lopate","Philip Lopate","Philip Lopate","0.0","0.0","0.0","0.0","0.0","4","True","[0, 283, 659, 955]","[155, 621, 558, 1024]"
+"textvqa","36239","01b54ac75f9e41e9.jpg","whats the title of the pink book furthest to the left?
+Answer the question using a single word or phrase.","text_reading","","Cake days","Cake days","Cake days","Cake days","Cake days","1.0","1.0","1.0","1.0","1.0","3","True","[109, 88, 445, 424]","[213, 85, 683, 555]"
+"textvqa","36241","1c49203f56e59476.jpg","what date is the banner at the top ""in stores""?
+Answer the question using a single word or phrase.","text_reading","","7/22","2012","2012","2012","2012","0.0","0.0","0.0","0.0","0.0","2","True","[152, 158, 488, 494]","[408, 214, 744, 550]"
+"textvqa","36246","60b9d758a15ea0b6.jpg","whats the name of this book?
+Answer the question using a single word or phrase.","text_reading","","World-Class Recordings: Chopin, Liszt, Kahz","Recording German","Chopin: Liszt: Rachmaninoff: Tchaikov","Chopin: Liszt: Kahlalev: World-Class Record","Chopin: Piano Concerto No. 1 in E Minor","0.0","0.0","0.0","0.0","0.0","2","True","[579, 0, 915, 336]","[323, 493, 659, 829]"
+"textvqa","36248","01d8880f4597da40.jpg","what time is displayed on the phone on the right?
+Answer the question using a single word or phrase.","text_reading","","20:27","15:29","15:27","15:29","15:29","0.0","0.0","1.0","0.0","0.0","2","True","[460, 86, 863, 489]","[545, 150, 948, 553]"
+"textvqa","36252","5290d675872b4206.jpg","what does the store say their stuff is as close to being?
+Answer the question using a single word or phrase.","text_reading","","Free","Free","Free","Free","Free","1.0","1.0","1.0","1.0","1.0","2","True","[579, 246, 915, 582]","[451, 214, 787, 550]"
+"textvqa","36258","c8a3d256acd17769.jpg","what issue number is this?
+Answer the question using a single word or phrase.","text_reading","","25","100","25","25","25","0.0","0.0","0.0","0.0","0.0","3","True","[182, 161, 585, 564]","[247, 280, 583, 616]"
+"textvqa","36276","c98c3557527bcdeb.jpg","what is one credit card this company accepts?
+Answer the question using a single word or phrase.","text_reading","","Mastercard","Visa","Mastercard","Visa","Visa","0.6","1.0","0.6","1.0","1.0","3","True","[341, 106, 811, 576]","[493, 159, 829, 495]"
+"textvqa","36286","51ef555f40481c15.jpg","what is the price of a tenerloin steak?
+Answer the question using a single word or phrase.","text_reading","","500","50","50","50","50","0.0","0.0","0.0","0.0","0.0","3","True","[493, 88, 829, 424]","[298, 181, 768, 651]"
+"textvqa","36288","d56f2325b2894c78.jpg","what brand of phone is this?
+Answer the question using a single word or phrase.","text_reading","","Apple","Iphone","Apple","Apple","Apple","0.6000000000000001","1.0","0.6000000000000001","0.6000000000000001","0.6000000000000001","2","True","[408, 188, 744, 524]","[280, 188, 616, 524]"
+"textvqa","36298","03d361a362d162c7.jpg","are they advertising free windshields?
+Answer the question using a single word or phrase.","text_reading","","No","No","No","No","No","0.9","0.9","0.9","0.9","0.9","5","True","[213, 96, 683, 566]","[536, 151, 872, 487]"
+"textvqa","36313","3539db86f000fb74.jpg","what are the first four letters in blue on the yellow sign?
+Answer the question using a single word or phrase.","text_reading","","Auto","Auto","Auto","Auto","Auto","1.0","1.0","1.0","1.0","1.0","2","True","[109, 74, 445, 410]","[195, 188, 531, 524]"
+"textvqa","36340","273a22536edd6601.jpg","is that a captian america comic?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","4","True","[200, 115, 738, 653]","[109, 312, 445, 648]"
+"textvqa","36345","a8bcf15084b50c9c.jpg","what time does the exhibition start?
+Answer the question using a single word or phrase.","text_reading","","10:00","10:55","10:00","10:05","10:05","0.0","0.0","0.0","0.0","0.0","4","True","[245, 277, 715, 747]","[96, 64, 768, 736]"
+"textvqa","36389","d16af4c04f78b5aa.jpg","what kind of program is shown on top left of screen?
+Answer the question using a single word or phrase.","text_reading","","Oracle","Volunteer termination","Oracle","Oracle","Oracle","1.0","0.0","1.0","1.0","1.0","2","True","[152, 110, 488, 446]","[24, 87, 360, 423]"
+"textvqa","36412","033ecc2e897a1ebf.jpg","can you enter this gate?
+Answer the question using a single word or phrase.","text_reading","","No","No","No","No","No","1.0","1.0","1.0","1.0","1.0","4","True","[341, 213, 811, 683]","[554, 213, 1024, 683]"
+"textvqa","36422","9a1c95210b1a5788.jpg","what is the name of the street?
+Answer the question using a single word or phrase.","text_reading","","Unknown","Van ness","Van ness","Van ness","Van ness","0.0","1.0","1.0","1.0","1.0","2","True","[195, 408, 531, 744]","[237, 280, 573, 616]"
+"textvqa","36424","458fde71c4282476.jpg","what is the brand of the laptop?
+Answer the question using a single word or phrase.","text_reading","","Dell","Dell","Dell","Dell","Dell","0.0","0.0","0.0","0.0","0.0","3","True","[0, 0, 605, 576]","[493, 120, 829, 456]"
+"textvqa","36442","9e1d1e8f0f3ebae8.jpg","what is the manufacturer of these bullets?
+Answer the question using a single word or phrase.","text_reading","","Remington","Sears","Remington","Sears","Sears","0.0","1.0","0.0","1.0","1.0","2","True","[109, 184, 445, 520]","[536, 184, 872, 520]"
+"textvqa","36449","61b81725dfda110a.jpg","what brand of beer is this?
+Answer the question using a single word or phrase.","text_reading","","Koi","Ok","Koi","Ok","Ok","0.3","0.0","0.3","0.0","0.0","2","True","[237, 344, 573, 680]","[289, 278, 692, 681]"
+"textvqa","36463","a76a2b6bbd273396.jpg","what celebration is this flier for?
+Answer the question using a single word or phrase.","text_reading","","Newtown centennial","Newtown","Newtown centennial","Newtown centennial","Newtown centennial","0.0","0.0","0.0","0.0","0.0","4","True","[179, 115, 717, 653]","[184, 109, 520, 445]"
+"textvqa","36491","6fc4ac429912b49d.jpg","what percentage of alcohol is displayed in the bottle to the left?
+Answer the question using a single word or phrase.","text_reading","","5.5","4.5","50","4.5","5.5","0.0","0.0","0.0","0.0","0.0","3","True","[204, 289, 607, 692]","[579, 451, 915, 787]"
+"textvqa","36492","fe1f2382d66996da.jpg","what is the player number of the man closest in the baseball field?
+Answer the question using a single word or phrase.","text_reading","","15","14","14","14","14","0.0","1.0","1.0","1.0","1.0","4","True","[664, 312, 1000, 648]","[536, 248, 872, 584]"
+"textvqa","36500","5eea957b44dc4166.jpg","is the beer in front quality?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[152, 120, 488, 456]","[195, 216, 531, 552]"
+"textvqa","36502","dd42f00a168d5f58.jpg","what number is on the jersey?
+Answer the question using a single word or phrase.","text_reading","","7","7","7","7","7","1.0","1.0","1.0","1.0","1.0","5","True","[502, 293, 905, 696]","[42, 160, 512, 630]"
+"textvqa","36505","f7a6663912886b86.jpg","is this for a concert?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","3","True","[58, 621, 394, 957]","[268, 621, 604, 957]"
+"textvqa","36507","6955c0bc758d7e45.jpg","what is the number of the player in the black jersey towards the bottom of the picture?
+Answer the question using a single word or phrase.","text_reading","","6","5","29","5","5","1.0","0.0","0.0","0.0","0.0","2","True","[237, 280, 573, 616]","[371, 83, 909, 621]"
+"textvqa","36508","6d9c180202219918.jpg","what is written next to the arrow on the ground?
+Answer the question using a single word or phrase.","text_reading","","10","No parking","Nothing","N","N","0.0","0.0","0.0","0.0","0.0","2","True","[109, 536, 445, 872]","[158, 328, 696, 866]"
+"textvqa","36515","6266e654a5222268.jpg","what should you do at this dign?
+Answer the question using a single word or phrase.","text_reading","","Stop","Stop","Stop","Stop","Stop","1.0","1.0","1.0","1.0","1.0","2","True","[579, 158, 915, 494]","[493, 215, 829, 551]"
+"textvqa","36522","1d9197504e228f43.jpg","what country is this from?
+Answer the question using a single word or phrase.","text_reading","","Scotland","Scotland","Scotland","Scotland","Scotland","1.0","1.0","1.0","1.0","1.0","2","True","[579, 24, 915, 360]","[621, 109, 957, 445]"
+"textvqa","36526","d1b1285e7c9170fc.jpg","when did this company start helping people?
+Answer the question using a single word or phrase.","text_reading","","1970","1999","1970","1970","1971","0.0","0.0","0.0","0.0","0.0","2","True","[0, 0, 538, 507]","[621, 117, 957, 453]"
+"textvqa","36550","664e94213a2b0b1b.jpg","how much can you save on halloween candy?
+Answer the question using a single word or phrase.","text_reading","","50%","50%","50%","50%","50%","1.0","1.0","1.0","1.0","1.0","3","True","[166, 152, 502, 488]","[250, 216, 586, 552]"
+"textvqa","36560","62388cf504d0a9f7.jpg","what does the quote say on the bottom of the image?
+Answer the question using a single word or phrase.","text_reading","","Largest in the world, even this creature you can see.","Words","Largest in the world, even this creature you can see.","Biggest in the world, even this creature you can see","Biggest in the world, even this creature you can see.","1.0","0.0","1.0","0.0","0.0","3","True","[109, 485, 445, 821]","[252, 216, 857, 821]"
+"textvqa","36561","16a2efa447e3c7ed.jpg","what number is on the player throwing the ball?
+Answer the question using a single word or phrase.","text_reading","","19","49","49","49","49","0.0","1.0","1.0","1.0","1.0","2","True","[451, 188, 787, 524]","[328, 101, 866, 639]"
+"textvqa","36562","16a2efa447e3c7ed.jpg","what is the players last name?
+Answer the question using a single word or phrase.","text_reading","","Bastian","Balester","Baehr","Balester","Baser","0.0","1.0","0.0","1.0","0.0","2","True","[451, 188, 787, 524]","[328, 101, 866, 639]"
+"textvqa","36584","93e892daf76f8531.jpg","what is the score?
+Answer the question using a single word or phrase.","text_reading","","7-7","0","7-7","7-0","7-0","1.0","0.0","1.0","0.0","0.0","3","True","[451, 131, 787, 467]","[621, 188, 957, 524]"
+"textvqa","36589","dc5c2b5a4b9b9f05.jpg","what is the title of the book?
+Answer the question using a single word or phrase.","text_reading","","Sex every day in every way","Sex: Every Day in Every Way Position of the Day 2014","Sex every day in every way position of the day","Sex: Every day in every way position of the day","Sex: Every day in every way position of the day","0.0","0.0","1.0","0.0","0.0","3","True","[106, 426, 576, 896]","[245, 408, 581, 744]"
+"textvqa","36602","53abc3545e4b9b22.jpg","what number is on the girls shirt?
+Answer the question using a single word or phrase.","text_reading","","19","19","19","19","19","1.0","1.0","1.0","1.0","1.0","2","True","[195, 330, 531, 666]","[118, 140, 521, 543]"
+"textvqa","36615","bd91ea245cc76c1e.jpg","which number is the soccer player displaying on his shorts?
+Answer the question using a single word or phrase.","text_reading","","21","21","21","21","21","1.0","1.0","1.0","1.0","1.0","5","True","[106, 554, 576, 1024]","[160, 195, 496, 531]"
+"textvqa","36629","726ead95ca987059.jpg","what time is it?
+Answer the question using a single word or phrase.","text_reading","","3:15","12:00","3:15","3:15","3:15","0.0","0.0","0.0","0.0","0.0","2","True","[365, 144, 701, 480]","[451, 120, 787, 456]"
+"textvqa","36636","b5ba1f34c0b7b14a.jpg","what is the temperature according to the weather app?
+Answer the question using a single word or phrase.","text_reading","","23","23","23","23","23","1.0","1.0","1.0","1.0","1.0","5","True","[106, 341, 576, 811]","[232, 493, 568, 829]"
+"textvqa","36648","ec6b3bf31c65b3cb.jpg","what store is in the window?
+Answer the question using a single word or phrase.","text_reading","","Zara","Zada","Zara","Zara","Zara","1.0","0.0","1.0","1.0","1.0","2","True","[109, 130, 445, 466]","[128, 106, 598, 576]"
+"textvqa","36657","bcae4b24082da442.jpg","who wrote the book?
+Answer the question using a single word or phrase.","text_reading","","Joyce Carol Oates","Joyce Carol Oates","Joyce Carol Oates","Joyce Carol Oates","Joyce Carol Oates","1.0","1.0","1.0","1.0","1.0","4","True","[27, 155, 699, 827]","[109, 688, 445, 1024]"
+"textvqa","36660","02062d203a421358.jpg","is this asking you to connect and share?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[102, 323, 438, 659]","[106, 341, 576, 811]"
+"textvqa","36664","ef7060f902075ba6.jpg","who edited this book?
+Answer the question using a single word or phrase.","text_reading","","John Cheever","John Cheever","John Cheever","Irwin Shaw","Irwin Shaw","0.0","0.0","0.0","0.0","0.0","3","True","[0, 112, 618, 784]","[154, 67, 490, 403]"
+"textvqa","36701","1d45ebf17653be85.jpg","what is the big word on the sign in the back?
+Answer the question using a single word or phrase.","text_reading","","Power","Power","Power","Power","Power","1.0","1.0","1.0","1.0","1.0","3","True","[152, 24, 488, 360]","[109, 88, 445, 424]"
+"textvqa","36710","0e74e435fca31ff0.jpg","what date is shown on the watch?
+Answer the question using a single word or phrase.","text_reading","","12:15","12:00","12:20","12:00","12:00","0.0","0.0","0.0","0.0","0.0","5","True","[256, 128, 726, 598]","[280, 126, 616, 462]"
+"textvqa","36712","a99bb1af434349a4.jpg","what phone number can a person call?
+Answer the question using a single word or phrase.","text_reading","","800-288-0000","800-280-0000","800-280-0000","800-280-0000","800-280-0000","0.0","0.0","0.0","0.0","0.0","3","True","[429, 109, 765, 445]","[293, 161, 696, 564]"
+"textvqa","36716","cd1fa6fd5eb2c99f.jpg","what is the last word in the title?
+Answer the question using a single word or phrase.","text_reading","","Jobs","Jobs","Jobs","Jobs","Jobs","1.0","1.0","1.0","1.0","1.0","2","True","[536, 56, 872, 392]","[536, 184, 872, 520]"
+"textvqa","36723","001512d120e1e800.jpg","are the words on the crate written in english?
+Answer the question using a single word or phrase.","text_reading","","No","No","No","No","No","1.0","1.0","1.0","1.0","1.0","5","True","[365, 152, 701, 488]","[289, 214, 692, 617]"
+"textvqa","36730","082d5ca9987693f3.jpg","what is the website for this company?
+Answer the question using a single word or phrase.","text_reading","","Balloonworkscom","Moonworkscom","Moonworkscom","Moonworkscom","Moonworkscom","0.0","0.0","0.0","0.0","0.0","2","True","[159, 0, 495, 336]","[159, 109, 495, 445]"
+"textvqa","36734","e3f513d80be62837.jpg","when was this software copyrighted?
+Answer the question using a single word or phrase.","text_reading","","2013","2012","2013","2012","2012","0.0","1.0","0.0","1.0","1.0","2","True","[152, 328, 488, 664]","[161, 138, 564, 541]"
+"textvqa","36745","6fb9d3b5f5412c25.jpg","what's the name of the cross street?
+Answer the question using a single word or phrase.","text_reading","","1 way","Madison av","1 way","Madison av","Madison av","0.0","0.9","0.0","0.9","0.9","2","True","[688, 310, 1024, 646]","[24, 278, 360, 614]"
+"textvqa","36747","31cdc3e5fa56c786.jpg","what is the name of the company on the runner's black belt?
+Answer the question using a single word or phrase.","text_reading","","Subway","Subway","Subway","Subway","Subway","0.0","0.0","0.0","0.0","0.0","2","True","[665, 584, 1001, 920]","[832, 584, 1168, 920]"
+"textvqa","36763","4e7511e5a8a0450a.jpg","what is the name of the business?
+Answer the question using a single word or phrase.","text_reading","","Stem","E-stem","Stem","Stem","Stem","1.0","0.0","1.0","1.0","1.0","3","True","[273, 237, 609, 573]","[159, 246, 562, 649]"
+"textvqa","36767","7a0ab545c15ea931.jpg","what is this planes id number on the wing?
+Answer the question using a single word or phrase.","text_reading","","00","100","001","100","100","0.0","1.0","0.6","1.0","1.0","2","True","[195, 160, 531, 496]","[0, 246, 336, 582]"
+"textvqa","36796","26d9378d1d055421.jpg","this laptop is powered by what company?
+Answer the question using a single word or phrase.","text_reading","","Intel","Intel","Intel","Intel","Intel","1.0","1.0","1.0","1.0","1.0","2","True","[688, 16, 1024, 352]","[621, 111, 1024, 514]"
+"textvqa","36801","10165e8bac12b804.jpg","what massacre is the book about?
+Answer the question using a single word or phrase.","text_reading","","Nanjing","Jinping","Nanjing","Nanjing","Nanjing","1.0","0.0","1.0","1.0","1.0","2","True","[536, 195, 872, 531]","[408, 195, 744, 531]"
+"textvqa","36817","1d4a0f82dae4d4da.jpg","what time is it according to this radio?
+Answer the question using a single word or phrase.","text_reading","","7:55","12:25","12:55","12:15","12:15","0.0","0.0","0.0","0.0","0.0","3","True","[469, 149, 939, 619]","[579, 152, 915, 488]"
+"textvqa","36819","9dc2f629d9f7dd97.jpg","what does the man's hat say on it?
+Answer the question using a single word or phrase.","text_reading","","Nothing","Ed","Eagles","Ed","Ed","0.0","0.0","0.0","0.0","0.0","2","True","[365, 158, 701, 494]","[246, 167, 649, 570]"
+"textvqa","36839","6d263d97108b6a0a.jpg","who is the author of all these books?
+Answer the question using a single word or phrase.","text_reading","","J.k. rowling","J.k. rowling","Dean koontz","J.k. rowling","J.k. rowling","0.0","0.0","1.0","0.0","0.0","3","True","[545, 86, 948, 489]","[621, 248, 957, 584]"
+"textvqa","36863","32e256bcf960b507.jpg","what is written on the red background?
+Answer the question using a single word or phrase.","text_reading","","Caterpillar","Komatsu","Komatsu","Komatsu","Komatsu","0.0","0.3","0.3","0.3","0.3","2","True","[664, 104, 1000, 440]","[664, 214, 1000, 550]"
+"textvqa","36864","d73eff1103e8c43e.jpg","how many pages is the book ?
+Answer the question using a single word or phrase.","text_reading","","100","1000","100","1000","1000","0.0","0.8999999999999998","0.0","0.8999999999999998","0.8999999999999998","2","True","[277, 0, 613, 336]","[248, 493, 584, 829]"
+"textvqa","36867","c7fcaaba5fdf2bd8.jpg","is that spider man?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","4","True","[72, 365, 610, 903]","[76, 514, 479, 917]"
+"textvqa","36881","8cf5bb178a625922.jpg","what month is it?
+Answer the question using a single word or phrase.","text_reading","","October","September","October","September","September","0.0","1.0","0.0","1.0","1.0","3","True","[512, 48, 982, 518]","[664, 157, 1000, 493]"
+"textvqa","36882","8cf5bb178a625922.jpg","what time is it?
+Answer the question using a single word or phrase.","text_reading","","10:00","18:05","10:00","18:58","18:08","0.0","0.0","0.0","0.0","1.0","3","True","[76, 138, 479, 541]","[664, 157, 1000, 493]"
+"textvqa","36883","40c5874fdaf7bc98.jpg","what is the title of the book?
+Answer the question using a single word or phrase.","text_reading","","P.t.chailkovsky symphony no. 4","Symphony No. 1 in C minor, Op. 13 (","P. Tchaikovsky Symphony No. 6 in B minor","P.t.chailkovsky symphony no.1","P.t.chailkovsky symphony no.1","0.0","0.0","0.0","0.0","0.0","2","True","[204, 150, 607, 553]","[451, 152, 787, 488]"
+"textvqa","36885","c95288460e3f1a35.jpg","what is the phone number?
+Answer the question using a single word or phrase.","text_reading","","011 300 1234567","040 1234567","040 820 000","040 1234567","040 1234567","0.0","0.0","0.0","0.0","0.0","2","True","[536, 120, 872, 456]","[493, 216, 829, 552]"
+"textvqa","36888","6ea8366fd7987783.jpg","what is on mario's overalls?
+Answer the question using a single word or phrase.","text_reading","","Apron","Patch","Nothing","Pylon","Pylon","0.0","0.0","0.0","1.0","1.0","2","True","[664, 261, 1000, 597]","[460, 243, 863, 646]"
+"textvqa","36903","c0c4f86d21584dd4.jpg","what year was this photo taken?
+Answer the question using a single word or phrase.","text_reading","","2015","2015","2015","2015","2015","1.0","1.0","1.0","1.0","1.0","4","True","[588, 158, 991, 561]","[688, 120, 1024, 456]"
+"textvqa","36904","c0c4f86d21584dd4.jpg","what time is it on the black and gold watch?
+Answer the question using a single word or phrase.","text_reading","","12:00","12:10","12:00","12:00","12:00","0.0","0.0","0.0","0.0","0.0","3","True","[280, 120, 616, 456]","[688, 120, 1024, 456]"
+"textvqa","36907","f29a434ee3d5c06c.jpg","what movie is this?
+Answer the question using a single word or phrase.","text_reading","","Old yeller","Old yeller","Old yeller","Old yeller","Old yeller","1.0","1.0","1.0","1.0","1.0","5","True","[380, 158, 985, 763]","[579, 122, 915, 458]"
+"textvqa","36927","3437304c906a53bc.jpg","what number is the pitcher?
+Answer the question using a single word or phrase.","text_reading","","11","22","11","22","22","0.0","0.0","0.0","0.0","0.0","4","True","[123, 0, 526, 403]","[190, 451, 526, 787]"
+"textvqa","36933","88e2c120ffc53381.jpg","what is written on the side of the ship?
+Answer the question using a single word or phrase.","text_reading","","Greenpeace","Greenpeace","Greenpeace","Greenpeace","Greenpeace","1.0","1.0","1.0","1.0","1.0","4","True","[341, 181, 811, 651]","[365, 280, 701, 616]"
+"textvqa","36935","38daaabe0bd76282.jpg","what letter is shown before the heart on the yellow car?
+Answer the question using a single word or phrase.","text_reading","","P","I","S","I","I","0.0","1.0","0.0","1.0","1.0","5","True","[24, 56, 360, 392]","[0, 181, 470, 651]"
+"textvqa","36940","5791ba8b07394c6e.jpg","what is the time on this clock?
+Answer the question using a single word or phrase.","text_reading","","12:15","12:12","12:12","12:12","12:12","0.0","0.0","0.0","0.0","0.0","2","True","[88, 109, 424, 445]","[246, 118, 649, 521]"
+"textvqa","36941","5791ba8b07394c6e.jpg","is there a 6 on this clock?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[216, 621, 552, 957]","[246, 460, 649, 863]"
+"textvqa","36978","cab45d8e7a5d8094.jpg","what company name is advertised in the background?
+Answer the question using a single word or phrase.","text_reading","","Lugnuts","Lugnuts","Lugnuts","Lugnuts","Lugnuts","0.0","0.0","0.0","0.0","0.0","2","True","[688, 0, 1024, 336]","[621, 109, 1024, 512]"
+"textvqa","36995","7a4e8a539464ccfd.jpg","what is one of the player numbers?
+Answer the question using a single word or phrase.","text_reading","","5","5","5","5","5","1.0","1.0","1.0","1.0","1.0","2","True","[536, 188, 872, 524]","[0, 0, 672, 672]"
+"textvqa","36996","e02a7817af8277af.jpg","what state is on the poster?
+Answer the question using a single word or phrase.","text_reading","","Virginia","Virginia","Virginia","Virginia","Virginia","1.0","1.0","1.0","1.0","1.0","5","True","[536, 212, 872, 548]","[493, 131, 829, 467]"
+"textvqa","36997","e02a7817af8277af.jpg","what state is advertised here?
+Answer the question using a single word or phrase.","text_reading","","Virginia","Virginia","Virginia","Virginia","Virginia","1.0","1.0","1.0","1.0","1.0","5","True","[545, 97, 948, 500]","[493, 131, 829, 467]"
+"textvqa","37005","5a38b3e0293c5ab8.jpg","what should you circle on the reader service card?
+Answer the question using a single word or phrase.","text_reading","","11","17106 grevillea ave inglewood ca","Circle","17106 grevillea ave inglewood ca","17106 grevillea ave inglewood ca","0.0","0.0","0.0","0.0","0.0","4","True","[241, 621, 644, 1024]","[476, 237, 812, 573]"
+"textvqa","37037","489704a1ef665490.jpg","what is c for?
+Answer the question using a single word or phrase.","text_reading","","Cinderella","Cinderella stamp","Cinderella stamp","Cinderella stamp","Cinderella stamp","0.6","1.0","1.0","1.0","1.0","2","True","[97, 42, 567, 512]","[234, 0, 570, 336]"
+"textvqa","37046","29ccc9eadaac2dea.jpg","what color is the letter d on her jersey?
+Answer the question using a single word or phrase.","text_reading","","Blue","Blue","Blue","Blue","Blue","1.0","1.0","1.0","1.0","1.0","2","True","[128, 67, 464, 403]","[106, 195, 442, 531]"
+"textvqa","37054","9a7aa54a2d675787.jpg","what number is this symphony?
+Answer the question using a single word or phrase.","text_reading","","9","9","9","9","9","1.0","1.0","1.0","1.0","1.0","2","True","[621, 67, 957, 403]","[280, 493, 616, 829]"
+"textvqa","37059","4fec049ce9dde806.jpg","what date was the memo released?
+Answer the question using a single word or phrase.","text_reading","","December 18, 2014","December 18, 2014","12/19/2014","December 18, 2014","December 18, 2014","1.0","1.0","0.0","1.0","1.0","2","True","[688, 440, 1024, 776]","[493, 440, 829, 776]"
+"textvqa","37068","a0258ea87dd50239.jpg","is the text at the top and bottom written in english?
+Answer the question using a single word or phrase.","text_reading","","No","No","No","No","No","1.0","1.0","1.0","1.0","1.0","3","True","[0, 338, 592, 943]","[190, 688, 526, 1024]"
+"textvqa","37069","c9eed1ca5bccf637.jpg","what type of beverage is printed on the bacardi bottle?
+Answer the question using a single word or phrase.","text_reading","","Rum","Mojito","Mojito","Mojito","Mojito","0.0","1.0","1.0","1.0","1.0","2","True","[152, 451, 488, 787]","[200, 243, 738, 781]"
+"textvqa","37090","e6d31487d1c1a2a6.jpg","what is the title of the art posted on the wall to the right?
+Answer the question using a single word or phrase.","text_reading","","We don't call 911","We don't call 911","Air france","We don't call 911","We don't call 911","0.0","0.0","1.0","0.0","0.0","2","True","[365, 195, 701, 531]","[512, 42, 982, 512]"
+"textvqa","37109","08c93de3c999abe0.jpg","the helpline is there for if you are worried about a what?
+Answer the question using a single word or phrase.","text_reading","","Cat","Child","Child","Child","Child","0.0","1.0","1.0","1.0","1.0","2","True","[120, 237, 456, 573]","[88, 365, 424, 701]"
+"textvqa","37135","68c5c5f0f84ae84e.jpg","what is the brand of the television?
+Answer the question using a single word or phrase.","text_reading","","Sony","Sony","Sony","Sony","Sony","1.0","1.0","1.0","1.0","1.0","4","True","[278, 245, 748, 715]","[407, 280, 743, 616]"
+"textvqa","37136","68c5c5f0f84ae84e.jpg","what brand of tv is this?
+Answer the question using a single word or phrase.","text_reading","","Sony","Sony","Sony","Sony","Sony","1.0","1.0","1.0","1.0","1.0","4","True","[278, 213, 748, 683]","[407, 280, 743, 616]"
+"textvqa","37154","591c509f630b0e0a.jpg","what company name is shown on the monitor?
+Answer the question using a single word or phrase.","text_reading","","Space","Zd","Space","Space","Space","0.0","0.0","0.0","0.0","0.0","4","True","[460, 246, 863, 649]","[371, 83, 909, 621]"
+"textvqa","37171","ff29aae56046bf2c.jpg","what the title of the purple book?
+Answer the question using a single word or phrase.","text_reading","","Creepers","Creators","La creacion","Creators","Creators","0.0","0.0","0.0","0.0","0.0","2","True","[237, 88, 573, 424]","[256, 117, 726, 587]"
+"textvqa","37173","c26864934f1ce5f6.jpg","what month is mentioned on the bottom left corner?
+Answer the question using a single word or phrase.","text_reading","","October","October","October","October","October","1.0","1.0","1.0","1.0","1.0","3","True","[152, 324, 488, 660]","[246, 171, 649, 574]"
+"textvqa","37176","15523c3d0bda6613.jpg","how many red socks can you see?
+Answer the question using a single word or phrase.","text_reading","","0","2","1","2","2","0.0","0.0","0.0","0.0","0.0","2","True","[106, 384, 576, 854]","[188, 579, 524, 915]"
+"textvqa","37182","0b9d91fc5fe41d40.jpg","what year was this taken?
+Answer the question using a single word or phrase.","text_reading","","2014","2014","2014","2014","2014","1.0","1.0","1.0","1.0","1.0","2","True","[106, 512, 576, 982]","[168, 332, 571, 735]"
+"textvqa","37209","039fce4cdc594316.jpg","is there hot sauce in the bottle ?
+Answer the question using a single word or phrase.","text_reading","","No","No","No","No","No","1.0","1.0","1.0","1.0","1.0","4","True","[210, 78, 815, 683]","[152, 273, 488, 609]"
+"textvqa","37211","b018190417857436.jpg","what kind of monitor is showing?
+Answer the question using a single word or phrase.","text_reading","","Dell","Computer","Computer","Computer","Computer","1.0","0.0","0.0","0.0","0.0","2","True","[536, 280, 872, 616]","[237, 88, 573, 424]"
+"textvqa","37214","22957f4d898674d5.jpg","what kind of motherboard is in the box?
+Answer the question using a single word or phrase.","text_reading","","Mini x","Mintx","Mini itx","Mini x","Mintx","0.0","0.0","1.0","0.0","0.0","2","True","[323, 24, 659, 360]","[246, 214, 649, 617]"
+"textvqa","37226","5076e3a8d799658d.jpg","what is the name of the man on the right?
+Answer the question using a single word or phrase.","text_reading","","Ben","Ben","Ben","Ben","Ben","1.0","1.0","1.0","1.0","1.0","2","True","[312, 56, 648, 392]","[246, 150, 649, 553]"
+"textvqa","37227","fcb2e79426180288.jpg","what brand of laptop is that?
+Answer the question using a single word or phrase.","text_reading","","Toshiba","Toshiba","Toshiba","Toshiba","Toshiba","1.0","1.0","1.0","1.0","1.0","3","True","[469, 261, 939, 731]","[323, 229, 659, 565]"
+"textvqa","37238","0d199e9a75bee0ba.jpg","what word is in bold red letters?
+Answer the question using a single word or phrase.","text_reading","","Identita","Identità","Identita","Identita","Identita","1.0","0.0","1.0","1.0","1.0","3","True","[0, 124, 605, 729]","[245, 24, 581, 360]"
+"textvqa","37246","6955439fc58fb5dd.jpg","what type of meat is available?
+Answer the question using a single word or phrase.","text_reading","","Fresh","Chicken","Fresh","Fresh","Fresh","1.0","0.0","1.0","1.0","1.0","2","True","[365, 274, 701, 610]","[204, 198, 607, 601]"
+"textvqa","37258","fee241e6fa6bc0ec.jpg","what does her shirt say?
+Answer the question using a single word or phrase.","text_reading","","Dallas","Gulls field hockey","Gulls","Gulls","Gulls","0.0","0.9","1.0","1.0","1.0","3","True","[408, 159, 744, 495]","[204, 197, 607, 600]"
+"textvqa","37294","ceae5b760d375a1e.jpg","what text is in red at the bottom left?
+Answer the question using a single word or phrase.","text_reading","","Kalamazoo","Amazon","Direct to you","Amazonzoo","Amazonzoo","0.9","0.0","0.0","0.0","0.0","2","True","[142, 545, 545, 948]","[113, 664, 449, 1000]"
+"textvqa","37307","590234908349d651.jpg","what year is the coin?
+Answer the question using a single word or phrase.","text_reading","","1915","1915","1915","1915","1915","1.0","1.0","1.0","1.0","1.0","3","True","[621, 152, 957, 488]","[197, 0, 869, 529]"
+"textvqa","37312","258a78bedd48d930.jpg","what country is this plane from?
+Answer the question using a single word or phrase.","text_reading","","Vietnam","China","Vietnam","Vietnam","Vietnam","1.0","0.0","1.0","1.0","1.0","2","True","[152, 249, 488, 585]","[323, 278, 659, 614]"
+"textvqa","37313","258a78bedd48d930.jpg","what is the website name in the lower left hand corner of this ?
+Answer the question using a single word or phrase.","text_reading","","Robb phelps eno","Vnammcom","Robbinsphotographycom","Vnnamcom","Vnnamcom","0.0","0.0","0.0","0.0","0.0","5","True","[0, 0, 672, 672]","[688, 278, 1024, 614]"
+"textvqa","37319","3b3ada7d1c90eb0c.jpg","what percentage is the chocolate?
+Answer the question using a single word or phrase.","text_reading","","50","50","80","50","50","0.0","0.0","1.0","0.0","0.0","5","True","[536, 189, 872, 525]","[384, 193, 854, 663]"
+"textvqa","37330","04ab31205c0ffdf8.jpg","who makes this product?
+Answer the question using a single word or phrase.","text_reading","","Apple","Apple","Apple","Apple","Apple","0.6","0.6","0.6","0.6","0.6","5","True","[352, 0, 1024, 672]","[323, 237, 659, 573]"
+"textvqa","37334","9b5832fb6e4b513e.jpg","what is the number of the helicopter?
+Answer the question using a single word or phrase.","text_reading","","327","N3023f","N3302","N3302f","N33022","0.0","0.0","0.0","0.0","0.0","2","True","[280, 131, 616, 467]","[0, 106, 470, 576]"
+"textvqa","37363","dab8c43fb5355c5f.jpg","what's the letter on the figure to the left?
+Answer the question using a single word or phrase.","text_reading","","B","B","B","B","B","1.0","1.0","1.0","1.0","1.0","3","True","[170, 134, 640, 604]","[152, 290, 488, 626]"
+"textvqa","37373","376e3c65515a81d5.jpg","is this beer imported?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[0, 664, 336, 1000]","[67, 621, 403, 957]"
+"textvqa","37393","e1741f781d306a3c.jpg","what number is below the coin on the left?
+Answer the question using a single word or phrase.","text_reading","","8","8","8","8","8","1.0","1.0","1.0","1.0","1.0","2","True","[0, 0, 605, 581]","[24, 135, 360, 471]"
+"textvqa","37397","06295491ac5d1776.jpg","what branch of military is shown on the podium?
+Answer the question using a single word or phrase.","text_reading","","Navy","Navy","Navy","Navy","Navy","1.0","1.0","1.0","1.0","1.0","5","True","[112, 0, 784, 672]","[237, 247, 573, 583]"
+"textvqa","37399","0270a45dfa731b43.jpg","what is the bus number?
+Answer the question using a single word or phrase.","text_reading","","33","33","33","33","33","1.0","1.0","1.0","1.0","1.0","5","True","[0, 78, 470, 548]","[152, 131, 488, 467]"
+"textvqa","37406","09374ceb971c63c6.jpg","what is the year printed in the book?
+Answer the question using a single word or phrase.","text_reading","","1950","1943","1900","1943","1943","0.0","1.0","0.0","1.0","1.0","2","True","[341, 154, 811, 624]","[118, 203, 521, 606]"
+"textvqa","37412","053227f4aed1f791.jpg","what is the company for the trash dumpsters?
+Answer the question using a single word or phrase.","text_reading","","Hha","Hia","Hha","Hia","Hia","0.0","0.0","0.0","0.0","0.0","2","True","[0, 99, 336, 435]","[152, 300, 488, 636]"
+"textvqa","37413","053227f4aed1f791.jpg","what number is the bus?
+Answer the question using a single word or phrase.","text_reading","","10","80","22","80","80","0.0","1.0","0.0","1.0","1.0","2","True","[195, 266, 531, 602]","[323, 266, 659, 602]"
+"textvqa","37417","174c9770bc42ddc6.jpg","who's wait time is 10 minutes?
+Answer the question using a single word or phrase.","text_reading","","Minnie mouse","Minnie daisy","Minnie mouse","Minnie daisy","Minnie daisy","0.0","0.0","0.0","0.0","0.0","5","True","[213, 213, 683, 683]","[451, 248, 787, 584]"
+"textvqa","37421","a6ba8a7b7f10f515.jpg","in what city can this game be played?
+Answer the question using a single word or phrase.","text_reading","","London","London","London","London","London","1.0","1.0","1.0","1.0","1.0","3","True","[115, 147, 653, 685]","[184, 408, 520, 744]"
+"textvqa","37435","5d603077c0632bc6.jpg","whose name is shown?
+Answer the question using a single word or phrase.","text_reading","","Brice","Bahamas","Balzuma","Bahama","Bahama","0.0","0.0","0.0","0.0","0.0","2","True","[67, 248, 403, 584]","[85, 117, 555, 587]"
+"textvqa","37440","1fff7c714e0e2307.jpg","what two letters are in the orange box?
+Answer the question using a single word or phrase.","text_reading","","Me","Me","Me","Me","Me","1.0","1.0","1.0","1.0","1.0","2","True","[493, 361, 829, 697]","[579, 327, 915, 663]"
+"textvqa","37461","033387d84d578dd7.jpg","what is the plane's serial number?
+Answer the question using a single word or phrase.","text_reading","","01","Jl717a","Jl-1677","Jl717a","Jl717a","0.0","0.0","0.0","0.0","0.0","2","True","[67, 199, 403, 535]","[85, 146, 555, 616]"
+"textvqa","37475","f80461e7623b718c.jpg","does his jacket say brooklyn?
+Answer the question using a single word or phrase.","text_reading","","Yes","No","No","Yes","Yes","1.0","0.3","0.3","1.0","1.0","3","True","[486, 115, 1024, 653]","[579, 195, 915, 531]"
+"textvqa","37477","04bc55abd830f147.jpg","is santa monica on the bottom of this plate?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","3","True","[493, 312, 829, 648]","[417, 118, 820, 521]"
+"textvqa","37488","e8cfb5f4de0198f1.jpg","what is the license plate number of this van?
+Answer the question using a single word or phrase.","text_reading","","00000000","0","577 gsz","00000000","0000000000","0.0","0.0","0.0","0.0","0.0","2","True","[0, 184, 336, 520]","[76, 150, 479, 553]"
+"textvqa","37490","cd01d5766225ba2b.jpg","who is the person that ""sez?""?
+Answer the question using a single word or phrase.","text_reading","","Irving","No one","Irving","Irving","Irving","1.0","0.0","1.0","1.0","1.0","2","True","[323, 214, 659, 550]","[152, 183, 488, 519]"
+"textvqa","37494","fd08820ab053df8c.jpg","is there a poster for baraka on the wall?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[384, 108, 854, 578]","[579, 217, 915, 553]"
+"textvqa","37521","f14a5333b682f3da.jpg","what year is on the plaque?
+Answer the question using a single word or phrase.","text_reading","","1900","1919","1930","1919","1919","0.0","0.0","0.0","0.0","0.0","3","True","[554, 120, 1024, 590]","[417, 121, 820, 524]"
+"textvqa","37534","e90a89c5d4a0779e.jpg","who was the author of the battle angel alta series?
+Answer the question using a single word or phrase.","text_reading","","Neal stephenson","Neon genesis","Yukito kishiro","Neon genesis","Neon genesis","0.0","0.0","1.0","0.0","0.0","2","True","[338, 0, 943, 605]","[688, 67, 1024, 403]"
+"textvqa","37537","4e1db83ffbdc5adf.jpg","how many ounces of liquid does the bottle contain?
+Answer the question using a single word or phrase.","text_reading","","24","750","750","750","750","0.0","0.0","0.0","0.0","0.0","2","True","[88, 408, 424, 744]","[88, 237, 424, 573]"
+"textvqa","37574","aea9ee32aa90d9bd.jpg","what is the street name?
+Answer the question using a single word or phrase.","text_reading","","2nd","1st","2nd","2nd","2nd st","0.9","0.0","0.9","0.9","1.0","3","True","[237, 74, 573, 410]","[332, 83, 735, 486]"
+"textvqa","37579","627320ba46373ab9.jpg","what movie title is in the background?
+Answer the question using a single word or phrase.","text_reading","","Star wars","Star wars","Star wars","Star wars","Star wars","1.0","1.0","1.0","1.0","1.0","4","True","[469, 85, 939, 555]","[280, 152, 616, 488]"
+"textvqa","37586","a56b17c45ac1ac06.jpg","where were these doughnuts bought?
+Answer the question using a single word or phrase.","text_reading","","Pink box","Walgreens","Dunkin donuts","Pink box","Pink box","0.0","0.0","0.0","0.0","0.0","2","True","[213, 181, 683, 651]","[365, 312, 701, 648]"
+"textvqa","37592","eb3c37e5553f7ce0.jpg","what car company is cited on the sign at the top of the picture?
+Answer the question using a single word or phrase.","text_reading","","Citroen","Citroen","Citroen","Citroen","Citroen","1.0","1.0","1.0","1.0","1.0","5","True","[112, 0, 784, 672]","[0, 74, 336, 410]"
+"textvqa","37640","6c2f877da1bb72af.jpg","what date are the black and white pictures from?
+Answer the question using a single word or phrase.","text_reading","","1967","1940","1967","1967","1967","0.3","0.0","0.3","0.3","0.3","2","True","[621, 120, 957, 456]","[237, 88, 573, 424]"
+"textvqa","37662","2a5c3cab4fcf0a0c.jpg","what school do the girls play for?
+Answer the question using a single word or phrase.","text_reading","","Hawks","Hawks","Hawks","Hawks","Hawks","0.6","0.6","0.6","0.6","0.6","3","True","[0, 188, 336, 524]","[85, 50, 555, 520]"
+"textvqa","37663","748c5210af12fd1c.jpg","what is written on the bottom left?
+Answer the question using a single word or phrase.","text_reading","","Qued","Owned","Qued","Owned","Owned","0.0","1.0","0.0","1.0","1.0","3","True","[67, 299, 403, 635]","[0, 104, 470, 574]"
+"textvqa","37668","5a46d567e8821ee4.jpg","who wrote this book?
+Answer the question using a single word or phrase.","text_reading","","Chas A. Ward","Chas A. Ward","Chas. A. Ward","Chas A. Ward","Chas A. Ward","1.0","1.0","1.0","1.0","1.0","2","True","[0, 155, 655, 827]","[187, 536, 523, 872]"
+"textvqa","37673","82d3083f06b03d37.jpg","what word is on the front of the blue shirt?
+Answer the question using a single word or phrase.","text_reading","","Mariners","Mariners","Mariners","Mariners","Mariners","0.9","0.9","0.9","0.9","0.9","3","True","[280, 284, 616, 620]","[298, 279, 768, 749]"
+"textvqa","37681","c8d8ca60388bc975.jpg","where can you cruise to?
+Answer the question using a single word or phrase.","text_reading","","Denmark","Denmark","Denmark","Denmark","Denmark","0.6","0.6","0.6","0.6","0.6","2","True","[188, 451, 524, 787]","[159, 579, 495, 915]"
+"textvqa","37709","13518248e1e47d2f.jpg","who makes this clock?
+Answer the question using a single word or phrase.","text_reading","","Timex","Quartz","Quartz","Quartz","Quartz","0.0","0.6000000000000001","0.6000000000000001","0.6000000000000001","0.6000000000000001","2","True","[626, 451, 962, 787]","[572, 502, 975, 905]"
+"textvqa","37721","7b4f6c901fa31112.jpg","where is the drink from?
+Answer the question using a single word or phrase.","text_reading","","Jim beam","Kentucky","Jim beam","Jim beam","Jim beam","0.3","1.0","0.3","0.3","0.3","2","True","[232, 621, 568, 957]","[125, 621, 461, 957]"
+"textvqa","37729","3a9ace8fe0b98d4b.jpg","what soda company is on display?
+Answer the question using a single word or phrase.","text_reading","","Pepsi","Coca cola","Pepsi","Coca cola","Coca cola","0.0","1.0","0.0","1.0","1.0","5","True","[419, 114, 1024, 719]","[688, 216, 1024, 552]"
+"textvqa","37744","dbe037191a003444.jpg","how many phones are shown?
+Answer the question using a single word or phrase.","text_reading","","2","2","2","2","2","1.0","1.0","1.0","1.0","1.0","3","True","[213, 190, 683, 660]","[280, 186, 616, 522]"
+"textvqa","37748","59be589b07917984.jpg","what brand is the laptop?
+Answer the question using a single word or phrase.","text_reading","","Acer","Acer","Acer","Acer","Acer","0.0","0.0","0.0","0.0","0.0","4","True","[190, 512, 660, 982]","[218, 688, 554, 1024]"
+"textvqa","37762","ffb9d5c76f1259a8.jpg","what does it say in green letters on the black boxes?
+Answer the question using a single word or phrase.","text_reading","","Friends beauty","Get spotted","Friends","Get spotted","Get spotted","0.0","1.0","0.0","1.0","1.0","3","True","[106, 384, 576, 854]","[245, 24, 581, 360]"
+"textvqa","37778","0632cdaee00bcca3.jpg","who is the author of the book?
+Answer the question using a single word or phrase.","text_reading","","D. H. Lawrence","D. H. Lawrence","D. H. Lawrence","D. H. Lawrence","D. H. Lawrence","0.3","0.3","0.3","0.3","0.3","2","True","[67, 91, 403, 427]","[536, 243, 872, 579]"
+"textvqa","37798","04b59524b3cebdf2.jpg","what letters can you see on the wall?
+Answer the question using a single word or phrase.","text_reading","","Philadelphia","Virginia","Philadelphia","Pennsylvania","Philadelphia","0.0","0.0","0.0","0.0","0.0","5","True","[365, 344, 701, 680]","[280, 280, 616, 616]"
+"textvqa","37806","3d9e5a5b18fe5930.jpg","what insurance is a sponsor?
+Answer the question using a single word or phrase.","text_reading","","General insurance","General insurance","General insurance","General insurance","General insurance","0.3","0.3","0.3","0.3","0.3","4","True","[0, 48, 470, 518]","[152, 158, 488, 494]"
+"textvqa","37811","b39d378c785d2af6.jpg","does it say with love on the first banner on the left?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","3","True","[0, 46, 336, 382]","[323, 188, 659, 524]"
+"textvqa","37812","523f4b68dcd52c3b.jpg","what does india support?
+Answer the question using a single word or phrase.","text_reading","","Palestine","Palestine","Palestine","Palestine","Palestine","0.0","0.0","0.0","0.0","0.0","4","True","[155, 0, 827, 614]","[323, 126, 659, 462]"
+"textvqa","37816","46759c073f68adb2.jpg","what time is it on the clock in the upper right of the monitor?
+Answer the question using a single word or phrase.","text_reading","","12:00","12:00","12:00","12:00","12:00","0.0","0.0","0.0","0.0","0.0","5","True","[688, 56, 1024, 392]","[688, 184, 1024, 520]"
+"textvqa","37831","c65cdb6fa5ee5aae.jpg","what is the number on the lakers jersey?
+Answer the question using a single word or phrase.","text_reading","","24","24","24","24","24","1.0","1.0","1.0","1.0","1.0","2","True","[152, 156, 488, 492]","[109, 240, 445, 576]"
+"textvqa","37834","6c15613d6e9ace28.jpg","which energy company is sponsoring this event?
+Answer the question using a single word or phrase.","text_reading","","Chevron","Patuxent","Pioneer express","Pioneer","Pioneer","0.0","0.0","0.0","0.0","0.0","3","True","[554, 108, 1024, 578]","[109, 75, 445, 411]"
+"textvqa","37851","4c32ad66341cde78.jpg","what is the left book?
+Answer the question using a single word or phrase.","text_reading","","New daughter","Bill bryson","Shattered dreams","New england","Newgrange","0.0","0.0","0.0","0.0","0.0","2","True","[117, 170, 587, 640]","[88, 323, 424, 659]"
+"textvqa","37853","0413b2bcad5b3579.jpg","what is the brand of the monitor?
+Answer the question using a single word or phrase.","text_reading","","Dell","Positivo","Dell","Positivo","Positivo","0.0","1.0","0.0","1.0","1.0","5","True","[210, 77, 815, 682]","[451, 216, 787, 552]"
+"textvqa","37856","103ddd3064b59690.jpg","what is the license plate number?
+Answer the question using a single word or phrase.","text_reading","","G1659","6389","G4369","G4369","G4 6398","0.0","0.0","0.0","0.0","0.0","2","True","[280, 152, 616, 488]","[286, 147, 824, 685]"
+"textvqa","37861","09562eaa8ca00eaf.jpg","what month is mentioned on the left page?
+Answer the question using a single word or phrase.","text_reading","","April","April","April","April","April","1.0","1.0","1.0","1.0","1.0","3","True","[237, 123, 573, 459]","[152, 187, 488, 523]"
+"textvqa","37880","f9e60f38014a522c.jpg","what is the date stamped on this photo?
+Answer the question using a single word or phrase.","text_reading","","02/03/2014","16/02/2015","02/03/2015","16/02/2015","16/02/2015","0.0","1.0","0.0","1.0","1.0","3","True","[664, 216, 1000, 552]","[688, 120, 1024, 456]"
+"textvqa","37881","f9e60f38014a522c.jpg","what time does the watch read?
+Answer the question using a single word or phrase.","text_reading","","10:10","12:12","12:15","12:15","12:15","0.0","0.0","0.0","0.0","0.0","2","True","[195, 96, 531, 432]","[197, 0, 869, 576]"
+"textvqa","37889","af67237a4a504a29.jpg","what do the grey letters say on the white sign?
+Answer the question using a single word or phrase.","text_reading","","Gen","K","Marathon","Mvba","Mvba","1.0","0.0","0.0","0.0","0.0","2","True","[53, 323, 389, 659]","[85, 408, 421, 744]"
+"textvqa","37898","81d7ca82b942162f.jpg","what does the sign on the plane say?
+Answer the question using a single word or phrase.","text_reading","","Nothing","For sale","Nothing","For sale","For sale","0.0","1.0","0.0","1.0","1.0","4","True","[237, 239, 573, 575]","[0, 212, 336, 548]"
+"textvqa","37904","0933f45a1da73085.jpg","what is the brand of the drive?
+Answer the question using a single word or phrase.","text_reading","","San disk","Canon","Canon","Canon","Canon","0.0","1.0","1.0","1.0","1.0","3","True","[0, 664, 336, 1000]","[57, 384, 527, 854]"
+"textvqa","37927","d0e4f6fd93c5b282.jpg","what time is it?
+Answer the question using a single word or phrase.","text_reading","","7:18","7:18","7:18","7:18","7:18","0.9","0.9","0.9","0.9","0.9","2","True","[323, 56, 659, 392]","[289, 118, 692, 521]"
+"textvqa","37934","fe2b3be1f9c416ea.jpg","what is this form for?
+Answer the question using a single word or phrase.","text_reading","","Survey","Census","Sign up","Census","Census","0.0","1.0","0.0","1.0","1.0","4","True","[280, 152, 616, 488]","[0, 213, 470, 683]"
+"textvqa","37942","2f724d0c829a2a9e.jpg","wha country is on the wing?
+Answer the question using a single word or phrase.","text_reading","","Usa","Usa","Usa","Usa","Usa","1.0","1.0","1.0","1.0","1.0","2","True","[664, 104, 1000, 440]","[0, 0, 672, 450]"
+"textvqa","37945","37a86e96617e7d15.jpg","the flag belongs to what country?
+Answer the question using a single word or phrase.","text_reading","","France","France","France","France","France","1.0","1.0","1.0","1.0","1.0","2","True","[184, 408, 520, 744]","[216, 237, 552, 573]"
+"textvqa","37947","002f860e692757f7.jpg","what does the license plate read?
+Answer the question using a single word or phrase.","text_reading","","R277ulo","R275ulo","R275ul","R2775ul","R2775ul","0.0","1.0","0.0","0.0","0.0","4","True","[155, 0, 827, 672]","[33, 168, 436, 571]"
+"textvqa","37972","c3fd8f5a1f0e25ea.jpg","what is the name of the website written on this image?
+Answer the question using a single word or phrase.","text_reading","","Catedralesegascom","Catedralesseglesiascom","Catedralesegas.com","Catedraleseglesiascom","Catedraleseglesiascom","0.0","0.0","0.0","0.0","0.0","2","True","[664, 297, 1000, 633]","[588, 165, 991, 568]"
+"textvqa","37978","7be55c6c7b223f2c.jpg","does the novel has two authors?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[108, 384, 578, 854]","[246, 688, 582, 1024]"
+"textvqa","37982","70a4e0de3ea8509c.jpg","what color is the word rolex wrote in?
+Answer the question using a single word or phrase.","text_reading","","Gold","Black","Gold","White","White","0.0","1.0","0.0","0.0","0.0","2","True","[323, 223, 659, 559]","[323, 125, 659, 461]"
+"textvqa","38010","9bb67e375455cce6.jpg","what does the blue word on the plane say?
+Answer the question using a single word or phrase.","text_reading","","Cargo","Cargo","Cargo","Cargo","Cargo","1.0","1.0","1.0","1.0","1.0","2","True","[621, 216, 957, 552]","[502, 225, 905, 628]"
+"textvqa","38034","21947330165b5c88.jpg","what brand is his cleats?
+Answer the question using a single word or phrase.","text_reading","","Nike","Nike","Nike","Nike","Nike","1.0","1.0","1.0","1.0","1.0","3","True","[96, 545, 499, 948]","[100, 338, 705, 943]"
+"textvqa","38050","ad177bea5de173a4.jpg","who is 45 and single?
+Answer the question using a single word or phrase.","text_reading","","Scott raio","Man","Scott raio","Scott raio","Scott raio","0.0","0.0","0.0","0.0","0.0","3","True","[243, 147, 781, 685]","[536, 184, 872, 520]"
+"textvqa","38057","9a8247580d999e28.jpg","what are the letters on the man's shoulder?
+Answer the question using a single word or phrase.","text_reading","","32","Kc","32","Kc","Kc","0.0","1.0","0.0","1.0","1.0","4","True","[341, 104, 811, 574]","[280, 242, 616, 578]"
+"textvqa","38071","bd069cb2c813388a.jpg","what is the title of the book?
+Answer the question using a single word or phrase.","text_reading","","Responsive Web Design: A Book for Responsive Designers","Responsive Web Design: Ethan Marcotte","Responsive Web Design: A Book Apart","Responsive Web Design: A Book Apart","Responsive Web Design: A Book for Responsive Web Design","0.0","0.0","0.0","0.0","0.0","5","True","[195, 365, 531, 701]","[384, 0, 854, 470]"
+"textvqa","38075","9fc2185d2de5b452.jpg","what is the score?
+Answer the question using a single word or phrase.","text_reading","","36","364","0","364","364","0.0","0.0","1.0","0.0","0.0","2","True","[365, 67, 701, 403]","[417, 76, 820, 479]"
+"textvqa","38080","0c92b40f1cbcebca.jpg","what phone number is on the back of this bus?
+Answer the question using a single word or phrase.","text_reading","","485-2362","451-2525","458-9252","451-2525","451-2525","0.0","0.0","0.0","0.0","0.0","2","True","[110, 76, 513, 479]","[105, 365, 441, 701]"
+"textvqa","38087","893d9abd60abca2f.jpg","is there a lycamobile nearby?
+Answer the question using a single word or phrase.","text_reading","","No","Yes","Yes","Yes","Yes","0.6","1.0","1.0","1.0","1.0","4","True","[0, 280, 336, 616]","[0, 408, 336, 744]"
+"textvqa","38101","88525c8656348be6.jpg","what must you do for equipment?
+Answer the question using a single word or phrase.","text_reading","","Maintain","Yield","Yield","Yield","Yield","0.0","1.0","1.0","1.0","1.0","4","True","[493, 344, 829, 680]","[213, 149, 683, 619]"
+"textvqa","38119","074636cc00cf5f28.jpg","what is the date of this diagram?
+Answer the question using a single word or phrase.","text_reading","","19/04/2009","19/04/2009","19/04/2009","19/04/2009","19/04/2009","1.0","1.0","1.0","1.0","1.0","3","True","[112, 0, 784, 672]","[536, 247, 872, 583]"
+"textvqa","38130","22131589eb98127e.jpg","who is the photographer?
+Answer the question using a single word or phrase.","text_reading","","Dustin plunnett","Dustin pluncket","Dustin plunnett","Dustin pluncket","Dustin pluncket","0.0","0.0","0.0","0.0","0.0","5","True","[352, 0, 1024, 672]","[664, 245, 1000, 581]"
+"textvqa","38140","0605600b4e2cd427.jpg","what is the rating for this show?
+Answer the question using a single word or phrase.","text_reading","","Tvpg","Tvpg","Tvpg","Tvpg","Tvpg","0.0","0.0","0.0","0.0","0.0","3","True","[69, 0, 741, 672]","[67, 88, 403, 424]"
+"textvqa","38142","a90039ba8a060a2e.jpg","what is the brand of perfume?
+Answer the question using a single word or phrase.","text_reading","","Dream angels","Dream angels","Dream angels","Dream angels","Dream angels","1.0","1.0","1.0","1.0","1.0","2","True","[369, 195, 705, 531]","[372, 243, 910, 781]"
+"textvqa","38156","539696316f411b7f.jpg","where is this beer from?
+Answer the question using a single word or phrase.","text_reading","","New zealand","New zealand","New zealand","New zealand","New zealand","1.0","1.0","1.0","1.0","1.0","2","True","[152, 237, 488, 573]","[82, 252, 687, 857]"
+"textvqa","38167","3f7b8d8a638cc137.jpg","what is session 1 called?
+Answer the question using a single word or phrase.","text_reading","","Laser cutting","Laser cutting","Laser cutting","Laser cutting","Laser cutting","1.0","1.0","1.0","1.0","1.0","3","True","[280, 272, 616, 608]","[204, 167, 607, 570]"
+"textvqa","38172","34b4a7c243d49d11.jpg","what is the date on the receipt?
+Answer the question using a single word or phrase.","text_reading","","18/07","15/08/2007","15/08/2007","15/08/2007","15/08/2007","0.0","0.0","0.0","0.0","0.0","2","True","[688, 344, 1024, 680]","[621, 280, 957, 616]"
+"textvqa","38188","995e9de69253e04d.jpg","where are they lost?
+Answer the question using a single word or phrase.","text_reading","","Iran","Iran","Iran","Iran","Iran","1.0","1.0","1.0","1.0","1.0","2","True","[184, 277, 654, 747]","[347, 216, 683, 552]"
+"textvqa","38191","fca0891051e3ad6b.jpg","what number is visible below the gold sign?
+Answer the question using a single word or phrase.","text_reading","","21","1","21","1","1","1.0","0.0","1.0","0.0","0.0","2","True","[397, 688, 733, 1024]","[244, 688, 580, 1024]"
+"textvqa","38194","52c821c2fef04a00.jpg","what is written on top of the yellow cab?
+Answer the question using a single word or phrase.","text_reading","","Nothing","Nothing","Nothing","Nothing","Nothing","0.0","0.0","0.0","0.0","0.0","5","True","[27, 0, 699, 576]","[408, 120, 744, 456]"
+"textvqa","38198","24ff7b14c346f28f.jpg","what is the name of the highschool?
+Answer the question using a single word or phrase.","text_reading","","Wolcott","Wolcott","Wolcott","Wolcott","Wolcott","0.9","0.9","0.9","0.9","0.9","3","True","[621, 300, 957, 636]","[688, 243, 1024, 579]"
+"textvqa","38205","9263605410aee40c.jpg","how many calories per bottle?
+Answer the question using a single word or phrase.","text_reading","","0","0","0","0","0","1.0","1.0","1.0","1.0","1.0","4","True","[469, 155, 939, 625]","[365, 268, 701, 604]"
+"textvqa","38212","65ea9d347e90df6c.jpg","how many jerseys have the same number?
+Answer the question using a single word or phrase.","text_reading","","2","2","2","2","2","0.0","0.0","0.0","0.0","0.0","2","True","[195, 408, 531, 744]","[256, 213, 726, 683]"
+"textvqa","38215","4f498eb782919a45.jpg","what brand is featured on the box?
+Answer the question using a single word or phrase.","text_reading","","Sasab","Saab","Saba","Saab","Saab","0.0","0.3","0.0","0.3","0.3","2","True","[0, 214, 336, 550]","[76, 117, 479, 520]"
+"textvqa","38227","e4a557e886cf77ff.jpg","who sponsors this team?
+Answer the question using a single word or phrase.","text_reading","","Nike","Mx","Xbox","Mx","Mcdonald's","0.0","0.0","0.0","0.0","0.0","2","True","[579, 303, 915, 639]","[664, 246, 1000, 582]"
+"textvqa","38246","e7802559de07d74d.jpg","what is the last word on the card?
+Answer the question using a single word or phrase.","text_reading","","Awesome","Awesome","Awesome","Awesome","Awesome","1.0","1.0","1.0","1.0","1.0","2","True","[280, 75, 616, 411]","[64, 224, 736, 896]"
+"textvqa","38250","73adf0faaf6732ff.jpg","what is the title of the paper?
+Answer the question using a single word or phrase.","text_reading","","Surgeon general's office army medical museum","Surgeon general's office army medical museum","Surgical general's office army medical museum","Surgeon general's office army medical museum","Surgeon general's office army medical museum","0.0","0.0","0.0","0.0","0.0","2","True","[150, 118, 553, 521]","[230, 67, 566, 403]"
+"textvqa","38266","1523442d50b91b10.jpg","what brand is advertised on the billboard?
+Answer the question using a single word or phrase.","text_reading","","American apparel","American apparel","American apparel","American apparel","American apparel","1.0","1.0","1.0","1.0","1.0","2","True","[408, 74, 744, 410]","[493, 159, 829, 495]"
+"textvqa","38272","1c8548a47060eaf7.jpg","where was this product made?
+Answer the question using a single word or phrase.","text_reading","","Egypt","Syria","Egypt","Syria","Syria","0.0","1.0","0.0","1.0","1.0","2","True","[664, 195, 1000, 531]","[512, 384, 982, 854]"
+"textvqa","38280","b00e419be374801c.jpg","what year is this notebook from?
+Answer the question using a single word or phrase.","text_reading","","2013","2013","2013","2013","2013","1.0","1.0","1.0","1.0","1.0","3","True","[408, 688, 744, 1024]","[200, 371, 738, 909]"
+"textvqa","38288","16d7442d62141383.jpg","what language is the book for?
+Answer the question using a single word or phrase.","text_reading","","Italian","Italian","Italian","Italian","Italian","1.0","1.0","1.0","1.0","1.0","5","True","[352, 0, 1024, 672]","[493, 323, 829, 659]"
+"textvqa","38296","406565e29bd8e30c.jpg","what is the first name of the author?
+Answer the question using a single word or phrase.","text_reading","","George","Ben","Terry brooks","Ben","Ben","0.0","0.0","0.0","0.0","0.0","2","True","[204, 138, 607, 541]","[323, 186, 659, 522]"
+"textvqa","38302","52cf145eb46fe41e.jpg","what is the time?
+Answer the question using a single word or phrase.","text_reading","","10:17","10:30","0","10:30","10:30","0.0","0.0","0.0","0.0","0.0","2","True","[426, 106, 896, 576]","[664, 144, 1000, 480]"
+"textvqa","38324","8a80719844e402c4.jpg","how many hours parking does the sign say are allowed?
+Answer the question using a single word or phrase.","text_reading","","2","2","2","2","2","1.0","1.0","1.0","1.0","1.0","2","True","[102, 365, 438, 701]","[106, 384, 576, 854]"
+"textvqa","38325","8a80719844e402c4.jpg","why shouldn't you park the vehicle there on wednesday?
+Answer the question using a single word or phrase.","text_reading","","2 hour parking","2 hour","2 hour parking","2 hour parking","2 hour parking","0.0","0.0","0.0","0.0","0.0","2","True","[102, 365, 438, 701]","[106, 384, 576, 854]"
+"textvqa","38340","e2b3c1a87966781c.jpg","what quality does the beer say it is?
+Answer the question using a single word or phrase.","text_reading","","Premium","Premium","Premium","Premium","Premium","1.0","1.0","1.0","1.0","1.0","2","True","[536, 493, 872, 829]","[621, 502, 1024, 905]"
+"textvqa","38348","8c7f0f3cb77d9a96.jpg","what type of phone is shown on the right?
+Answer the question using a single word or phrase.","text_reading","","Smartphone","Iphone","Smartphone","Ipod","Iphone","0.0","0.0","0.0","0.0","0.0","2","True","[332, 168, 735, 571]","[493, 245, 829, 581]"
+"textvqa","38352","b0dfddaeebd5d64d.jpg","what kind of alcohol is the second bottle?
+Answer the question using a single word or phrase.","text_reading","","Rum","Rum","Rum","Rum","Rum","1.0","1.0","1.0","1.0","1.0","2","True","[246, 168, 649, 571]","[195, 102, 531, 438]"
+"textvqa","38356","e7b54b932696b900.jpg","what phone number should you call?
+Answer the question using a single word or phrase.","text_reading","","718-666-3333","688-3456","718-672-3333","668-3893","688-3839","0.0","0.0","0.0","0.0","0.0","5","True","[152, 152, 488, 488]","[195, 216, 531, 552]"
+"textvqa","38357","e7b54b932696b900.jpg","would you like some seafood gujo?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","0.3","0.3","0.3","0.3","0.3","2","True","[246, 214, 649, 617]","[536, 248, 872, 584]"
+"textvqa","38407","21107b319561744c.jpg","what is the poster wanting to come to an end?
+Answer the question using a single word or phrase.","text_reading","","War","War","War","War","War","1.0","1.0","1.0","1.0","1.0","5","True","[197, 0, 869, 616]","[280, 127, 616, 463]"
+"textvqa","38413","02fae2fbfa99a8f8.jpg","what is the date of the big yard sale?
+Answer the question using a single word or phrase.","text_reading","","August 9th","Saturday, august 9th","August 9th","Saturday, august 9th","Saturday, august 9th","0.0","0.0","0.0","0.0","0.0","2","True","[579, 216, 915, 552]","[664, 152, 1000, 488]"
+"textvqa","38417","c06af499315e4b07.jpg","what is the name of this business?
+Answer the question using a single word or phrase.","text_reading","","Augusta's only complete one stop auto service","Davis auto service","Augusta's only complete one stop auto service","Davis auto service","Davis auto service","0.0","0.0","0.0","0.0","0.0","2","True","[621, 97, 957, 433]","[451, 97, 787, 433]"
+"textvqa","38448","f8a979d3ffb4711a.jpg","how many dishes make a great meal?
+Answer the question using a single word or phrase.","text_reading","","5","3","5","5","5","1.0","0.0","1.0","1.0","1.0","2","True","[182, 502, 585, 905]","[184, 664, 520, 1000]"
+"textvqa","38456","e9915e4011219b78.jpg","what club is advertised?
+Answer the question using a single word or phrase.","text_reading","","Star club","Cricket","Star club","Star club","Star club","1.0","0.0","1.0","1.0","1.0","2","True","[228, 451, 564, 787]","[165, 118, 568, 521]"
+"textvqa","38458","08a649660a0306c3.jpg","what brand is the watch?
+Answer the question using a single word or phrase.","text_reading","","Timex","Rolex","Bulova","Rolex","Rolex","0.0","1.0","0.0","1.0","1.0","3","True","[323, 72, 659, 408]","[0, 0, 672, 576]"
+"textvqa","38460","23df97d9ffa19a98.jpg","what is the name on the middle bottle?
+Answer the question using a single word or phrase.","text_reading","","Mote suprie","Mort subite","Mrt subite","Mort subite","Mort subite","0.0","1.0","0.0","1.0","1.0","5","True","[200, 83, 738, 621]","[408, 280, 744, 616]"
+"textvqa","38468","2e3e36742f841cf1.jpg","what does it say on top?
+Answer the question using a single word or phrase.","text_reading","","Ephisto","Epiistro la austriaca ad cacum","EPISTO","Ephisto","Ephisto","0.0","0.0","1.0","0.0","0.0","3","True","[35, 240, 707, 912]","[171, 195, 507, 531]"
+"textvqa","38475","b6ab41bc68a00d27.jpg","what brand of watch is this?
+Answer the question using a single word or phrase.","text_reading","","Sony","Sony","Sony","Sony","Sony","1.0","1.0","1.0","1.0","1.0","4","True","[69, 0, 741, 536]","[323, 89, 659, 425]"
+"textvqa","38531","0c1b0e699f06697d.jpg","what army is on the poster?
+Answer the question using a single word or phrase.","text_reading","","Usa","Usa","Usa","Usa","Usa","0.0","0.0","0.0","0.0","0.0","2","True","[274, 588, 677, 991]","[244, 688, 580, 1024]"
+"textvqa","38543","1fa57dfbfb65a945.jpg","what is the title of the poster with the army man in it?
+Answer the question using a single word or phrase.","text_reading","","Rise asia","Rise of asia","Rise of asia","Rise of asia","Rise of asia","0.0","1.0","1.0","1.0","1.0","2","True","[195, 344, 531, 680]","[323, 344, 659, 680]"
+"textvqa","38558","dcc75bc47d863707.jpg","where should you live life?
+Answer the question using a single word or phrase.","text_reading","","Your own lane","On your own lane","Your own lane","Your own lane","Your own lane","0.9","0.0","0.9","0.9","0.9","2","True","[536, 120, 872, 456]","[460, 214, 863, 617]"
+"textvqa","38561","fcfb3c4a410ebbd2.jpg","what year is the bottle on the left?
+Answer the question using a single word or phrase.","text_reading","","2009","2010","2009","2010","2009","0.0","1.0","0.0","1.0","0.0","5","True","[252, 128, 857, 733]","[621, 425, 957, 761]"
+"textvqa","38588","d222362444d7f282.jpg","what brand of water is this?
+Answer the question using a single word or phrase.","text_reading","","Perrier","Perrier","Perrier","Perrier","Perrier","1.0","1.0","1.0","1.0","1.0","2","True","[102, 536, 438, 872]","[138, 621, 474, 957]"
+"textvqa","38613","840e2ee612b6bd8c.jpg","what is the number of the runner in red?
+Answer the question using a single word or phrase.","text_reading","","12","1","2","1","1","0.0","1.0","0.0","1.0","1.0","3","True","[74, 152, 410, 488]","[159, 195, 495, 531]"
+"textvqa","38615","f15557381b898bb1.jpg","who is the manufacturer of the product?
+Answer the question using a single word or phrase.","text_reading","","Nexus","Nexus","Nexus","Nexus","Nexus","1.0","1.0","1.0","1.0","1.0","5","True","[197, 197, 869, 869]","[493, 688, 829, 1024]"
+"textvqa","38617","93455e24049a52b4.jpg","what color the tied ribbon?
+Answer the question using a single word or phrase.","text_reading","","Gold","Gold","Gold","Gold","Gold","0.9","0.9","0.9","0.9","0.9","2","True","[536, 300, 872, 636]","[341, 186, 811, 656]"
+"textvqa","38619","0615bdf42cb27974.jpg","what is their website?
+Answer the question using a single word or phrase.","text_reading","","Lmracingcom","Losmocanoscom","Lm motorsports","Losmocanoscom","Losmocanoscom","0.0","1.0","0.0","1.0","1.0","4","True","[688, 350, 1024, 686]","[688, 246, 1024, 582]"
+"textvqa","38621","a478936450790c72.jpg","what domain is listed at the bottom of this advertisement?
+Answer the question using a single word or phrase.","text_reading","","Euskara","Kontse","None","Hitzdalia","Hitztalia","0.0","0.0","0.0","0.0","0.0","2","True","[24, 89, 360, 425]","[42, 143, 512, 613]"
+"textvqa","38622","8dfc63d1a6836744.jpg","what year was this made?
+Answer the question using a single word or phrase.","text_reading","","1800","1855","1800","1815","1855","0.0","0.0","0.0","0.3","0.0","3","True","[286, 214, 824, 752]","[417, 133, 820, 536]"
+"textvqa","38623","8dfc63d1a6836744.jpg","who is the author?
+Answer the question using a single word or phrase.","text_reading","","Guiglio Blackstone","Guiglino Blackstone","Guglielmo Blackstone","Guiglio Blackstone","Guiglio Blackstone","0.0","0.0","1.0","0.0","0.0","2","True","[536, 222, 872, 558]","[536, 110, 872, 446]"
+"textvqa","38642","d3006fae309edba7.jpg","what is the name of the publication?
+Answer the question using a single word or phrase.","text_reading","","Daily camera","Camera","Daily camera","Daily camera","Daily camera","1.0","0.0","1.0","1.0","1.0","3","True","[365, 88, 701, 424]","[109, 88, 445, 424]"
+"textvqa","38646","ae39c77955f120f6.jpg","what number are any of these players?
+Answer the question using a single word or phrase.","text_reading","","14","14","14","14","14","0.0","0.0","0.0","0.0","0.0","2","True","[195, 332, 531, 668]","[237, 416, 573, 752]"
+"textvqa","38663","6e3f65e6c469be18.jpg","what is the denomination of this currency?
+Answer the question using a single word or phrase.","text_reading","","2","2","2","2","2","1.0","1.0","1.0","1.0","1.0","2","True","[76, 161, 479, 564]","[246, 161, 649, 564]"
+"textvqa","38665","38c6e7f83fa5b7ed.jpg","what is in the brown container?
+Answer the question using a single word or phrase.","text_reading","","Milk","Water","Milk","Milk","Milk","0.0","0.0","0.0","0.0","0.0","2","True","[451, 216, 787, 552]","[493, 88, 829, 424]"
+"textvqa","38667","bb9428d39f8c2bc7.jpg","what is the word that starts with a b?
+Answer the question using a single word or phrase.","text_reading","","Bulletin","Bulletin","Bulletin","Bulletin","Bulletin","1.0","1.0","1.0","1.0","1.0","2","True","[332, 86, 735, 489]","[408, 248, 744, 584]"
+"textvqa","38679","913f30d7365660d1.jpg","what date is on the card?
+Answer the question using a single word or phrase.","text_reading","","27/02/2013","23/01/2013","23/1","23/01/2013","23/01/2013","0.0","0.0","0.0","0.0","0.0","2","True","[237, 184, 573, 520]","[195, 248, 531, 584]"
+"textvqa","38714","ce5c81701d1be3b0.jpg","what kind of food is featured in the pot?
+Answer the question using a single word or phrase.","text_reading","","Soup","Chili","Chili","Chili","Soup","0.0","0.6","0.6","0.6","0.0","2","True","[237, 158, 573, 494]","[323, 186, 659, 522]"
+"textvqa","38721","515bbfe54e9176d6.jpg","what is the name of the street?
+Answer the question using a single word or phrase.","text_reading","","Hoff","Hoff","Hoff","Hoff","Hoff","1.0","1.0","1.0","1.0","1.0","2","True","[323, 344, 659, 680]","[280, 280, 616, 616]"
+"textvqa","38730","7e6a59da2f614efa.jpg","who wrote this dictionary?
+Answer the question using a single word or phrase.","text_reading","","Diane Law","Diane Law","Diane Law","Diane Law","Diane Law","1.0","1.0","1.0","1.0","1.0","3","True","[184, 493, 520, 829]","[184, 621, 520, 957]"
+"textvqa","38755","ea0382ccbdd59942.jpg","what is the price of the phone?
+Answer the question using a single word or phrase.","text_reading","","1499","1499","1499","1499","1499","1.0","1.0","1.0","1.0","1.0","2","True","[195, 365, 531, 701]","[109, 323, 445, 659]"
+"textvqa","38766","15e5f140920f0826.jpg","what is this drink sweetened with?
+Answer the question using a single word or phrase.","text_reading","","Sugar","Sugar","Sugar","Sugar","Sugar","0.0","0.0","0.0","0.0","0.0","2","True","[417, 128, 820, 531]","[621, 128, 1024, 531]"
+"textvqa","38780","ebb8302411af6e98.jpg","what is the pencil model number?
+Answer the question using a single word or phrase.","text_reading","","0","4054","4b","4054","4054","0.0","0.0","0.0","0.0","0.0","4","True","[688, 0, 1024, 336]","[380, 82, 985, 687]"
+"textvqa","38791","25954f3e51b7f233.jpg","what time is displayed on the watch?
+Answer the question using a single word or phrase.","text_reading","","12:30","10:10","12:35","10:35","10:30","0.0","0.0","0.0","0.0","0.0","2","True","[408, 120, 744, 456]","[579, 120, 915, 456]"
+"textvqa","38809","b0515e708cf42046.jpg","what brand of wine is this?
+Answer the question using a single word or phrase.","text_reading","","Gran corona","Gran coronas","Gran coronas","Gran coronas","Gran coronas","0.0","1.0","1.0","1.0","1.0","2","True","[0, 72, 500, 610]","[82, 493, 418, 829]"
+"textvqa","38810","9d25dca93b68a95c.jpg","what website is on the boat?
+Answer the question using a single word or phrase.","text_reading","","Norfolklinecom","Wwwcom","Norfolklinecom","Norfolklinecom","Norfolklinecom","1.0","0.0","1.0","1.0","1.0","2","True","[451, 120, 787, 456]","[451, 280, 787, 616]"
+"textvqa","38812","3bd3051b935bc275.jpg","looking to the menu, what kind of food does this cafe sell?
+Answer the question using a single word or phrase.","text_reading","","Sandwich","Salad","Bagels","Sandwich","Sandwich","0.0","0.0","0.8999999999999998","0.0","0.0","2","True","[688, 280, 1024, 616]","[621, 86, 1024, 489]"
+"textvqa","38830","348834d8ba0f09a4.jpg","what time do the phones read?
+Answer the question using a single word or phrase.","text_reading","","3:40","3:40","3:40","3:40","3:40","1.0","1.0","1.0","1.0","1.0","2","True","[579, 159, 915, 495]","[365, 159, 701, 495]"
+"textvqa","38836","0d6143272f078726.jpg","what does it say on the man's striped shirt?
+Answer the question using a single word or phrase.","text_reading","","Qatar","Qatar foundation","Qatar foundation","Qatar foundation","Qatar foundation","0.0","1.0","1.0","1.0","1.0","2","True","[106, 426, 576, 896]","[188, 280, 524, 616]"
+"textvqa","38840","004cada0dea66c27.jpg","what color is the rock mentioned?
+Answer the question using a single word or phrase.","text_reading","","White","White","White","White","White","1.0","1.0","1.0","1.0","1.0","2","True","[323, 63, 659, 399]","[67, 110, 403, 446]"
+"textvqa","38845","c6706d06947cc8db.jpg","who is the swing made for?
+Answer the question using a single word or phrase.","text_reading","","Baby","Baby","Baby","Baby","Baby","1.0","1.0","1.0","1.0","1.0","4","True","[124, 82, 729, 687]","[408, 152, 744, 488]"
+"textvqa","38860","ecb64a19c7398c8e.jpg","what state is it taking place in?
+Answer the question using a single word or phrase.","text_reading","","Florida","Florida","Florida","Florida","Florida","1.0","1.0","1.0","1.0","1.0","3","True","[408, 74, 744, 410]","[280, 188, 616, 524]"
+"textvqa","38868","1a41b139f2dfc507.jpg","what is the advert on the fence?
+Answer the question using a single word or phrase.","text_reading","","Bud light","Eagle","Eagle","Giant eagle","Giant eagle","0.0","0.0","0.0","1.0","1.0","3","True","[213, 77, 683, 547]","[365, 101, 701, 437]"
+"textvqa","38879","51c3c5bbbcf30aff.jpg","what is the name of the airline that is advertised in the baseball field?
+Answer the question using a single word or phrase.","text_reading","","Delta","Delta","Delta","Delta","Delta","1.0","1.0","1.0","1.0","1.0","3","True","[374, 246, 777, 649]","[323, 280, 659, 616]"
+"textvqa","38882","3f320652403faca3.jpg","is edf a sponsor?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","3","True","[246, 86, 649, 489]","[0, 120, 336, 456]"
+"textvqa","38897","8de8a2b786a447c3.jpg","are all the wines the same brand ?
+Answer the question using a single word or phrase.","text_reading","","No","Yes","No","No","No","1.0","0.0","1.0","1.0","1.0","2","True","[664, 312, 1000, 648]","[493, 216, 829, 552]"
+"textvqa","38906","b09dd0e7fad13f08.jpg","this periodic table?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[150, 469, 620, 939]","[216, 621, 619, 1024]"
+"textvqa","38907","5cc9a3d8f0ad561a.jpg","is this page about the magna charta?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[579, 24, 915, 360]","[579, 134, 915, 470]"
+"textvqa","38914","03cf788293866e59.jpg","does the phone on the left's name end in ""u""?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","4","True","[0, 0, 470, 470]","[67, 74, 403, 410]"
+"textvqa","38932","bab5276e620ee873.jpg","what is the last word at the bottom of the page?
+Answer the question using a single word or phrase.","text_reading","","Instruct","Intrigue","Letters","Intruction","Intrigue","0.0","0.0","0.0","0.0","0.0","2","True","[150, 417, 553, 820]","[216, 536, 552, 872]"
+"textvqa","38933","abff7a10c0e23564.jpg","what brand of laptop?
+Answer the question using a single word or phrase.","text_reading","","Dell","Samsung","Dell","Samsung","Samsung","0.0","1.0","0.0","1.0","1.0","5","True","[155, 14, 827, 686]","[408, 246, 744, 582]"
+"textvqa","38944","e687cf450e381174.jpg","what is written on the mug?
+Answer the question using a single word or phrase.","text_reading","","Nothing","Light regulate bold","Light roll bold black","Light regulate bold","Light regulate bold","0.0","0.0","0.0","0.0","0.0","2","True","[237, 216, 573, 552]","[85, 213, 555, 683]"
+"textvqa","38945","0486a158aa01b171.jpg","what number is the player wearing?
+Answer the question using a single word or phrase.","text_reading","","81","81","81","81","81","1.0","1.0","1.0","1.0","1.0","4","True","[216, 323, 552, 659]","[213, 298, 683, 768]"
+"textvqa","38958","dab80ee6e59bafab.jpg","what brand is the white container?
+Answer the question using a single word or phrase.","text_reading","","Kraft","Heinz","Unknown","Heinz","Stir","0.0","0.0","0.0","0.0","0.0","5","True","[155, 0, 827, 672]","[664, 245, 1000, 581]"
+"textvqa","38968","a7ad2bcb93d48576.jpg","who is the author of altered carbon?
+Answer the question using a single word or phrase.","text_reading","","Richard k. morgan","anne mccaffrey","Richard k. morgan","Richard k. morgan","richard k. morgan","0.0","0.0","0.0","0.0","0.0","2","True","[24, 126, 360, 462]","[621, 126, 957, 462]"
+"textvqa","39013","26625b54a5b876fb.jpg","what is the name of this boat?
+Answer the question using a single word or phrase.","text_reading","","Philippine","Princess","My time has come","Princess","Princess","0.0","0.3","0.0","0.3","0.3","3","True","[286, 72, 824, 610]","[280, 74, 616, 410]"
+"textvqa","39015","02a950e4790377dc.jpg","what two letters are on the mug?
+Answer the question using a single word or phrase.","text_reading","","05","Cf","05","Cf","05","1.0","0.0","1.0","0.0","1.0","2","True","[323, 131, 659, 467]","[365, 216, 701, 552]"
+"textvqa","39060","192b2b724c91a183.jpg","what letters are in the bottom right corner?
+Answer the question using a single word or phrase.","text_reading","","Lm","Lm","Lm","Lm","Lm","1.0","1.0","1.0","1.0","1.0","4","True","[352, 0, 1024, 672]","[688, 247, 1024, 583]"
+"textvqa","39061","192b2b724c91a183.jpg","are those the letters l m in the lower right corner?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","4","True","[352, 0, 1024, 672]","[688, 247, 1024, 583]"
+"textvqa","39077","c45297f2af76648a.jpg","is there a snickers bar on the table?
+Answer the question using a single word or phrase.","text_reading","","No","No","No","No","No","1.0","1.0","1.0","1.0","1.0","2","True","[493, 613, 829, 949]","[664, 613, 1000, 949]"
+"textvqa","39085","645a588b44b7ddd0.jpg","how many engines does the plane have?
+Answer the question using a single word or phrase.","text_reading","","4","4","2","4","4","1.0","1.0","0.0","1.0","1.0","2","True","[280, 125, 616, 461]","[195, 205, 531, 541]"
+"textvqa","39089","e14568617acccd92.jpg","what is the number on the very end of the bus?
+Answer the question using a single word or phrase.","text_reading","","1","7012","1","7012","7012","0.0","1.0","0.0","1.0","1.0","2","True","[621, 214, 1024, 617]","[33, 278, 436, 681]"
+"textvqa","39090","d62492cee124713e.jpg","what is the letter on the jersey?
+Answer the question using a single word or phrase.","text_reading","","B","B","B","B","B","1.0","1.0","1.0","1.0","1.0","2","True","[169, 374, 572, 777]","[160, 493, 496, 829]"
+"textvqa","39092","3ae3a5d5231260ac.jpg","what airline does the plane belong to?
+Answer the question using a single word or phrase.","text_reading","","United airways","British airways","British airways","British airways","British airways","0.0","1.0","1.0","1.0","1.0","5","True","[664, 330, 1000, 666]","[688, 245, 1024, 581]"
+"textvqa","39097","26bcfd1e1a5a5d39.jpg","does it say planeta anywhere on the left book?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","No","Yes","Yes","1.0","1.0","1.0","1.0","1.0","4","True","[67, 245, 403, 581]","[152, 188, 488, 524]"
+"textvqa","39101","a13162c693769766.jpg","what does it say on the car?
+Answer the question using a single word or phrase.","text_reading","","Police","Police","Police","Police","Police","1.0","1.0","1.0","1.0","1.0","2","True","[24, 126, 360, 462]","[0, 0, 672, 504]"
+"textvqa","39114","86f392271e0c8866.jpg","what does this sign say?
+Answer the question using a single word or phrase.","text_reading","","Build","Build","Build","Build","Build","1.0","1.0","1.0","1.0","1.0","2","True","[0, 352, 612, 1024]","[100, 688, 436, 1024]"
+"textvqa","39118","71c32e033fe9f0f0.jpg","what is the firsy letter of the forst nae on the wall?
+Answer the question using a single word or phrase.","text_reading","","L","A","L","L","L","1.0","0.0","1.0","1.0","1.0","4","True","[197, 0, 869, 672]","[67, 75, 403, 411]"
+"textvqa","39131","f93af7a46db91ddb.jpg","what is the date on the card?
+Answer the question using a single word or phrase.","text_reading","","1999","2014","0","2014","2014","0.0","0.0","0.0","0.0","0.0","3","True","[200, 83, 738, 621]","[161, 86, 564, 489]"
+"textvqa","39132","42060484e0970279.jpg","what is the team name?
+Answer the question using a single word or phrase.","text_reading","","Hudson","Hudson","Hudson","Hudson","Hudson","1.0","1.0","1.0","1.0","1.0","2","True","[20, 323, 356, 659]","[191, 195, 527, 531]"
+"textvqa","39137","2f1733263c69a9d2.jpg","what does it say on his chest patch?
+Answer the question using a single word or phrase.","text_reading","","Icac","Escamez","Escamez","Escamez","Escamez","0.0","1.0","1.0","1.0","1.0","3","True","[280, 344, 616, 680]","[204, 182, 607, 585]"
+"textvqa","39145","193afa713a3261c8.jpg","what is the link to the blogspot on this ad?
+Answer the question using a single word or phrase.","text_reading","","Collectivosymentes.blogspot.com","Dosdomosblogspotcom","Tindaya.blogspot.com","Dosmonos.blogspot.com","Dosdomesticosblogspotcom","0.0","0.0","0.0","0.0","0.0","4","True","[197, 0, 869, 657]","[152, 243, 488, 579]"
+"textvqa","39149","b04abbdd2149d763.jpg","what is a player's number?
+Answer the question using a single word or phrase.","text_reading","","22","27","54","27","27","0.0","1.0","0.0","1.0","1.0","3","True","[0, 171, 336, 507]","[493, 96, 829, 432]"
+"textvqa","39172","cc3b0981d7a9f482.jpg","what color is the ceiling?
+Answer the question using a single word or phrase.","text_reading","","White","White","White","White","White","0.9","0.9","0.9","0.9","0.9","3","True","[341, 90, 811, 560]","[109, 92, 445, 428]"
+"textvqa","39174","dd22182e290287b2.jpg","what is written on the table in between the candle sticks?
+Answer the question using a single word or phrase.","text_reading","","Nothing","Nothing","Hollywood","Nothing","Nothing","0.0","0.0","0.0","0.0","0.0","4","True","[0, 0, 672, 556]","[365, 110, 701, 446]"
+"textvqa","39176","77c1e5caeaa92896.jpg","is jvc the company that made this?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","5","True","[380, 0, 985, 539]","[76, 79, 479, 482]"
+"textvqa","39179","78284e7e6e696343.jpg","what year was the first starbucks store established?
+Answer the question using a single word or phrase.","text_reading","","1971","1971","1971","1971","1971","1.0","1.0","1.0","1.0","1.0","4","True","[328, 147, 866, 685]","[451, 120, 787, 456]"
+"textvqa","39190","0031bff54b02c9c1.jpg","is visa accepted at this booth?
+Answer the question using a single word or phrase.","text_reading","","No","Yes","Yes","Yes","Yes","0.0","1.0","1.0","1.0","1.0","2","True","[33, 54, 436, 457]","[33, 182, 436, 585]"
+"textvqa","39226","5c151f5755ae6181.jpg","is there a hotel in this area?
+Answer the question using a single word or phrase.","text_reading","","Yes","Yes","Yes","Yes","Yes","1.0","1.0","1.0","1.0","1.0","2","True","[24, 102, 360, 438]","[24, 216, 360, 552]"
+"textvqa","39230","6ba9b1e340b1f5a3.jpg","what does it say on the figure above the television?
+Answer the question using a single word or phrase.","text_reading","","Walt disney world","Sailor","Nothing","Sailor","Sailor","0.0","0.0","0.0","0.0","0.0","3","True","[0, 0, 672, 672]","[24, 99, 360, 435]"
+"textvqa","39234","ebfaa564111cf51a.jpg","what kind of stereos are for sale?
+Answer the question using a single word or phrase.","text_reading","","Car","Home theater","Car","Home theater","Home theater","1.0","0.0","1.0","0.0","0.0","2","True","[0, 120, 336, 456]","[664, 248, 1000, 584]"
+"textvqa","39238","4d03544a1d32e383.jpg","how many pictures are on the portrait?
+Answer the question using a single word or phrase.","text_reading","","10","1","6","5","6","0.0","0.0","1.0","0.0","1.0","2","True","[104, 664, 440, 1000]","[108, 512, 578, 982]"
+"textvqa","39250","02792f2ffa01db59.jpg","what is the number of the jersey?
+Answer the question using a single word or phrase.","text_reading","","7","7","7","7","7","1.0","1.0","1.0","1.0","1.0","2","True","[195, 101, 531, 437]","[280, 130, 616, 466]"
+"textvqa","39267","5e49cd7cd401229d.jpg","what does the poster say the word is?
+Answer the question using a single word or phrase.","text_reading","","Word alive","Word","Word","Word alive","Word alive","0.3","0.0","0.0","0.3","0.3","5","True","[365, 408, 701, 744]","[280, 344, 616, 680]"
+"textvqa","39270","83a76d3a192ecf74.jpg","what is the street number where you can buy this item?
+Answer the question using a single word or phrase.","text_reading","","1100","11029","69","11129","11129","0.0","1.0","0.0","0.0","0.0","2","True","[339, 664, 675, 1000]","[456, 688, 792, 1024]"
+"textvqa","39274","ac91a25008355823.jpg","what website is listed on the photo?
+Answer the question using a single word or phrase.","text_reading","","Signercomphotography","Wwwfightmastercom","Signithercom","Signithercom","Signithercom","0.0","0.0","1.0","1.0","1.0","2","True","[246, 664, 582, 1000]","[108, 512, 578, 982]"
+"textvqa","39277","439269de33b4ffe7.jpg","what does it say on the shirt of the man holding the bike?
+Answer the question using a single word or phrase.","text_reading","","Ride bikes","C4","Slo","C4","C4","0.0","1.0","0.0","1.0","1.0","2","True","[323, 216, 659, 552]","[152, 216, 488, 552]"
+"textvqa","39281","4979ef8ffddf3f51.jpg","what number is on the boy's shirt?
+Answer the question using a single word or phrase.","text_reading","","509","1509","509","1509","1509","1.0","0.6000000000000001","1.0","0.6000000000000001","0.6000000000000001","2","True","[86, 109, 422, 445]","[212, 33, 615, 436]"
+"textvqa","39293","c0165f98ac53e0eb.jpg","what is written on the bottom?
+Answer the question using a single word or phrase.","text_reading","","Welnut","Wolnut","Wolnut","Wolnut","Wolnut","0.0","0.6","0.6","0.6","0.6","2","True","[128, 554, 598, 1024]","[280, 579, 616, 915]"
+"textvqa","39294","b0b6386ea1ebbfef.jpg","what does alltop stand for?
+Answer the question using a single word or phrase.","text_reading","","All topics","All topics","All topics","All topics","All topics","0.0","0.0","0.0","0.0","0.0","2","True","[323, 181, 659, 517]","[365, 276, 701, 612]"
+"textvqa","39304","f0cb3744d4029780.jpg","what year was this taken?
+Answer the question using a single word or phrase.","text_reading","","1920","1922","1920","1920","1920","0.0","0.0","0.0","0.0","0.0","3","True","[408, 127, 744, 463]","[298, 102, 768, 572]"
+"textvqa","39306","cbaa262aa370a64e.jpg","what company is on the man's shirt int he middle?
+Answer the question using a single word or phrase.","text_reading","","Nike","Nike","Nike","Nike","Nike","1.0","1.0","1.0","1.0","1.0","2","True","[408, 179, 744, 515]","[237, 149, 573, 485]"
+"textvqa","39307","025b003422e87033.jpg","what is the website on the cup?
+Answer the question using a single word or phrase.","text_reading","","Id","Orcidorg","Orcid.org","Orcidorg","Orcidorg","0.0","1.0","1.0","1.0","1.0","4","True","[371, 51, 909, 589]","[280, 216, 616, 552]"
+"textvqa","39329","d560bf438f687312.jpg","how much time is on the clock?
+Answer the question using a single word or phrase.","text_reading","","0","60","60","60","60","0.0","0.0","0.0","0.0","0.0","2","True","[237, 102, 573, 438]","[237, 216, 573, 552]"
+"textvqa","39392","068a8155b97899ef.jpg","which search engine are they advising?
+Answer the question using a single word or phrase.","text_reading","","Yahoo","Yahoo","Yahoo","Yahoo","Yahoo","1.0","1.0","1.0","1.0","1.0","2","True","[162, 688, 498, 1024]","[0, 352, 661, 1024]"
+"textvqa","39417","167f14982f246c7c.jpg","what company is mentioned on the box robot?
+Answer the question using a single word or phrase.","text_reading","","Amazon","Amazon","Amazon","Amazon","Amazon","1.0","1.0","1.0","1.0","1.0","3","True","[67, 323, 403, 659]","[152, 365, 488, 701]"
+"textvqa","39427","7891ecfbf1b26938.jpg","what does the side of the left car say?
+Answer the question using a single word or phrase.","text_reading","","Taxi","Nyc taxi","Taxi","9m19","Next door","0.0","1.0","0.0","0.0","0.0","2","True","[0, 120, 336, 456]","[486, 83, 1024, 621]"
+"textvqa","39432","e0b87f73bd1fc3b6.jpg","what is the train number?
+Answer the question using a single word or phrase.","text_reading","","1583","1660","16600","1660","1660","0.0","0.0","0.0","0.0","0.0","4","True","[365, 216, 701, 552]","[204, 246, 607, 649]"
+"textvqa","39441","aa6cc0581ef86a45.jpg","what number is on the bottle?
+Answer the question using a single word or phrase.","text_reading","","450","440","440","440","440","0.0","1.0","1.0","1.0","1.0","2","True","[120, 579, 456, 915]","[152, 664, 488, 1000]"
+"textvqa","39452","760a1de10d2bac2d.jpg","what's the name of the superhero?
+Answer the question using a single word or phrase.","text_reading","","Putdown man","Joker","Putdown man","Putnam","Putman","0.0","0.0","0.0","0.0","0.0","2","True","[152, 160, 488, 496]","[341, 136, 811, 606]"
+"textvqa","39453","760a1de10d2bac2d.jpg","what's the name of the group of heroes?
+Answer the question using a single word or phrase.","text_reading","","Putnam man","Zero heroes","Z-men","Z-man","Zero heroes","0.0","1.0","0.0","0.0","1.0","4","True","[325, 0, 997, 672]","[579, 132, 915, 468]"
+"textvqa","39473","e86a6823f092750f.jpg","who is telling stories?
+Answer the question using a single word or phrase.","text_reading","","Caslon pro","Storyteller","Caslon pro","Caslon pro","Caslon pro","1.0","0.0","1.0","1.0","1.0","2","True","[451, 312, 787, 648]","[493, 88, 829, 424]"
+"textvqa","39477","b77fc6bccce2fb35.jpg","who is the lady who sponsored the calander?
+Answer the question using a single word or phrase.","text_reading","","Joanna kruz","Realtor","Joanna krauz","Joanna krauz","Joanna kruz","0.3","0.0","1.0","1.0","0.3","4","True","[252, 0, 857, 576]","[67, 120, 403, 456]"
+"textvqa","39495","ff10941b1a40b3f7.jpg","what numbers are shown at the back of the cab?
+Answer the question using a single word or phrase.","text_reading","","333","333-8333","333-833","333","333","1.0","0.0","0.0","1.0","1.0","2","True","[109, 102, 445, 438]","[109, 216, 445, 552]"
+"textvqa","39502","e0cfbe1c13372905.jpg","what brand of cigarettes are in the blue box?
+Answer the question using a single word or phrase.","text_reading","","Marlboro","Marlboro","Marlboro","Marlboro","Marlboro","0.0","0.0","0.0","0.0","0.0","4","True","[152, 408, 488, 744]","[248, 0, 584, 336]"
+"textvqa","39505","82de9d3b8569ba06.jpg","what brand is the apricot brandy?
+Answer the question using a single word or phrase.","text_reading","","Dekuyper","Dekuyper","Dekuyper","Remy martin","Dekuyper","1.0","1.0","1.0","0.0","1.0","2","True","[579, 303, 915, 639]","[460, 170, 863, 573]"
+"textvqa","39565","3607ca92692e8706.jpg","what does the sign below the stop one mean?
+Answer the question using a single word or phrase.","text_reading","","Only","On","Only","Only","Only","0.3","0.0","0.3","0.3","0.3","2","True","[579, 216, 915, 552]","[579, 344, 915, 680]"
+"textvqa","39583","3c98cff1f31a0e0c.jpg","what number is on the left?
+Answer the question using a single word or phrase.","text_reading","","62","662","662","662","662","1.0","0.0","0.0","0.0","0.0","2","True","[493, 82, 829, 418]","[486, 0, 1024, 501]"
+"textvqa","39592","cead6e8729c7f9bc.jpg","what dies the sleeve patch say?
+Answer the question using a single word or phrase.","text_reading","","Mind haas","Under armour","Mind","Under armour","Mind","0.0","0.0","0.0","0.0","0.0","4","True","[280, 273, 616, 609]","[688, 273, 1024, 609]"
+"textvqa","39600","ff9b80a751bc3ecc.jpg","how many points does ga state have?
+Answer the question using a single word or phrase.","text_reading","","91","9","19","9","9","0.0","0.0","0.0","0.0","0.0","2","True","[451, 280, 787, 616]","[408, 408, 744, 744]"

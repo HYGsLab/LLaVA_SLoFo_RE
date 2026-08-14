@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="570" viewBox="0 0 1050 570">
+<rect width="100%" height="100%" fill="white"/>
+<text x="525.0" y="30" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="bold">A/E 运行效率与显存</text>
+<text x="525.0" y="54" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="12" fill="#555">A 曾断点续跑，因此耗时采用可比较的单题中位数；显存采用 Scan 最大峰值</text>
+<text x="275.0" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16">单题耗时中位数</text>
+<rect x="148" y="305.4" width="85" height="129.6" fill="#4878CF"/>
+<text x="190.5" y="296.4" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13">1.24 s</text>
+<text x="190.5" y="463" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15">A</text>
+<rect x="313" y="175.0" width="85" height="260.0" fill="#55A868"/>
+<text x="355.5" y="166.0" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13">2.48 s</text>
+<text x="355.5" y="463" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15">E</text>
+<line x1="80" y1="435" x2="470" y2="435" stroke="#333"/>
+<text x="785.0" y="88" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16">Scan 最大峰值显存</text>
+<rect x="658" y="175.5" width="85" height="259.5" fill="#EE854A"/>
+<text x="700.5" y="166.5" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13">19.23 GiB</text>
+<text x="700.5" y="463" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15">A</text>
+<rect x="823" y="175.0" width="85" height="260.0" fill="#55A868"/>
+<text x="865.5" y="166.0" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13">19.27 GiB</text>
+<text x="865.5" y="463" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="15">E</text>
+<line x1="590" y1="435" x2="980" y2="435" stroke="#333"/>
+<text x="525" y="525" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="13" fill="#555">两组均在真实 24 GiB RTX 3090 空卡上运行</text>
+</svg>
